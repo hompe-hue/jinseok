@@ -1,0 +1,8 @@
+component,field,columns,units,file,application
+Engine,Full load,"Speed_rpm,Torque_Nm","rpm,Nm",L3A_FullLoad_CRUISE_PREVIEW.csv,Positive shaft torque; graph boundary clipped to75kW/140Nm with separate source curve retained
+Engine,Fuel consumption,"Speed_rpm,Torque_Nm,FuelConsumption_g_s","rpm,Nm,g/s",L3A_CRUISE_PREVIEW_assumed_axes.csv,528 warm positive-load points; kg/h=g/s*3.6; LHV43MJ/kg assumed; no idle/coldstart
+Generator MGA,Full load,"Voltage_V,Speed_rpm,Torque_Nm","V,rpm,Nm",MGA_FullLoad_CRUISE_PREVIEW.csv,360V placeholder; Q1 positive and Q4 negative load. Plot boundary is motoring source mirrored to Q4
+Generator MGA,Efficiency,"Temperature_degC,Voltage_V,Speed_rpm,Torque_Nm,Efficiency_pct","degC,V,rpm,Nm,%",MGA_CRUISE_PREVIEW_assumed_axes.csv,"657 each direction,1314 total;25degC and360V are assumed axes; exported percentage, not fraction"
+Generator MGB alt,Full load,"Voltage_V,Speed_rpm,Torque_Nm","V,rpm,Nm",MGB_FullLoad_CRUISE_PREVIEW.csv,Optional generator variant; does not replace Bolt traction unit
+Generator MGB alt,Efficiency,"Temperature_degC,Voltage_V,Speed_rpm,Torque_Nm,Efficiency_pct","degC,V,rpm,Nm,%",MGB_CRUISE_PREVIEW_assumed_axes.csv,"690 each direction,1380 total; Q4 mirror, not independently measured"
+Engine/Generator,Transient/start domain,"Speed below data core,zero torque,inertia",various,No validated table,Do not extrapolate silently; use explicit ideal warm-start abstraction for SOC-only scenarios or obtain dynamics before fuel claims
