@@ -1,0 +1,13 @@
+gate,topic,requirement,status,note
+BAT01,SOC units and definition,SOC 0–1/0–100 conversion documented; three SOC types kept separate,MUST,No inferred display-to-chemical mapping
+BAT02,Reference equation domain,"0–100 is table domain; 5–95 is priority test window, not certified validity",MUST,Below 5 and above 95 evaluated separately; no invisible clamp
+BAT03,Battery independent replay,"Record voltage RMSE/bias, SOC endpoint error, current and DC energy on holdout",PENDING_CRUISE,"Suggested research targets: voltage RMSE <=2V, absolute bias <=1V, SOC error <=2pp, DC energy error <=5%; agree before runs"
+MAP01,Full load and axes,"0–8250rpm, torque limit curve, abs shaft <=150kW; no out-of-grid extrapolation",MUST,Flag each offending requested/actual point
+MAP02,Interpolation,Bilinear loss kW at motor-equivalent rpm/Nm; log stencil support,MUST,Do not interpolate percent efficiency at zero speed/torque
+MAP03,Regen sensitivity,Repeat with drive-loss mirror factors 1.00/1.05/1.10,PENDING_CRUISE,"Sensitivity scenarios, not confidence bounds"
+VEH01,Independent cycle comparison,"Same native ANL phase, test mass/roadload/aux/temp/initial energy; speed error and DC energy",PENDING_CRUISE,EDU source MY2018 vs ANL MY2017 is a transfer assumption
+FUEL01,Fuel bookkeeping,Integrate nonnegative g/s to kg; map speed/torque bounds and fuel definition match,MUST,Density needed for liters; LHV needed only for thermal energy
+FUEL02,Paired strategies,Same cycle/hardware/aux/temp; initial and terminal stored energy matched,MUST,Initial and terminal tolerance default 0.1kWh is adjustable research setting; no invented fuel correction
+FUEL03,Transient fuel,"Start, idle, warmup, shutdown/restart states accounted or explicitly steady-state-only",MUST,Steady fuel map alone does not support actual total fuel claim
+RANGE01,Total range,"Declared battery and fuel inventories, SOC/voltage/fuel stop, speed feasibility, repeated mission",MUST,Fixed-cycle distance is not depletion range
+LABEL01,Official label comparison,Battery DC vs wall AC and test/adjustment procedure distinguished,MUST,No automatic 0.7 tuning to match advertised range
