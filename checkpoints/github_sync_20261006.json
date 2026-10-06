@@ -1,0 +1,24 @@
+{
+  "stage": "GITHUB_SYNC_01",
+  "repository": "hompe-hue/jinseok",
+  "branch": "main",
+  "github_plugin_write_confirmed": true,
+  "initialization_commit": "b032591a4dfcb4bf3bf1ec946f4b54a4bb1172f8",
+  "completed_research_checkpoint": "R65C_04",
+  "local_recovery_commit": "73eab25e55bf923bc2fde8d5c7ecd2f5fb0d149a",
+  "status": "PARTIAL_UPLOAD",
+  "small_text_files_in_this_batch": 62,
+  "remaining_files": [
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_FullLoad.png",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_Q4_Efficiency.png",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/ORNL_Leaf_2013_merit_review.pdf",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M_Input_Guide_20261006.docx",
+    "research/range_extender_20261006/RangeExtender_CRUISE_M_Inputs_20261006.xlsx"
+  ],
+  "research_data_modified": false,
+  "CRUISE_M_run": false,
+  "prior_rejection_record": "Historical only. Current plugin writes succeeded after renewed user instruction."
+}

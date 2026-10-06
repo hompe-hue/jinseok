@@ -1,0 +1,10 @@
+{
+  "stage": "R65C_02",
+  "charts_written": true,
+  "numeric_checks_passed": true,
+  "virtual_model_status": "DRAFT_NOT_APPLIED",
+  "actual_target_maps_found": false,
+  "next": "make workbook and input guide; save deliverables",
+  "CRUISE_M_run": false,
+  "existing_inputs_modified": false
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "path": "research/range_extender_20261006/RESUME.md",
+    "bytes": 1948,
+    "encoding": "utf-8",
+    "sha256": "39ad3bb307881f7a4309839f7b77b79ba70855f4ac22356acb1277c0d2931294"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/Input_Guide_ko.md",
+    "bytes": 14517,
+    "encoding": "utf-8",
+    "sha256": "9555113dce34ad2361d1f61093d31377df374b33c9708572f090e9be6c873e44"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_01.json",
+    "bytes": 366,
+    "encoding": "utf-8",
+    "sha256": "9ef8c52b3d0921656773b5f5f5c3d1998c7a20e7d5abb13ae42fe1728593d822"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_02.json",
+    "bytes": 291,
+    "encoding": "utf-8",
+    "sha256": "cf8ed622b30141b25fea3c22c568953171c02ff9d50579a309d4705f9c834907"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_03.json",
+    "bytes": 895,
+    "encoding": "utf-8",
+    "sha256": "52fc31bacf3e43304e35abe18ddeef5e7c202b0944f244afec89ae4d638b6ed2"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_04.json",
+    "bytes": 1255,
+    "encoding": "utf-8",
+    "sha256": "71e8044277c59eac932fc49a57c69cc6cc03d5df4ad9b61a7727c4b0054311e5"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_FullLoad.png",
+    "bytes": 82619,
+    "encoding": "base64",
+    "sha256": "baf94684db15f8a6dc8a32139b31b14956f430ce927341a2c72e818cd97a476c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_Q4_Efficiency.png",
+    "bytes": 126638,
+    "encoding": "base64",
+    "sha256": "a4809425150ffe1be1e229dc27567216a2dde26f55cd9241467746a481d5feb4"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_65kW_OperatingPoints.csv",
+    "bytes": 2079,
+    "encoding": "utf-8",
+    "sha256": "330092f9857ec3485438903103a799d59ef346fb363e254cbccdc479ce8faa11"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_AllowedMask.csv",
+    "bytes": 25514,
+    "encoding": "utf-8",
+    "sha256": "0d5c321e9fe6c27eaa1885a6f04e774fadb1821c76f05eeeb5d93f3fa153ba87"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_ClosedThrottle.csv",
+    "bytes": 189,
+    "encoding": "utf-8",
+    "sha256": "4bf3c248a70ce6b34224deee34ce1e6d3c8acdb15357b86dd2d4f8f77a9acc42"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s.csv",
+    "bytes": 19320,
+    "encoding": "utf-8",
+    "sha256": "a43071fea9d1a54989cdf2b5bb1860c83adbba2965ce1ca29fe737fb3c886d09"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s_matrix.csv",
+    "bytes": 6472,
+    "encoding": "utf-8",
+    "sha256": "ba3db4a41230365ae83434a0f551232d33b6df2cddd561692d301f2d392fde09"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h.csv",
+    "bytes": 19405,
+    "encoding": "utf-8",
+    "sha256": "f7e9ab9cdb2881c47382f309337684cd6bd6152d472a7184a7aebffd470979db"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h_matrix.csv",
+    "bytes": 6556,
+    "encoding": "utf-8",
+    "sha256": "bc7d8ec5720cf067c140d27b289f5d574ae2370728ca699c7cd7be587b013e21"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_FullLoad.csv",
+    "bytes": 6448,
+    "encoding": "utf-8",
+    "sha256": "694c9c6726a4e234fbca8ba3226c6c92b65c13667724eb1e4c57d60ef84847f4"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_AllowedMask.csv",
+    "bytes": 22876,
+    "encoding": "utf-8",
+    "sha256": "83722399976c9897605d6d4dec6b7a85d4bafe5f4389e90a65b04c7ea5b045e2"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1.csv",
+    "bytes": 10032,
+    "encoding": "utf-8",
+    "sha256": "68ed0bba5f0c67b1272af1c9ba6e6e998ffda55fca723f5e60844fa104eb7582"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1Q4.csv",
+    "bytes": 20135,
+    "encoding": "utf-8",
+    "sha256": "b8ea2f578fccfd1cf50c414fa737898f2d2b96f78b9f85cfeb6dcbf8620b3f1c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q4.csv",
+    "bytes": 10178,
+    "encoding": "utf-8",
+    "sha256": "67de52179ab78e2497c3794d40880eaa1ba520a8c4d94c85c0e9b1f559a7a17c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1.csv",
+    "bytes": 13045,
+    "encoding": "utf-8",
+    "sha256": "ffe529fcdec9634b158dca66a33f2fa0e250b352185fad019a8a7ac6568b168b"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1Q4.csv",
+    "bytes": 26586,
+    "encoding": "utf-8",
+    "sha256": "6e962670d9e6a0375039cb1be1fbfc82c034f890e3a7eaae7243605e3ebeef8d"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q4.csv",
+    "bytes": 13582,
+    "encoding": "utf-8",
+    "sha256": "33d69d72366f551fb5a08a2f7942f731d8c0fc9833b18c6ec9d8a0435f4d999c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_PowerLoss_W_ALTERNATIVE.csv",
+    "bytes": 23271,
+    "encoding": "utf-8",
+    "sha256": "7456ab765cc4239ad0add6c16bc068b85d9d2d108c12d404938c69e0b0c7e3ec"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_AllowedMask.csv",
+    "bytes": 25514,
+    "encoding": "utf-8",
+    "sha256": "692a54bf6887bbd9250403559dde3ae10cd93d137297208d44f9d69d20a03b07"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_ClosedThrottle.csv",
+    "bytes": 188,
+    "encoding": "utf-8",
+    "sha256": "83ea0c158e712c9cb4ddf850df77bd36d16fedc4c61d2f52c885c19950389cc1"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s.csv",
+    "bytes": 19319,
+    "encoding": "utf-8",
+    "sha256": "aaadba2ca8b0ff07337b9b03f2fb1041207f3deba3845c81d9c2ff35bf427c47"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s_matrix.csv",
+    "bytes": 6471,
+    "encoding": "utf-8",
+    "sha256": "f9ebdbec016ab2f8a4557e2d97377462a85997982ee062972f3516cc4cb6ac84"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h.csv",
+    "bytes": 19472,
+    "encoding": "utf-8",
+    "sha256": "60c674d9e1f5fca533f13973ccacba86a7419abfe8821135b9aec143e094cfd5"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h_matrix.csv",
+    "bytes": 6623,
+    "encoding": "utf-8",
+    "sha256": "06d6de1e9a1a2b22dd01ba3f39c5b3c085c63f2d9f5e6c607dd004deaa2ba95c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_FullLoad.csv",
+    "bytes": 519,
+    "encoding": "utf-8",
+    "sha256": "7eb84be65d8914e4729632f880abeb758c94878f2f846212bafac6a58b7422c8"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_AllowedMask.csv",
+    "bytes": 20224,
+    "encoding": "utf-8",
+    "sha256": "37abaeb4c08c5729cfb19d8e470bb27427818e97356fa18ea989ebab829344e5"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1.csv",
+    "bytes": 8654,
+    "encoding": "utf-8",
+    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1Q4.csv",
+    "bytes": 17483,
+    "encoding": "utf-8",
+    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q4.csv",
+    "bytes": 8904,
+    "encoding": "utf-8",
+    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1.csv",
+    "bytes": 631,
+    "encoding": "utf-8",
+    "sha256": "c73030b0e05f75d319260ac50c023420db3b104f11d82755a7705aed216b9a96"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1Q4.csv",
+    "bytes": 1240,
+    "encoding": "utf-8",
+    "sha256": "cde75078aef722eacdcfbcf75b01138ccc848603ccb8618f32df091da75234c3"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q4.csv",
+    "bytes": 650,
+    "encoding": "utf-8",
+    "sha256": "2d5d88c8d1179c594c3d242d37f7252cc0ddd1155c74e89497eab826dc1014d6"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_PowerLoss_W_ALTERNATIVE.csv",
+    "bytes": 20312,
+    "encoding": "utf-8",
+    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_AllowedMask.csv",
+    "bytes": 20554,
+    "encoding": "utf-8",
+    "sha256": "2af335af51cde75ebd4505770eebcae553fd6c1a0af042be72ee88949bbd89b5"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1.csv",
+    "bytes": 8654,
+    "encoding": "utf-8",
+    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1Q4.csv",
+    "bytes": 17483,
+    "encoding": "utf-8",
+    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q4.csv",
+    "bytes": 8904,
+    "encoding": "utf-8",
+    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1.csv",
+    "bytes": 354,
+    "encoding": "utf-8",
+    "sha256": "0456a34d32ef72fa520db5304d5d119f4f8e1c6a12dbbcd0468bdb5e3bd5993c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1Q4.csv",
+    "bytes": 681,
+    "encoding": "utf-8",
+    "sha256": "8649952d44811f126a989f0fb6c2ba10b6d2b5462756fb03f2b4af31e9452c8b"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q4.csv",
+    "bytes": 368,
+    "encoding": "utf-8",
+    "sha256": "b00a077d484ea362a74e4b1abad48d6ed4221823ece1719956b85d9fbdd83a96"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_PowerLoss_W_ALTERNATIVE.csv",
+    "bytes": 20312,
+    "encoding": "utf-8",
+    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/Scalar_presets.csv",
+    "bytes": 3177,
+    "encoding": "utf-8",
+    "sha256": "12bc46e344aded57afecacff6223460259a0b4579e1f397418f803283e092384"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/UI_fields_transcription.csv",
+    "bytes": 3006,
+    "encoding": "utf-8",
+    "sha256": "ada97a8e056f5f5f38e790b1f9bde3123ce6089e5264997359f0dd357dd11f62"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/chart_QA.json",
+    "bytes": 4578,
+    "encoding": "utf-8",
+    "sha256": "bda73870907eab38f1c416311ed3531aaa21ae37df26e18bf03fd843dc6f06af"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/deliverable_manifest.json",
+    "bytes": 10285,
+    "encoding": "utf-8",
+    "sha256": "53047b7286e625a8e25e9501784deb54ceab8fe2271a82d0caeaa4227e067998"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/recovery_verification.json",
+    "bytes": 1792,
+    "encoding": "utf-8",
+    "sha256": "bafc985b55a3a1ff126b51d125f38610529d80f869e7a74505488dff2103f9ea"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/acquire_and_map_ui.py",
+    "bytes": 5719,
+    "encoding": "utf-8",
+    "sha256": "7f683254cfc89e1f481bbdf918afacc1c37dc714cd4f82b6c8b092d9af0f0da8"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/build_charts.py",
+    "bytes": 12509,
+    "encoding": "utf-8",
+    "sha256": "ff90309087c76a809e2fa566d65d84a9fb947ebbd2d993822ad411599b6feba2"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/package_inputs.py",
+    "bytes": 15022,
+    "encoding": "utf-8",
+    "sha256": "f27b5e43e16854b2e09f9fffadb15bdac0fb14d7271766c7623bc8fa0ea335fa"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/verify_recovery.py",
+    "bytes": 2087,
+    "encoding": "utf-8",
+    "sha256": "3a66b23e3577bee173e823e6eead6c105886adff406e01f23fc971560144dd75"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
+    "bytes": 635642,
+    "encoding": "utf-8",
+    "sha256": "0912c80d308a224a3a5b07b8103903071eec20112b53a880d06ebec16240c9a3"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/7- engine_2014_Mazda_Skyactiv_2L0_LEVIII.m",
+    "bytes": 14101,
+    "encoding": "utf-8",
+    "sha256": "add356f6c0bd60b407d4c48047173607f302a9ed55d5c47c8b4d00db0fc5743b"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/process_text.txt",
+    "bytes": 27119,
+    "encoding": "utf-8",
+    "sha256": "b59799f4cb0f00db962ce312a450247afd404487a334bcfc34a682a3dca1e22c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
+    "bytes": 798373,
+    "encoding": "utf-8",
+    "sha256": "bf935a803bf7c1be07948cc3a857c6d063bfbf8b8d1e4e03ad19ecba039ab789"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/7- emachine_est_2010_Toyota_Prius_60kW_650V_MG1_EMOT.m",
+    "bytes": 29294,
+    "encoding": "utf-8",
+    "sha256": "19e2fa92a0b468ff52597e1be7acd2684762486238ec24f6c6c2332abde88f61"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/process_text.txt",
+    "bytes": 49707,
+    "encoding": "utf-8",
+    "sha256": "06f56f84d4ac0985cb7b4860e7879a492319c89a0bb295cd50e548cb8754029c"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
+    "bytes": 783489,
+    "encoding": "utf-8",
+    "sha256": "18592513eed18d70ce1bd19de3148c29cd5c5b2cc16ed47ab72a415375a0cb6b"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/7- emachine_2010_Toyota_Prius_60kW_650V_MG2_EMOT.m",
+    "bytes": 17278,
+    "encoding": "utf-8",
+    "sha256": "d44d52ddab0f7784a9e342f85fd5914b094d0296a9ab066826783dca489066c0"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/process_text.txt",
+    "bytes": 36986,
+    "encoding": "utf-8",
+    "sha256": "0c7fb4e250dd2d1835196b1271a5b6208ecde5c2286801507f75dd4139f13cae"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/ORNL_Leaf_2013_merit_review.pdf",
+    "bytes": 3168120,
+    "encoding": "base64",
+    "sha256": "e8c74b0f2501c89686877628764fe169288f4765822e86345a41b48c1c297c1b"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/manifest.json",
+    "bytes": 4705,
+    "encoding": "utf-8",
+    "sha256": "28b630921717c358534cc634538666442cdb3950ba23d62f4caa182e425ef1f8"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Input_Guide_20261006.docx",
+    "bytes": 235933,
+    "encoding": "base64",
+    "sha256": "caa1378a8d790cb21c9e17c6d67813fcb8c1189cfa40bce0d1a795023376ae29"
+  },
+  {
+    "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Inputs_20261006.xlsx",
+    "bytes": 535633,
+    "encoding": "base64",
+    "sha256": "b6a4a51d3dbdf972223e63da4d1c4c7439b2637b9eb79d7c50d101fdb052a805"
+  },
+  {
+    "path": "research/range_extender_20261006/recovery_scan.json",
+    "bytes": 4664,
+    "encoding": "utf-8",
+    "sha256": "7ba9bbc843ab4722109b490902bfa440da1c72d0263d5b39254b55c4865951ec"
+  }
+]

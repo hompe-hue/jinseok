@@ -1,0 +1,37 @@
+﻿Component,Parameter,REF_value,A_virtual_value,Evidence_or_limit
+Engine,Engine type,Reciprocating 4 stroke,Reciprocating 4 stroke,UI/map classification
+Engine,Transient model,Naturally aspirated,Naturally aspirated,NA; transient calibration missing
+Engine,Control mode,Torque controlled,Torque controlled,speed loop not supplied
+Engine,Fuel consumption map unit,Expressed as mass flow,Expressed as mass flow,Check actual Program g/s or kg/h
+Engine,Displacement [L],1.998,1.5,REF source; A assumed
+Engine,Number of cylinders,4,4,REF source; A retained
+Engine,Engine inertia [kg*m2],0.134,0.134,USER SCREENSHOT DEFAULT; not target measurement
+Engine,Auxiliary inertia [kg*m2],0,0,USER SCREENSHOT DEFAULT; coupling unresolved
+Engine,Stall speed [rpm],500,500,USER SCREENSHOT DEFAULT; not target measurement
+Engine,Maximum speed [rpm],6875,6875,"REF envelope endpoint; A retained, endpoint torque0"
+Engine,Delta static friction [N*m],0.1,0.1,USER SCREENSHOT DEFAULT; not target measurement
+Engine,Specific carbon content [-],0.826,0.826,FTAG24350; A same reference fuel
+Engine,Fuel lower heat [kJ/kg],41835,41835,FTAG24350; A same reference fuel
+Engine,Fuel density [kg/m3],750.2,750.2,15C reference fuel; A retained
+Engine,Max shaft power [kW],115.610609652,80,Curve/controller cap; NOT continuous certified rating
+Generator,Type,IPM/PMSM,Virtual IPM/PMSM,Select available synchronous option; not current Asynchronous
+Generator,Global losses map,motor+inverter aggregate,motor+inverter aggregate,Match actual block boundary; do not duplicate inverter loss
+Generator,Characteristics expressed as,Torque,Torque,UI
+Generator,Losses depending on,Torque,Torque,UI
+Generator,Losses,Efficiency,Efficiency,"Input percentage, not fraction"
+Generator,Control mode,Mechanical load,Mechanical load,Q4 negative torque at positive rpm
+Generator,Quadrants,Q1 and Q4,Q1 and Q4,No reverse rotation charts
+Generator,Inertia MG1 [kg*m2],0.00562277135625,0.05,"REF EPA parameter; A USER SCREENSHOT DEFAULT, no scaling law"
+Generator,Inertia MG2 [kg*m2],0.010773667,not adopted,Alternative reference only
+Generator,Source maximum speed [rpm],13500,13500,"Reference parameter, not map usability limit"
+Generator,Use maximum speed [rpm],13000,13000,Guard: efficiency grid ends13000
+Generator,Minimum efficiency grid speed [rpm],1000,1000,Starting below1000rpm needs separate treatment
+Generator,Voltage coordinate [V],650,650,NOT330V direct-connected map
+Generator,Temperature coordinate [degC],0,0,"INDEX ONLY, NOT0C test; no temperature dependence"
+Generator,Shaft power cap [kW],60,80,"Enforce controller cap, NOT certified continuous output"
+Genset,Net bus cap [kW],not65,65,A: after converter and genset aux; controller parameter
+Genset,DCDC efficiency [-],not adopted,0.97,A assumption; separate from inverter already in efficiency map
+Genset,Genset auxiliary power [kW],not adopted,1,A assumption; not vehicle accessories
+Genset,Generator/engine speed ratio,not adopted,1,A1:1 shaft coupling
+Genset,Coupling efficiency [-],not adopted,1,A lossless coupling assumption
+Genset,Cold start / delay / ramp,missing,missing,Do not assert measured dynamic response

@@ -1,0 +1,87 @@
+[
+  {
+    "file": "sources/EPA_Mazda20_NA_Tier2_ALPHA/7- engine_2014_Mazda_Skyactiv_2L0_LEVIII.m",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Mazda20_NA_Tier2_ALPHA/7- engine_2014_Mazda_Skyactiv_2L0_LEVIII.m",
+    "sha256": "add356f6c0bd60b407d4c48047173607f302a9ed55d5c47c8b4d00db0fc5743b",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Mazda20_NA_Tier2_ALPHA/process_text.txt",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Mazda20_NA_Tier2_ALPHA/process_text.txt",
+    "sha256": "b59799f4cb0f00db962ce312a450247afd404487a334bcfc34a682a3dca1e22c",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
+    "sha256": "0912c80d308a224a3a5b07b8103903071eec20112b53a880d06ebec16240c9a3",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG1_EST_ALPHA/7- emachine_est_2010_Toyota_Prius_60kW_650V_MG1_EMOT.m",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG1_EST_ALPHA/7- emachine_est_2010_Toyota_Prius_60kW_650V_MG1_EMOT.m",
+    "sha256": "19e2fa92a0b468ff52597e1be7acd2684762486238ec24f6c6c2332abde88f61",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG1_EST_ALPHA/process_text.txt",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG1_EST_ALPHA/process_text.txt",
+    "sha256": "06f56f84d4ac0985cb7b4860e7879a492319c89a0bb295cd50e548cb8754029c",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
+    "sha256": "bf935a803bf7c1be07948cc3a857c6d063bfbf8b8d1e4e03ad19ecba039ab789",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG2_ALPHA/7- emachine_2010_Toyota_Prius_60kW_650V_MG2_EMOT.m",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG2_ALPHA/7- emachine_2010_Toyota_Prius_60kW_650V_MG2_EMOT.m",
+    "sha256": "d44d52ddab0f7784a9e342f85fd5914b094d0296a9ab066826783dca489066c0",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG2_ALPHA/process_text.txt",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG2_ALPHA/process_text.txt",
+    "sha256": "0c7fb4e250dd2d1835196b1271a5b6208ecde5c2286801507f75dd4139f13cae",
+    "altered": false
+  },
+  {
+    "file": "sources/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
+    "source": "/workspace/scratch/52a32539ebd3/research/genset_65kW_20261006/sources/extracted/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
+    "sha256": "18592513eed18d70ce1bd19de3148c29cd5c5b2cc16ed47ab72a415375a0cb6b",
+    "altered": false
+  },
+  {
+    "file": "sources/ORNL_Leaf_2013_merit_review.pdf",
+    "source": "https://www.energy.gov/sites/prod/files/2014/03/f13/ape006_burress_2013_o.pdf",
+    "sha256": "e8c74b0f2501c89686877628764fe169288f4765822e86345a41b48c1c297c1b",
+    "note": "80kW continuous MOTOR test, not generator qualification; 375V, coolant65C, slide12."
+  },
+  {
+    "screenshot": 1,
+    "local_file": "/workspace/scratch/52a32539ebd3/upload/image(20261006-101513).png",
+    "sha256": "5dfb431f6767864ab4aed494d0b3cadb11a56f214aa2dbefb9e7b46bf53d71c9"
+  },
+  {
+    "screenshot": 2,
+    "local_file": "/workspace/scratch/52a32539ebd3/upload/image(20261006-101536).png",
+    "sha256": "2c2b6cf52c01acc14fc92762cd43ac59dbc4fb3522651112bb81c17a7a8c356e"
+  },
+  {
+    "screenshot": 3,
+    "local_file": "/workspace/scratch/52a32539ebd3/upload/image(20261006-101611).png",
+    "sha256": "c4a368c91b834d70aa97a0370025cfe04e9d43888109c12524623a30b0091dd9"
+  },
+  {
+    "screenshot": 4,
+    "local_file": "/workspace/scratch/52a32539ebd3/upload/image(20261006-101630).png",
+    "sha256": "311e16ccaa5d67e3da1a4cdda2bd7a94bca5fe46566924d6b3ec0e8f20bbc994"
+  },
+  {
+    "screenshot": 5,
+    "local_file": "/workspace/scratch/52a32539ebd3/upload/image(20261006-101658).png",
+    "sha256": "ac366b21f3390d70437621a9ba479fbb3fb73d510636a4941e3fc478b5da3a3f"
+  }
+]

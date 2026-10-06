@@ -1,0 +1,24 @@
+{
+  "stage": "R65C_04",
+  "scope": "Recover and finish delivery after disconnected R65C_03; no remapping",
+  "previous_latest_completed": "R65C_03",
+  "verified_recovered_zip_members": 63,
+  "original_manifest_hashes_verified": 62,
+  "csv_files_preserved": 41,
+  "xlsx_sheets": 44,
+  "all_csv_tables_equal_saved_xlsx": true,
+  "truncated_zip_repaired": true,
+  "maps_rebuilt": false,
+  "existing_research_model_modified": false,
+  "virtual_model_status": "OPTIONAL_DRAFT_NOT_APPLIED",
+  "actual65kW_generator_continuous_rating_verified": false,
+  "GUI_import_verified": false,
+  "CRUISE_M_run": false,
+  "next": "Separate CRUISE M work copy: confirm Engine Program columns/units; resolve low-speed/start and single-temperature handling; then verify warm 6000rpm operating point and DC power balance. No numerical simulation completion claimed.",
+  "github": {
+    "repository": "hompe-hue/jinseok",
+    "read_only_repo_check": "accessible private repo; size 0; search returned no RangeExtender checkpoint",
+    "write": "Not retried: preceding evidence report records automatic approval rejection of repository writes; exact rejection reason unavailable",
+    "local_snapshot_commit_and_bundle": "provided; not a continuation of the old git history"
+  }
+}

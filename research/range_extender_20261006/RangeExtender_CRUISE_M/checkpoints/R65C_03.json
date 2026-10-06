@@ -1,0 +1,20 @@
+{
+  "stage": "R65C_03",
+  "checks": [
+    "REF_MG1_EST: 494 efficiency rows, signs and percentages verified",
+    "REF_MG2: 494 efficiency rows, signs and percentages verified",
+    "A_Gen80_MG1EST: 494 efficiency rows, signs and percentages verified",
+    "REF_Engine20NA: 504 fuel rows, g/s to kg/h readback verified",
+    "A_Engine15NA80: 504 fuel rows, g/s to kg/h readback verified",
+    "XLSX reopened; 247Q4 rows, percent units, operating65kW cell verified",
+    "DOCX reopened with4 parameter/source/comparison tables and2 annotated plots"
+  ],
+  "csv_files": 41,
+  "xlsx_sheets": 44,
+  "actual65kW_generator_continuous_rating_verified": false,
+  "CRUISE_M_run": false,
+  "GUI_import_verified": false,
+  "existing_inputs_modified": false,
+  "virtual_status": "OPTIONAL_DRAFT_NOT_APPLIED",
+  "next": "save workbook, guide and kit; run separate CRUISE M work copy if assumptions adopted"
+}

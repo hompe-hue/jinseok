@@ -1,0 +1,10 @@
+{
+  "stage": "R65C_01",
+  "source_copy_hashes_verified": true,
+  "screenshots_transcribed": 5,
+  "exact_target_full_map_found": false,
+  "new_physical_rating_evidence": "ORNL80kW motor continuous at7000rpm; not generator rating",
+  "existing_inputs_modified": false,
+  "CRUISE_M_run": false,
+  "next": "convert reference charts; separate virtual sensitivity draft"
+}

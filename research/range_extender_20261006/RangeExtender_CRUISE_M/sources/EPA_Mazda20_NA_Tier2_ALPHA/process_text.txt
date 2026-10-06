@@ -1,0 +1,306 @@
+
+2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+	html { min-height:100%; margin-bottom:1px; }
+	html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000; line-height:120%; background:#fff none; overflow-y:scroll; }
+	html body td { vertical-align:middle; text-align:left; }
+	h1 { padding:10px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.9em; color:#00CC33; line-height:100%; font-weight:bold; text-align:center; }
+	h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#0050B8; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; text-align: left;}
+	h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#3399FF; font-weight:bold; line-height:140%; text-align: left;}
+	a { color:#005fce; text-decoration:none; }
+	a:hover { color:#005fce; text-decoration:underline; }
+	a:visited { color:#004aa0; text-decoration:none; }
+	p { padding:0px; margin:0px 0px 20px; }
+	img { padding:0px; margin:0px 0px 50px; border:none; max-height:800; max-width:900; height:auto; width:auto; }
+	p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+	ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+	ul li { padding:0px; margin:0px 0px 7px 0px; }
+	ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+	ul li ol li { list-style:decimal; }
+	ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+	ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+	ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+	ol li ol li { list-style-type:lower-alpha; }
+	ol li ul { padding-top:7px; }
+	ol li ul li { list-style:square; }
+	.content { font-size:1.2em; line-height:120%; padding: 20px; }
+	pre, code { font-size:12px; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; text-align: left;}
+	tt { font-size: 1.2em; }
+	pre { margin:0px 0px 20px; }
+	pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+	pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+	pre.error { color:red; }
+	@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:98%; } }
+	span.keyword { color:#0000FF }
+	span.comment { color:#228B22 }
+	span.string { color:#A020F0 }
+	span.untermstring { color:#B20000 }
+	span.syscmd { color:#B28C00 }
+	span.linenum { color:#b0b0b0 }
+	.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+	.footer p { margin:0px; }
+	.footer a { color:#878787; }
+	.footer a:hover { color:#878787; text-decoration:underline; }
+	.footer a:visited { color:#878787; }
+	.header  {vertical-align:middle;line-height:100%;padding: 20px;margin:10px;}
+	table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+	table td { padding:7px 5px; text-align:left; vertical-align:middle; border:1px solid #d6d4d4; }
+Version: 2018-02-12
+2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process
+This document summarizes the process which utilized EPA's laboratory engine dynamometer and chassis dynamometer test data to generate a full engine fuel consumption map which can be used by EPA's ALPHA vehicle simulations.  The generated full engine map defines the complete operating boundaries of the engine which are needed for REVS modeling including idle, WOT, minimum torque, and maximum speed.
+SUGGESTED CITATION:
+2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Map Package.
+ Version 2018-02. Ann Arbor MI: US EPA National Vehicle and Fuel Emissions Laboratory, National Center for Advanced Technology, 2018.
+Engine Physical Characteristics
+Set physical characteristics based on published information:  2014 Mazda3 4-Door. (n.d.) Retrieved May 11, 2017, from https://www.mazdausa.com/MusaWeb/musa2/pdf/specs/specs_M3S.pdf
+engine.name = 
+'2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel'
+;
+engine.combustion_type = enum_engine_combustion_type.spark_ignition;
+engine.displacement_L = 1.998;
+engine.num_cylinders = 4;
+engine.bore_mm = 83.5;
+engine.stroke_mm = 91.2;
+Test Data
+Import EPA engine dynamometer test data from 
+"2014 Mazda 2.0L SKYACTIV-G Engine LEV III Fuel - Test Data Package.
+ Version 2018-02.  Ann Arbor, MI: US EPA, National Vehicle and Fuel Emissions Laboratory, National Center for Advanced Technology, 2018."
+core_data = readtable2( 
+'4- 2014 Mazda 2.0L SKYACTIV-G Engine LEV III Fuel - Test Data.xlsx'
+,
+'Sheet'
+,
+'Steady State'
+,
+'VariableNamesRange'
+,4,
+'VariableUnitsRange'
+,5,
+'DataRange'
+,6);
+test_data.name = 
+'Test Data'
+;
+test_data.speed_rpm = core_data.Speed;
+test_data.torque_Nm = core_data.Torque;
+test_data.fuel_gps = core_data.FuelMeterFlow;
+Estimated Points
+Add estimated fueling points to approximate the portions of the map where data is not available.
+% High Speed / High Load
+estimated_data.name = 
+'Estimated High Load Points'
+;
+estimated_data.speed_rpm = [	5500,	5500,	5500,	5500,	];
+estimated_data.torque_Nm = [	20,		100,	150,	180,	];
+estimated_data.bsfc_gpkWhr = [	554,	277,	267,	325,	];
+Maximum Torque (WOT) Curve Data
+Import EPA wide open throttle engine dynamometer sweep test data included in the Engine Test Data referenced above, excluding lead in and lead out points where operation is not at maximum torque. Additional data to extend beyond the available test data is included based on Mazda3 vehicle specification referenced above.
+core_data = readtable2(
+'4- 2014 Mazda 2.0L SKYACTIV-G Engine LEV III Fuel - Test Data.xlsx'
+,
+'Sheet'
+,
+'Max Torque Sweep'
+, 
+'VariableNamesRange'
+,4,
+'VariableUnitsRange'
+,5,
+'DataRange'
+,6);
+WOT_test_data.speed_rpm = core_data.Speed;
+WOT_test_data.torque_Nm = core_data.Torque;
+WOT_estimated_data.speed_rpm =	[6000,	6250];
+WOT_estimated_data.torque_Nm = [184,	160];
+Minimum Torque (Zero Accelerator Pedal) Curve Data
+Import EPA zero accelerator pedal engine dynamometer test data included in the Engine Test Data referenced above, excluding data points where significant fuel flow was measured.
+core_data = readtable2(
+'4- 2014 Mazda 2.0L SKYACTIV-G Engine LEV III Fuel - Test Data.xlsx'
+,
+'Sheet'
+,
+'Min Torque Sweep'
+, 
+'VariableNamesRange'
+,4,
+'VariableUnitsRange'
+,5,
+'DataRange'
+,6);
+CT_test_data.speed_rpm = core_data.Speed(core_data.Speed > 1400);
+CT_test_data.torque_Nm = core_data.Torque(core_data.Speed > 1400);
+Fuel Properties
+Load fuel properties provided in the Fuel Analysis Report identified in the Engine Test Data package referenced above.
+%Load from fuel database
+engine.fuel = class_REVS_fuel( 
+'FTAG 24350'
+);
+disp( engine.fuel );
+  class_REVS_fuel with properties:
+                        id: 'FTAG 24350'
+               description: 'LEV III Regular'
+          density_kgpL_15C: 0.7502
+      energy_density_MJpkg: 41.835
+    carbon_weight_fraction: 0.826
+          anti_knock_index: 88.1
+    research_octane_number: 92.4
+       motor_octane_number: 83.8
+           alcohol_pct_vol: 9.75
+                  gCO2pgal: 8595
+    energy_density_BTUplbm: 17986
+          specific_gravity: 0.75092
+Idle Speed
+Set idle speed using EPA chassis dynamometer testing data from the 2014 Mazda3 with an automatic transmission; EPA published report pending.
+engine.idle_speed_radps = class_REVS_dynamic_lookup;
+engine.idle_speed_radps.axis_1.signal =  
+'veh_spd_mps'
+;
+engine.idle_speed_radps.axis_1.breakpoints = [  0,	   1	 ];
+engine.idle_speed_radps.table = [				600,   800	 ] * convert.rpm2radps;
+Engine Build for Simulation in ALPHA
+Construct the ALPHA Full engine map combining all of the above inputs.  Fit the fueling data onto a grid for simple interpolation and establish points that represent the maximum and minimum engine torque versus speed.  Confirm the quality of fit between the input data and the resulting engine description by examining the resulting plots.
+engine = REVS_build_engine(engine, {test_data, estimated_data}, 
+'WOT'
+,{WOT_test_data, WOT_estimated_data}, 
+'CT'
+, CT_test_data, 
+'plot_bsfc'
+,
+'plot_efficiency'
+);
+Idle Fuel Verification
+Confirm appropriate fuel consumption near idle conditions. The following conditions represent idle with the transmission in neutral and drive. The speeds and fuel flow agree with measurements recorded on this engine. However, in general, idle speeds and fueling depend on the drivetrain the engine is coupled to and may change depending on the application.
+Idle @ 600 RPM in neutral measured fuel rate ~0.15 g/sec
+engine.interp_fuel_gps( 600 * convert.rpm2radps, 15);
+      0.15207
+Idle @ 700 RPM in gear measured fuel rate ~0.21 g/sec
+engine.interp_fuel_gps( 700 * convert.rpm2radps, 24);
+      0.20517
+Fuel Map Linearity
+Confirm expected trends in output fuel map, specifically in regions where test data is unavailable.
+REVS_plot_engine_fuel_linearity(engine)
+Model Calibration Options
+Calibrate additional properties of the ALPHA engine model which can be set to match observed behaviors during the validation process.
+Note:  Default values are used unless properties are specified below, which are derived from the composite set of EPA testing and model validation activities.
+Accelerator Pedal Map
+Apply default pedal mapping for passenger cars, which will linearly increase engine power with accelerator pedal position.
+engine.pedal_map_type = enum_engine_pedal_map_type.max_engine_power;
+File Description
+Generate and write the created ALPHA engine definition into a file for later simulation.
+write_REVS_engine( 
+'engine_2014_Mazda_Skyactiv_2L0_LEVIII.m'
+, engine);
+Build Full Engine Map:   engine_2014_Mazda_Skyactiv_2L0_LEVIII.m
+% ALPHA ENGINE DEFINITION
+% Generated 12-Feb-2018 15:35:12
+% Constructor
+engine = class_REVS_engine();
+engine.name =  
+'2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel'
+; 
+engine.source_filename = mfilename;engine.matrix_vintage = enum_matrix_vintage.present;
+% Physical Description
+engine.displacement_L =       1.998; 
+engine.num_cylinders =           4; 
+engine.combustion_type = enum_engine_combustion_type.spark_ignition;
+engine.bore_mm =        83.5; 
+engine.stroke_mm =  91.200000000000003; 
+% Maximum Torque Curve
+engine.full_throttle_speed_radps = [  0.00000000000000000,	; 108.82476952035043,	; 125.25434710085122,	; 147.17925249755180,	; 167.87274877382256,	; 178.02675702933431,	; 199.05392852532728,	; 209.43413999546726,	; 251.35882821371936,	; 261.93490748224548,	; 303.62720474161677,	; 335.07905028557599,	; 366.46752050431354,	; 387.60088309421434,	; 429.29928253128662,	; 450.25023520898026,	; 470.17554967926884,	; 628.31853071795865,	; 654.49846949787354,	; 687.22339297276721,	; 719.94831644766100,	 ]; 
+engine.full_throttle_torque_Nm = [  0.00000000000000000,	; 139.16000000000003,	; 148.65000000000006,	; 156.42916666666665,	; 157.74666666666670,	; 162.52121212121210,	; 182.80000000000001,	; 186.10512820512818,	; 180.66999999999996,	; 182.49411764705880,	; 196.83606557377050,	; 199.25692307692310,	; 194.02394366197183,	; 193.91578947368413,	; 200.11111111111109,	; 197.52808988764053,	; 198.49552238805958,	; 184.00000000000000,	; 160.00000000000000,	; 129.99999999999994,	; 0.00000000000000000,	 ]; 
+% Minimum Torque Curve
+engine.closed_throttle_speed_radps = [  0.00000000000000000,	; 147.45610089777887,	; 293.21621709155704,	; 387.45207081062330,	; 471.26011878179713,	; 719.94831644766100,	 ]; 
+engine.closed_throttle_torque_Nm = [  -13.804356049344866,	; -20.261224489795911,	; -23.894827586206905,	; -28.606578947368419,	; -34.440088105726879,	; -45.329749267556458,	 ]; 
+% Fuel Map
+engine.fuel_map_speed_radps = [  0.00000000000000000,	; 45.139169835216528,	; 90.278339670433056,	; 104.55002514196828,	; 130.52119976293329,	; 156.38223258488915,	; 170.51881302651998,	; 182.90124115699004,	; 193.15626836830219,	; 209.13806662009250,	; 261.31654906352276,	; 313.63098034953737,	; 339.76884862095358,	; 365.87745831955533,	; 392.08715704567015,	; 418.21254787559030,	; 470.53147230599905,	; 523.24506273206384,	; 575.95865315812875,	; 647.95348480289488,	; 719.94831644766100,	 ]; 
+engine.fuel_map_torque_Nm = [  -47.596236730934287,	; -23.231804547257145,	; 1.1326276364200001,	; 10.165143387535714,	; 19.917982745416666,	; 29.903481745416666,	; 39.876459703076925,	; 49.984662137272728,	; 59.937553220416660,	; 69.917320300000000,	; 79.912941509166657,	; 89.865260607272717,	; 99.984835338333340,	; 109.77725070000000,	; 119.92190525625000,	; 129.65001513461539,	; 139.91064664375000,	; 149.92069572142859,	; 156.77749935000000,	; 167.87860318750000,	; 179.88251465000002,	; 188.98900226666666,	; 197.39759760000001,	; 210.11666666666665,	 ]; 
+engine.fuel_map_gps = [
+0.017129763406924729, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, 0.00000000000000000, ;
+0.032615464560465518, 0.042516194968465940, 0.053858372754864915, 0.057934642754017759, 0.065796192371972789, 0.074319955306150043, 0.079299935348029968, 0.083733086211770141, 0.087415918843462129, 0.093198185860128152, 0.11378870591655768, 0.15017925970863380, 0.17459610594951822, 0.20133396793772260, 0.22995690194927243, 0.25980336581286717, 0.32381012864308573, 0.39107884411586169, 0.46031293087812386, 0.55642953100069736, 0.65106603709278987, ;
+0.051610426702147702, 0.096569543063781446, 0.13808554028689701, 0.15496200067111079, 0.18970403297344349, 0.22813395471758294, 0.25212729777093740, 0.27325092530136613, 0.29018598390607447, 0.31565179412517008, 0.38300092024799492, 0.47914968047122541, 0.54535599879240282, 0.60653882951433868, 0.67201469775310241, 0.74226141970237147, 0.88907543455658777, 1.0440544283970437, 1.1972100932388008, 1.3921205285937741, 1.5754862196620816, ;
+0.053697771891179830, 0.11346608310289183, 0.17061432473753432, 0.19250033278587464, 0.23948728307077949, 0.29021760681253678, 0.31956600869060220, 0.34514841330172025, 0.36597765728046011, 0.39770808907363892, 0.49426155795394328, 0.63269153278038259, 0.69140872763211503, 0.75299527113276732, 0.83242598724975070, 0.91804323031304647, 1.1016205700304900, 1.2882330009587819, 1.4724842490056831, 1.6982430689540684, 1.9143602301221205, ;
+0.055422688263874517, 0.13550874422292042, 0.21982680084560730, 0.24906716258220607, 0.30587962881211711, 0.36737325942733540, 0.40141839903451693, 0.43163267804340771, 0.45694890800335558, 0.49676848227746750, 0.61951194749154281, 0.79138460237663433, 0.85564409971496169, 0.92941426731469101, 1.0259993491944230, 1.1334147829129038, 1.3327167554700385, 1.5517790756474916, 1.7682647993760434, 2.0267314897183919, 2.2797371505150870, ;
+0.059746709606783084, 0.16333568711705376, 0.26991865312677299, 0.30512124525579992, 0.37274180066570861, 0.44404002984084412, 0.48371738627963790, 0.51847388723878207, 0.54713905253174056, 0.59173331791646844, 0.74530632805480779, 0.91875510446644792, 1.0127175477161625, 1.1140263555310193, 1.2302625768455215, 1.3516246303562496, 1.5855613980404515, 1.8230373853893553, 2.0603023595345440, 2.3613414482027268, 2.6551889265772606, ;
+0.067046024099535487, 0.19354395536678437, 0.32021688695086747, 0.35907266022617151, 0.43276071441746000, 0.51757659189295502, 0.56521716054915394, 0.60692356044900209, 0.64109337887272400, 0.69419229651553627, 0.88115925868654488, 1.0692444473442893, 1.1786958139583965, 1.3008401604856785, 1.4432682215757831, 1.5901996174537103, 1.8359147960551772, 2.0954748705899662, 2.3545481049478196, 2.6985457053832502, 3.0341784213740692, ;
+0.075755734558889593, 0.22114076225904075, 0.36346828773034656, 0.40756781025313693, 0.49286843383429058, 0.58965382406823907, 0.64528485433363525, 0.69456305124020601, 0.73557406037328077, 0.79978881677393487, 1.0161948498654010, 1.2319297811756906, 1.3596065011518914, 1.5006407216558564, 1.6620682892621546, 1.8260045104535987, 2.0970247589704480, 2.3769939444751045, 2.6625642597176693, 3.0500843213245914, 3.4258944402959108, ;
+0.083756653809323026, 0.24732116194084047, 0.41133516209381582, 0.46395455128327240, 0.56387864383565600, 0.67506835188071979, 0.73682153756175861, 0.79112755103484922, 0.83638016245968294, 0.90741141564806216, 1.1455211155497094, 1.3948883342666740, 1.5478119238301256, 1.7103172114321121, 1.8801092083838422, 2.0480245020531429, 2.3422800486329658, 2.6602898396540233, 2.9802792870120607, 3.4120627430254058, 3.8234225688729717, ;
+0.091499967259700596, 0.27789766410959976, 0.46580977293344933, 0.52643959556296760, 0.63804281919944328, 0.76264441895898127, 0.83154070065091634, 0.89178233202188584, 0.94140278416287149, 1.0185863508963500, 1.2865586487982772, 1.5748915775543564, 1.7347514173908645, 1.9077693284776969, 2.0950198553878248, 2.2831897868736268, 2.5986687514883324, 2.9532373198484221, 3.3161673252219530, 3.7946520061042270, 4.2392459519947163, ;
+0.098954833847660115, 0.31502009379707507, 0.52723353403880824, 0.59392695180317834, 0.71679931268519370, 0.85048014538030892, 0.92815633427869304, 0.99718049030169031, 1.0544565413057059, 1.1429737513515097, 1.4356467808474707, 1.7378620777548850, 1.9104870424657303, 2.0946988432943758, 2.3005616334595880, 2.5065272356164345, 2.8538463184176379, 3.2528588204233251, 3.6727369130514269, 4.1979496304496804, 4.6808040488746716, ;
+0.10501245346941750, 0.35651624501884566, 0.59623486928590175, 0.66804718782633365, 0.79489093884986850, 0.93967354550789517, 1.0247830806442619, 1.1012078351888868, 1.1653332924163597, 1.2659112623350017, 1.5673555213473689, 1.9147827517712446, 2.1026886540215437, 2.2998634798080535, 2.5091586631200622, 2.7206017493481460, 3.0747806442022934, 3.5504461432219681, 4.0452042096707395, 4.6150180586750915, 5.1566737186859744, ;
+0.11140210228152490, 0.39803728031479818, 0.67245185420702958, 0.75220364819800389, 0.88946767793499482, 1.0411490899455040, 1.1322821382018879, 1.2135842071816312, 1.2808102409937556, 1.3858551889938147, 1.7487867340747982, 2.1063420630420282, 2.3020797059583020, 2.5032166909825042, 2.7089817784742789, 2.9312062019313343, 3.3318745443842741, 3.8519097328550798, 4.4192944501924076, 5.0482864518962316, 5.6940805980588562, ;
+0.12747155548230871, 0.43617258232718314, 0.74794190823430728, 0.84350089934847605, 1.0134359655766907, 1.1773403381584571, 1.2658477723634340, 1.3439242779465577, 1.4102638871319633, 1.5158406572136656, 1.8943797993785869, 2.2821726084338176, 2.4935887569772874, 2.7115025518988194, 2.9341313687703079, 3.1618265486899579, 3.6009143152226946, 4.1325105665780386, 4.7155353837366700, 5.4787270863130768, 6.2838175356462997, ;
+0.17252651297699464, 0.49059057190811767, 0.83541816577619321, 0.95790536683830407, 1.1931719138948145, 1.3894956002126968, 1.4691640015448784, 1.5342801732650106, 1.5877563227363154, 1.6730850232516690, 2.0643587601256246, 2.4561771082328772, 2.6842758647049383, 2.9214750774934455, 3.1572976209278414, 3.3913506884349394, 3.8806639568090295, 4.4215188942521060, 5.0275702309703147, 5.9630033626565302, 6.9841822333365497, ;
+0.25861390136368928, 0.59294212346736130, 0.94562924371949886, 1.0704156704860008, 1.3171317806733214, 1.5196414694082914, 1.6124540373037899, 1.6823431659747905, 1.7336101421035244, 1.8082267823815312, 2.2312193981642556, 2.6249235272917142, 2.8645585440025654, 3.1164723781338650, 3.3865394713271875, 3.6601036705305572, 4.1733157642676719, 4.7178721398179464, 5.3702855291947067, 6.5037791502414821, 7.7533757096070497, ;
+0.39272417006915111, 0.76004073052188725, 1.1355231222172697, 1.2550398086990360, 1.4703303335925026, 1.6630247871529369, 1.7541569029570032, 1.8291658830310271, 1.8885676127299744, 1.9798643758181882, 2.3809518785985717, 2.8359865562919047, 3.0983060612541262, 3.3699063326622873, 3.6435566800645494, 3.9179226143808190, 4.4530340483126851, 5.0818651262279371, 5.8205821219930431, 7.1994390211292840, 8.6722665076939247, ;
+0.55089461727946687, 0.94394645161534574, 1.3261588954188621, 1.4397876618479146, 1.6384484217312942, 1.8176980112624233, 1.9102477063001859, 1.9905953010229092, 2.0581969339355806, 2.1655099137648790, 2.5945874075313746, 3.0743744528218899, 3.3469200978741549, 3.6259256257797361, 3.9039151519034418, 4.1820458470561679, 4.7795538706454455, 5.5455026363351321, 6.4249842319893329, 8.0397645321071511, 9.6671032001117609, ;
+0.66196329210003158, 1.0656114961634993, 1.4538721252099944, 1.5696053566206214, 1.7731993155174242, 1.9624349888690245, 2.0619406101248523, 2.1479038104390002, 2.2186123377737492, 2.3295698514520828, 2.7720451687653891, 3.2577342278872545, 3.5243854380255319, 3.8046653205045904, 4.1005540632701436, 4.4033183739428656, 5.0318437242684579, 5.9291511603021076, 6.9888238499830750, 8.6926069081512018, 10.385846648232564, ;
+0.83855118933380457, 1.2501006221205144, 1.6554258720193931, 1.7826598277439316, 2.0130493448815687, 2.2358416011074658, 2.3507765496362323, 2.4467343677494933, 2.5216732525291823, 2.6342306930835613, 3.0669005198524335, 3.5835668388412620, 3.8257149921879590, 4.0989797249126587, 4.4513269932772301, 4.8311491618985460, 5.4541703481652100, 6.6542050041177658, 8.0744139506738044, 9.8571330908851387, 11.605303838590624, ;
+1.0189782917938197, 1.4394596080931634, 1.8591060384373084, 1.9914931537768270, 2.2320188273342989, 2.4706844510585140, 2.6014408959642172, 2.7165273575567448, 2.8125942794084038, 2.9648615341141697, 3.5542054866426063, 3.9581686666290636, 4.2101305044623833, 4.5012299740382087, 4.8439670557424348, 5.2177561887728308, 6.0443550696729496, 7.5236793631691414, 9.3015602239024435, 11.140306665799843, 12.989316985452325, ;
+1.1512404141358317, 1.5801749352750794, 2.0097518793371707, 2.1460226156433304, 2.3947330272340652, 2.6457062837926490, 2.7851278331095970, 2.9083687879815892, 3.0112045633404891, 3.1730675902156849, 3.7286204572735659, 4.2113710024918225, 4.5034067254776797, 4.8266488816176283, 5.1947185464774650, 5.5970905417875647, 6.5693311869280091, 8.1437696369780053, 9.9297782154686267, 12.031859868784375, 14.061565127685803, ;
+1.2717635024698206, 1.7101096009374825, 2.1499787800978973, 2.2900508047187227, 2.5461614679353670, 2.8045102890422684, 2.9470207413651255, 3.0722949484612578, 3.1762551478215717, 3.3385891301870072, 3.8730497403052917, 4.4436017984030141, 4.7817101002285582, 5.1509568474193186, 5.5612422816491209, 6.0143994080284946, 7.1269940987701359, 8.7020503589524623, 10.469051488932225, 12.807326712044578, 15.055949059049365, ;
+1.4527103490998396, 1.9087861719992414, 2.3659405125253938, 2.5105429300048159, 2.7736064434953009, 3.0347975451248024, 3.1771700082742718, 3.3017455994598004, 3.4048984782661451, 3.5658167074398381, 4.1055767556034652, 4.7969243959676859, 5.2118234152301532, 5.6628741498479949, 6.1575795966964133, 6.6956361883409645, 7.9726049109531623, 9.5368498631554282, 11.293892050780173, 13.923181267234453, 16.558840249311007, ]; 
+% Fuel Properties
+engine.fuel = class_REVS_fuel(
+'FTAG 24350'
+);
+% Idle Speed
+engine.idle_speed_radps = class_REVS_dynamic_lookup;
+engine.idle_speed_radps.axis_1.signal =  
+'veh_spd_mps'
+; 
+engine.idle_speed_radps.axis_1.breakpoints = [  0.00000000000000000,	1.0000000000000000,	 ]; 
+engine.idle_speed_radps.table = [  62.831853071795862,	83.775804095727807,	 ]; 
+% Pedal Calibration
+engine.pedal_map_type = enum_engine_pedal_map_type.max_engine_power;
+% Calibration Adjustment Factors
+% -- None -- 
+ 1400);
+CT_test_data.torque_Nm = core_data.Torque(core_data.Speed > 1400);
+%% Fuel Properties
+% Load fuel properties provided in the Fuel Analysis Report identified in the Engine Test Data package referenced above.
+%Load from fuel database
+engine.fuel = class_REVS_fuel( 'FTAG 24350');
+disp( engine.fuel );
+%% Idle Speed
+% Set idle speed using EPA chassis dynamometer testing data from the 2014 Mazda3 with an automatic transmission; EPA published report pending.
+engine.idle_speed_radps = class_REVS_dynamic_lookup;
+engine.idle_speed_radps.axis_1.signal =  'veh_spd_mps'; 
+engine.idle_speed_radps.axis_1.breakpoints = [  0,	   1	 ]; 
+engine.idle_speed_radps.table = [				600,   800	 ] * convert.rpm2radps; 
+%% Engine Build for Simulation in ALPHA
+% Construct the ALPHA Full engine map combining all of the above inputs.  Fit the fueling data onto a grid for simple interpolation and establish points
+% that represent the maximum and minimum engine torque versus speed.  Confirm the quality of fit between the input data and the resulting engine
+% description by examining the resulting plots.
+engine = REVS_build_engine(engine, {test_data, estimated_data}, 'WOT',{WOT_test_data, WOT_estimated_data}, 'CT', CT_test_data, 'plot_bsfc','plot_efficiency');
+%% Idle Fuel Verification
+% Confirm appropriate fuel consumption near idle conditions. The following conditions represent idle with the transmission in neutral and drive. The
+% speeds and fuel flow agree with measurements recorded on this engine. However, in general, idle speeds and fueling depend on the drivetrain the engine is coupled
+% to and may change depending on the application.
+%%
+% Idle @ 600 RPM in neutral measured fuel rate ~0.15 g/sec
+engine.interp_fuel_gps( 600 * convert.rpm2radps, 15);
+%%
+% Idle @ 700 RPM in gear measured fuel rate ~0.21 g/sec
+engine.interp_fuel_gps( 700 * convert.rpm2radps, 24);
+%% Fuel Map Linearity
+% Confirm expected trends in output fuel map, specifically in regions where test data is unavailable.
+REVS_plot_engine_fuel_linearity(engine)
+%% Model Calibration Options
+% Calibrate additional properties of the ALPHA engine model which can be set to match observed behaviors during the validation process. 
+%
+% Note:  Default values are used unless properties are specified below, which are derived from the composite set of EPA testing and model
+% validation activities.
+%%% 
+% *Accelerator Pedal Map*
+%
+% Apply default pedal mapping for passenger cars, which will linearly increase engine power with accelerator pedal position. 
+engine.pedal_map_type = enum_engine_pedal_map_type.max_engine_power;
+%% File Description  
+% Generate and write the created ALPHA engine definition into a file for later simulation.
+%
+write_REVS_engine( 'engine_2014_Mazda_Skyactiv_2L0_LEVIII.m', engine);
+%% Build Full Engine Map:   engine_2014_Mazda_Skyactiv_2L0_LEVIII.m
+% 
+engine_2014_Mazda_Skyactiv_2L0_LEVIII.m
+			##### SOURCE END #####
+		-->

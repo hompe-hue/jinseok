@@ -1,0 +1,34 @@
+﻿image,section,field,screenshot_value,unit,mapping_note
+1,ICE,Fuel consumption map unit,Expressed as mass flow,g/s or kg/h,Program subtable unit not shown; offer both files
+1,ICE,Engine type,Reciprocating 4 stroke,,Keep for reference and virtual NA
+1,ICE,Transient model,Naturally aspirated,,NA reference; no calibrated transient response available
+1,ICE,Friction model,unchecked,,Brake-torque map; adding friction may double count
+1,ICE,Control mode,Torque controlled,,Supervisory torque/speed regulation required
+1,ICE,Zero load criteria,0 Load => 0 Torque,,Engine-idling fuel must not be replaced by zero
+1,ICE,Full load gear dependent,unchecked,,No gear-dependent engine WOT source
+1,ICE,Fuel shut off,unchecked,,Source closed-throttle negative-torque region contains fuel cut; resolve in actual Program
+1,ICE,Fuel type,Gasoline.bgp,,Fuel properties must match selected map
+1,ICE,Specific carbon content,0.87591,-,Screenshot value; Mazda reference FTAG24350=0.826
+1,ICE,Fuel lower heat,43500,kJ/kg,Screenshot value; Mazda reference=41835
+1,ICE,Fuel density,748,kg/m3,Screenshot value; Mazda reference=750.2 at15C
+2,Engine Data,Displacement,2,L,Reference1.998; virtual candidate1.5
+2,Engine Data,Number of cylinders,4,-,Reference4; virtual4 assumed
+2,Engine Data,Engine inertia,0.134,kg*m2,Screenshot/default; not measured for target
+2,Engine Data,Inertia of auxiliaries,0,kg*m2,Screenshot/default; identify coupling hardware
+2,Engine Data,Stall speed,500,rpm,Screenshot/default; no validated target
+2,Engine Data,Maximum engine speed,7500,rpm,Reference envelope ends6875; virtual same assumed
+2,Engine Data,Delta static friction,0.1,N*m,Screenshot/default; no validated target
+3,Generator,Global losses map,checked,,"EPA EMOT includes motor+inverter, excludes gearing"
+3,Generator,Type of motor,Asynchronous motor,,Reference PMSM/IPM; choose matching available synchronous type
+3,Generator,Characteristics expressed as,Torque,,Keep: rpm and Nm
+3,Generator,Losses depending on,Torque,,Keep: rpm and torque axes
+3,Generator,Losses,Efficiency,,Use percent; separate power-loss alternative for startup/zero torque
+3,Generator,Control mode,Mechanical load,,Keep for positive speed negative torque generator
+3,Generator,Q1 Motor,checked,,Starter quadrant if same machine cranks engine
+3,Generator,Q4 Generator,checked,,"Positive speed, negative torque"
+3,Generator,Q2 / Q3,unchecked,,Reverse rotation not exported
+3,Generator,Inertia,0.05,kg*m2,"Screenshot/default; reference MG1=0.00562277135625, MG2=0.010773667"
+3,Generator,Maximum speed,undefined,rpm,"Reference source13500, efficiency grid verified only to13000"
+3,Generator,KPI generator max power,150.796447,kW,"Derived from current chart, not direct65kW rating input"
+4,Full Load,columns,Voltage; Speed; Torque,V; rpm; N*m,Current330V must not relabel source650V
+5,Efficiency,columns,Temperature; Voltage; Speed; Torque; Efficiency,degC; V; rpm; N*m; %,"Current0C is chart coordinate, not source test temperature"
