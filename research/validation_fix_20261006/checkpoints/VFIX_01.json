@@ -1,0 +1,10 @@
+{
+  "stage": "VFIX_01",
+  "status": "INPUTS_FROZEN",
+  "baseline_remote_commit": "0f48eee2e1d2b37bf4a784be142337b29e064656",
+  "CRUISE_M_executed": false,
+  "existing_maps_and_controller_rules_modified": false,
+  "scope": "Battery SOC and voltage audit; completed EDU map provenance; fuel/range comparison gates",
+  "repository": "hompe-hue/jinseok",
+  "authorization": "Project instruction names this repository; user explicitly requests resolving GitHub writes and continuing research; owner and push permission rechecked."
+}
