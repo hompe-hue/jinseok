@@ -1,0 +1,26 @@
+{
+  "stage": "VGEN_02",
+  "status": "RECONSTRUCTED_INPUT_CANDIDATES_AND_DATA_COLLECTION_COMPLETE",
+  "CRUISE_M_executed": false,
+  "raw_OEM_numeric_maps_obtained": false,
+  "generator_Q4_measured": false,
+  "existing_Bolt_maps_modified": false,
+  "existing_controller_modified": false,
+  "source_pdf": "S06 p8 vector contours",
+  "candidate_net26": {
+    "target_net_kW": 26,
+    "status": "candidate_within_reconstructed_warm_core",
+    "generator": "MGA",
+    "ratio_generator_over_engine": 2.0,
+    "engine_rpm": 2950.0,
+    "engine_torque_Nm": 98.0,
+    "generator_rpm": 5900.0,
+    "generator_torque_Nm": -48.02,
+    "engine_shaft_kW": 30.27448120509364,
+    "generator_efficiency_pct": 93.0,
+    "engine_efficiency_pct": 36.0,
+    "net_bus_kW": 25.999512548377574,
+    "fuel_g_s": 1.955715840122328,
+    "net_fuel_g_kWh": 270.79650094746603
+  }
+}
