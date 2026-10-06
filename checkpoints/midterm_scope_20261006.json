@@ -1,0 +1,14 @@
+{
+  "stage": "MIDTERM_SCOPE_EXPLANATION_01",
+  "status": "DOCUMENT_COMPLETE_MODEL_RUN_NOT_STARTED",
+  "report_path": "reports/Bolt_BEV_Midterm_and_EREV_Roadmap_20261006.md",
+  "report_commit": "533b3df1935dbd7c1dff9603c60987e3ef1311c2",
+  "base_research_checkpoint": "R65C_04",
+  "midterm_goal": "Validate the constructed Bolt BEV model against same-condition measured DC data; compare label values with procedure/boundary distinction.",
+  "post_midterm_goal": "Extend verified BEV baseline to virtual series EREV; compare existing controller definitions under generator response and battery power/energy constraints.",
+  "existing_experiment_rules_changed": false,
+  "existing_maps_changed": false,
+  "CRUISE_M_executed": false,
+  "NA80_net65_candidate_applied": false,
+  "next": "BEV component input checks, battery current replay/identification, independent ANL vehicle-test replay, label consistency assessment."
+}
