@@ -1,422 +1,492 @@
 [
   {
     "path": "research/range_extender_20261006/RESUME.md",
-    "bytes": 1948,
+    "bytes": 2546,
     "encoding": "utf-8",
-    "sha256": "39ad3bb307881f7a4309839f7b77b79ba70855f4ac22356acb1277c0d2931294"
+    "sha256": "82d8e2064448a4995e0b3e402f1c84c72b195ecb612e424a572580fc661ce8be",
+    "git_blob_sha": "6cc2aee3c66e9627f94b9746684f9befd011fb38"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/Input_Guide_ko.md",
     "bytes": 14517,
     "encoding": "utf-8",
-    "sha256": "9555113dce34ad2361d1f61093d31377df374b33c9708572f090e9be6c873e44"
+    "sha256": "9555113dce34ad2361d1f61093d31377df374b33c9708572f090e9be6c873e44",
+    "git_blob_sha": "f3785a17f42f692f4fe87a865a2d45ebc6c32975"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_01.json",
     "bytes": 366,
     "encoding": "utf-8",
-    "sha256": "9ef8c52b3d0921656773b5f5f5c3d1998c7a20e7d5abb13ae42fe1728593d822"
+    "sha256": "9ef8c52b3d0921656773b5f5f5c3d1998c7a20e7d5abb13ae42fe1728593d822",
+    "git_blob_sha": "1cb89fb894bd23bc1559d213ad03b529c79dc256"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_02.json",
     "bytes": 291,
     "encoding": "utf-8",
-    "sha256": "cf8ed622b30141b25fea3c22c568953171c02ff9d50579a309d4705f9c834907"
+    "sha256": "cf8ed622b30141b25fea3c22c568953171c02ff9d50579a309d4705f9c834907",
+    "git_blob_sha": "8414344b28cfa352afa4a78d9be412659a802b04"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_03.json",
     "bytes": 895,
     "encoding": "utf-8",
-    "sha256": "52fc31bacf3e43304e35abe18ddeef5e7c202b0944f244afec89ae4d638b6ed2"
+    "sha256": "52fc31bacf3e43304e35abe18ddeef5e7c202b0944f244afec89ae4d638b6ed2",
+    "git_blob_sha": "3792c49bc560161e6ae872dbff3df286504734ff"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_04.json",
     "bytes": 1255,
     "encoding": "utf-8",
-    "sha256": "71e8044277c59eac932fc49a57c69cc6cc03d5df4ad9b61a7727c4b0054311e5"
+    "sha256": "71e8044277c59eac932fc49a57c69cc6cc03d5df4ad9b61a7727c4b0054311e5",
+    "git_blob_sha": "f175b9baf7fc55df932ca540b5b44d3981c245f1"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_FullLoad.png",
     "bytes": 82619,
     "encoding": "base64",
-    "sha256": "baf94684db15f8a6dc8a32139b31b14956f430ce927341a2c72e818cd97a476c"
+    "sha256": "baf94684db15f8a6dc8a32139b31b14956f430ce927341a2c72e818cd97a476c",
+    "git_blob_sha": "e49aad20c0e1ff793dac800d2806747974da73c2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_Q4_Efficiency.png",
     "bytes": 126638,
     "encoding": "base64",
-    "sha256": "a4809425150ffe1be1e229dc27567216a2dde26f55cd9241467746a481d5feb4"
+    "sha256": "a4809425150ffe1be1e229dc27567216a2dde26f55cd9241467746a481d5feb4",
+    "git_blob_sha": "348ca1bb17439e3eba36b92b3134cbacac1a9100"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_65kW_OperatingPoints.csv",
     "bytes": 2079,
     "encoding": "utf-8",
-    "sha256": "330092f9857ec3485438903103a799d59ef346fb363e254cbccdc479ce8faa11"
+    "sha256": "330092f9857ec3485438903103a799d59ef346fb363e254cbccdc479ce8faa11",
+    "git_blob_sha": "3288dd1c562d81a0ecce617d1f6e719ae7c288c6"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_AllowedMask.csv",
     "bytes": 25514,
     "encoding": "utf-8",
-    "sha256": "0d5c321e9fe6c27eaa1885a6f04e774fadb1821c76f05eeeb5d93f3fa153ba87"
+    "sha256": "0d5c321e9fe6c27eaa1885a6f04e774fadb1821c76f05eeeb5d93f3fa153ba87",
+    "git_blob_sha": "bb0513b07b3c403bda3a52deb1bc03f0da8f86d2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_ClosedThrottle.csv",
     "bytes": 189,
     "encoding": "utf-8",
-    "sha256": "4bf3c248a70ce6b34224deee34ce1e6d3c8acdb15357b86dd2d4f8f77a9acc42"
+    "sha256": "4bf3c248a70ce6b34224deee34ce1e6d3c8acdb15357b86dd2d4f8f77a9acc42",
+    "git_blob_sha": "2c7bb5c57e42f8e745708ca5a118dcad18d701fd"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s.csv",
     "bytes": 19320,
     "encoding": "utf-8",
-    "sha256": "a43071fea9d1a54989cdf2b5bb1860c83adbba2965ce1ca29fe737fb3c886d09"
+    "sha256": "a43071fea9d1a54989cdf2b5bb1860c83adbba2965ce1ca29fe737fb3c886d09",
+    "git_blob_sha": "2bb84bcf43d457cd083371af980e20100dd31f60"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s_matrix.csv",
     "bytes": 6472,
     "encoding": "utf-8",
-    "sha256": "ba3db4a41230365ae83434a0f551232d33b6df2cddd561692d301f2d392fde09"
+    "sha256": "ba3db4a41230365ae83434a0f551232d33b6df2cddd561692d301f2d392fde09",
+    "git_blob_sha": "2f1f303797e165f60b5e365b8d29b3e21744dd4b"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h.csv",
     "bytes": 19405,
     "encoding": "utf-8",
-    "sha256": "f7e9ab9cdb2881c47382f309337684cd6bd6152d472a7184a7aebffd470979db"
+    "sha256": "f7e9ab9cdb2881c47382f309337684cd6bd6152d472a7184a7aebffd470979db",
+    "git_blob_sha": "066caffac72ac2d14d335a30b3eb652711a1180d"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h_matrix.csv",
     "bytes": 6556,
     "encoding": "utf-8",
-    "sha256": "bc7d8ec5720cf067c140d27b289f5d574ae2370728ca699c7cd7be587b013e21"
+    "sha256": "bc7d8ec5720cf067c140d27b289f5d574ae2370728ca699c7cd7be587b013e21",
+    "git_blob_sha": "540726edf59c6ff9d2bac56d0d22d4c4730ea22c"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_FullLoad.csv",
     "bytes": 6448,
     "encoding": "utf-8",
-    "sha256": "694c9c6726a4e234fbca8ba3226c6c92b65c13667724eb1e4c57d60ef84847f4"
+    "sha256": "694c9c6726a4e234fbca8ba3226c6c92b65c13667724eb1e4c57d60ef84847f4",
+    "git_blob_sha": "4c98b444add207d7f5a02302e4835646af397718"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_AllowedMask.csv",
     "bytes": 22876,
     "encoding": "utf-8",
-    "sha256": "83722399976c9897605d6d4dec6b7a85d4bafe5f4389e90a65b04c7ea5b045e2"
+    "sha256": "83722399976c9897605d6d4dec6b7a85d4bafe5f4389e90a65b04c7ea5b045e2",
+    "git_blob_sha": "1b2c9a35a7104921a18ee99423059eb42668472a"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1.csv",
     "bytes": 10032,
     "encoding": "utf-8",
-    "sha256": "68ed0bba5f0c67b1272af1c9ba6e6e998ffda55fca723f5e60844fa104eb7582"
+    "sha256": "68ed0bba5f0c67b1272af1c9ba6e6e998ffda55fca723f5e60844fa104eb7582",
+    "git_blob_sha": "38e4c0bd31ce29358b8221d864d231cf78017f65"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1Q4.csv",
     "bytes": 20135,
     "encoding": "utf-8",
-    "sha256": "b8ea2f578fccfd1cf50c414fa737898f2d2b96f78b9f85cfeb6dcbf8620b3f1c"
+    "sha256": "b8ea2f578fccfd1cf50c414fa737898f2d2b96f78b9f85cfeb6dcbf8620b3f1c",
+    "git_blob_sha": "ddfe41aa1c14f2d086c93df689c415c7b0f12995"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q4.csv",
     "bytes": 10178,
     "encoding": "utf-8",
-    "sha256": "67de52179ab78e2497c3794d40880eaa1ba520a8c4d94c85c0e9b1f559a7a17c"
+    "sha256": "67de52179ab78e2497c3794d40880eaa1ba520a8c4d94c85c0e9b1f559a7a17c",
+    "git_blob_sha": "dc65ccbc677107d9b08c1e6f28f2ce23097bbe81"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1.csv",
     "bytes": 13045,
     "encoding": "utf-8",
-    "sha256": "ffe529fcdec9634b158dca66a33f2fa0e250b352185fad019a8a7ac6568b168b"
+    "sha256": "ffe529fcdec9634b158dca66a33f2fa0e250b352185fad019a8a7ac6568b168b",
+    "git_blob_sha": "326efe8c0357226e0f0df8248f1de1337280935f"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1Q4.csv",
     "bytes": 26586,
     "encoding": "utf-8",
-    "sha256": "6e962670d9e6a0375039cb1be1fbfc82c034f890e3a7eaae7243605e3ebeef8d"
+    "sha256": "6e962670d9e6a0375039cb1be1fbfc82c034f890e3a7eaae7243605e3ebeef8d",
+    "git_blob_sha": "034298600969d3dd862e5fdce51efd792054fb72"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q4.csv",
     "bytes": 13582,
     "encoding": "utf-8",
-    "sha256": "33d69d72366f551fb5a08a2f7942f731d8c0fc9833b18c6ec9d8a0435f4d999c"
+    "sha256": "33d69d72366f551fb5a08a2f7942f731d8c0fc9833b18c6ec9d8a0435f4d999c",
+    "git_blob_sha": "78824f141755010aa8a4d1421608dcba72310db2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_PowerLoss_W_ALTERNATIVE.csv",
     "bytes": 23271,
     "encoding": "utf-8",
-    "sha256": "7456ab765cc4239ad0add6c16bc068b85d9d2d108c12d404938c69e0b0c7e3ec"
+    "sha256": "7456ab765cc4239ad0add6c16bc068b85d9d2d108c12d404938c69e0b0c7e3ec",
+    "git_blob_sha": "919e94e69949c5abae04f4fb5849741e11151060"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_AllowedMask.csv",
     "bytes": 25514,
     "encoding": "utf-8",
-    "sha256": "692a54bf6887bbd9250403559dde3ae10cd93d137297208d44f9d69d20a03b07"
+    "sha256": "692a54bf6887bbd9250403559dde3ae10cd93d137297208d44f9d69d20a03b07",
+    "git_blob_sha": "516dbd77ec88c388b3fce1834ad82aa9a67d9f91"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_ClosedThrottle.csv",
     "bytes": 188,
     "encoding": "utf-8",
-    "sha256": "83ea0c158e712c9cb4ddf850df77bd36d16fedc4c61d2f52c885c19950389cc1"
+    "sha256": "83ea0c158e712c9cb4ddf850df77bd36d16fedc4c61d2f52c885c19950389cc1",
+    "git_blob_sha": "15efb6080e867d8754914f29b0ad1fa2b87392f9"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s.csv",
     "bytes": 19319,
     "encoding": "utf-8",
-    "sha256": "aaadba2ca8b0ff07337b9b03f2fb1041207f3deba3845c81d9c2ff35bf427c47"
+    "sha256": "aaadba2ca8b0ff07337b9b03f2fb1041207f3deba3845c81d9c2ff35bf427c47",
+    "git_blob_sha": "ca8bdfca39c7eaabba13e3d78b6b784ad12aec21"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s_matrix.csv",
     "bytes": 6471,
     "encoding": "utf-8",
-    "sha256": "f9ebdbec016ab2f8a4557e2d97377462a85997982ee062972f3516cc4cb6ac84"
+    "sha256": "f9ebdbec016ab2f8a4557e2d97377462a85997982ee062972f3516cc4cb6ac84",
+    "git_blob_sha": "74b75ec472b09ecabd7fa5460f6b15a193735818"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h.csv",
     "bytes": 19472,
     "encoding": "utf-8",
-    "sha256": "60c674d9e1f5fca533f13973ccacba86a7419abfe8821135b9aec143e094cfd5"
+    "sha256": "60c674d9e1f5fca533f13973ccacba86a7419abfe8821135b9aec143e094cfd5",
+    "git_blob_sha": "380fedc16e1091aa156d6c37fb1f658b9c6e5c82"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h_matrix.csv",
     "bytes": 6623,
     "encoding": "utf-8",
-    "sha256": "06d6de1e9a1a2b22dd01ba3f39c5b3c085c63f2d9f5e6c607dd004deaa2ba95c"
+    "sha256": "06d6de1e9a1a2b22dd01ba3f39c5b3c085c63f2d9f5e6c607dd004deaa2ba95c",
+    "git_blob_sha": "a51e15cb939ea4a8d559ecf22f121e1502adcd2e"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_FullLoad.csv",
     "bytes": 519,
     "encoding": "utf-8",
-    "sha256": "7eb84be65d8914e4729632f880abeb758c94878f2f846212bafac6a58b7422c8"
+    "sha256": "7eb84be65d8914e4729632f880abeb758c94878f2f846212bafac6a58b7422c8",
+    "git_blob_sha": "ebc55dcf76dfd89e6b301428d0f61d2ccd3cda23"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_AllowedMask.csv",
     "bytes": 20224,
     "encoding": "utf-8",
-    "sha256": "37abaeb4c08c5729cfb19d8e470bb27427818e97356fa18ea989ebab829344e5"
+    "sha256": "37abaeb4c08c5729cfb19d8e470bb27427818e97356fa18ea989ebab829344e5",
+    "git_blob_sha": "22bc74a2d8355ebaebea45385dc5af19010e708d"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1.csv",
     "bytes": 8654,
     "encoding": "utf-8",
-    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d"
+    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d",
+    "git_blob_sha": "42981fdf78f196ea7e90c2ffdc0f009457a17ded"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1Q4.csv",
     "bytes": 17483,
     "encoding": "utf-8",
-    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c"
+    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c",
+    "git_blob_sha": "f0acb464bcabd7a3596ad0ce5e5b5d7be72efcb5"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q4.csv",
     "bytes": 8904,
     "encoding": "utf-8",
-    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c"
+    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c",
+    "git_blob_sha": "a9f0c917e9925017cd0152b87b21db48a0fe23e2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1.csv",
     "bytes": 631,
     "encoding": "utf-8",
-    "sha256": "c73030b0e05f75d319260ac50c023420db3b104f11d82755a7705aed216b9a96"
+    "sha256": "c73030b0e05f75d319260ac50c023420db3b104f11d82755a7705aed216b9a96",
+    "git_blob_sha": "8eeff297d04ce836a79847cc606d621c709e86bf"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1Q4.csv",
     "bytes": 1240,
     "encoding": "utf-8",
-    "sha256": "cde75078aef722eacdcfbcf75b01138ccc848603ccb8618f32df091da75234c3"
+    "sha256": "cde75078aef722eacdcfbcf75b01138ccc848603ccb8618f32df091da75234c3",
+    "git_blob_sha": "e4a2de84f9e0037c5eaa5c846010b9333772afd6"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q4.csv",
     "bytes": 650,
     "encoding": "utf-8",
-    "sha256": "2d5d88c8d1179c594c3d242d37f7252cc0ddd1155c74e89497eab826dc1014d6"
+    "sha256": "2d5d88c8d1179c594c3d242d37f7252cc0ddd1155c74e89497eab826dc1014d6",
+    "git_blob_sha": "6dba998e74e790e0fcc266a9e693e953d31a3554"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_PowerLoss_W_ALTERNATIVE.csv",
     "bytes": 20312,
     "encoding": "utf-8",
-    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2"
+    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2",
+    "git_blob_sha": "338f8a901d864ed09900e379bb84a2cacdabc13d"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_AllowedMask.csv",
     "bytes": 20554,
     "encoding": "utf-8",
-    "sha256": "2af335af51cde75ebd4505770eebcae553fd6c1a0af042be72ee88949bbd89b5"
+    "sha256": "2af335af51cde75ebd4505770eebcae553fd6c1a0af042be72ee88949bbd89b5",
+    "git_blob_sha": "530e54c07f27cf3c9cc60c3eb4b0b3b2fc7015aa"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1.csv",
     "bytes": 8654,
     "encoding": "utf-8",
-    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d"
+    "sha256": "351b3eb355eb1ee960bfba9c927631ea9456caca4304eaa128f2e92f7932e76d",
+    "git_blob_sha": "42981fdf78f196ea7e90c2ffdc0f009457a17ded"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1Q4.csv",
     "bytes": 17483,
     "encoding": "utf-8",
-    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c"
+    "sha256": "7fc6e9c780245ea199cc1e2978692064dea09928ea5fc72fe14d9fb6d0ad5c3c",
+    "git_blob_sha": "f0acb464bcabd7a3596ad0ce5e5b5d7be72efcb5"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q4.csv",
     "bytes": 8904,
     "encoding": "utf-8",
-    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c"
+    "sha256": "4c10e7d594357ac1150515857f50aaddbea7f3674924997997e3cb9bdc5ebc0c",
+    "git_blob_sha": "a9f0c917e9925017cd0152b87b21db48a0fe23e2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1.csv",
     "bytes": 354,
     "encoding": "utf-8",
-    "sha256": "0456a34d32ef72fa520db5304d5d119f4f8e1c6a12dbbcd0468bdb5e3bd5993c"
+    "sha256": "0456a34d32ef72fa520db5304d5d119f4f8e1c6a12dbbcd0468bdb5e3bd5993c",
+    "git_blob_sha": "d5fc3703be3d774104d46ea78d6aa865c75de8f1"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1Q4.csv",
     "bytes": 681,
     "encoding": "utf-8",
-    "sha256": "8649952d44811f126a989f0fb6c2ba10b6d2b5462756fb03f2b4af31e9452c8b"
+    "sha256": "8649952d44811f126a989f0fb6c2ba10b6d2b5462756fb03f2b4af31e9452c8b",
+    "git_blob_sha": "e53c799f5d9bcc4c55f2f58f56abc7c507e9a7ba"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q4.csv",
     "bytes": 368,
     "encoding": "utf-8",
-    "sha256": "b00a077d484ea362a74e4b1abad48d6ed4221823ece1719956b85d9fbdd83a96"
+    "sha256": "b00a077d484ea362a74e4b1abad48d6ed4221823ece1719956b85d9fbdd83a96",
+    "git_blob_sha": "b8db0793738231e34b9b96105e0215f7598cdbb1"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_PowerLoss_W_ALTERNATIVE.csv",
     "bytes": 20312,
     "encoding": "utf-8",
-    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2"
+    "sha256": "6689bc5248b53701b6a5fc03a9418b5d841d6571ce10d418d9f21324a4a638c2",
+    "git_blob_sha": "338f8a901d864ed09900e379bb84a2cacdabc13d"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/Scalar_presets.csv",
     "bytes": 3177,
     "encoding": "utf-8",
-    "sha256": "12bc46e344aded57afecacff6223460259a0b4579e1f397418f803283e092384"
+    "sha256": "12bc46e344aded57afecacff6223460259a0b4579e1f397418f803283e092384",
+    "git_blob_sha": "d1810be12563dbcbc0bffbaab00f5c1b11dfb4dd"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/UI_fields_transcription.csv",
     "bytes": 3006,
     "encoding": "utf-8",
-    "sha256": "ada97a8e056f5f5f38e790b1f9bde3123ce6089e5264997359f0dd357dd11f62"
+    "sha256": "ada97a8e056f5f5f38e790b1f9bde3123ce6089e5264997359f0dd357dd11f62",
+    "git_blob_sha": "7410616af29de9dd3ae79968a74daa0e31f3ba37"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/chart_QA.json",
     "bytes": 4578,
     "encoding": "utf-8",
-    "sha256": "bda73870907eab38f1c416311ed3531aaa21ae37df26e18bf03fd843dc6f06af"
+    "sha256": "bda73870907eab38f1c416311ed3531aaa21ae37df26e18bf03fd843dc6f06af",
+    "git_blob_sha": "6b128a6d1337f932035ca6a3f56a64c570bcd4ae"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/deliverable_manifest.json",
     "bytes": 10285,
     "encoding": "utf-8",
-    "sha256": "53047b7286e625a8e25e9501784deb54ceab8fe2271a82d0caeaa4227e067998"
+    "sha256": "53047b7286e625a8e25e9501784deb54ceab8fe2271a82d0caeaa4227e067998",
+    "git_blob_sha": "c08ce10d0284716b7f301df1868c5612c1adb0db"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/recovery_verification.json",
     "bytes": 1792,
     "encoding": "utf-8",
-    "sha256": "bafc985b55a3a1ff126b51d125f38610529d80f869e7a74505488dff2103f9ea"
+    "sha256": "bafc985b55a3a1ff126b51d125f38610529d80f869e7a74505488dff2103f9ea",
+    "git_blob_sha": "1f2c9046057541700370299a38289e1eef818cf3"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/acquire_and_map_ui.py",
     "bytes": 5719,
     "encoding": "utf-8",
-    "sha256": "7f683254cfc89e1f481bbdf918afacc1c37dc714cd4f82b6c8b092d9af0f0da8"
+    "sha256": "7f683254cfc89e1f481bbdf918afacc1c37dc714cd4f82b6c8b092d9af0f0da8",
+    "git_blob_sha": "42f7c01e800fdf89bc8b71558f7ad958783647c8"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/build_charts.py",
     "bytes": 12509,
     "encoding": "utf-8",
-    "sha256": "ff90309087c76a809e2fa566d65d84a9fb947ebbd2d993822ad411599b6feba2"
+    "sha256": "ff90309087c76a809e2fa566d65d84a9fb947ebbd2d993822ad411599b6feba2",
+    "git_blob_sha": "c353746c283f1420597b52edaa9b7612c1a23e16"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/package_inputs.py",
     "bytes": 15022,
     "encoding": "utf-8",
-    "sha256": "f27b5e43e16854b2e09f9fffadb15bdac0fb14d7271766c7623bc8fa0ea335fa"
+    "sha256": "f27b5e43e16854b2e09f9fffadb15bdac0fb14d7271766c7623bc8fa0ea335fa",
+    "git_blob_sha": "39778e5956aa6bd70dc285f7765a6cc7e5b6ff5a"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/verify_recovery.py",
     "bytes": 2087,
     "encoding": "utf-8",
-    "sha256": "3a66b23e3577bee173e823e6eead6c105886adff406e01f23fc971560144dd75"
+    "sha256": "3a66b23e3577bee173e823e6eead6c105886adff406e01f23fc971560144dd75",
+    "git_blob_sha": "7f701bd61f80fae6cd9c9c38d2b40268e5cfa810"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
     "bytes": 635642,
     "encoding": "utf-8",
-    "sha256": "0912c80d308a224a3a5b07b8103903071eec20112b53a880d06ebec16240c9a3"
+    "sha256": "0912c80d308a224a3a5b07b8103903071eec20112b53a880d06ebec16240c9a3",
+    "git_blob_sha": "ca535c0a2b8ea25061d945f8315e2417a0873b17"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/7- engine_2014_Mazda_Skyactiv_2L0_LEVIII.m",
     "bytes": 14101,
     "encoding": "utf-8",
-    "sha256": "add356f6c0bd60b407d4c48047173607f302a9ed55d5c47c8b4d00db0fc5743b"
+    "sha256": "add356f6c0bd60b407d4c48047173607f302a9ed55d5c47c8b4d00db0fc5743b",
+    "git_blob_sha": "854e07728b3860861e3c3a039646fcf9d21dcaa1"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/process_text.txt",
     "bytes": 27119,
     "encoding": "utf-8",
-    "sha256": "b59799f4cb0f00db962ce312a450247afd404487a334bcfc34a682a3dca1e22c"
+    "sha256": "b59799f4cb0f00db962ce312a450247afd404487a334bcfc34a682a3dca1e22c",
+    "git_blob_sha": "7d2667adff16b4a5e8d0fe65f2383f91d82efa4c"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
     "bytes": 798373,
     "encoding": "utf-8",
-    "sha256": "bf935a803bf7c1be07948cc3a857c6d063bfbf8b8d1e4e03ad19ecba039ab789"
+    "sha256": "bf935a803bf7c1be07948cc3a857c6d063bfbf8b8d1e4e03ad19ecba039ab789",
+    "git_blob_sha": "78ff14aff9e9a7623328150a0daf5e7558a66cf2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/7- emachine_est_2010_Toyota_Prius_60kW_650V_MG1_EMOT.m",
     "bytes": 29294,
     "encoding": "utf-8",
-    "sha256": "19e2fa92a0b468ff52597e1be7acd2684762486238ec24f6c6c2332abde88f61"
+    "sha256": "19e2fa92a0b468ff52597e1be7acd2684762486238ec24f6c6c2332abde88f61",
+    "git_blob_sha": "910910fa00f74b9ab8c7a113a664e69eb7002acc"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/process_text.txt",
     "bytes": 49707,
     "encoding": "utf-8",
-    "sha256": "06f56f84d4ac0985cb7b4860e7879a492319c89a0bb295cd50e548cb8754029c"
+    "sha256": "06f56f84d4ac0985cb7b4860e7879a492319c89a0bb295cd50e548cb8754029c",
+    "git_blob_sha": "7b1d29cb4b2ca548ecba5b0b012f2e944db2568a"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
     "bytes": 783489,
     "encoding": "utf-8",
-    "sha256": "18592513eed18d70ce1bd19de3148c29cd5c5b2cc16ed47ab72a415375a0cb6b"
+    "sha256": "18592513eed18d70ce1bd19de3148c29cd5c5b2cc16ed47ab72a415375a0cb6b",
+    "git_blob_sha": "3ce52b034b97a87818c28430302d296c0e968a8b"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/7- emachine_2010_Toyota_Prius_60kW_650V_MG2_EMOT.m",
     "bytes": 17278,
     "encoding": "utf-8",
-    "sha256": "d44d52ddab0f7784a9e342f85fd5914b094d0296a9ab066826783dca489066c0"
+    "sha256": "d44d52ddab0f7784a9e342f85fd5914b094d0296a9ab066826783dca489066c0",
+    "git_blob_sha": "5e7bc163841d977761f6e71a9e4c411d684f91a9"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/process_text.txt",
     "bytes": 36986,
     "encoding": "utf-8",
-    "sha256": "0c7fb4e250dd2d1835196b1271a5b6208ecde5c2286801507f75dd4139f13cae"
+    "sha256": "0c7fb4e250dd2d1835196b1271a5b6208ecde5c2286801507f75dd4139f13cae",
+    "git_blob_sha": "f79a0dffb025c164fb7478c769f9a0ff4ea146e2"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/ORNL_Leaf_2013_merit_review.pdf",
     "bytes": 3168120,
     "encoding": "base64",
-    "sha256": "e8c74b0f2501c89686877628764fe169288f4765822e86345a41b48c1c297c1b"
+    "sha256": "e8c74b0f2501c89686877628764fe169288f4765822e86345a41b48c1c297c1b",
+    "git_blob_sha": "f7c32d35a56e7c078397d8219500b0bd882d6587"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/manifest.json",
     "bytes": 4705,
     "encoding": "utf-8",
-    "sha256": "28b630921717c358534cc634538666442cdb3950ba23d62f4caa182e425ef1f8"
+    "sha256": "28b630921717c358534cc634538666442cdb3950ba23d62f4caa182e425ef1f8",
+    "git_blob_sha": "13f3e21c58e5cb0ba94a497710536a15bfe8b417"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Input_Guide_20261006.docx",
     "bytes": 235933,
     "encoding": "base64",
-    "sha256": "caa1378a8d790cb21c9e17c6d67813fcb8c1189cfa40bce0d1a795023376ae29"
+    "sha256": "caa1378a8d790cb21c9e17c6d67813fcb8c1189cfa40bce0d1a795023376ae29",
+    "git_blob_sha": "0d1f62f8746c815965571fae77b2e819f887ab2f"
   },
   {
     "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Inputs_20261006.xlsx",
     "bytes": 535633,
     "encoding": "base64",
-    "sha256": "b6a4a51d3dbdf972223e63da4d1c4c7439b2637b9eb79d7c50d101fdb052a805"
+    "sha256": "b6a4a51d3dbdf972223e63da4d1c4c7439b2637b9eb79d7c50d101fdb052a805",
+    "git_blob_sha": "d426727dd3279fb4bd01af9dc3078ada8f915090"
   },
   {
     "path": "research/range_extender_20261006/recovery_scan.json",
     "bytes": 4664,
     "encoding": "utf-8",
-    "sha256": "7ba9bbc843ab4722109b490902bfa440da1c72d0263d5b39254b55c4865951ec"
+    "sha256": "7ba9bbc843ab4722109b490902bfa440da1c72d0263d5b39254b55c4865951ec",
+    "git_blob_sha": "ea79dad080602e1001d9692e9a09e36f358e0973"
   }
 ]

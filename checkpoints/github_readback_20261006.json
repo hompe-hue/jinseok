@@ -1,0 +1,357 @@
+{
+  "data_commit": "0aa56ea76eaa8d0c3e9a25d4ef568b1cb1b7718b",
+  "files_verified": [
+    {
+      "path": "research/range_extender_20261006/RESUME.md",
+      "git_blob_sha": "36a3b10f541e24c0cfd6726a0e8c37f5db622353",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/recovery_scan.json",
+      "git_blob_sha": "ea79dad080602e1001d9692e9a09e36f358e0973",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/Input_Guide_ko.md",
+      "git_blob_sha": "f3785a17f42f692f4fe87a865a2d45ebc6c32975",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_01.json",
+      "git_blob_sha": "1cb89fb894bd23bc1559d213ad03b529c79dc256",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_02.json",
+      "git_blob_sha": "8414344b28cfa352afa4a78d9be412659a802b04",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_03.json",
+      "git_blob_sha": "3792c49bc560161e6ae872dbff3df286504734ff",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/checkpoints/R65C_04.json",
+      "git_blob_sha": "f175b9baf7fc55df932ca540b5b44d3981c245f1",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_FullLoad.png",
+      "git_blob_sha": "e49aad20c0e1ff793dac800d2806747974da73c2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/figures/Virtual_Q4_Efficiency.png",
+      "git_blob_sha": "348ca1bb17439e3eba36b92b3134cbacac1a9100",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_65kW_OperatingPoints.csv",
+      "git_blob_sha": "3288dd1c562d81a0ecce617d1f6e719ae7c288c6",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_AllowedMask.csv",
+      "git_blob_sha": "bb0513b07b3c403bda3a52deb1bc03f0da8f86d2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_ClosedThrottle.csv",
+      "git_blob_sha": "2c7bb5c57e42f8e745708ca5a118dcad18d701fd",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s.csv",
+      "git_blob_sha": "2bb84bcf43d457cd083371af980e20100dd31f60",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_g_s_matrix.csv",
+      "git_blob_sha": "2f1f303797e165f60b5e365b8d29b3e21744dd4b",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h.csv",
+      "git_blob_sha": "066caffac72ac2d14d335a30b3eb652711a1180d",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_Fuel_kg_h_matrix.csv",
+      "git_blob_sha": "540726edf59c6ff9d2bac56d0d22d4c4730ea22c",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Engine15NA80_FullLoad.csv",
+      "git_blob_sha": "4c98b444add207d7f5a02302e4835646af397718",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_AllowedMask.csv",
+      "git_blob_sha": "1b2c9a35a7104921a18ee99423059eb42668472a",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1.csv",
+      "git_blob_sha": "38e4c0bd31ce29358b8221d864d231cf78017f65",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q1Q4.csv",
+      "git_blob_sha": "ddfe41aa1c14f2d086c93df689c415c7b0f12995",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_Efficiency_Q4.csv",
+      "git_blob_sha": "dc65ccbc677107d9b08c1e6f28f2ce23097bbe81",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1.csv",
+      "git_blob_sha": "326efe8c0357226e0f0df8248f1de1337280935f",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q1Q4.csv",
+      "git_blob_sha": "034298600969d3dd862e5fdce51efd792054fb72",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_FullLoad_Q4.csv",
+      "git_blob_sha": "78824f141755010aa8a4d1421608dcba72310db2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/A_Gen80_MG1EST_PowerLoss_W_ALTERNATIVE.csv",
+      "git_blob_sha": "919e94e69949c5abae04f4fb5849741e11151060",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_AllowedMask.csv",
+      "git_blob_sha": "516dbd77ec88c388b3fce1834ad82aa9a67d9f91",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_ClosedThrottle.csv",
+      "git_blob_sha": "15efb6080e867d8754914f29b0ad1fa2b87392f9",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s.csv",
+      "git_blob_sha": "ca8bdfca39c7eaabba13e3d78b6b784ad12aec21",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_g_s_matrix.csv",
+      "git_blob_sha": "74b75ec472b09ecabd7fa5460f6b15a193735818",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h.csv",
+      "git_blob_sha": "380fedc16e1091aa156d6c37fb1f658b9c6e5c82",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_Fuel_kg_h_matrix.csv",
+      "git_blob_sha": "a51e15cb939ea4a8d559ecf22f121e1502adcd2e",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_Engine20NA_FullLoad.csv",
+      "git_blob_sha": "ebc55dcf76dfd89e6b301428d0f61d2ccd3cda23",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_AllowedMask.csv",
+      "git_blob_sha": "22bc74a2d8355ebaebea45385dc5af19010e708d",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1.csv",
+      "git_blob_sha": "42981fdf78f196ea7e90c2ffdc0f009457a17ded",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q1Q4.csv",
+      "git_blob_sha": "f0acb464bcabd7a3596ad0ce5e5b5d7be72efcb5",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_Efficiency_Q4.csv",
+      "git_blob_sha": "a9f0c917e9925017cd0152b87b21db48a0fe23e2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1.csv",
+      "git_blob_sha": "8eeff297d04ce836a79847cc606d621c709e86bf",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q1Q4.csv",
+      "git_blob_sha": "e4a2de84f9e0037c5eaa5c846010b9333772afd6",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_FullLoad_Q4.csv",
+      "git_blob_sha": "6dba998e74e790e0fcc266a9e693e953d31a3554",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG1_EST_PowerLoss_W_ALTERNATIVE.csv",
+      "git_blob_sha": "338f8a901d864ed09900e379bb84a2cacdabc13d",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_AllowedMask.csv",
+      "git_blob_sha": "530e54c07f27cf3c9cc60c3eb4b0b3b2fc7015aa",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1.csv",
+      "git_blob_sha": "42981fdf78f196ea7e90c2ffdc0f009457a17ded",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q1Q4.csv",
+      "git_blob_sha": "f0acb464bcabd7a3596ad0ce5e5b5d7be72efcb5",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_Efficiency_Q4.csv",
+      "git_blob_sha": "a9f0c917e9925017cd0152b87b21db48a0fe23e2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1.csv",
+      "git_blob_sha": "d5fc3703be3d774104d46ea78d6aa865c75de8f1",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q1Q4.csv",
+      "git_blob_sha": "e53c799f5d9bcc4c55f2f58f56abc7c507e9a7ba",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_FullLoad_Q4.csv",
+      "git_blob_sha": "b8db0793738231e34b9b96105e0215f7598cdbb1",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/REF_MG2_PowerLoss_W_ALTERNATIVE.csv",
+      "git_blob_sha": "338f8a901d864ed09900e379bb84a2cacdabc13d",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/Scalar_presets.csv",
+      "git_blob_sha": "d1810be12563dbcbc0bffbaab00f5c1b11dfb4dd",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/inputs/UI_fields_transcription.csv",
+      "git_blob_sha": "7410616af29de9dd3ae79968a74daa0e31f3ba37",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/chart_QA.json",
+      "git_blob_sha": "6b128a6d1337f932035ca6a3f56a64c570bcd4ae",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/deliverable_manifest.json",
+      "git_blob_sha": "c08ce10d0284716b7f301df1868c5612c1adb0db",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/logs/recovery_verification.json",
+      "git_blob_sha": "1f2c9046057541700370299a38289e1eef818cf3",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/acquire_and_map_ui.py",
+      "git_blob_sha": "42f7c01e800fdf89bc8b71558f7ad958783647c8",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/build_charts.py",
+      "git_blob_sha": "c353746c283f1420597b52edaa9b7612c1a23e16",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/package_inputs.py",
+      "git_blob_sha": "39778e5956aa6bd70dc285f7765a6cc7e5b6ff5a",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/scripts/verify_recovery.py",
+      "git_blob_sha": "7f701bd61f80fae6cd9c9c38d2b40268e5cfa810",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/3- 2014 Mazda 2.0L SKYACTIV Engine LEV III Fuel - ALPHA Generation Process.html",
+      "git_blob_sha": "ca535c0a2b8ea25061d945f8315e2417a0873b17",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/7- engine_2014_Mazda_Skyactiv_2L0_LEVIII.m",
+      "git_blob_sha": "854e07728b3860861e3c3a039646fcf9d21dcaa1",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Mazda20_NA_Tier2_ALPHA/process_text.txt",
+      "git_blob_sha": "7d2667adff16b4a5e8d0fe65f2383f91d82efa4c",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/3a- EST 2010 Toyota Prius 60kW 650V MG1 EMOT - ALPHA Generation Process.html",
+      "git_blob_sha": "78ff14aff9e9a7623328150a0daf5e7558a66cf2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/7- emachine_est_2010_Toyota_Prius_60kW_650V_MG1_EMOT.m",
+      "git_blob_sha": "910910fa00f74b9ab8c7a113a664e69eb7002acc",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG1_EST_ALPHA/process_text.txt",
+      "git_blob_sha": "7b1d29cb4b2ca548ecba5b0b012f2e944db2568a",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/3a- 2010 Toyota Prius 60kW 650V MG2 EMOT - ALPHA Generation Process.html",
+      "git_blob_sha": "3ce52b034b97a87818c28430302d296c0e968a8b",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/7- emachine_2010_Toyota_Prius_60kW_650V_MG2_EMOT.m",
+      "git_blob_sha": "5e7bc163841d977761f6e71a9e4c411d684f91a9",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/EPA_Prius_MG2_ALPHA/process_text.txt",
+      "git_blob_sha": "f79a0dffb025c164fb7478c769f9a0ff4ea146e2",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/ORNL_Leaf_2013_merit_review.pdf",
+      "git_blob_sha": "f7c32d35a56e7c078397d8219500b0bd882d6587",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M/sources/manifest.json",
+      "git_blob_sha": "13f3e21c58e5cb0ba94a497710536a15bfe8b417",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Input_Guide_20261006.docx",
+      "git_blob_sha": "0d1f62f8746c815965571fae77b2e819f887ab2f",
+      "verified": true
+    },
+    {
+      "path": "research/range_extender_20261006/RangeExtender_CRUISE_M_Inputs_20261006.xlsx",
+      "git_blob_sha": "d426727dd3279fb4bd01af9dc3078ada8f915090",
+      "verified": true
+    }
+  ],
+  "all_70_matched": true,
+  "updated_RESUME_note_requires_final_readback": true
+}
