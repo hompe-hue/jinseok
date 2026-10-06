@@ -1,0 +1,98 @@
+{
+  "stage": "VGEN_03",
+  "status": "VOLT_GEN2_INPUT_CANDIDATES_SAVED_AND_GITHUB_VERIFIED",
+  "repository": "hompe-hue/jinseok",
+  "research_path": "research/bolt_volt_genset_20261006",
+  "verified_file_count": 19,
+  "verified_at_commit": "e9e415f43282bace19c1e3dfbbf4a7ad6a5423f3",
+  "CRUISE_M_executed": false,
+  "OEM_raw_numeric_maps_obtained": false,
+  "Q4_map_independently_measured": false,
+  "voltage_temperature_test_conditions_confirmed": false,
+  "existing_Bolt_model_and_controller_modified": false,
+  "artifacts": [
+    "Bolt_Volt_EREV_Input_Data_20261006.xlsx",
+    "Bolt_Volt_EREV_Data_Guide_20261006.docx",
+    "Bolt_Volt_EREV_Data_Kit_20261006.zip",
+    "Volt_Gen2_Reference_Sources_20261006.zip"
+  ],
+  "next_required": "Validate donor map test conditions and TPIM boundary, starting/thermal parameters and added mass; import candidate into separate Bolt virtual series EREV variant; retain independent Bolt BEV validation.",
+  "verified_files": [
+    {
+      "path": "research/bolt_volt_genset_20261006/README_가상EREV.md",
+      "git_blob_sha": "ce64e26ac8cfce828782e6af452a52f682551bb7"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/scripts/reconstruct_maps.py",
+      "git_blob_sha": "6c1743e67799712bbeffa2a8f4eb8f969d596888"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/scripts/build_deliverables.py",
+      "git_blob_sha": "c5e468aed5b077a153ec3223f056af39d0a41944"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/component_parameters.csv",
+      "git_blob_sha": "dbc6d1ced519fe1090d34de3738e3fb360d91a3f"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/source_register.csv",
+      "git_blob_sha": "223206cde96f2effe31e4cb129129377dcc078a8"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/CRUISE_field_mapping.csv",
+      "git_blob_sha": "7e1f3f8fde22c1601c4278241efb681b8a722826"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/L3A_CRUISE_PREVIEW_assumed_axes.csv",
+      "git_blob_sha": "15f1069137c4517cbe928f29fd81a6645ec998aa"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/L3A_FullLoad_CRUISE_PREVIEW.csv",
+      "git_blob_sha": "2da23b2b3a7f67b5d5516d9214aa104341d7b095"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/MGA_CRUISE_PREVIEW_assumed_axes.csv",
+      "git_blob_sha": "77877b2fb09a1b50551d3e226e83d68364559420"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/MGA_FullLoad_CRUISE_PREVIEW.csv",
+      "git_blob_sha": "25cd03e5fe37cf6e9d933015e0b70cadb6ccb8ad"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/MGB_CRUISE_PREVIEW_assumed_axes.csv",
+      "git_blob_sha": "e2609326a6459e0f0442086c51221c05cd8d861e"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/MGB_FullLoad_CRUISE_PREVIEW.csv",
+      "git_blob_sha": "820488758dab88ef181f3736bfc2870663942b00"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/genset_peak_sweep.csv",
+      "git_blob_sha": "8175ff0e76af3e714107c2dc39f125b99cb3089f"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/genset_target_candidates.csv",
+      "git_blob_sha": "7075ed0fc75785615441ab4650d3df79f47a8369"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/inputs/contour_legend.csv",
+      "git_blob_sha": "2fe0939e57e063b2e230390626c9cf912817ed73"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/results/audit.json",
+      "git_blob_sha": "865c52def45925d79b6bab588129a44ede098fa3"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/results/quality_checks.json",
+      "git_blob_sha": "c5efaed447a24bda296fc31b24e6a9e44f386648"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/file_manifest_sha256.csv",
+      "git_blob_sha": "1f38db46a20730527ea2fb8c89929ff190b66fc3"
+    },
+    {
+      "path": "research/bolt_volt_genset_20261006/checkpoints/VGEN_02.json",
+      "git_blob_sha": "eb31f824454b1215d97bc4c35f0d813fdbd44ef6"
+    }
+  ]
+}
