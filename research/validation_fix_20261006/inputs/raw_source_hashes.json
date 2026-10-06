@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/raw_tdms/anl_charge.tdms",
+    "sha256": "ef946d0bfefd96ba6c5031fe4de7f88371c88bbcd4089d0ad8f0af53613582ea",
+    "bytes": 43567568
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/raw_tdms/anl_deplete.tdms",
+    "sha256": "5680c75633dfcab2403269a3e313316f7d8c116a7c7fb845cd3a204a6098c11b",
+    "bytes": 189260312
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/raw_tdms/anl_drive.tdms",
+    "sha256": "41e394c2e8bc464556a3c5394b86065d7d61e273852c2ed2a7ac3d913b3f70a2",
+    "bytes": 22821784
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/sources/ANL2017_Bolt_TestSummary_20240925.pdf",
+    "sha256": "8e61bcf13ab8ea295c07b6c8013c8f818944e5cf259b13347ded942a9f75800a",
+    "bytes": 1662880
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/sources/NREL_TP5500_75323.pdf",
+    "sha256": "f6394516264d93126116f2f421ecd4bd61c47c1aaabe26e87320317a1aab7c52",
+    "bytes": 10604578
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/sources/gm_2017_bolt_bulletin.pdf",
+    "sha256": "e589e59e1b001139b5a1ea4407899c6da470f62cdbcc2b42a5865dc7c5056c7a",
+    "bytes": 5859770
+  }
+]
