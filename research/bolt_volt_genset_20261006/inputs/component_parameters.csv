@@ -1,0 +1,32 @@
+component,field,value,unit,source,status,note
+Engine,RPO,L3A,-,S02,SOURCED,Gen2 2016-2019 donor; do not mix Gen1 1.4L
+Engine,Displacement,1.5,L,"S01,S02",SOURCED,"Inline4,4-stroke,naturally aspirated,gasoline DI"
+Engine,Cylinder_count,4,-,S02,SOURCED,
+Engine,Compression_ratio,12.5,-,S01,SOURCED,
+Engine,Peak_power,75,kW,S02,SOURCED,At5600rpm; not net electric power
+Engine,Peak_power_speed,5600,rpm,S02,SOURCED,
+Engine,Peak_torque,140,Nm,S02,SOURCED,At4300rpm
+Engine,Peak_torque_speed,4300,rpm,S02,SOURCED,
+Engine,Fuel,regular unleaded,-,"S01,S02",SOURCED,Fuel LHV/density in map source not confirmed
+MGA,Machine_type,PMAC synchronous ferrite,-,"S04,S08",SOURCED,"Select PM synchronous option, not screenshot asynchronous default"
+MGA,Peak_power,48,kW,"S02,S08",SOURCED,Peak/nameplate; not standalone net continuous generating power
+MGA,Peak_torque,118,Nm,S08,SOURCED,Torque ceiling alone cannot fill speed envelope
+MGB,Machine_type,PMAC synchronous NdFeB,-,"S04,S08",SOURCED,Alternative generator only; Bolt traction unit retained
+MGB,Peak_power,87,kW,"S02,S08",SOURCED,Alternative topology with new generator role; not 87kW net rating
+MGB,Peak_torque,280,Nm,S08,SOURCED,
+Volt vehicle,Reported_generating_power,45,kW,S02,SOURCED,Vehicle level entry; not independent MGA continuous rating
+Volt vehicle,Nominal_DC_voltage,360,V,S02,SOURCED,"Nominal vehicle pack value, not source map test voltage"
+Map preview,Voltage_axis,360,V,Assumption,ASSUMED,One placeholder axis; no voltage dependence or Bolt terminal range validated
+Map preview,Temperature_axis,25,degC,Assumption,ASSUMED,One placeholder axis; NOT measured map temperature
+Fuel conversion,LHV,43,MJ/kg,Assumption,ASSUMED,Changing LHV changes inferred fuel; BSFC=3600/(eta*LHV)
+Series coupling,Ratio_gen_over_engine,2,-,Assumption,ASSUMED,26kW warm operating-point candidate; sweep alternatives included
+Series coupling,Mechanical_efficiency,0.98,fraction,Assumption,ASSUMED,
+TPIM,Efficiency,0.98,fraction,Assumption,ASSUMED,Separate from machine eta; source machine/TPIM boundary needs OEM confirmation
+DC/DC,Efficiency,0.98,fraction,Assumption,ASSUMED,Additional conversion if implemented; bypass scenario=1.0; common-bus voltage feasibility still required
+Genset auxiliary,Power,0.5,kW,Assumption,ASSUMED,"Pump/fan/controller illustrative load, not Volt measurement"
+Engine,Inertia,,kg m2,Missing,REQUIRED_FOR_DYNAMICS,Do not reuse screenshot .134 as OEM value
+Generator,Inertia,,kg m2,Missing,REQUIRED_FOR_DYNAMICS,Do not reuse screenshot .05 as OEM value
+Generator,Continuous_thermal_rating,,kW,Missing,REQUIRED_FOR_CONTINUOUS_CLAIMS,"Need coolant flow/temperature, winding limits, duration"
+Vehicle,Added_genset_mass,,kg,Missing,REQUIRED_FOR_VEHICLE_COMPARISON,Engine+MG+mount+fuel+exhaust+cooling+TPIM/DC/DC; entire5ET50 mass cannot represent isolated generator
+Engine,Idle_start_fuel_map,,g/s,Missing,REQUIRED_FOR_ABSOLUTE_FUEL,No zero-power fuel from BSFC; startup thermal/catalyst penalties and cranking separate
+Generator,Safe_max_speed,,rpm,Missing,REQUIRED_FOR_HARDWARE_CLAIMS,Figure ends10000; not demonstrated mechanical limit
