@@ -1,0 +1,14 @@
+{
+  "test_origin": "SYNTHETIC_FIXTURE_NOT_CRUISE_M",
+  "checks_passed": [
+    "distance_units",
+    "battery_DC_energy_units",
+    "fuel_mass_units",
+    "unverified_metadata_rejected",
+    "outside_full_load_detected",
+    "duplicate_time_rejected",
+    "SOC_percent_rejected",
+    "unequal_terminal_energy_rejected"
+  ],
+  "CRUISE_M_executed": false
+}
