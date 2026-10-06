@@ -1,0 +1,1 @@
+time_s,speed_kmh,motor_speed_rpm,motor_torque_Nm,pack_voltage_V,pack_current_A,soc_fraction,fuel_g_s,engine_on,stored_energy_kWh
