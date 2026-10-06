@@ -1,0 +1,53 @@
+{
+  "source_sha256": "c64b8ddc4219d275d96064b0f9d707c541434e80530b094e37eccf086a35cc09",
+  "qa": {
+    "L3A": {
+      "contour_vertices": 10072,
+      "unique_vertices": 5089,
+      "grid_points": 528,
+      "preview_rows": 528,
+      "rejected_grid_points": 97,
+      "vertex_reconstruction_max_abs": 1.6653345369377348e-16,
+      "max_eta_grid_pct": 36.00000000000001,
+      "cap_interpretation": "scenario ceiling; nameplate is not continuous thermal rating"
+    },
+    "MGA": {
+      "contour_vertices": 9450,
+      "unique_vertices": 4730,
+      "grid_points": 657,
+      "preview_rows": 1314,
+      "rejected_grid_points": 447,
+      "vertex_reconstruction_max_abs": 5.551115123125783e-16,
+      "max_eta_grid_pct": 94.0,
+      "cap_interpretation": "scenario ceiling; nameplate is not continuous thermal rating"
+    },
+    "MGB": {
+      "contour_vertices": 7442,
+      "unique_vertices": 3728,
+      "grid_points": 690,
+      "preview_rows": 1380,
+      "rejected_grid_points": 654,
+      "vertex_reconstruction_max_abs": 3.638200851696638e-13,
+      "max_eta_grid_pct": 96.00000000000001,
+      "cap_interpretation": "scenario ceiling; nameplate is not continuous thermal rating"
+    }
+  },
+  "assumptions": {
+    "generator_rpm_over_engine_rpm": "fixed values [.45,.5,.6,.75,1,1.25,1.5,2]; new coupling, not Voltec PG ratio",
+    "coupling_efficiency": 0.98,
+    "inverter_efficiency": 0.98,
+    "DC_DC_efficiency": 0.98,
+    "genset_aux_kW": 0.5,
+    "LHV_MJ_kg": 43,
+    "full_load_margin": 0.97,
+    "thermal": "warm steady-state; no continuous rating or starting map established",
+    "temperature_axis_degC": 25,
+    "voltage_axis_V": 360,
+    "voltage_basis": "vehicle nominal voltage; map test voltage unconfirmed",
+    "Q4": "positive speed negative torque; eta(|T|) mirrored from published positive map, not independently measured",
+    "generator_map_boundary": "machine map provisionally excludes TPIM; confirm OEM source before claiming absolute fuel/range",
+    "extrapolation": "disabled; LinearND inside contour hull; highest enclosed island capped at highest retained contour",
+    "fuel_source": "eta digitized from secondary reconstruction of Conlon2015; not measured fuel grid"
+  },
+  "actual_CRUISE_M_run": false
+}
