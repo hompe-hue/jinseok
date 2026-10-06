@@ -1,0 +1,9 @@
+{
+  "stage": "VFIX_02",
+  "status": "OFFLINE_BATTERY_AND_MAP_AUDIT_COMPLETE",
+  "CRUISE_M_executed": false,
+  "battery_discharge_validation_passed": false,
+  "SOC_definition_identified": "ANL channels separated; NREL CAN subtype not established",
+  "EDU_measured_Q4_points": 0,
+  "existing_inputs_modified": false
+}
