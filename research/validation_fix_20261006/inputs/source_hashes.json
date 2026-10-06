@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/ANL_61905054_selected_native_rows.csv",
+    "sha256": "c3b02d2a66138a69a6260b01533f47210721fb2a444bedb74fad5dba4b754844",
+    "bytes": 2608919
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/ANL_61905065_selected_native_rows.csv",
+    "sha256": "045de2ba58a6667588d36be7b2068995d158c316264e677f1d1588204ec98280",
+    "bytes": 8230653
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/ANL_61905064_selected_native_rows.csv",
+    "sha256": "7935938cfb794533bade88c2e19ee8906f83127623ea4b5a373dd26c4a3b36a7",
+    "bytes": 21674053
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/bolt_power_loss_long.csv",
+    "sha256": "4d0b2df50bdde7a7f611bddd86e0a8279703b493a84bb5551bd115fc6fc6f001",
+    "bytes": 22473
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/bolt_full_load_limits.csv",
+    "sha256": "794e5d69e7b3e79ca2d2cd06aa311cc0336989948a382915ca3dffd6bf6df108",
+    "bytes": 1602
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/bolt_test_hull_mask.csv",
+    "sha256": "e6f119a56722b3903c82fb40885b49794ca5a50302b6a0cfefa995288cca6162",
+    "bytes": 6742
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/data/bolt_measured_test_points.csv",
+    "sha256": "d04cad71a55f362172449805daeb8dc1a3273def75dff7c517acbf334c40bc6b",
+    "bytes": 23797
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/public_inputs/Bolt_CRUISE_M_DataKit/sources/bolt_edu/process_clean.txt",
+    "sha256": "92789114e39d78c2db6fbee466c6da3d26ee4646b5086bb9b736468a87b15b30",
+    "bytes": 17470
+  },
+  {
+    "path": "/workspace/scratch/ea311d3bfe53/validation_sources/raw_reference/sources/NREL_TP5500_75323.pdf",
+    "sha256": "f6394516264d93126116f2f421ecd4bd61c47c1aaabe26e87320317a1aab7c52",
+    "bytes": 10604578
+  }
+]
