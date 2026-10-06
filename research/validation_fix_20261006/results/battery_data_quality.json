@@ -1,0 +1,179 @@
+[
+  {
+    "test": "61905054",
+    "phase_start_row_zero_based": 260,
+    "phase_stop_row_exclusive": 11710,
+    "native_phase_rows": 11450,
+    "unique_meter_rows": 11450,
+    "duplicate_meter_rows": 0,
+    "invalid_voltage_or_current_rows": 0,
+    "integrated_valid_seconds": 1144.8989081382751,
+    "phase_declared_seconds": 1144.8989081382751,
+    "coverage_fraction": 1.0,
+    "integrated_valid_Ah": 5.490849620027416,
+    "integrated_valid_meter_Wh": 2155.018045705633,
+    "declared_phase_Ah": 5.543,
+    "declared_phase_Wh": 2172.0,
+    "meter_power_minus_VI_median_kW": 0.012810294037527203,
+    "temperature_min_degC": 22.0,
+    "temperature_max_degC": 22.5,
+    "no_silent_gap_integration": true,
+    "SOC_channels": [
+      {
+        "channel": "displayed_SOC_percent",
+        "minimum": 98.025,
+        "maximum": 99.9855,
+        "aligned_valid_rows": 11449
+      },
+      {
+        "channel": "internal_SOC_HPCM2_percent",
+        "minimum": 93.688,
+        "maximum": 96.824,
+        "aligned_valid_rows": 11449
+      },
+      {
+        "channel": "internal_SOC_HPCM_percent",
+        "minimum": 93.296,
+        "maximum": 96.432,
+        "aligned_valid_rows": 11449
+      }
+    ],
+    "apparent_endpoint_capacity_not_cell_capacity": [
+      {
+        "channel": "displayed_SOC_percent",
+        "initial_SOC_percent": 99.9855,
+        "terminal_SOC_percent": 98.025,
+        "valid_segment_net_Ah": 5.490812205078926,
+        "apparent_Ah_per_unit_channel_SOC": 280.0720329037968,
+        "replayed_terminal_SOC_percent_assuming_168Ah": 96.71715940173874,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      },
+      {
+        "channel": "internal_SOC_HPCM2_percent",
+        "initial_SOC_percent": 96.824,
+        "terminal_SOC_percent": 93.688,
+        "valid_segment_net_Ah": 5.490812205078926,
+        "apparent_Ah_per_unit_channel_SOC": 175.08967490685376,
+        "replayed_terminal_SOC_percent_assuming_168Ah": 93.55565940173874,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      },
+      {
+        "channel": "internal_SOC_HPCM_percent",
+        "initial_SOC_percent": 96.432,
+        "terminal_SOC_percent": 93.296,
+        "valid_segment_net_Ah": 5.490812205078926,
+        "apparent_Ah_per_unit_channel_SOC": 175.08967490685376,
+        "replayed_terminal_SOC_percent_assuming_168Ah": 93.16365940173874,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      }
+    ]
+  },
+  {
+    "test": "61905064",
+    "phase_start_row_zero_based": 210,
+    "phase_stop_row_exclusive": 101461,
+    "native_phase_rows": 101251,
+    "unique_meter_rows": 101057,
+    "duplicate_meter_rows": 194,
+    "invalid_voltage_or_current_rows": 353,
+    "integrated_valid_seconds": 10070.189205169678,
+    "phase_declared_seconds": 10104.923525333406,
+    "coverage_fraction": 0.9965626340390753,
+    "integrated_valid_Ah": 136.31655458904186,
+    "integrated_valid_meter_Wh": 46640.26443464986,
+    "declared_phase_Ah": 137.236,
+    "declared_phase_Wh": 46903.0,
+    "meter_power_minus_VI_median_kW": 0.008348454662428395,
+    "temperature_min_degC": 24.0,
+    "temperature_max_degC": 30.5,
+    "no_silent_gap_integration": true,
+    "SOC_channels": [
+      {
+        "channel": "displayed_SOC_percent",
+        "minimum": 0.7842,
+        "maximum": 80.7726,
+        "aligned_valid_rows": 100698
+      },
+      {
+        "channel": "internal_SOC_HPCM2_percent",
+        "minimum": 4.704000000000001,
+        "maximum": 79.968,
+        "aligned_valid_rows": 100698
+      },
+      {
+        "channel": "internal_SOC_HPCM_percent",
+        "minimum": 4.704000000000001,
+        "maximum": 79.57600000000001,
+        "aligned_valid_rows": 100698
+      }
+    ],
+    "apparent_endpoint_capacity_not_cell_capacity": [
+      {
+        "channel": "displayed_SOC_percent",
+        "initial_SOC_percent": 80.7726,
+        "terminal_SOC_percent": 0.7842,
+        "valid_segment_net_Ah": 136.31636972293632,
+        "apparent_Ah_per_unit_channel_SOC": 170.4201730787668,
+        "replayed_terminal_SOC_percent_assuming_168Ah": -0.36809626365257486,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      },
+      {
+        "channel": "internal_SOC_HPCM2_percent",
+        "initial_SOC_percent": 79.968,
+        "terminal_SOC_percent": 4.704000000000001,
+        "valid_segment_net_Ah": 136.31636972293632,
+        "apparent_Ah_per_unit_channel_SOC": 181.11762558851018,
+        "replayed_terminal_SOC_percent_assuming_168Ah": -1.1726962636525684,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      },
+      {
+        "channel": "internal_SOC_HPCM_percent",
+        "initial_SOC_percent": 79.57600000000001,
+        "terminal_SOC_percent": 4.704000000000001,
+        "valid_segment_net_Ah": 136.31636972293632,
+        "apparent_Ah_per_unit_channel_SOC": 182.06588540834528,
+        "replayed_terminal_SOC_percent_assuming_168Ah": -1.5646962636525643,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      }
+    ]
+  },
+  {
+    "test": "61905065",
+    "phase_start_row_zero_based": 21,
+    "phase_stop_row_exclusive": 63977,
+    "native_phase_rows": 63956,
+    "unique_meter_rows": 63940,
+    "duplicate_meter_rows": 16,
+    "invalid_voltage_or_current_rows": 29712,
+    "integrated_valid_seconds": 34226.0,
+    "phase_declared_seconds": 63934.54905462265,
+    "coverage_fraction": 0.5353287151639863,
+    "integrated_valid_Ah": -169.37281273924432,
+    "integrated_valid_meter_Wh": -60809.397827229084,
+    "declared_phase_Ah": -167.787,
+    "declared_phase_Wh": -60319.0,
+    "meter_power_minus_VI_median_kW": 0.010997832949688924,
+    "temperature_min_degC": 28.0,
+    "temperature_max_degC": 30.0,
+    "no_silent_gap_integration": true,
+    "SOC_channels": [
+      {
+        "channel": "displayed_SOC_percent",
+        "minimum": 0.0,
+        "maximum": 99.9855,
+        "aligned_valid_rows": 34228
+      }
+    ],
+    "apparent_endpoint_capacity_not_cell_capacity": [
+      {
+        "channel": "displayed_SOC_percent",
+        "initial_SOC_percent": 0.0,
+        "terminal_SOC_percent": 99.9855,
+        "valid_segment_net_Ah": -169.37281273924432,
+        "apparent_Ah_per_unit_channel_SOC": 169.39737535867133,
+        "replayed_terminal_SOC_percent_assuming_168Ah": 100.8171504400264,
+        "note": "Channel-based endpoint estimate; excludes invalid segments; not a measured usable or chemical capacity. Initial/full SOC plateaus can distort this estimate."
+      }
+    ]
+  }
+]
