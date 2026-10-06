@@ -23,5 +23,6 @@
     "Matched test conditions and AC/DC label boundary",
     "EREV transient fuel and depletion mission definition"
   ],
-  "artifact_scope": "The tables and scripts resolve input provenance and comparison rules; they do not establish a validated full-SOC battery or empirical EREV fuel/range."
+  "artifact_scope": "The tables and scripts resolve input provenance and comparison rules; they do not establish a validated full-SOC battery or empirical EREV fuel/range.",
+  "revision": "Retain physical low-voltage discharge tail; broad 200-450V screen is not a BMS limit; meter/declared duration separated."
 }
