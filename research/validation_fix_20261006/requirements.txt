@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+nptdms
+openpyxl
+python-docx
+nbformat
+nbclient
+ipykernel
