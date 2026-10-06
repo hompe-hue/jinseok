@@ -1,0 +1,17 @@
+[
+  {
+    "check": "L3A exported limits/sign/units",
+    "passed": true,
+    "interpretation": "Internal reconstruction consistency; not independent validation"
+  },
+  {
+    "check": "MGA exported limits/sign/units",
+    "passed": true,
+    "interpretation": "Internal reconstruction consistency; not independent validation"
+  },
+  {
+    "check": "MGB exported limits/sign/units",
+    "passed": true,
+    "interpretation": "Internal reconstruction consistency; not independent validation"
+  }
+]
