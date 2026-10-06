@@ -44,7 +44,9 @@ def battery(source, raw):
         meter=d[meter_cols].dropna().groupby('meter_clock_s').median().sort_index()
         t=meter.index.to_numpy(); v=meter.meter_pack_voltage_V.to_numpy()
         i=meter.meter_pack_current_A_discharge_positive.to_numpy(); power=meter.meter_pack_power_kW_discharge_positive.to_numpy()
-        valid=(v>=280)&(v<=430)&np.isfinite(i)&(np.abs(i)<=1000)
+        # Retain the physical low-voltage discharge tail (275.77–279.99 V).
+        # This is a broad data-plausibility screen, not an inferred BMS limit.
+        valid=(v>=200)&(v<=450)&np.isfinite(i)&(np.abs(i)<=1000)
         q,duration=segment_integral(t,i,valid); e,_=segment_integral(t,power,valid)
         temp=align_can(d,t,'battery_temperature_CAN_degC')
         pair=valid&np.isfinite(temp)
@@ -52,13 +54,16 @@ def battery(source, raw):
         report={'test':test,'phase_start_row_zero_based':start,'phase_stop_row_exclusive':stop,
                 'native_phase_rows':len(d),'unique_meter_rows':len(t),'duplicate_meter_rows':len(d)-len(t),
                 'invalid_voltage_or_current_rows':int((~valid).sum()),'integrated_valid_seconds':duration,
-                'phase_declared_seconds':phase_duration,'coverage_fraction':duration/phase_duration,
+                'phase_declared_seconds':phase_duration,'meter_phase_span_s':float(t[-1]-t[0]),
+                'coverage_fraction':duration/float(t[-1]-t[0]),
+                'integrated_duration_to_declared_phase_duration_ratio':duration/phase_duration,
                 'integrated_valid_Ah':q/3600,'integrated_valid_meter_Wh':e/3.6,
                 'declared_phase_Ah':float(props['Phase_1_Elec_Ahr_Ahr']),
                 'declared_phase_Wh':float(props['Phase_1_Elec_Whr_Whr']),
                 'meter_power_minus_VI_median_kW':float(np.median((power-v*i/1000)[valid])),
                 'temperature_min_degC':float(temp[pair].min()),'temperature_max_degC':float(temp[pair].max()),
-                'no_silent_gap_integration':True,'SOC_channels':[]}
+                'no_silent_gap_integration':True,'analysis_voltage_filter_V':[200,450],
+                'analysis_filter_is_BMS_limit':False,'SOC_channels':[]}
         aligned={}
         for field in ['displayed_SOC_percent','internal_SOC_HPCM2_percent','internal_SOC_HPCM_percent']:
             if field not in d: continue
