@@ -1,0 +1,6 @@
+definition_id,signal,units,interpretation,limitation
+model_coulomb_SOC,CRUISE M battery state,fraction 0–1,q integration / independently identified Q,Not a dashboard readout; Q=168Ah remains provisional
+ANL_displayed_SOC,HVBatt_SOC_displayed_CAN3,percent 0–100,Driver display channel,Upper-end display can plateau; not proven chemical SOC
+ANL_HPCM2_SOC,HVBatt_pack_SOC_HPCM2,percent 0–100,Internal ECU channel,Observed offset/scaling to display is test-specific
+ANL_HPCM_SOC,HVBatt_SOC_HPCM,percent 0–100,Another internal ECU channel,Do not interchange HPCM and HPCM2
+NREL_Figure12_SOC,"Vehicle-reported CAN SOC, subtype unspecified",Figure axis percent 0–100,Source polynomial coordinate,Exact equivalence to ANL displayed/HPCM channels is not established
