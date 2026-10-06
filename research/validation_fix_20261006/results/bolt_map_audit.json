@@ -1,0 +1,12 @@
+{
+  "grid_nodes": 204,
+  "runtime_allowed_grid_nodes": 151,
+  "measured_source_points": 252,
+  "reconstruction_RMSE_kW": 0.09360393020519912,
+  "reconstruction_is_independent_validation": false,
+  "regen_measured_source_points": 0,
+  "source_regen_loss_mirror_factor": 1.05,
+  "nominal_voltage_V": 400,
+  "voltage_temperature_dependence_identified": false,
+  "CRUISE_M_executed": false
+}
