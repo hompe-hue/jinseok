@@ -1,0 +1,144 @@
+{
+  "stage": "VFIX_03",
+  "status": "COMPLETE_INPUT_AUDIT_AND_TOOLS_REMOTE_VERIFIED",
+  "repository": "hompe-hue/jinseok",
+  "verified_text_file_count": 31,
+  "verified_at_commit": "01eecb147cdd896a2b990ef42414c61d194fd4ae",
+  "CRUISE_M_executed": false,
+  "battery_discharge_validation_passed": false,
+  "NREL_CAN_SOC_subtype_confirmed": false,
+  "existing_maps_and_controller_rules_modified": false,
+  "low_voltage_discharge_tail_retained": true,
+  "artifacts": {
+    "workbook": "Bolt_Validation_Inputs_and_Audit_20261006.xlsx",
+    "guide": "Bolt_Validation_Guide_20261006.docx",
+    "package": "Bolt_Validation_Fix_20261006.zip"
+  },
+  "next_required": "Identify battery SOC/capacity/discharge dynamics and validate actual CRUISE M exports against independent experiments before EREV empirical fuel/range claims.",
+  "verified_files": [
+    {
+      "path": "research/validation_fix_20261006/.gitignore",
+      "git_blob_sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6"
+    },
+    {
+      "path": "research/validation_fix_20261006/Bolt_Validation_Audit.ipynb",
+      "git_blob_sha": "54e86334ba974812f61d48187a0e0e33679590c3"
+    },
+    {
+      "path": "research/validation_fix_20261006/README_검증보완.md",
+      "git_blob_sha": "9a2b5f90d0ae5c4ec6a68c63fd792b3546150d29"
+    },
+    {
+      "path": "research/validation_fix_20261006/checkpoints/VFIX_03.json",
+      "git_blob_sha": "e459fc8d7ad613ecae3d2d3f7edfc25b154edc4d"
+    },
+    {
+      "path": "research/validation_fix_20261006/file_manifest_sha256.csv",
+      "git_blob_sha": "9feb505baa498153e8c62d60b4e541d1fc6caba4"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/SOC_definition_register.csv",
+      "git_blob_sha": "4065d5410fe60f550955970516837f1c8bb7a511"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/battery_reference_with_validity.csv",
+      "git_blob_sha": "4f7feafd61761d4de8cc740369a06ef513716796"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/bolt_full_load_limits.csv",
+      "git_blob_sha": "eeb8915f525d0db6853f1db28d09af79e1895f07"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/bolt_map_provenance_and_limits.csv",
+      "git_blob_sha": "4d738e36f787597b8de02f05a72319dbf418fd04"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/bolt_measured_test_points.csv",
+      "git_blob_sha": "e02757bf95a1a3483f083d2ac6c965355b69544a"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/bolt_regen_sensitivity_LOSS_kW.csv",
+      "git_blob_sha": "aa091881338cb68a8dc66c15b69c3d973b9ad858"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/cruise_trace_template.csv",
+      "git_blob_sha": "8c8b77e2c77cdcabd644699a00abd2049cd1b73c"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/raw_source_hashes.json",
+      "git_blob_sha": "89481bd6b55777eb5ba898816d8390f27f950fc0"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/source_hashes.json",
+      "git_blob_sha": "e00137beed8b987fa287993218ad5eccfc28939e"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/trace_metadata_template.json",
+      "git_blob_sha": "327d4dede4d51ded86fbcb103800ed6ff744ee57"
+    },
+    {
+      "path": "research/validation_fix_20261006/inputs/validation_and_comparison_gates.csv",
+      "git_blob_sha": "c5998e777e8f2a4a60fcbe54bab3791248c1989f"
+    },
+    {
+      "path": "research/validation_fix_20261006/requirements.txt",
+      "git_blob_sha": "b1622b7e88f06bfff285e53607becd2d76e39f34"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/audit_run.json",
+      "git_blob_sha": "9e052118c5182d320caf95dba277c723088af2ed"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/battery_aligned_residual_sample.csv",
+      "git_blob_sha": "4a525150b70d9b209fbbb794dffd46a14f6148ab"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/battery_data_quality.json",
+      "git_blob_sha": "f750be95b114eae1bffcb287928e38a8e1f0cfac"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/battery_voltage_by_SOC.csv",
+      "git_blob_sha": "34ecac7fe04a985c8bbae0561b5c74f8ea9a113e"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/bolt_map_audit.json",
+      "git_blob_sha": "adb01e9185915af0255fc63ed3d66fe29b8b32ff"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/bolt_map_support_counts.csv",
+      "git_blob_sha": "81f51f39d60ba7bbf11c86d496c7b6058e8fbef1"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/display_to_internal_SOC_observed_fit.csv",
+      "git_blob_sha": "adb45018fb46e3f150ddd5df762eb7268ed81678"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/evaluator_checks.json",
+      "git_blob_sha": "2f1dd4cd50099a471963f810d423cf7f0d9d8ebf"
+    },
+    {
+      "path": "research/validation_fix_20261006/results/execution_environment.json",
+      "git_blob_sha": "946d75ecb9e65b8d73d869068c90c86f0a88d0f9"
+    },
+    {
+      "path": "research/validation_fix_20261006/scripts/audit_inputs.py",
+      "git_blob_sha": "9e20476d9b3aaceda801a16a6dee47538e604327"
+    },
+    {
+      "path": "research/validation_fix_20261006/scripts/build_notebook.py",
+      "git_blob_sha": "903d142d8547b296b49abd027658ea138836e9ce"
+    },
+    {
+      "path": "research/validation_fix_20261006/scripts/check_evaluator.py",
+      "git_blob_sha": "38533de1082c244bd59a96c0266cf6198a5c3bbd"
+    },
+    {
+      "path": "research/validation_fix_20261006/scripts/evaluate_cruise_trace.py",
+      "git_blob_sha": "37e11f1b46e278cc2cfb0bc780930fa11852688a"
+    },
+    {
+      "path": "research/validation_fix_20261006/scripts/refresh_deliverables.py",
+      "git_blob_sha": "2c7ccb52a72558d084488c9029470ae4fee16b0b"
+    }
+  ]
+}
