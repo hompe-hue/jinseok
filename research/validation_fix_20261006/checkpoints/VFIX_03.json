@@ -1,0 +1,27 @@
+{
+  "stage": "VFIX_03",
+  "status": "AUDIT_AND_COMPARISON_TOOLS_COMPLETE_NOT_SIMULATION_VALIDATED",
+  "previous_stage": "VFIX_02",
+  "CRUISE_M_executed": false,
+  "battery_discharge_validation_passed": false,
+  "NREL_SOC_CAN_subtype_confirmed": false,
+  "measured_EDU_regen_available": false,
+  "existing_maps_and_control_rules_modified": false,
+  "completed": [
+    "raw Phase 1 clock/data quality audit",
+    "SOC definition and observed channel conversion register",
+    "voltage residuals by SOC and direction",
+    "completed map interpolation/extrapolation/regen provenance",
+    "Full load and runtime lookup monitor",
+    "fuel and terminal stored-energy comparison gates",
+    "synthetic dimensional/rejection checks",
+    "six notebook code cells executed sequentially in-process"
+  ],
+  "required_next": [
+    "Independent battery SOC/capacity/discharge-dynamics identification",
+    "Actual CRUISE M current replay and vehicle cycle export",
+    "Matched test conditions and AC/DC label boundary",
+    "EREV transient fuel and depletion mission definition"
+  ],
+  "artifact_scope": "The tables and scripts resolve input provenance and comparison rules; they do not establish a validated full-SOC battery or empirical EREV fuel/range."
+}
