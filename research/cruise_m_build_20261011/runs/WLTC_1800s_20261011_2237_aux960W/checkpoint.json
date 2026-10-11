@@ -1,0 +1,65 @@
+{
+  "samples": 1801,
+  "end_s": 1800,
+  "finite": true,
+  "aligned": true,
+  "distance_km": 23.200944335155864,
+  "speed_rmse_kmh": 0.6235230217714207,
+  "max_speed_error_kmh": 2.4004208232793047,
+  "soc_initial_final_pct": [
+    60,
+    53.90542349422762
+  ],
+  "energy_left_initial_final_kWh": [
+    33.700608479970434,
+    29.671318238355678
+  ],
+  "net_terminal_discharge_kWh": 3.656511557718609,
+  "gross_discharge_kWh": 4.47145328502843,
+  "regen_kWh": 0.8149417273098203,
+  "consumption_kWh_per_100km": 15.760184175684522,
+  "aux_current_min_max_A": [
+    2.5913901350441546,
+    2.7226814083840694
+  ],
+  "aux_UI_power_min_max_kW": [
+    0.9599999999999996,
+    0.9600000000000003
+  ],
+  "aux_energy_UI_kWh": 0.48000000000000015,
+  "power_UI_max_residual_kW": 2.1316282072803006e-14,
+  "current_balance_max_abs_A": 0.000009276059674157011,
+  "soc_drop_expected_pct_168Ah": 6.094683240532647,
+  "soc_drop_actual_pct": 6.09457650577238,
+  "voltage_min_max_V": [
+    352.5935855160398,
+    370.4575343625913
+  ],
+  "power_min_max_kW": [
+    -45.00113298046485,
+    34.37014087030957
+  ],
+  "increase_net_kWh_from_zero_aux": 0.4793771874264383,
+  "range_min_max_km": [
+    70,
+    70
+  ],
+  "source_files": [
+    "battery4.csv",
+    "velocity4.csv"
+  ],
+  "conditions": {
+    "auxiliary_load": "Power Consumer directly set to 0.96 kW, confirmed screenshot 133509 and exported U*I consumer power",
+    "auxiliary_load_basis": "Original example assumption; not verified empirical Bolt load",
+    "soc_initial_pct": 60,
+    "cycle": "WLTC_3a_aut previous setup",
+    "temperature_C": 25
+  },
+  "interpretation": {
+    "checks": "Finite aligned 1801 samples, power=UI, battery/motor/consumer current balance, SOC current integral, auxiliary energy=0.48kWh all consistent.",
+    "energy": "Range Energy Left OCV-times-charge proxy; do not subtract its decrease from terminal integral to infer heat.",
+    "range": "Capped at 70km, not physical range validation.",
+    "validation_level": "Full-cycle numerical consistency only; no empirical Bolt validation claimed."
+  },
+  "next_step": "Save current CRUISE M project as a BEV numerical-check checkpoint; inspect available FTP-75 profile for subsequent comparable validation setup."
+}
