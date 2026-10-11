@@ -1,0 +1,67 @@
+{
+  "samples": 1801,
+  "time_end_s": 1800,
+  "finite": true,
+  "time_aligned": true,
+  "dt_min_max_s": [
+    1,
+    1
+  ],
+  "distance_km": 23.200944335631995,
+  "speed_rmse_kmh": 0.6109808435055114,
+  "speed_mae_kmh": 0.41444603412278425,
+  "speed_max_error_kmh": 2.400420823279781,
+  "max_error_time_s": 668,
+  "soc_initial_final_pct": [
+    60,
+    54.70227030850926
+  ],
+  "voltage_min_max_V": [
+    353.2355692812721,
+    370.8421885333912
+  ],
+  "current_min_max_A": [
+    -127.26471038495669,
+    95.2700150148222
+  ],
+  "power_min_max_kW": [
+    -45.0010969420222,
+    35.33014086970571
+  ],
+  "power_UI_max_residual_kW": 2.1316282072803006e-14,
+  "net_discharge_Ah": 8.902054207910519,
+  "expected_SOC_drop_pct_168Ah": 5.2988417904229275,
+  "actual_SOC_drop_pct": 5.297729691490737,
+  "net_terminal_discharge_kWh": 3.177134370292171,
+  "gross_discharge_kWh": 4.093785797898942,
+  "regen_kWh": 0.9166514276067708,
+  "terminal_consumption_kWh_per_100km": 13.693987297804641,
+  "energy_min_max_kWh": [
+    0,
+    0
+  ],
+  "range_min_max_km": [
+    70,
+    70
+  ],
+  "monitor_avg_consumption_initial_final": [
+    14.666666666666666,
+    14.915141691694878
+  ],
+  "consumer_current_max_abs_A": 0,
+  "battery_motor_current_sum_max_abs_A": 0.00000927079865259417,
+  "status": "Full-cycle numerical checks completed; Energy monitor signal unresolved; no real-vehicle validation claimed.",
+  "conditions": {
+    "initial_soc_pct": 60,
+    "auxiliary_consumer_current_A": 0,
+    "profile": "WLTC_3a_aut (previous setup)",
+    "sample_interval_s": 1
+  },
+  "interpretation": {
+    "sign": "BMS negative discharge; positive regeneration",
+    "consumption": "Net terminal power integral divided by actual distance; excludes charging losses and zero auxiliary load.",
+    "energy_anomaly": "Exported Energy is zero throughout, unlike prior 120s run. Range stays at cap 70km. Inspect BMS Monitor Energy connection/export selection before interpreting these channels.",
+    "soc_integral_difference_pp": 0.0011120989321904418
+  },
+  "next_step": "Confirm BMS Monitor Energy input is still connected to BMS ECM / Range / Energy Left; inspect exported channel."
+}
