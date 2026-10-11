@@ -1,0 +1,37 @@
+{
+  "rows": 1801,
+  "time_end_s": 1800,
+  "finite": true,
+  "energy_initial_final_kWh": [
+    33.700608479970434,
+    30.192016470743965
+  ],
+  "energy_min_max_kWh": [
+    30.076579943850025,
+    33.700608479970434
+  ],
+  "energy_proxy_max_residual_kWh": 0.00016234663453928988,
+  "soc_initial_final_pct": [
+    60,
+    54.70227030850926
+  ],
+  "net_terminal_discharge_kWh": 3.177134370292171,
+  "unchanged_channels_max_abs_difference": {
+    "Time": 0,
+    "In/Current (BMS Monitor)": 0,
+    "In/Power (BMS Monitor)": 0,
+    "In/Range (BMS Monitor)": 0,
+    "In/SoC (BMS Monitor)": 0,
+    "In/Specific Consumption Avg (BMS Monitor)": 0,
+    "In/Voltage (BMS Monitor)": 0
+  },
+  "range_initial_final": [
+    70,
+    70
+  ],
+  "status": "Energy monitor connection restored and recording confirmed.",
+  "comparison": "All other exported battery channels match battery2.csv exactly. Prior velocity2.csv distance and speed metrics remain applicable.",
+  "interpretation": "Energy is Range Energy Left (OCV-times-charge estimate less SOC-warning reserve); not integrated terminal work. Polynomial residual is approximation/interpolation consistency check only. Range remains capped at 70 km and is not validated physical range.",
+  "conditions": "Auxiliary load remains zero. Numerical consistency checks are not real-vehicle validation.",
+  "next_step": "Restore original auxiliary Consumer Power 960 W as an explicit assumed-load comparison, not a verified empirical Bolt load; rerun WLTC 1800s and compare terminal consumption."
+}
