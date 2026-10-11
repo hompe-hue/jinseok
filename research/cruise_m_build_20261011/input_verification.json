@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "motor_original_points_preserved": 204,
+  "motor_regular_map_points": 289,
+  "battery_points_per_table": 101,
+  "CRUISE_M_executed": false,
+  "input_sha256": {
+    "inputs/Bolt_Battery_Cell_Import_20261011.zip": "f0fe884826c2f47bde4e6cb264fc2f5208813af1b4d406d1a21011fe57646d63",
+    "inputs/Bolt_EDU_AVL_RegularMap_Import.zip": "b829eee721e6985c857a4a2d369469fc899f22deec1b64df5247717d6e4f8519",
+    "inputs/Bolt_EDU_Loss_400V_AVL_RegularMap.dat": "f46542d309dc6f3597d19b8302506b685c923a7abfa940bcda832084fd043577",
+    "inputs/battery/Bolt_Cell_OCV_25C.dat": "c74c416ecb0b85a2c84ec5926ac853b5b4fb752c09a17acdca24e77330f2b63d",
+    "inputs/battery/Bolt_Cell_Resistance_25C.dat": "606a15730b27f6758012b2a55ca1a9d12d9b3f955d75042eb4376595eca6cd31",
+    "inputs/battery/README_KO.txt": "29777ce1bdace976874e59dc15c546736dabecccdcea530ba889245e36c45b2a",
+    "inputs/samples/AVL_motor_regular_map_sample.dat": "b2896e0e9541ebdd435a47529bfeedb09b917c086ddadc0086ef63d8fd0e97e8",
+    "inputs/samples/OCV_sample.dat": "44ed542906c964ce67d4e25f0cadfeb74fad9bec85624cb12be6d9710b184a4d",
+    "inputs/samples/Resistance_sample.dat": "a39b90a21be6e28d768d10d266b548eb193ddb5261842c023334c66cd4cb69b7",
+    "inputs/sources/bolt_loss_matrix_kW.csv": "a6eed30c3eff98de69a827ee0ef5517078d5dba14f2bb9d4a0ab4649642455bf",
+    "inputs/sources/bolt_map_provenance_and_limits.csv": "aab3ff0ef4ea4fdd65066fc39df88e20f2cda8371e57f6ae140ceb3295c010cd",
+    "inputs/sources/bolt_power_loss_long.csv": "4d0b2df50bdde7a7f611bddd86e0a8279703b493a84bb5551bd115fc6fc6f001"
+  }
+}

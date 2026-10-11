@@ -1,0 +1,13 @@
+# regular map
+# dimensions
+2 2
+# y axis
+moment~Nm
+0.0 100.0
+# x axis
+ang_vel~rad_s
+0.0 100.0
+# map
+power~W
+1.0 3.0
+2.0 4.0
