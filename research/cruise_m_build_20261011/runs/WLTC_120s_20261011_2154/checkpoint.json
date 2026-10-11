@@ -1,0 +1,25 @@
+{
+  "run": "REF_BoltBEV_v01 / REEV_MBE / WLTC_3a_aut / 0-120 s",
+  "source_files": [
+    "velocity.csv",
+    "battery.csv"
+  ],
+  "sample_period_s": 1,
+  "rows": 121,
+  "current_sign": "BMS negative=discharge, positive=regen; E-Motor current opposite",
+  "soc_start_percent": 60,
+  "soc_end_percent": 59.91007379788586,
+  "soc_drop_pp": 0.08992620211414248,
+  "soc_drop_from_current_168Ah_pp": 0.08988172311585084,
+  "terminal_net_discharge_kWh": 0.0542821359389497,
+  "energy_channel_drop_kWh": 0.060253314938898,
+  "current_balance_max_abs_A": 0.000009270798652649681,
+  "power_equals_UI_max_abs_kW": 3.552713678800501e-15,
+  "consumer_power_W": 0,
+  "consumer_current_A": 0,
+  "velocity_rmse_kmh": 0.5548892773803348,
+  "velocity_max_error_kmh": 1.890501743850363,
+  "status": "partial internal consistency check; not real vehicle validation",
+  "pending": "Confirm BMS Energy channel definition; export Range Extender channels; then full WLTC after checkpoint",
+  "authorization": "User project instructions explicitly authorize periodic checkpoints to https://github.com/hompe-hue/jinseok.git; new run-specific file only; existing README fetched and not overwritten"
+}
