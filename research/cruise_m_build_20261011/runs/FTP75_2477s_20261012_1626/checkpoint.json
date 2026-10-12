@@ -1,0 +1,65 @@
+{
+  "samples": 2478,
+  "time_start_end_s": [
+    0,
+    2477
+  ],
+  "finite": true,
+  "aligned": true,
+  "dt_min_max_s": [
+    1,
+    1
+  ],
+  "distance_km": 17.80075152576291,
+  "desired_distance_km": 17.76989251239357,
+  "speed_rmse_kmh": 0.5997751787460621,
+  "max_speed_error_kmh": 2.5874792316514412,
+  "max_speed_error_time_s": 768,
+  "soc_initial_final_pct": [
+    60,
+    55.75976343968545
+  ],
+  "energy_left_initial_final_kWh": [
+    33.700608479970434,
+    30.885647309402653
+  ],
+  "net_terminal_discharge_kWh": 2.5556345680042067,
+  "gross_discharge_kWh": 3.3951893811202005,
+  "regen_kWh": 0.8395548131159937,
+  "consumption_kWh_per_100km": 14.356891417227265,
+  "aux_power_min_max_kW": [
+    0.9599999999999996,
+    0.9600000000000003
+  ],
+  "aux_energy_kWh": 0.6605333333333335,
+  "power_UI_max_residual_kW": 1.4210854715202004e-14,
+  "current_balance_max_abs_A": 0.000009259435851838305,
+  "soc_drop_expected_pct_168Ah": 4.239428242829642,
+  "soc_drop_actual_pct": 4.24023656031455,
+  "voltage_min_max_V": [
+    354.05628716337714,
+    369.8334510197
+  ],
+  "range_min_max_km": [
+    70,
+    70
+  ],
+  "source_files": [
+    "battery_FTP75.csv",
+    "velocity_FTP75.csv"
+  ],
+  "ui_resolution": "User resolved repeated Domain of chart cannot be determined errors by creating a new Report Page. Prior page retained WLTC references; rerunning simulation was unnecessary.",
+  "conditions": {
+    "initial_soc_pct": 60,
+    "auxiliary_power_kW": 0.96,
+    "profile": "Imported AVL Ftp75.prox, last time 2477s; registered as FTP75 parameter value and case",
+    "foresight": "0.5s instructed; actual setting not independently confirmed"
+  },
+  "caveats": [
+    "Constant 0.96kW auxiliary load runs throughout 2477s, including extended zero-speed interval 1368–1992s. Full elapsed-run consumption is not an official FTP certification weighted result.",
+    "Auxiliary load is example assumption, not empirical Bolt load.",
+    "Energy is Range Energy Left proxy and Range is capped70km.",
+    "No empirical vehicle validation claimed."
+  ],
+  "next_step": "Verify generator power and fuel usage remain zero across FTP75, then match simulation conditions to a chosen empirical Bolt dataset."
+}
