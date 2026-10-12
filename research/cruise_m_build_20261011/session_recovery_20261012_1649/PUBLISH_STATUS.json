@@ -3,7 +3,7 @@
   "base_commit": "aa4adda5e48ab9bb5f1f2659d174ef8538f462be",
   "local_prepared_commit": "ce929f74ed5e377ce6c10d85c0c5d6122766e2aa",
   "planned_files": 95,
-  "uploaded_files": 24,
+  "uploaded_files": 40,
   "uploaded_paths": [
     "README.md",
     "research/cruise_m_build_20261011/runs/FTP75_2477s_20261012_1626/battery_FTP75.csv",
@@ -28,25 +28,25 @@
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123341).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122849).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121143).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123439).png"
-  ],
-  "pending_paths": [
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121151).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121155).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123439).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122103).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122247).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122253).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122553).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122656).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124328).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122247).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123217).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123446).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123545).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123906).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124049).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121151).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123946).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123906).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121155).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123545).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123446).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124034).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124044).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124049).png",
-    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124328).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122656).png",
+    "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122253).png"
+  ],
+  "pending_paths": [
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124338).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124431).png",
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124507).png",
@@ -104,6 +104,6 @@
     "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-074057).png"
   ],
   "publication_authorized_by_user": true,
-  "reason_pending": "Remaining screenshot files have not yet completed transfer. Existing user authorization for public repository and payload was renewed on 2026-10-13.",
+  "reason_pending": "Remaining source screenshots are transferring under the user's explicit authorization.",
   "next_research_step": "Keep existing FTP75 results. Show only Range Extender Monitor In/Power Generator and In/Cumulated Fuel Consumption, then verify zero over 0–2477 s. Numeric export still needed."
 }
