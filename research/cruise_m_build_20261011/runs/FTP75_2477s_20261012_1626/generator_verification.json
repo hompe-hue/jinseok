@@ -1,0 +1,174 @@
+{
+  "status": "verified_generator_off_at_all_exported_samples",
+  "source_file": "generator.csv",
+  "source_library_file_id": "libfile_9ede441d80bc8191b38eef7f46044740",
+  "sha256": "9d2cf73e1d5bc76ad4986faddd53fd33a0c812e9647e72ba2b40d6e6b627cb65",
+  "samples": 2478,
+  "time_start_end_s": [
+    0,
+    2477
+  ],
+  "dt_min_max_s": [
+    1,
+    1
+  ],
+  "finite": true,
+  "aligned_with_battery_and_velocity": true,
+  "voltage_max_difference_V": 0,
+  "soc_monitor_max_difference_pct": 0,
+  "all_required_signals_exactly_zero": true,
+  "required_zero_signals": [
+    "Power Generator",
+    "Cumulated Fuel Consumption",
+    "Fuel Massflow",
+    "Actual Engine Speed",
+    "Current",
+    "Power ICE"
+  ],
+  "net_generator_energy_kWh": 0,
+  "fuel_consumed_delta_kg": 0,
+  "channels": [
+    {
+      "name": "In/Actual Engine Speed (Range Extender Monitor)",
+      "unit": "rpm",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Cumulated Fuel Consumption (Range Extender Monitor)",
+      "unit": "kg",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Current (Range Extender Monitor)",
+      "unit": "A",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Desired Engine Speed (Range Extender Monitor)",
+      "unit": "-",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Fuel Massflow (Range Extender Monitor)",
+      "unit": "kg/h",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Load Signal Generator (Range Extender Monitor)",
+      "unit": "%",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Operating Mode (Range Extender Monitor)",
+      "unit": "-",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Power Generator (Range Extender Monitor)",
+      "unit": "kW",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Power ICE (Range Extender Monitor)",
+      "unit": "kW",
+      "min": 0,
+      "max": 0,
+      "max_abs": 0,
+      "first": 0,
+      "last": 0,
+      "nonzero_count": 0
+    },
+    {
+      "name": "In/Power Threshold Activation (Range Extender Monitor)",
+      "unit": "kW",
+      "min": 40,
+      "max": 40,
+      "max_abs": 40,
+      "first": 40,
+      "last": 40,
+      "nonzero_count": 2478
+    },
+    {
+      "name": "In/SOC Target (Range Extender Monitor)",
+      "unit": "%",
+      "min": 55.69165659863858,
+      "max": 60,
+      "max_abs": 60,
+      "first": 60,
+      "last": 55.75976343968545,
+      "nonzero_count": 2478
+    },
+    {
+      "name": "In/SOC max (Range Extender Monitor)",
+      "unit": "%",
+      "min": 75,
+      "max": 75,
+      "max_abs": 75,
+      "first": 75,
+      "last": 75,
+      "nonzero_count": 2478
+    },
+    {
+      "name": "In/SOC min (Range Extender Monitor)",
+      "unit": "%",
+      "min": 40,
+      "max": 40,
+      "max_abs": 40,
+      "first": 40,
+      "last": 40,
+      "nonzero_count": 2478
+    },
+    {
+      "name": "In/Voltage (Range Extender Monitor)",
+      "unit": "V",
+      "min": 354.05628716337714,
+      "max": 369.8334510197,
+      "max_abs": 369.8334510197,
+      "first": 364.5412820937204,
+      "last": 361.99660690267734,
+      "nonzero_count": 2478
+    }
+  ],
+  "scope": "Confirms generator-off BEV behavior for this exported FTP75 run at 1 s sampling. Does not validate empirical Bolt performance or other operating conditions.",
+  "next_step": "Align simulation conditions with the already selected public Bolt experimental dataset before empirical comparison. Do not alter parameters or claim validation from this generator-off check."
+}
