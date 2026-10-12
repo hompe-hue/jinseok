@@ -1,0 +1,75 @@
+{
+  "sha256_verified": true,
+  "added": 91,
+  "already_saved_identical": 5,
+  "csv_checks": {
+    "battery_FTP75.csv": {
+      "samples": 2478,
+      "finite": true,
+      "time_start_end_s": [
+        0.0,
+        2477.0
+      ],
+      "columns": [
+        "Time",
+        "In/Current (BMS Monitor)",
+        "In/Energy (BMS Monitor)",
+        "In/Power (BMS Monitor)",
+        "In/Range (BMS Monitor)",
+        "In/SoC (BMS Monitor)",
+        "In/Specific Consumption Avg (BMS Monitor)",
+        "In/Voltage (BMS Monitor)"
+      ],
+      "units": [
+        "s",
+        "A",
+        "kW.h",
+        "kW",
+        "km",
+        "%",
+        "kWh/100km",
+        "V"
+      ]
+    },
+    "velocity_FTP75.csv": {
+      "samples": 2478,
+      "finite": true,
+      "time_start_end_s": [
+        0.0,
+        2477.0
+      ],
+      "columns": [
+        "Time",
+        "In/Actual Velocity (Vehicle Monitor)",
+        "In/Brake Pressure Actual (Vehicle Monitor)",
+        "In/Brake Pressure Cockpit (Vehicle Monitor)",
+        "In/Desired Velocity (Vehicle Monitor)",
+        "In/Distance (Vehicle Monitor)",
+        "In/E-Consumer Current (Vehicle Monitor)",
+        "In/E-Motor Current (Vehicle Monitor)",
+        "In/E-Motor Load Signal (Vehicle Monitor)",
+        "In/E-Motor Power Mech. (Vehicle Monitor)",
+        "In/E-Motor Speed (Vehicle Monitor)",
+        "In/E-Motor Torque (Vehicle Monitor)",
+        "In/Gear (Vehicle Monitor)",
+        "In/Load Signal Cockpit (Vehicle Monitor)"
+      ],
+      "units": [
+        "s",
+        "km/h",
+        "bar",
+        "bar",
+        "km/h",
+        "km",
+        "A",
+        "A",
+        "%",
+        "kW",
+        "rpm",
+        "N.m",
+        "-",
+        "%"
+      ]
+    }
+  }
+}

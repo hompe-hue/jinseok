@@ -2,7 +2,13 @@
 
 Bolt 기반 BEV 검증과 Volt 발전계 기반 가상 EREV/EMS 연구의 CRUISE M 입력자료 및 작업 기록입니다.
 
-## 최신 작업 — 2026-10-11
+## 최신 재개 상태 — 2026-10-12
+
+[CRUISE M 입력표 복구: 최신 완료 상태와 다음 시작점](research/cruise_m_build_20261011/session_recovery_20261012_1649/RESUME.md)
+
+FTP75 실행·수치 점검과 Report Page 오류 해결까지 기존 커밋에 저장돼 있습니다. 누락된 결과 CSV와 화면 자료를 추가했습니다. 다음 단계는 FTP75 Range Extender Monitor의 발전기 출력·연료소비가 전 구간 0인지 수치로 확인하는 것입니다. 과거의 첫 실행 전 체크리스트보다 최신 runs 체크포인트와 위 인계 기록을 우선합니다.
+
+## 초기 구축 기록 — 2026-10-11
 
 [CRUISE M 구축 기록과 재개 체크리스트](research/cruise_m_build_20261011/README.md)
 

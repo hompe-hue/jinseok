@@ -1,0 +1,677 @@
+{
+  "base_commit": "aa4adda5e48ab9bb5f1f2659d174ef8538f462be",
+  "items": [
+    {
+      "source_name": "WLTC_120s_checkpoint_20261011.zip",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/raw/WLTC_120s_checkpoint_20261011.zip",
+      "size_bytes": 14965,
+      "sha256": "9257896c4e495a10ff5b12ace9daf3b2e31a6038220ecdcd5686e4a4cb64b838",
+      "status": "added"
+    },
+    {
+      "source_name": "battery.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_120s_20261011_2154/battery.csv",
+      "size_bytes": 14096,
+      "sha256": "8fda4052d3f2288de138fb6045a79cdde80c4126a169d36295b9b749e48c9e51",
+      "status": "already_saved_identical"
+    },
+    {
+      "source_name": "battery2.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_1800s_20261011_2215/battery2.csv",
+      "size_bytes": 191160,
+      "sha256": "30df75bef2755c3ca2ca4f6eb8625f305e446fc5a4fe40daff9e4fe87d793cbb",
+      "status": "already_saved_identical"
+    },
+    {
+      "source_name": "battery3.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_1800s_20261011_2221_energy_restored/battery3.csv",
+      "size_bytes": 217022,
+      "sha256": "3cbac3205b2ebcdebb01edcda3b1ecf2d92dbd732f4346692ead7070c296c80e",
+      "status": "already_saved_identical"
+    },
+    {
+      "source_name": "battery4.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_1800s_20261011_2237_aux960W/battery4.csv",
+      "size_bytes": 223167,
+      "sha256": "58f141e833061c804f5faa31d7add380373453e06bab868143d1339c64834714",
+      "status": "added"
+    },
+    {
+      "source_name": "battery_FTP75.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/FTP75_2477s_20261012_1626/battery_FTP75.csv",
+      "size_bytes": 303731,
+      "sha256": "f588095a9f0ce07a9964257396454240ebad81e427b4391d4e28e06e04da7000",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-121143).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121143).png",
+      "size_bytes": 269120,
+      "sha256": "2fb0bcb3833d4adbce81342d11d46a962469e7ccc0cf1230aad2621a90d32e58",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-121151).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121151).png",
+      "size_bytes": 248336,
+      "sha256": "ff2c5fca9a021a16233441f3d739d61809e17e0a62b2bbaaee01261e409881bc",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-121155).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121155).png",
+      "size_bytes": 254377,
+      "sha256": "89a3fcb8b80b41b2b0c3fea469684ccc8d5e639aa7578306dad487d8741a8876",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-121914).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-121914).png",
+      "size_bytes": 75106,
+      "sha256": "1ac1f65dbdbbf0b4bd953b1e3bf32e7ab53529e56677cfaffb52d2bd0bc41f8f",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122004).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122004).png",
+      "size_bytes": 46813,
+      "sha256": "62c398494ebbfe50419ecccf47d169e25865e0d4a17effb0347f25da382fd735",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122103).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122103).png",
+      "size_bytes": 437459,
+      "sha256": "e640bad6a5fbbb0c01492247a56c587afa24442057fd05bbc25f45395d3039b3",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122129).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122129).png",
+      "size_bytes": 224555,
+      "sha256": "e05a179bffc4e3fbca0e31f303384c4506424a70c1f050a37dd50e18cb34a32e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122146).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122146).png",
+      "size_bytes": 420633,
+      "sha256": "a1fafe0a225bee786555b8e661ac587eef91dfc05f41a2abe0eb5f46ef8c9bf6",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122247).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122247).png",
+      "size_bytes": 404491,
+      "sha256": "6894b0645ce7eb7216ba457ff32017ada712afb513c0e89be0b0d1bb434016be",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122253).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122253).png",
+      "size_bytes": 428545,
+      "sha256": "af5355fb606d4ce39fe07115b8c2205daaba216472bdf1d621491d65417aedf0",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122335).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122335).png",
+      "size_bytes": 70239,
+      "sha256": "7770343545acda7c11c0e73899e145f29bae3d34b020f82e83fa488b3bcc0eb0",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122344).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122344).png",
+      "size_bytes": 248622,
+      "sha256": "2239614bd77fc2e8d8680002eaa07749c01029c2f42232df8b738f894643fc72",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122510).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122510).png",
+      "size_bytes": 154077,
+      "sha256": "fbfc5980f169dec7e1aab016aac107075e24ededd988d099faa4fd1d9fed4535",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122553).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122553).png",
+      "size_bytes": 192465,
+      "sha256": "6f3992af81ca7c6eb67577d7338aa997d563f47599cbb0e1c70c9c1d10c8597a",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122656).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122656).png",
+      "size_bytes": 113029,
+      "sha256": "5f9a8b997fad5a4a500292d96a3f37aba738c0d859f7e6b4c87db751f9e80e87",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122740).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122740).png",
+      "size_bytes": 110440,
+      "sha256": "43018cba565096ab62f8fc0f84c7c5172340f953b1be6316e75e8fba673776e0",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-122849).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-122849).png",
+      "size_bytes": 54339,
+      "sha256": "903f3894a4c14fff43d9f5a9ae6e11ef563b7eabd36316cbe0a143dd934743e7",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123208).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123208).png",
+      "size_bytes": 168076,
+      "sha256": "868e5b05da74eaf9fbc9892b5730e1df9371339be23464587db833a6247d12cf",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123217).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123217).png",
+      "size_bytes": 100667,
+      "sha256": "be5d8c0290e051dbadf56c1c8e6e44709a88275862071723332ed0b37ceae9ac",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123334).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123334).png",
+      "size_bytes": 200775,
+      "sha256": "04a97c2f87865def11921c8723b2196b8ad3ffc675e1d4380b72b0b8c7dbb448",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123341).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123341).png",
+      "size_bytes": 200879,
+      "sha256": "181d68ae37ac76e4d681bab66d962ecdade50446a43e4f34d48384f2b59e966f",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123439).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123439).png",
+      "size_bytes": 132681,
+      "sha256": "0935a28526d5f646ff21d868bd2dfef7e0216935dc13dfa6aed573d8a0fb9ea0",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123446).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123446).png",
+      "size_bytes": 138413,
+      "sha256": "bec3e3a54661338fff8ec9163ee4d2da835e7b5509394a028b848c542ac99cbc",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123524).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123524).png",
+      "size_bytes": 369510,
+      "sha256": "a87310ebf66a0bc62193d01298afddab160d4d742bb9985802c8ecad4bee8606",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123545).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123545).png",
+      "size_bytes": 224235,
+      "sha256": "b3ff10ecdba05bed313db5d845b6ee4ac7026078066eab4bf3ed29d5c7f0a6ac",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123906).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123906).png",
+      "size_bytes": 130851,
+      "sha256": "d641825ce5013382327007cca3adab9c3ee678d10b0de3a7338ac415ea64662b",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-123946).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-123946).png",
+      "size_bytes": 202391,
+      "sha256": "812a1ae17ecfe5c2d761d37f817277756517d3312e3effae631cb0a2ce9d9eeb",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124034).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124034).png",
+      "size_bytes": 215072,
+      "sha256": "99bd2563729954361f0f7d773b2748787c5a8fef75e3fcd17ba59321961bda56",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124044).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124044).png",
+      "size_bytes": 221574,
+      "sha256": "ea25e86d954241103bad323f663e7673c031ff352e9d9a7e4dd3fbd0e0db809a",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124049).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124049).png",
+      "size_bytes": 290019,
+      "sha256": "7539120af8c520d7cbdb2d3cd3ad1edc3ae928e69421eab313edcb49ccef4fcc",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124328).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124328).png",
+      "size_bytes": 220681,
+      "sha256": "c8a415d578f9fb7950b2ad3cf96150c1a7383f7a159f3b94fa87a053c483cc64",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124338).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124338).png",
+      "size_bytes": 231826,
+      "sha256": "66316f463232b0de85d5c39e4c340de5c6c26070ee95683ed77d1d94f442262d",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124431).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124431).png",
+      "size_bytes": 282101,
+      "sha256": "f725d8413944dbc37e015b2c26bc2d9f097233495b7d96e5ceb16bb9b3c02add",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124507).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124507).png",
+      "size_bytes": 350217,
+      "sha256": "e8261d9c55c3792a87ef46e2ad81250f18e42da82fb378378353d249f3b3a2b9",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124535).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124535).png",
+      "size_bytes": 410849,
+      "sha256": "c5512f6e3bc868bb19637bc830716f763ffe155d64d89138743a6fb6bac85dfb",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124543).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124543).png",
+      "size_bytes": 513036,
+      "sha256": "8cc3fb7caf0933e5b1a5e05ca32ac0fc4af081eb06714361048eb273e71c198a",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124547).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124547).png",
+      "size_bytes": 462405,
+      "sha256": "297a9668566b6812d932f89896ef9d1f59748ac8bac85df16f18b6af30cef357",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124558).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124558).png",
+      "size_bytes": 483422,
+      "sha256": "e56bdb166fb77b6a98e079d9ea44d438db4da1152eadbb848a3fa3dab67b758e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124706).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124706).png",
+      "size_bytes": 422561,
+      "sha256": "27f696fc752fbfc32bc5ceb740b9a14b905ec0b2a86066ba169ffb86ed1d687c",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124828).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124828).png",
+      "size_bytes": 260333,
+      "sha256": "02bc9b9baf057709e221d5c7c77164dee77954cafe9bc1fbb758cbe1a3731514",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-124958).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-124958).png",
+      "size_bytes": 537485,
+      "sha256": "13efdf2ad1728d60a033e9ede5ee9a651121bf828dcfe697e2c3c84c4df62e5d",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-125045).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-125045).png",
+      "size_bytes": 223829,
+      "sha256": "a099eb75a9860a004666fc8c5550e4683aaef436c5edfac58300318da7e28190",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-125056).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-125056).png",
+      "size_bytes": 233237,
+      "sha256": "b136b828a209cc2c49abab5ce6eb50fe3d77a95e2c7e9e45bd8018f1cf247922",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-125649).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-125649).png",
+      "size_bytes": 288393,
+      "sha256": "ab31a26938511264a1f39053e522364d86a80a41fba2d9a559605bbefca205d3",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-125825).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-125825).png",
+      "size_bytes": 394455,
+      "sha256": "858e7859340b024cc7fa79c99f97ec928604fd090d0b5e3230935c5dff5153cc",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-125940).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-125940).png",
+      "size_bytes": 190474,
+      "sha256": "c28a8d0080b54b161ac434ad268c5cd4653df297eb3d9cf28f1f1dffc5137ce2",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130043).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130043).png",
+      "size_bytes": 250860,
+      "sha256": "398061205749c51142276576b301ebb524b7621aaae58089dd63c870845ad093",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130307).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130307).png",
+      "size_bytes": 382531,
+      "sha256": "b47557b53e5c1e85fcd1ab51108e1bc6a6368bf529bdcadc2e0dad0b246b5c46",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130313).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130313).png",
+      "size_bytes": 389371,
+      "sha256": "39bdcf11d46e88cc41ab714b116fa33bad687c1ec90abc606ad8491816ffd623",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130429).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130429).png",
+      "size_bytes": 475982,
+      "sha256": "491059247fc92a991d66b60e512f116d5f0086c04e8d02da443f0b323858a37e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130710).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130710).png",
+      "size_bytes": 463050,
+      "sha256": "98c71f6c8e775cde55c4ea04481c445ed0cf220d4629a1d55acac10f6263ab88",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130803).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130803).png",
+      "size_bytes": 437939,
+      "sha256": "fe5ce0a1eecd91584d2add18ebab1aae9a3bc4fd1830113ad0d71fbbbe73250e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130840).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130840).png",
+      "size_bytes": 494230,
+      "sha256": "ff98a4a297b93b48c6c26bba550e9d787f051058b269a7062453313b9c99bd9c",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-130924).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-130924).png",
+      "size_bytes": 133548,
+      "sha256": "070c62a21d197da49ede26a0193e7b7bbc44cfd3b0e13bebb89b69dcf1c27177",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-131036).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-131036).png",
+      "size_bytes": 253974,
+      "sha256": "452bcf1f2e44c6cc2ef0a7819b45ab0db08b8c944c48369b3ebaa4c149afd8ae",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-131806).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-131806).png",
+      "size_bytes": 396491,
+      "sha256": "c22ec195751a333e1f908296141d7bdf0ac55708e0c817ac8b8e404d6c5a2d4e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-131853).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-131853).png",
+      "size_bytes": 412448,
+      "sha256": "6b6670c870b44bde262e216a80cdb02344ee5ba4a956bd161a82fb9bdbcd8d41",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-132923).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-132923).png",
+      "size_bytes": 70162,
+      "sha256": "9b00dc4cf4cca0586b17b102808ac5f19ca312081dd172e139cf6915a013be75",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-133055).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-133055).png",
+      "size_bytes": 75526,
+      "sha256": "919262686aab288972a21e138e6e15fdf0c09513d1a7b5fff2beafc671dbf4b9",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-133109).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-133109).png",
+      "size_bytes": 74689,
+      "sha256": "89f2a873f8860d0059d70cad82cfae5c41502badfa9c327682398bf3be4e895d",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-133125).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-133125).png",
+      "size_bytes": 435966,
+      "sha256": "4409e875e2bb9b9a1aa79cbebdc6114f226a43f9cc3db16f3f5681cd380170ce",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-133320).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-133320).png",
+      "size_bytes": 422947,
+      "sha256": "c4cfbb44404a6c5ba60f36e7ed4161fd7ab54cfc7abba9debf340e5cb9087d18",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-133509).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-133509).png",
+      "size_bytes": 74906,
+      "sha256": "d729075e50141f822128701807c65061b67e36d44ee9c3eddcf22fb53fd15020",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134549).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134549).png",
+      "size_bytes": 297572,
+      "sha256": "eb1b136951cf3907777ea36e14744aed549248d28fb44be57f358c37b1b98b0e",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134558).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134558).png",
+      "size_bytes": 396638,
+      "sha256": "4a6119af730cf918f799e7eaa93abfec6b3f510c5b608e70c7eec863d9857fde",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134659).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134659).png",
+      "size_bytes": 110210,
+      "sha256": "767f081665c4227f3246f055e862c5bed7ad187b2cf91966422ff5f7b0e49062",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134703).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134703).png",
+      "size_bytes": 109118,
+      "sha256": "20e33fba48cafaa1499b14898f10efc71b42c185c952170d2b94ee0464d0c402",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134815).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134815).png",
+      "size_bytes": 235926,
+      "sha256": "be4a9073987aa169da40859c0d14fcbc26af4766dfc44a9a799deb1d988f9064",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134901).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134901).png",
+      "size_bytes": 243216,
+      "sha256": "c9b45bf678728c7d587e1cc17181f46b7ca2b404a0c9896a2ed3c787e86bf658",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261011-134948).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261011-134948).png",
+      "size_bytes": 212588,
+      "sha256": "dfbfc46879f82bc20d20ef7713295ca3c2e13cef3e33c42eb43842edb47fbe67",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-070900).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-070900).png",
+      "size_bytes": 427664,
+      "sha256": "668847ca4611d06661c82d2b75651c22fe6b0bd3fa446127ca45b60d97cda121",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071127).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071127).png",
+      "size_bytes": 409422,
+      "sha256": "b3835bc5e3bc494861294414932c9f7dc80a7e036ab75604a0bfc5400448fbcb",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071222).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071222).png",
+      "size_bytes": 410616,
+      "sha256": "189927a78b815f406a66c98fcc971a15cb56053a3e1459c337feeb8810388d82",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071411).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071411).png",
+      "size_bytes": 90841,
+      "sha256": "d0d213e33d053cbfe5309ea4617e03ac3c6fa12f2bed792ebcb075abd73f8511",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071418).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071418).png",
+      "size_bytes": 278240,
+      "sha256": "c0744f1fe2d9aea76f86bee9e8435d544f690608cc8c9c8df41ba343b82f9339",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071428).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071428).png",
+      "size_bytes": 319667,
+      "sha256": "808ac67b3199b1eb4abcb39ae7af26ec1735415b568e8268725e8b781e6d18b1",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-071758).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-071758).png",
+      "size_bytes": 624474,
+      "sha256": "889797786c1bcdc719980972a90d2f6d8e089c7ac7036754e54d644c0dbf0920",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-072133).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-072133).png",
+      "size_bytes": 447155,
+      "sha256": "2d814d63e1dc00da61afc3ddd4636e2eb59fdf22868ffbdbe4d64a5970d3249b",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-072137).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-072137).png",
+      "size_bytes": 326233,
+      "sha256": "629f32f3e459797b55c088c9bcf521df9ac00bb8d690cecfc5fe426728a0173b",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-072434).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-072434).png",
+      "size_bytes": 601372,
+      "sha256": "c6a709434e9d610fbf73a9f12f1892cae1d28be4fbc9d890ab4c026889264d93",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-073105).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-073105).png",
+      "size_bytes": 463219,
+      "sha256": "4eb50949fb9a8f7ab6f010540120918754db4ef59cff8aac65aed3041cd5e6cb",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-073125).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-073125).png",
+      "size_bytes": 459316,
+      "sha256": "12f83afa6e9d19565f799cc7ce2a6a1d3a24044620dd9266af8ebcf6745c76e8",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-073137).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-073137).png",
+      "size_bytes": 466492,
+      "sha256": "d3425e3a5331028b8adc86f4f06ab20e1c64994b3027034a974d08971a0dc5e8",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-073338).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-073338).png",
+      "size_bytes": 529116,
+      "sha256": "84253da0198ec5ab461b6d1d2d7001b9023a2eb1144f9f7cc6cf33c04a4c7261",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-073913).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-073913).png",
+      "size_bytes": 527622,
+      "sha256": "1e012304d676d10eba5784da6d9546cd528bd26131cb234fc28e978c8ef398fe",
+      "status": "added"
+    },
+    {
+      "source_name": "image(20261012-074057).png",
+      "repository_path": "research/cruise_m_build_20261011/session_recovery_20261012_1649/screenshots/image(20261012-074057).png",
+      "size_bytes": 527318,
+      "sha256": "1852f50595c167c9375d5e63c3c570a348945797cd0a503f35ab74e219d87c9f",
+      "status": "added"
+    },
+    {
+      "source_name": "velocity.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_120s_20261011_2154/velocity.csv",
+      "size_bytes": 20971,
+      "sha256": "ccfdd4f1262badc210dfede773e208b866ca3df96ddfe830155f1d7bf3916f5d",
+      "status": "already_saved_identical"
+    },
+    {
+      "source_name": "velocity2.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_1800s_20261011_2215/velocity2.csv",
+      "size_bytes": 322825,
+      "sha256": "f4c9667321bf0e0f90be04484963874b5f4eb3ec8c92b92d2f8adb860edd1805",
+      "status": "already_saved_identical"
+    },
+    {
+      "source_name": "velocity4.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/WLTC_1800s_20261011_2237_aux960W/velocity4.csv",
+      "size_bytes": 349079,
+      "sha256": "3aa3801af67d5519b2e3bcacf7b47f1dc2736f43be4919f948745a3efcc7c4a7",
+      "status": "added"
+    },
+    {
+      "source_name": "velocity_FTP75.csv",
+      "repository_path": "research/cruise_m_build_20261011/runs/FTP75_2477s_20261012_1626/velocity_FTP75.csv",
+      "size_bytes": 425040,
+      "sha256": "01ab0417e3277d796691aa11e0e78a42213b3a4375281d9e0cc910b9a3c626a3",
+      "status": "added"
+    }
+  ]
+}
