@@ -1,3 +1,5 @@
+> **최신 검토(2026-10-13):** Bolt EV 잔여 항목의 접근 가능한 자료 검토를 완료했습니다. [검토 결과](research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md)와 [재개 기록](checkpoints/REMAINING_REVIEW_20261013.json)을 먼저 읽으세요. DIS80 에너지 +9.484% 편차는 미해소이며, 추가 사용자 실행이나 모델 입력 변경은 없습니다. Bolt 분리손실 및 계측경계 근거가 다음 시작점입니다.
+
 > 최신 BOLT EV 비교 재개: [완료 결과·다음 시작점](checkpoints/bolt_validation_resume_20261013_2114.md) · [지속 게시 승인](checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md) · [실제 게시 상태](checkpoints/PROJECT_PUBLICATION_STATUS.json).
 
 # 논문 연구 자료

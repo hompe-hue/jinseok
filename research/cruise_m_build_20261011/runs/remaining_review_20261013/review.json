@@ -1,0 +1,113 @@
+{
+  "window_s": [
+    20,
+    3150
+  ],
+  "net_residual_kWh": 0.9780643600135779,
+  "auxiliary": {
+    "model_HV_kWh": 0.3477777777777778,
+    "measured_LV_output_kWh": 0.2906366089476241,
+    "conditional_max_overestimate_kWh": 0.05714116883015369,
+    "fraction_of_net_residual_percent": 5.842270832704755,
+    "assumptions": "LV output measurement correct; converter losses and other HV accessory demand nonnegative; no alternative LV energy source. This is an energy bound, not an identified accessory correction."
+  },
+  "VI_identity": {
+    "max_pointwise_closure_error_kW": 6.732787070917734e-15,
+    "voltage_at_reference_current_kWh": 0.027975719311854216,
+    "current_at_reference_voltage_kWh": 0.9641671402016113,
+    "interaction_kWh": 0.0032853464904562353,
+    "common_grid_VI_residual_kWh": 0.9954282060039218,
+    "native_meter_minus_common_grid_VI_kWh": 0.017363845990344018,
+    "note": "Terms depend on chosen algebraic baseline; current and voltage are coupled. Integer-grid VI is not native meter power; do not treat terms as independently fixable causes."
+  },
+  "gross_energy": {
+    "reference_discharge_kWh": 11.352898137812648,
+    "model_discharge_kWh": 12.294716275757128,
+    "discharge_excess_kWh": 0.9418181379444803,
+    "reference_recovered_kWh": 1.040637530927237,
+    "model_recovered_kWh": 1.0043913088581373,
+    "net_recovery_shortfall_kWh": 0.036246222069099776,
+    "recovery_shortfall_fraction_of_net_residual_percent": 3.7059137977992154
+  },
+  "charge_limit": {
+    "reference_peak_charge_kW": 55.874977819266384,
+    "model_peak_charge_kW": 40.00269128673792,
+    "reference_excess_above_40kW_kWh": 0.011096845932392987,
+    "model_integer_samples_near_minus40_plusminus0p25": 18,
+    "note": "Different sampling rates for peaks. Measured exceedance quantifies exposure only; not recoverable-energy prediction or an identified BMS map."
+  },
+  "recup_weight": {
+    "project_sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
+    "element_id": "40754",
+    "settings": {
+      "evaluation_mode": [
+        "cosimulation"
+      ],
+      "mapmode": [
+        "m2d"
+      ],
+      "input_is_time": "false"
+    },
+    "active_characteristic_axis_kmh": [
+      10.0,
+      20.0
+    ],
+    "weights": [
+      0.0,
+      1.0
+    ],
+    "characteristic_approximation": {
+      "extrapolation": [
+        "constant"
+      ],
+      "interpolation": [
+        "linear"
+      ]
+    },
+    "below_domain_samples": 303,
+    "above_domain_samples": 2670,
+    "in_domain_samples": 178,
+    "table_implied_output_range": [
+      0.0,
+      1.0
+    ],
+    "connections": [
+      {
+        "id": "68131",
+        "role1": "Vehicle",
+        "port1": "Velocity",
+        "role2": "Recuperation Weight",
+        "port2": "Velocity"
+      },
+      {
+        "id": "68755",
+        "role1": "Recuperation Weight",
+        "port1": "Recuperation",
+        "role2": "E-Drive Control",
+        "port2": "Recuperation Weight"
+      },
+      {
+        "id": "74029",
+        "role1": "Vehicle",
+        "port1": "Velocity",
+        "role2": "Recuperation Weight",
+        "port2": "Velocity"
+      },
+      {
+        "id": "74461",
+        "role1": "Recuperation Weight",
+        "port1": "Recuperation",
+        "role2": "E-Drive Control",
+        "port2": "Recuperation Weight"
+      }
+    ],
+    "interpretation": "Saved map uses constant extrapolation: 0 below10 and1 above20 km/h. Out-of-domain inputs are expected in this cycle and can explain extrapolation exposure. Exact warning count/fatality and current DIS80 output are not proved by this older snapshot or 1s samples; no weight trace in CSV."
+  },
+  "input_sha256": {
+    "runs/ANL61905060_DIS80_20261013/aligned_comparison.csv": "f6d1b42e14e5ec60fb6a1097c2612e82c9f43747950d278c31851afdd204f8c9",
+    "independent_tests_20261013/ANL61905060/reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+    "runs/project_audit_20261013/Bolt_Model_Check.proj": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0"
+  },
+  "no_model_inputs_modified": true,
+  "no_new_simulation_requested": true
+}

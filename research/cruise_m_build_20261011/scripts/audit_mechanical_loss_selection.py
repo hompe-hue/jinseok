@@ -10,7 +10,8 @@ source=Path(sys.argv[1])
 with zipfile.ZipFile(source) as z:
     assert z.testzip() is None
     r=E.fromstring(z.read('project.xml'),E.XMLParser(resolve_entities=False,no_network=True))
-idx={x.get('id'):x for x in r.iter() if x.get('id')}
+# Index definitions only: later ref nodes repeat IDs and must not overwrite objects.
+idx={x.get('id'):x for x in r.iter() if x.get('id') and x.tag!='ref'}
 def fields(x):
     if x.tag=='ref': x=idx[x.get('id')]
     if x.tag=='object': x=x.find('dict')

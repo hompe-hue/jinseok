@@ -1,0 +1,51 @@
+{
+  "url": "https://www.epa.gov/system/files/other-files/2023-03/ALPHA-v3.0-Peer-Review-Simulations.zip",
+  "retrieved_UTC_date": "2026-10-13",
+  "archive_sha256": "51ed70ed974328755da98e431dd9d2bf810d14ebec3dd12ca372e88ac756ef91",
+  "archive_CRC_ok": true,
+  "saved_files": [
+    {
+      "archive_path": "2022_09_28_peer_review_candidate/ALPHA_DEMO/param_files/BEV/BEV_transmission.m",
+      "saved_path": "research/cruise_m_build_20261011/runs/remaining_review_20261013/sources/BEV_transmission.m",
+      "sha256": "9a55c2b58f45bb114c9620e1bf57f40ef9872c524f3f9e866836c3d3c765ef05"
+    },
+    {
+      "archive_path": "2022_09_28_peer_review_candidate/ALPHA_DEMO/param_files/BEV/vehicle_BEV.m",
+      "saved_path": "research/cruise_m_build_20261011/runs/remaining_review_20261013/sources/vehicle_BEV.m",
+      "sha256": "7bf8e9688d18ffdce0cee0b1b7d0d39f7c3f800a131f80e2744143581c9ff71e"
+    }
+  ],
+  "emachine_source_path": "2022_09_28_peer_review_candidate/ALPHA_DEMO/param_files/BEV/emachine_IPM_150kW_350V_EDU_v2.m",
+  "emachine_source_sha256": "353a70926dc08bfb9c5d465c3c4092839ebee2c706480401c44a82d0ca8cdbcd",
+  "selected_assignments": [
+    {
+      "line": 4,
+      "text": "% modifications: electrical_source = 'battery_pack', gear.efficiency_norm = 0.98"
+    },
+    {
+      "line": 14,
+      "text": "electric.drive_motor.gear.ratio =  9.5; "
+    },
+    {
+      "line": 15,
+      "text": "electric.drive_motor.gear.efficiency_norm =  0.98; "
+    },
+    {
+      "line": 71,
+      "text": "electric.drive_motor.unpowered_torque_loss_Nm = class_REVS_dynamic_lookup;"
+    },
+    {
+      "line": 72,
+      "text": "electric.drive_motor.unpowered_torque_loss_Nm.axis_1.signal =  'emach_spd_radps'; "
+    },
+    {
+      "line": 73,
+      "text": "electric.drive_motor.unpowered_torque_loss_Nm.axis_1.breakpoints = [\t    -15000.000000000000\t    15000.000000000000\t\t]; "
+    },
+    {
+      "line": 74,
+      "text": "electric.drive_motor.unpowered_torque_loss_Nm.table = [\t     0.0000000000000000\t    0.0000000000000000\t\t];"
+    }
+  ],
+  "interpretation": "Generic 9.5 ratio BEV demo, not Bolt7.05. Final drive efficiency1 explicitly states losses in EDU map; separate transmission placeholder. Unpowered torque curve is zero, supplies no measured Bolt neutral drag correction. No coefficients transferred."
+}

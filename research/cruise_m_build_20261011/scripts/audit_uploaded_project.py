@@ -14,7 +14,8 @@ with zipfile.ZipFile(source) as z:
     assert z.testzip() is None
     xml=z.read('project.xml')
 r=E.fromstring(xml,E.XMLParser(resolve_entities=False,no_network=True))
-idx={x.get('id'):x for x in r.iter() if x.get('id')}
+# Index definitions only: later ref nodes repeat IDs and must not overwrite objects.
+idx={x.get('id'):x for x in r.iter() if x.get('id') and x.tag!='ref'}
 def scalar(x):
     if x.tag=='ref':return scalar(idx[x.get('id')])
     if x.tag=='str':return base64.b64decode(x.text or '').decode(errors='replace') if x.get('coding')=='base64' else x.text or ''

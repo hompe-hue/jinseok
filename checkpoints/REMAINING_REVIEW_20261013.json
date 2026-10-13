@@ -1,0 +1,34 @@
+{
+  "stage": "all_accessible_remaining_reviews_complete",
+  "date": "2026-10-13",
+  "result": "research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md",
+  "metrics": "research/cruise_m_build_20261011/runs/remaining_review_20261013/review.json",
+  "reproduce": "research/cruise_m_build_20261011/scripts/review_remaining_dis80.py",
+  "completed": [
+    "discharge/charge limits",
+    "gross discharge vs recovery",
+    "auxiliary conditional energy bound",
+    "VI identity with native/grid separation",
+    "saved Recup domain and extrapolation",
+    "official ALPHA3 source archive inspection",
+    "battery/ABC/EDU/CAN boundary and final validation evidence synthesis",
+    "fix XML definition/reference index in two audit scripts and rerun both successfully"
+  ],
+  "unresolved": [
+    "Bolt-compatible measured neutral/gearing loss curve",
+    "independent inverterDC/rotor/hub measurement boundary",
+    "battery SOC coordinate/OCV-R-temperature-RC identification",
+    "current DIS80 weight trace/full project/log and unexported tail",
+    "held-out final physical validation after evidence-backed changes"
+  ],
+  "no_new_simulations_requested": true,
+  "no_model_inputs_modified": true,
+  "energy_error_percent": 9.484480632311909,
+  "final_validation_passed": false,
+  "next": "Acquire compatible separated-loss and measurement-boundary evidence before numeric corrections; no repeat DIS80 request for61 just for energy diagnosis.",
+  "authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "complete_replay_package": {
+    "filename": "Bolt_Remaining_Review_20261013.zip",
+    "library_file_id": "libfile_762dd27a7b288191a7d0de9dae01f596"
+  }
+}

@@ -1,3 +1,5 @@
+> **최신 완료: 잔여 검토 전체(접근 가능한 자료 범위).** `checkpoints/REMAINING_REVIEW_20261013.json` 및 `research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md`를 먼저 읽는다. DIS80 순에너지차0.978064kWh 중 방전과대0.941818, 순회생부족0.036246(3.71%); 보조부하과대 조건부상한0.057141kWh(5.84%). Recup표10–20km/h,0–1은constant외삽으로범위밖값유지. 기존감사2스크립트의XML ref인덱싱을고쳐재검증통과. 추가사용자시뮬레이션/모델입력변경없음. 물리검증미완료: Bolt호환분리회전손실·계측경계·배터리식별자료미확보. 지속게시승인유효. 재현패키지 Bolt_Remaining_Review_20261013.zip (libfile_762dd27a7b288191a7d0de9dae01f596).
+
 > **최신 완료: 61905060 DIS80 CSV 비교.** 속도RMSE0.593540→0.421025km/h, 피크45.071794→66.321576kW. 에너지오차+9.446073→+9.484481%로 주된 편차는 남았다. 기존45kW제한은 속도부족에 영향, 에너지과대의 주원인은 아님. `checkpoints/DIS80_VALIDATION_20261013.json`과 `research/cruise_m_build_20261011/runs/ANL61905060_DIS80_20261013/RESULT_KO.md`를 우선 읽는다. 현재 추가 사용자 실행 요청 없음. 아래 Dis80실행 대기/결과저장실패 기록은 이후 CSV수신으로 최신 시작점이 아니다.
 
 > **최신 근거 확인 완료:** `research/cruise_m_build_20261011/runs/remaining_source_evidence_20261013/RESULT_KO.md`와 `checkpoints/remaining_evidence_20261013.json`을 우선 읽는다. 실제 시험 Target ABC/질량 일치 확인 완료. 다음 우선 후보는 coastdown 회전손실과 합성 EDU 경계 겹침이며 수치 보정 근거는 미확보. 추가 실행/입력 변경 없음. 아래 기존 질량/ABC 미확정 설명은 이번 원본 확인으로 대체한다.
