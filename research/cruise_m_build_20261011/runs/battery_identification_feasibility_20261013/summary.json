@@ -1,0 +1,50 @@
+[
+  {
+    "test": "61905064",
+    "source_sha256": "7935938cfb794533bade88c2e19ee8906f83127623ea4b5a373dd26c4a3b36a7",
+    "native_phase_rows": 101251,
+    "unique_meter_rows": 101057,
+    "invalid_voltage_rows": 0,
+    "valid_integrated_s": 10105.589171409607,
+    "meter_span_s": 10105.589171409607,
+    "valid_net_Ah": 136.7932263764789,
+    "temperature_range_C": [
+      24.0,
+      30.5
+    ],
+    "SOC_HPCM2_range": [
+      4.704000000000001,
+      79.968
+    ],
+    "rest_windows_ge10s": 1,
+    "longest_screened_rest_s": 17.59879207611084,
+    "rest_windows_ge300s": 0,
+    "screened_step_candidates": 1,
+    "full_OCV_R_RC_identification_supported": false,
+    "reason": "No established equilibrium OCV anchor or controlled HPPC sequence; steady-speed depletion confounds SOC, temperature and voltage history. Apparent short-window R is diagnostic only."
+  },
+  {
+    "test": "61905067",
+    "source_sha256": "fd0f662a44cfa95036b2994fccd52c2f49e0fad105022bab5921d610dc06856c",
+    "native_phase_rows": 101598,
+    "unique_meter_rows": 101404,
+    "invalid_voltage_rows": 69,
+    "valid_integrated_s": 10133.390336036682,
+    "meter_span_s": 10140.203486919403,
+    "valid_net_Ah": 136.578568204882,
+    "temperature_range_C": [
+      24.5,
+      31.0
+    ],
+    "SOC_HPCM2_range": [
+      5.096,
+      79.968
+    ],
+    "rest_windows_ge10s": 1,
+    "longest_screened_rest_s": 19.699981212615967,
+    "rest_windows_ge300s": 0,
+    "screened_step_candidates": 1,
+    "full_OCV_R_RC_identification_supported": false,
+    "reason": "No established equilibrium OCV anchor or controlled HPPC sequence; steady-speed depletion confounds SOC, temperature and voltage history. Apparent short-window R is diagnostic only."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "scope": "Primary sources for 2017 Chevrolet Bolt compatible OCV/HPPC numeric data; not an exhaustive proof of absence",
+  "queries": [
+    "site.energy.gov 2017 Chevrolet Bolt battery testing HPPC report",
+    "site.anl.gov Chevrolet Bolt battery pulse OCV test data",
+    "Chevrolet Bolt HPPC battery OCV raw dataset LG Chem 2017 Argonne download",
+    "site.inl.gov Battery Test Manual Electric Vehicles 2015 pdf",
+    "Chevrolet Bolt open circuit voltage data Argonne battery model",
+    "2017 Chevrolet Bolt battery testing HPPC",
+    "Chevrolet Bolt OCV HPPC dataset download"
+  ],
+  "other_candidates_not_adopted": [
+    {"url":"https://github.com/finepos/bolt-bicm-empirical-data","reason":"2022 64kWh standalone pack; no demonstrated 2017 pack compatibility or controlled HPPC sequence"},
+    {"url":"https://zenodo.org/records/15527574","reason":"LG MJ1 18650 harvested electrode GITT; different cell/device context"},
+    {"url":"https://www.energy.gov/cmei/vehicles/avta-light-duty-alternative-fuel-and-advanced-vehicle-data","reason":"Reviewed catalog; compatible Bolt numerical OCV/HPPC input not acquired"},
+    {"url":"https://www.anl.gov/taps/downloadable-dynamometer-database","reason":"Web fetch failed; existing acquired D3 files remain available, public full catalog not freshly inspected"}
+  ]
+}

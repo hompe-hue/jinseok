@@ -1,0 +1,30 @@
+[
+  {
+    "test": "61905060",
+    "rows": 3151,
+    "end_time_s": 3150.0,
+    "common_grid_model_energy_kWh": 11.288586523504007,
+    "common_grid_reference_energy_kWh": 10.303579411495674,
+    "gap_kWh": 0.9850071120083345,
+    "voltage_difference_at_model_current_kWh": 0.03165610600664751,
+    "current_difference_at_measured_voltage_kWh": 0.9590603682413074,
+    "reference_VI_minus_meter_power_kWh": -0.005709362239620468,
+    "model_power_minus_model_VI_kWh": -3.4992263716245494e-17,
+    "identity_error_kWh": -1.1102230246251565e-16,
+    "voltage_accounting_fraction_of_gap_percent": 3.21379466409169
+  },
+  {
+    "test": "61905061",
+    "rows": 1490,
+    "end_time_s": 1489.0,
+    "common_grid_model_energy_kWh": 3.67894273011195,
+    "common_grid_reference_energy_kWh": 3.3832505048100714,
+    "gap_kWh": 0.29569222530187844,
+    "voltage_difference_at_model_current_kWh": 0.012487040256065554,
+    "current_difference_at_measured_voltage_kWh": 0.2849891347836789,
+    "reference_VI_minus_meter_power_kWh": -0.0017839497378658834,
+    "model_power_minus_model_VI_kWh": -5.1673557408291355e-17,
+    "identity_error_kWh": 5.551115123125783e-17,
+    "voltage_accounting_fraction_of_gap_percent": 4.222985654532266
+  }
+]

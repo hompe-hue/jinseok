@@ -1,0 +1,100 @@
+[
+  {
+    "test": "61905060",
+    "native_rows": 31510,
+    "common_rows": 3151,
+    "maximum_time_gap_s": 0.0999999046330231,
+    "initial_SOC_percent": 81.25424694807245,
+    "capacity_Ah": 168,
+    "end_replay_SOC_percent": 64.55304517544022,
+    "net_removed_Ah": 28.058018978022154,
+    "source_sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+    "exported_model_vs_measured": {
+      "RMSE_V": 1.5202072737946395,
+      "mean_bias_V": 0.9025933156417716,
+      "max_abs_V": 6.050373201072205
+    },
+    "measured_current_replay_vs_measured": {
+      "RMSE_V": 2.2132639364972277,
+      "mean_bias_V": 1.7103326718537024,
+      "max_abs_V": 8.498594575132643
+    },
+    "model_current_replay_vs_export": {
+      "RMSE_V": 0.0008653531475359812,
+      "mean_bias_V": 4.207397455377885e-05,
+      "max_abs_V": 0.0029268909350435024
+    },
+    "existing_rest_intervals": [
+      {
+        "start_s": 1441.0,
+        "end_s": 1462.0,
+        "replay_bias_V": 0.7501250284364496,
+        "export_bias_V": 0.08081857818496019
+      },
+      {
+        "start_s": 1911.0,
+        "end_s": 1944.0,
+        "replay_bias_V": 0.681638715200747,
+        "export_bias_V": -0.17321116728159242
+      },
+      {
+        "start_s": 2036.0,
+        "end_s": 2051.0,
+        "replay_bias_V": 0.28865943548690254,
+        "export_bias_V": -0.576339861855331
+      },
+      {
+        "start_s": 2621.0,
+        "end_s": 2670.0,
+        "replay_bias_V": 0.6950076740103452,
+        "export_bias_V": -0.22687352324034804
+      }
+    ]
+  },
+  {
+    "test": "61905061",
+    "native_rows": 14900,
+    "common_rows": 1490,
+    "maximum_time_gap_s": 0.0999999046330231,
+    "initial_SOC_percent": 62.836170133566526,
+    "capacity_Ah": 168,
+    "end_replay_SOC_percent": 57.18299214236849,
+    "net_removed_Ah": 9.497339025212698,
+    "source_sha256": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03",
+    "exported_model_vs_measured": {
+      "RMSE_V": 2.547266839267989,
+      "mean_bias_V": 2.2048266009989006,
+      "max_abs_V": 6.892060077170697
+    },
+    "measured_current_replay_vs_measured": {
+      "RMSE_V": 2.818694906713626,
+      "mean_bias_V": 2.494818732597398,
+      "max_abs_V": 7.192056990929302
+    },
+    "model_current_replay_vs_export": {
+      "RMSE_V": 0.0009336465581675882,
+      "mean_bias_V": 4.821619577517552e-05,
+      "max_abs_V": 0.0031528854709677034
+    },
+    "existing_rest_intervals": [
+      {
+        "start_s": 868.0,
+        "end_s": 883.0,
+        "replay_bias_V": 2.1715553200935815,
+        "export_bias_V": 1.9741619626572522
+      },
+      {
+        "start_s": 966.0,
+        "end_s": 982.0,
+        "replay_bias_V": 1.7733837311711695,
+        "export_bias_V": 1.5688411936795286
+      },
+      {
+        "start_s": 1320.0,
+        "end_s": 1351.0,
+        "replay_bias_V": 3.0093360388117762,
+        "export_bias_V": 2.728661068910725
+      }
+    ]
+  }
+]
