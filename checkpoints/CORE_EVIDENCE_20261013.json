@@ -14,6 +14,10 @@
     {
       "task": "New soak/full-charge data review",
       "outcome": "Downloaded63/65/68;soakHV voltage unavailable;320s highSOC low-current interval;injectedAh approximatelysupports168 but raw/summary discrepancy;unfitted displayedSOC charge voltageRMSE3.753V"
+    },
+    {
+      "task": "Independent charging prephase zero-offset hypothesis",
+      "outcome": "Before-phase off-bus medians, not fitted to summary:65→167.779275Ah,68→166.314072Ah;summary difference−0.007725/+0.033072Ah. Main raw-summary discrepancy explained numerically;exact official processing still unspecified;no drive correction."
     }
   ],
   "new_source_manifests": [
@@ -23,7 +27,7 @@
   "unresolved": [
     "Compatible measured neutral/backdrive loss curve",
     "DC and rotor/hub sensor definitions/calibration",
-    "Charging summary zero-offset/postprocessing definition",
+    "Exact official charging zero-offset/postprocessing definition; most arithmetic discrepancy explained by independent prephase-zero hypothesis",
     "CAN/trueSOC mapping and physical OCV-R-RC identification"
   ],
   "no_new_CRUISE_simulations_requested": true,
@@ -39,7 +43,6 @@
   "authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
   "complete_replay_package": {
     "filename": "Bolt_Core_Evidence_20261013.zip",
-    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544",
-    "archive_sha256": "56fdcd5665c92c698a01643040efd86d23fed28fc8b0289e91e12c2d30605213"
+    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544"
   }
 }

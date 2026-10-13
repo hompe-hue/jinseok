@@ -45,6 +45,11 @@ for m in manifest:
   active_kwh=-float(np.sum((rawp[a:b]+rawp[a+1:b+1])/2*dt*pair)/3600)
   off=abs(v)<1
   r['reconciliation']={'active_HV_pair_injected_Ah':active_ah,'active_HV_pair_injected_kWh':active_kwh,'off_bus_current_median_A':float(np.median(i[off])) if off.any() else None,'active_Ah_minus_published_summary_Ah':active_ah+float(g.properties['Phase_1_Elec_Ahr_Ahr']),'active_kWh_minus_published_summary_kWh':active_kwh+float(g.properties['Phase_1_Elec_Whr_Whr'])/1000,'status':'Raw phase and active-HV integrals do not reproduce published summary; off-bus current is nonzero. Offset/processing hypothesis remains unverified; no correction applied.'}
+  pre=(np.arange(len(rawt))<a)&(abs(rawv)<1)
+  if pre.any():
+   current_zero=float(np.median(rawi[pre]));power_zero=float(np.median(rawp[pre]));duration=float(rawt[b]-rawt[a])
+   zadj=-ah+current_zero*duration/3600;ezadj=-kwh+power_zero*duration/3600
+   r['independent_prephase_zero_hypothesis']={'prephase_off_bus_rows':int(pre.sum()),'current_zero_median_A':current_zero,'power_zero_median_kW':power_zero,'adjusted_phase_injected_Ah':zadj,'adjusted_phase_injected_kWh':ezadj,'Ah_minus_summary':zadj+float(g.properties['Phase_1_Elec_Ahr_Ahr']),'kWh_minus_summary':ezadj+float(g.properties['Phase_1_Elec_Whr_Whr'])/1000,'not_fitted_to_summary':True,'caution':'Offsets come only from prephase |V|<1V samples. Numerically explains most discrepancy but assumes zero physical current/power and fixed offsets; does not certify published processing or nominal capacity. Original signals/model/drive-reference unchanged.'}
   r['full_charge']={'phase_start_index_zero_based':a,'phase_stop_index_zero_based_inclusive':b,'net_injected_Ah':-ah,'net_injected_kWh':-kwh,'summary_injected_Ah':-float(g.properties['Phase_1_Elec_Ahr_Ahr']),'summary_injected_kWh':-float(g.properties['Phase_1_Elec_Whr_Whr'])/1000,'difference_from168Ah_percent':(-ah/168-1)*100,'interpretation':'Operational replenishment amount after depletion; charging efficiency, reserve/clipping, ending criterion and auxiliary boundaries prevent equating it to physical rated/discharge capacity.'}
   if 'HVBatt_SOC_displayed_CAN3' in cannames:
    soc=d.HVBatt_SOC_displayed_CAN3.to_numpy();mask=valid&np.isfinite(soc)

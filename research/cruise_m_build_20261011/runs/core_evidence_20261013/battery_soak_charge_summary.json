@@ -234,6 +234,17 @@
       "active_kWh_minus_published_summary_kWh": 0.49039782722909564,
       "status": "Raw phase and active-HV integrals do not reproduce published summary; off-bus current is nonzero. Offset/processing hypothesis remains unverified; no correction applied."
     },
+    "independent_prephase_zero_hypothesis": {
+      "prephase_off_bus_rows": 21,
+      "current_zero_median_A": -0.1775561829938177,
+      "power_zero_median_kW": -0.057751202197328516,
+      "adjusted_phase_injected_Ah": 167.7792745886433,
+      "adjusted_phase_injected_kWh": 60.24596157298988,
+      "Ah_minus_summary": -0.0077254113567164495,
+      "kWh_minus_summary": -0.07303842701012542,
+      "not_fitted_to_summary": true,
+      "caution": "Offsets come only from prephase |V|<1V samples. Numerically explains most discrepancy but assumes zero physical current/power and fixed offsets; does not certify published processing or nominal capacity. Original signals/model/drive-reference unchanged."
+    },
     "full_charge": {
       "phase_start_index_zero_based": 21,
       "phase_stop_index_zero_based_inclusive": 63976,
@@ -487,6 +498,17 @@
       "active_Ah_minus_published_summary_Ah": 0.6149267698761776,
       "active_kWh_minus_published_summary_kWh": 0.19660592622721396,
       "status": "Raw phase and active-HV integrals do not reproduce published summary; off-bus current is nonzero. Offset/processing hypothesis remains unverified; no correction applied."
+    },
+    "independent_prephase_zero_hypothesis": {
+      "prephase_off_bus_rows": 210,
+      "current_zero_median_A": -0.17589036423172913,
+      "power_zero_median_kW": -0.055421162954120085,
+      "adjusted_phase_injected_Ah": 166.31407162208032,
+      "adjusted_phase_injected_kWh": 60.32413715503605,
+      "Ah_minus_summary": 0.03307162208034242,
+      "kWh_minus_summary": 0.013137155036048398,
+      "not_fitted_to_summary": true,
+      "caution": "Offsets come only from prephase |V|<1V samples. Numerically explains most discrepancy but assumes zero physical current/power and fixed offsets; does not certify published processing or nominal capacity. Original signals/model/drive-reference unchanged."
     },
     "full_charge": {
       "phase_start_index_zero_based": 210,
