@@ -1,3 +1,5 @@
+> **최신 게시 상태:** 지속 승인을 기록하고 분석 보고서·코드·작은 대조표 등 82파일을 GitHub main 커밋 `6762e90eed7d8c8c58c0f0aac8b89140b2612d8e`에 게시해 원격 확인했다. 아래 게시 거절 기록은 이전 이력이다. 대용량 40파일은 미전송이며 `checkpoints/PROJECT_PUBLICATION_STATUS.json`의 목록을 따른다. 새 분석의 원본/재현 자료는 저장된 `Bolt_Validation_Resume_20261013.zip`(Library ID `libfile_333d84fe7f288191ba0c7fae57609d98`)으로 이어받을 수 있다. 같은 범위의 게시 승인은 계속 유효하다.
+
 # 최신 재개 기록: BOLT EV CRUISE M 실측 비교
 
 이 기록은 이전 empirical_alignment_20261013/RESUME.md의 낡은 다음 작업보다 우선한다. 작성 기준은 사용자의 2026-10-13 21:14 KST 요청이다.

@@ -2,9 +2,179 @@
   "repository": "hompe-hue/jinseok",
   "branch": "main",
   "authorization_record": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
-  "status": "ready_for_authorized_push_pending_remote_verification",
-  "analysis_commit": "cbb4e93",
-  "previous_remote_main": "5fcc143e49f9a9cbcc6ad45c38a6260daadace29",
-  "payload": "Completed project-specific raw inputs, results, code, reports, checkpoints and ongoing authorization; no unrelated files",
+  "status": "reports_scripts_small_derived_tables_published_remote_head_verified",
+  "verified_analysis_commit": "6762e90eed7d8c8c58c0f0aac8b89140b2612d8e",
+  "published_file_count": 82,
+  "remaining_file_count": 40,
+  "remaining_files": [
+    {
+      "path": "deliverables/Bolt_Battery_Analysis_20261013.zip",
+      "bytes": 20247018
+    },
+    {
+      "path": "deliverables/Bolt_Battery_PrimarySources_20261013.zip",
+      "bytes": 54952632
+    },
+    {
+      "path": "research/cruise_m_build_20261011/independent_tests_20261013/ANL61905060/ANL61905060_BoltEV_Phase1.dat",
+      "bytes": 197803
+    },
+    {
+      "path": "research/cruise_m_build_20261011/independent_tests_20261013/ANL61905060/driver_1s.csv",
+      "bytes": 82586
+    },
+    {
+      "path": "research/cruise_m_build_20261011/independent_tests_20261013/ANL61905060/reference_native.csv",
+      "bytes": 4809069
+    },
+    {
+      "path": "research/cruise_m_build_20261011/independent_tests_20261013/ANL61905061/ANL61905061_BoltEV_Phase1.dat",
+      "bytes": 92252
+    },
+    {
+      "path": "research/cruise_m_build_20261011/independent_tests_20261013/ANL61905061/reference_native.csv",
+      "bytes": 2231265
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/aligned_diagnostics.csv",
+      "bytes": 550860
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/battery_ANL61905060(1).csv",
+      "bytes": 390780
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/comparison.png",
+      "bytes": 394936
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/energy_diagnosis/mechanical_electrical_diagnostics.csv",
+      "bytes": 340121
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/generator_ANL61905060(1).csv",
+      "bytes": 299975
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/original_map_audit/runtime_support.csv",
+      "bytes": 256091
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/original_map_audit/sources/3a- 2018 Chevrolet Bolt 150kW 400V FWD EDU - ALPHA Generation Process.html",
+      "bytes": 692033
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/original_map_audit/sources/3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx",
+      "bytes": 32808
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905060_20261013/velocity_ANL61905060(1).csv",
+      "bytes": 633676
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/aligned_diagnostics.csv",
+      "bytes": 258059
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/battery_ANL61905061.csv",
+      "bytes": 184786
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/comparison.png",
+      "bytes": 319481
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/energy_diagnosis/mechanical_electrical_diagnostics.csv",
+      "bytes": 158602
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/energy_diagnosis/motor_CAN_electrical_proxy.csv",
+      "bytes": 1363152
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/generator_ANL61905061.csv",
+      "bytes": 141976
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/ANL61905061_20261013/velocity_ANL61905061.csv",
+      "bytes": 296036
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_capacity_scope_gate_20261013/ANL61905060_capacity_scenarios.csv",
+      "bytes": 2886139
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_capacity_scope_gate_20261013/ANL61905061_capacity_scenarios.csv",
+      "bytes": 1364398
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_current_replay_20261013/ANL61905060_replay_common_grid.csv",
+      "bytes": 844581
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_current_replay_20261013/ANL61905060_replay_native.csv",
+      "bytes": 3456899
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_current_replay_20261013/ANL61905061_replay_common_grid.csv",
+      "bytes": 397571
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_current_replay_20261013/ANL61905061_replay_native.csv",
+      "bytes": 1635437
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_identification_feasibility_20261013/ANL61905067_phase_meter_CAN_aligned.csv",
+      "bytes": 11441067
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_public_source_review_20261013/sources/ANL_2020_CAFE_Vehicle_Simulation_Report.pdf",
+      "bytes": 31524844
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_public_source_review_20261013/sources/DOE_2020_EEMS_Annual_Progress_Report.pdf",
+      "bytes": 28135580
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/battery_public_source_review_20261013/sources/INL_EXT_15_34184_EV_Battery_Test_Manual.pdf",
+      "bytes": 1048415
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/mechanical_loss_selection_20261013/ANL61905060_kinematic_ABC.csv",
+      "bytes": 297808
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/mechanical_loss_selection_20261013/ANL61905061_kinematic_ABC.csv",
+      "bytes": 137661
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/project_audit_20261013/Bolt_Model_Check.proj",
+      "bytes": 1549198
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/project_audit_20261013/embedded_ANL61905061_profile.csv",
+      "bytes": 90877
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/project_audit_20261013/property_snapshot.json",
+      "bytes": 144290
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/project_map_boundary_audit_20261013/ANL61905060_boundary_samples.csv",
+      "bytes": 409715
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/project_map_boundary_audit_20261013/ANL61905061_boundary_samples.csv",
+      "bytes": 189622
+    }
+  ],
+  "pending_reason": "CLI HTTPS push has no credentials; connector publication completed for reviewed text files. Larger files were not included in this publication; not an approval rejection.",
+  "replay_package": {
+    "library_file_id": "libfile_333d84fe7f288191ba0c7fae57609d98",
+    "filename": "Bolt_Validation_Resume_20261013.zip",
+    "contents": "94 files, original project plus 61905060/61 CSVs/references and new analysis inputs/scripts; standalone four-script replay verified",
+    "size_bytes": 8362898
+  },
+  "caution": "Some scripts require pending larger inputs. Resolve the saved replay package for the new analyses; do not claim all raw data/PDFs/ZIPs have been published.",
   "new_user_simulations_required": false
 }

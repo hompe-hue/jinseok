@@ -14,7 +14,7 @@
   "next": "Verified motor CAN electrical/torque definition or independent DC/shaft evidence; compatible OCV/HPPC/history evidence before new inputs",
   "autonomy": "Continue analyses not requiring user simulations without requesting continuation",
   "scope_gate": "research/cruise_m_build_20261011/runs/battery_capacity_scope_gate_20261013/RESULT_KO.md",
-  "remote_publication": "2026-10-13 21:28 KST reauthorization recorded; complete source/analysis publication pending push verification",
+  "remote_publication": "Reports/scripts/derived tables and ongoing approval published and remote main verified at 6762e90eed7d8c8c58c0f0aac8b89140b2612d8e; 40 larger files pending transport; see PROJECT_PUBLICATION_STATUS.json",
   "publication_approval": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md: hompe-hue/jinseok main, project raw data/results/scripts/checkpoints, ongoing authorization",
   "latest_resume": "checkpoints/bolt_validation_resume_20261013_2114.md"
 }
