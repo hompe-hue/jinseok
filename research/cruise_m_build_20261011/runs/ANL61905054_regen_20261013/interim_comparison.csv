@@ -1,0 +1,8 @@
+metric,model,measured,unit,window_or_scope
+net_DC_energy,2.2310442668046635,2.1549315188893154,kWh,0–1144s
+voltage_RMSE,0.6631915338587971,,V,timestamps >20s
+voltage_bias,-0.03803988282761218,,V,timestamps >20s
+current_RMSE,5.220635563281163,,A,timestamps >20s
+energy_error,3.5701576699258775,,%,20–1144s
+maximum_voltage,404.5024541310709,400.80275181951595,V,0–1144s
+speed_RMSE,0.5613167739352144,,km/h,0–1144s

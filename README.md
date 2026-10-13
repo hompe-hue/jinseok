@@ -4,9 +4,11 @@ Bolt 기반 BEV 검증과 Volt 발전계 기반 가상 EREV/EMS 연구의 CRUISE
 
 ## 최신 단계 — 2026-10-13
 
+[회생 복구 후 실측 비교와 중간보고 자료](research/cruise_m_build_20261011/runs/ANL61905054_regen_20261013/RESULT.md): 초기화구간 이후 전압RMSE0.663V, 에너지차이+3.57%. 기존 제안 목표를 해당시험 조건부 재현에서 만족했다. 회생 충전맵은 진단가정이며 독립시험·실차 충전전압 경계검증은 후속과제다. [최신 재개 지점](research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md)을 우선한다.
+
 [FTP75 발전 정지 검증 완료](research/cruise_m_build_20261011/runs/FTP75_2477s_20261012_1626/generator_verification.md): 사용자 generator.csv의 0–2477초 / 2478점에서 발전기·엔진 출력/회전수·전류·연료가 모두 0이며, 기존 배터리/속도 export와 일치합니다.
 
-[ANL 실측 속도 실행 검증 완료](research/cruise_m_build_20261011/runs/ANL61905054_20261013/RESULT.md). [최신 재개 지점](research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md)은 실측 초기상태·보조부하 후보 적용 후 실행입니다. 기존 설정 화면 확인은 반복하지 않습니다. 독립 실차 검증 통과는 아직 판정하지 않았습니다.
+[ANL 실측 속도 실행 검증 완료](research/cruise_m_build_20261011/runs/ANL61905054_20261013/RESULT.md). [최신 재개 지점](research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md)을 확인하세요. 후보 적용 및 회생진단 실행까지 완료됐습니다. 기존 설정 화면 확인은 반복하지 않습니다. 독립 실차 검증 통과는 아직 판정하지 않았습니다.
 
 화면 자료 복구의 최신 반영 범위는 [PUBLISH_STATUS.json](research/cruise_m_build_20261011/session_recovery_20261012_1649/PUBLISH_STATUS.json)에 기록합니다.
 
