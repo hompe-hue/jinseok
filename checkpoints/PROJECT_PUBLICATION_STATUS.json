@@ -1,0 +1,10 @@
+{
+  "repository": "hompe-hue/jinseok",
+  "branch": "main",
+  "authorization_record": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "status": "ready_for_authorized_push_pending_remote_verification",
+  "analysis_commit": "cbb4e93",
+  "previous_remote_main": "5fcc143e49f9a9cbcc6ad45c38a6260daadace29",
+  "payload": "Completed project-specific raw inputs, results, code, reports, checkpoints and ongoing authorization; no unrelated files",
+  "new_user_simulations_required": false
+}

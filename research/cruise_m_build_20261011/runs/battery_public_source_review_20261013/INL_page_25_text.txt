@@ -1,0 +1,42 @@
+ 
+ 8  
+immediately followed by a discharge to the next 10% increment of the rated capacity at the C/3 rate 
+(based on the established operating capacity at BOL) and a default rest.  This sequence is repeated until 
+the final profile at or near 90% of the operating capacity removed (or the maximum discharge specified 
+by the manufacturer).  The test terminates with a discharge of the device at the C/3 rate to Vmin0 and a 
+final default rest.  If at any point Vmin0 is reached during an HPPC pulse then taper the current to finish 
+the pulse.7  If Vmin0 is reached in the C/3 discharge portion, stop the test.  The voltages during each rest 
+period are recorded to establish the cell’s OCV (open-circuit voltage) behavior.  The sequence of rest 
+periods, pulse profiles, and discharge segments is illustrated in Figures 2 and 3.  These figures also 
+illustrate the C/3 discharge to be executed just prior to each HPPC Test.8 
+ 
+Figure 2.  Hybrid Pulse Power Characterization Test (start of test sequence). 
+ 
+                                                 
+7.     The capacity removed during both the HPPC pulse and 10% discharges need to be tracked to ensure that the depth-of-
+discharge is appropriately monitored and reported for each pulse relative to the operating capacity established at BOL. 
+8. This C/3 discharge is required because the HPPC results will eventually be reported as power capability versus energy 
+removed at a C/3 rate.  The availability of linked HPPC-Current data facilitates this analysis and reporting; see Section 4.3. 
+-360 -300 -240 -180 -120 -60 0 60 120 180
+Current
+Time (minutes)
+Discharge
+Regen
+Full Discharge at C1/3 Rate
+Full Recharge 
+(operating capacity)
+10% 
+Increment
+NOTE: Time scale is approximate because some 
+elements in the test sequence have variable 
+length.  For example, the 100% SOC discharge is 
+conducted to a minimum voltage, not necessarily 
+for one hour.
+1 hour Rest
+HPPC 
+Profile
+HPPC 
+Profile
+10% 
+Increment
+1 hour Rest 1 hour Rest1 hour Rest

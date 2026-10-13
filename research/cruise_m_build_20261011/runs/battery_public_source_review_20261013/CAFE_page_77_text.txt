@@ -1,0 +1,20 @@
+ 
+77 | P a g e  
+ 
+Another important aspect to consider for sizing is the pulse power limits of the battery pack. There are 
+several different options to represent the maximum power of the battery. The main one represents 
+maximum power as a function of SOC. Other models introduce a time constraint for the maximum 
+power. These battery packs have different power limits for 10-second, 2-second, and continuous power. 
+The model accounts for the duration of the pulse and limits power accordingly. This aspect is not 
+necessarily a feature of the plant, but is handled by the low-level control and is dependent on the 
+battery chemistry and plant’s performance characteristics. 
+ High-Power Battery Model (Used for Hybrid Electric Vehicles) 
+Figure 60 shows the top-level diagram of the high-power battery model.  
+ 
+Figure 60. High-Power Battery Model Diagram in Autonomie 
+The top-level diagram of the high-power model consists of three main blocks: the voltage calculation 
+(Block A); the current calculation (Block B); and the SOC calculation (Block C). 
+Block A (Figure 61) calculates the output voltage by taking the open-circuit voltage, which depends on 
+SOC, and subtracting three terms: the voltage drop due to the internal resistance of each cell, the 
+voltage drop due to the polarization resistance of each cell, and the voltage drop due to an effective 
+series capacitance, modeling the variation of output voltage with the time integral of the current. 

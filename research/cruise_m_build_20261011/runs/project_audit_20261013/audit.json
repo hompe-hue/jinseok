@@ -1,0 +1,105 @@
+{
+  "project_sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
+  "zip_CRC_passed": true,
+  "ACT_version": "2.250.20",
+  "XML_size_bytes": 14551378,
+  "additional_DAT_filename_references": [],
+  "module1_initial_SOC_percent": 62.83617,
+  "module2_initial_SOC_percent": 62.83617,
+  "module1_temperature_C": 26.0,
+  "module2_temperature_C": 26.0,
+  "aux_kW": 0.4,
+  "final_drive_ratio": 7.05,
+  "final_drive_efficiency": 1.0,
+  "saved_end_time_s": 1489.898579121,
+  "battery_tables": [
+    {
+      "table": "module1_OCV",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~percent",
+        "voltage~V"
+      ]
+    },
+    {
+      "table": "module2_OCV",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~percent",
+        "voltage~V"
+      ]
+    },
+    {
+      "table": "module1_Rcharge",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~no",
+        "resistance~Ohm"
+      ]
+    },
+    {
+      "table": "module1_Rdischarge",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~no",
+        "resistance~Ohm"
+      ]
+    },
+    {
+      "table": "module2_Rcharge",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~no",
+        "resistance~Ohm"
+      ]
+    },
+    {
+      "table": "module2_Rdischarge",
+      "rows": 101,
+      "maximum_difference_from_stored_input": 0.0,
+      "temperature_C": 25.0,
+      "units": [
+        "temperature~degC",
+        "dimensionless~no",
+        "resistance~Ohm"
+      ]
+    }
+  ],
+  "profile_rows": 1491,
+  "profile_end_s": 1489.89857912064,
+  "profile_max_speed_difference_kmh": 4.973799150320701e-13,
+  "motor_tables": [
+    {
+      "quadrant": "Q1",
+      "rows": 153,
+      "temperature_K": 298.15,
+      "voltage_V": 400.0,
+      "max_difference_from_stored_17x17_map_kW": 1.0658141036401503e-14,
+      "table_lookup_rows_outside_domain": 0
+    },
+    {
+      "quadrant": "Q4",
+      "rows": 128,
+      "temperature_K": 298.15,
+      "voltage_V": 400.0,
+      "max_difference_from_stored_17x17_map_kW": 7.105427357601002e-15,
+      "table_lookup_rows_outside_domain": 0
+    }
+  ],
+  "scope": "Read-only saved state and embedded tables; not a CRUISE runtime validation or physical OCV/efficiency identification"
+}

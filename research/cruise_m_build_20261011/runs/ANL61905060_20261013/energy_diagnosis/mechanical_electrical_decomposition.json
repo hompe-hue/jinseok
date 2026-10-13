@@ -1,0 +1,48 @@
+{
+  "window_s": [
+    20,
+    3150
+  ],
+  "tdms_sha256": "2dc2f20481655d18193bbc969fa41bf399e3420b66adef9bf1a4211465dcaa92",
+  "native_motor_mechanical_CAN": {
+    "net_kWh": 9.234502211282283,
+    "positive_kWh": 10.427990800010656,
+    "negative_recovery_kWh": 1.1934885887283713
+  },
+  "model_motor_mechanical": {
+    "net_kWh": 9.400644470524414,
+    "positive_kWh": 10.630787561200192,
+    "negative_recovery_kWh": 1.2301430906757762
+  },
+  "native_battery_DC": {
+    "net_kWh": 10.312260606885413,
+    "positive_kWh": 11.352898137812648,
+    "negative_recovery_kWh": 1.0406375309272355
+  },
+  "model_battery_DC": {
+    "net_kWh": 11.286364301456787,
+    "positive_kWh": 12.291245136060638,
+    "negative_recovery_kWh": 1.0048808346038522
+  },
+  "model_motor_DC": {
+    "net_kWh": 10.938586472387174,
+    "positive_kWh": 11.987043309389954,
+    "negative_recovery_kWh": 1.0484568370027798
+  },
+  "model_aux_HV_kWh": 0.3477777777777778,
+  "reference_LV_output_kWh": 0.2906366089476241,
+  "model_battery_minus_motorDC_minus_aux_max_kW": 3.5533431524958914e-06,
+  "model_mechanical_power_minus_speed_torque_max_kW": 2.1316282072803006e-14,
+  "mechanical_CAN_caution": "Reported torque/speed product is a diagnostic CAN estimate, not independently calibrated shaft-power metrology. Its time clock is kept separate from meter clock; no lag fit. Negative torque at stationary speed contributes zero shaft power. Model output boundary must match before causal efficiency claim.",
+  "next": "Review effective motoring conversion and map boundary with current power-loss tables; no coefficient/aux retuning or 61905061 progression yet",
+  "imported_map_diagnostic": {
+    "map_file": "inputs/Bolt_EDU_Loss_400V_AVL_RegularMap.dat",
+    "model_DC_minus_shaft_net_loss_kWh": 1.5379420018627588,
+    "bilinear_map_loss_at_model_points_kWh": 1.5448636444377346,
+    "model_DC_minus_shaft_vs_map_max_abs_kW": 2.561915070183426,
+    "model_DC_minus_shaft_vs_map_RMSE_kW": 0.08717604605738073,
+    "bilinear_map_loss_at_native_CAN_points_kWh": 1.535445727063834,
+    "reference_battery_minus_CANshaft_net_kWh": 1.07775839560313,
+    "limitation": "A standalone bilinear evaluation assumes current interpolation and boundary. Reference residual includes HV accessories and CAN power uncertainty; do not label it measured EDU loss."
+  }
+}

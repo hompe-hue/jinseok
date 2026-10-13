@@ -1,0 +1,42 @@
+ 
+194 | P a g e  
+ 
+From BatPaC analysis, the results shown in Table 37 are deduced for the battery pack of the 2016 
+Chevrolet Volt.  
+Table 37: BatPaC Analysis of PHEV50 AER 
+Vehicle Battery Pack 
+Manuf. Cost ($) 
+Battery Pack Mass 
+(kg) 
+Battery Cell 
+Capacity (Ah) 
+Battery Pack 
+Nominal Voltage  (V) 
+2016 Chevrolet Volt 4,335 167.5 25.6 360 
+ 
+5.9.2.4. BEV200 AER 
+The 2017 Chevrolet Bolt battery cell teardown analysis from A2mac1 (A2Mac1, 2018) was used to 
+evaluate the assumptions in BatPaC for BEV200 AERs. The different battery pack parameters for the 
+2017 Chevrolet Bolt are shown in Table 38.  
+Table 38. BatPaC Analysis of BEV200 AERs 
+Parameter Value 
+Total number of cells 288 
+Cathode type  NMC622 
+Pack voltage (V) 355 
+Cell capacity (Ah) 60 
+Pack mass (kg) 426.639 
+Cooling medium Liquid cooled 
+ 
+From BatPaC analysis, the results shown in Table 39 are deduced.  
+Table 39. Battery Pack Details of BEV200 AERs 
+Vehicle Battery Pack 
+Manuf. Cost ($) 
+Battery Pack 
+Mass (kg) 
+Battery Cell 
+Capacity (Ah) 
+Battery Pack 
+Nom. Voltage (V)  
+2017 Chevrolet Bolt 8,583 342.5 55.9 360 
+ 
+  

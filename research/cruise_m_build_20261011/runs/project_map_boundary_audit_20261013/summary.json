@@ -1,0 +1,80 @@
+[
+  {
+    "test": "61905060",
+    "total_exported_rows": 3151,
+    "Q4_rpm_range": [
+      249.99999999999983,
+      8250.999999999998
+    ],
+    "Q4_torque_range": [
+      -363.1,
+      -23.66969696969697
+    ],
+    "drive_Q1": {
+      "rows": 2440,
+      "RMSE_kW": 3.17700270549635e-15,
+      "max_abs_kW": 1.7763568394002505e-14
+    },
+    "regen_inside_Q4": {
+      "rows": 173,
+      "RMSE_kW": 3.3416888993265896e-15,
+      "max_abs_kW": 1.4654943925052066e-14
+    },
+    "regen_outside_Q4_rows": 300,
+    "regen_total_rows": 473,
+    "outside_low_abs_torque_rows": 300,
+    "outside_low_speed_rows": 0,
+    "regen_vs_simple_constant_boundary": {
+      "rows": 473,
+      "RMSE_kW": 0.07721229367801714,
+      "max_abs_kW": 0.21270190433399883
+    },
+    "regen_vs_simple_linear_boundary": {
+      "rows": 473,
+      "RMSE_kW": 0.06559496234885,
+      "max_abs_kW": 0.147349112205732
+    },
+    "constant_alternative_minus_observed_regen_energy_kWh": 0.007260192145381944,
+    "linear_alternative_minus_observed_regen_energy_kWh": -0.006052697509848424,
+    "interpretation": "Exact interior agreement verifies in-domain lookup at sampled points. Exterior alternatives do not prove AVL extrapolation semantics and are not input-change recommendations."
+  },
+  {
+    "test": "61905061",
+    "total_exported_rows": 1490,
+    "Q4_rpm_range": [
+      249.99999999999983,
+      8250.999999999998
+    ],
+    "Q4_torque_range": [
+      -363.1,
+      -23.66969696969697
+    ],
+    "drive_Q1": {
+      "rows": 1094,
+      "RMSE_kW": 2.65749104022817e-15,
+      "max_abs_kW": 2.042810365310288e-14
+    },
+    "regen_inside_Q4": {
+      "rows": 142,
+      "RMSE_kW": 3.3903368446932904e-15,
+      "max_abs_kW": 1.1546319456101628e-14
+    },
+    "regen_outside_Q4_rows": 94,
+    "regen_total_rows": 236,
+    "outside_low_abs_torque_rows": 94,
+    "outside_low_speed_rows": 0,
+    "regen_vs_simple_constant_boundary": {
+      "rows": 236,
+      "RMSE_kW": 0.06647862915954535,
+      "max_abs_kW": 0.1622857851876045
+    },
+    "regen_vs_simple_linear_boundary": {
+      "rows": 236,
+      "RMSE_kW": 0.04989421527887742,
+      "max_abs_kW": 0.14281457201904824
+    },
+    "constant_alternative_minus_observed_regen_energy_kWh": 0.0025204714691242063,
+    "linear_alternative_minus_observed_regen_energy_kWh": -0.0018917703158057748,
+    "interpretation": "Exact interior agreement verifies in-domain lookup at sampled points. Exterior alternatives do not prove AVL extrapolation semantics and are not input-change recommendations."
+  }
+]

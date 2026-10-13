@@ -1,0 +1,52 @@
+{
+  "status": "REJECTED_FOR_61905060_COMPARISON_DUPLICATE_61905054_RESULTS",
+  "received_files": [
+    {
+      "received_name": "velocity_ANL61905060.csv",
+      "sha256": "3632a811f89a1d2e403641dfb8a7066c047cf7e1aa1059fcb6de316a5e11a2cc",
+      "exact_byte_match_to": "research/cruise_m_build_20261011/runs/ANL61905054_regen_20261013/velocity2_ANL61905054.csv",
+      "rows": 1145,
+      "time_start_s": 0.0,
+      "time_end_s": 1144.0,
+      "all_finite": true,
+      "duplicate_raw_not_saved_again": true
+    },
+    {
+      "received_name": "battery_ANL61905060.csv",
+      "sha256": "ad98fcb672620d695b4406baa2d8ba52c16b721ed4f4ad89ee585ec48be4bfbd",
+      "exact_byte_match_to": "research/cruise_m_build_20261011/runs/ANL61905054_regen_20261013/battery2_ANL61905054.csv",
+      "rows": 1145,
+      "time_start_s": 0.0,
+      "time_end_s": 1144.0,
+      "all_finite": true,
+      "duplicate_raw_not_saved_again": true
+    },
+    {
+      "received_name": "generator_ANL61905060.csv",
+      "sha256": "ff6166135c046e9e9bca128cc247be02b6c40ba3a7dad72e3b5aa5da3eac28ab",
+      "exact_byte_match_to": "research/cruise_m_build_20261011/runs/ANL61905054_regen_20261013/generator2_ANL61905054.csv",
+      "rows": 1145,
+      "time_start_s": 0.0,
+      "time_end_s": 1144.0,
+      "all_finite": true,
+      "duplicate_raw_not_saved_again": true
+    }
+  ],
+  "desired_profile_match": {
+    "61905054": {
+      "desired_profile_RMSE_kmh": 9.50369700091661e-10,
+      "max_abs_difference_kmh": 4.575618106628099e-09
+    },
+    "61905060": {
+      "desired_profile_RMSE_kmh": 51.49570590574158,
+      "max_abs_difference_kmh": 118.66544104407946
+    }
+  },
+  "observed_initial_SOC_percent": 93.14253200000002,
+  "expected_initial_SOC_percent": 81.254247,
+  "expected_profile_end_s": 3150.896995068,
+  "cause": "Old result exported, or old configuration run; actual new execution state cannot be determined from duplicate files",
+  "existing_61905054_analysis_repeated": false,
+  "61905060_validation_complete": false,
+  "next": "Select/run 61905060 case and export new result CSVs; no 61905061 progression"
+}

@@ -1,0 +1,487 @@
+[
+  {
+    "id": "37448",
+    "type": "cruise.props.single_ratio_transmission.TransmissionRatio",
+    "fields": {
+      "selection": [
+        "transmission_ratio"
+      ],
+      "transmission_ratio": {
+        "unit": [
+          "dimensionless~no"
+        ],
+        "value": 7.05
+      },
+      "number_of_teeth_input": 10,
+      "number_of_teeth_output": 10
+    }
+  },
+  {
+    "id": "37450",
+    "type": "cruise.props.inertia.MassPropertiesInOut",
+    "fields": {
+      "moment_of_inertia_in": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.0
+      },
+      "moment_of_inertia_out": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.0
+      }
+    }
+  },
+  {
+    "id": "37453",
+    "type": "cruise.props.single_ratio_transmission.Settings",
+    "fields": {
+      "transmission_losses": [
+        "efficiency"
+      ],
+      "torque_loss_speed_dependent": false,
+      "saturation_of_torque_loss_map": false
+    }
+  },
+  {
+    "id": "37458",
+    "type": "cruise.props.single_ratio_transmission.Losses",
+    "fields": {
+      "efficiency": {
+        "unit": [
+          "dimensionless~no"
+        ],
+        "value": 1.0
+      }
+    }
+  },
+  {
+    "id": "40511",
+    "type": "cruise.props.differential.DifferentialMassProperties",
+    "fields": {
+      "moment_of_inertia_in": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.0
+      },
+      "moment_of_inertia_out_1": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.0
+      },
+      "moment_of_inertia_out_2": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.0
+      }
+    }
+  },
+  {
+    "id": "40515",
+    "type": "cruise.props.differential.TorqueSplit",
+    "fields": {
+      "torque_split_factor": {
+        "unit": [
+          "dimensionless~no"
+        ],
+        "value": 1.0
+      }
+    }
+  },
+  {
+    "id": "40532",
+    "type": "cruise.props.differential.Losses",
+    "fields": {
+      "base_efficiency": {
+        "unit": [
+          "dimensionless~no"
+        ],
+        "value": 0.97
+      }
+    }
+  },
+  {
+    "id": "40534",
+    "type": "cruise.props.differential.Settings",
+    "fields": {
+      "differential_lock": [
+        "unlocked"
+      ],
+      "transmission_loss": [
+        "deactivated"
+      ]
+    }
+  },
+  {
+    "id": "36261",
+    "type": "cruise.props.vehicle.Settings",
+    "fields": {
+      "front_axle_load_limited": false,
+      "driving_resistance_input_options": [
+        "standard"
+      ],
+      "lifting_effect_consideration": false,
+      "cornering": false,
+      "crosswind_influence": false,
+      "road_gradient_from_data_bus": false,
+      "pfa_activation": false,
+      "hitch_forces_from_data_bus": false,
+      "velocity_prescription": [
+        "none"
+      ],
+      "acceleration_prescription": false
+    }
+  },
+  {
+    "id": "36297",
+    "type": "cruise.props.vehicle.NominalWeight",
+    "fields": {
+      "curb_weight": {
+        "unit": [
+          "mass~kg"
+        ],
+        "value": 1625.0
+      },
+      "gross_weight": {
+        "unit": [
+          "mass~kg"
+        ],
+        "value": 1757.6704
+      },
+      "location": [
+        "roadway"
+      ],
+      "inertia_weight": {
+        "object_type": "cruise.props.vehicle.InertiaWeightSelection",
+        "id": "36300"
+      }
+    }
+  },
+  {
+    "id": "36300",
+    "type": "cruise.props.vehicle.InertiaWeightSelection",
+    "fields": {
+      "active": "const",
+      "const": {
+        "unit": [
+          "mass~kg"
+        ],
+        "value": 0.0
+      },
+      "america": {
+        "object_type": "common.props.commons.RichInterpolatedFunction",
+        "id": "36302"
+      },
+      "europe": {
+        "object_type": "common.props.commons.RichInterpolatedFunction",
+        "id": "36318"
+      },
+      "japan": {
+        "object_type": "common.props.commons.RichInterpolatedFunction",
+        "id": "36334"
+      },
+      "custom": {
+        "object_type": "common.props.commons.RichInterpolatedFunction",
+        "id": "36350"
+      }
+    }
+  },
+  {
+    "id": "36433",
+    "type": "cruise.props.vehicle.ResistanceFunction",
+    "fields": {
+      "constant_part": {
+        "unit": [
+          "force~N"
+        ],
+        "value": 126.329494
+      },
+      "linear_part": {
+        "unit": [
+          "velo_load_c~Nh_km"
+        ],
+        "value": 0.557775
+      },
+      "square_part": {
+        "unit": [
+          "velo_load_d~Nh2_km2"
+        ],
+        "value": 0.033456276
+      }
+    }
+  },
+  {
+    "id": "36508",
+    "type": "cruise.props.vehicle.AdditionalLoadSelection",
+    "fields": {
+      "active": "absolute",
+      "absolute": {
+        "unit": [
+          "mass~kg"
+        ],
+        "value": 132.6704
+      },
+      "variable": "Variable (absolute)",
+      "relative": {
+        "unit": [
+          "dimensionless~percent"
+        ],
+        "value": 0.0
+      }
+    }
+  },
+  {
+    "id": "36525",
+    "type": "cruise.props.vehicle.DrivingResistance",
+    "fields": {
+      "driving_resistance_selection": [
+        "function_without_reference_vehicle"
+      ]
+    }
+  },
+  {
+    "id": "32107",
+    "type": "cruise.props.wheel.Settings",
+    "fields": {
+      "dynamic_rolling_radius": [
+        "constant_value"
+      ],
+      "slip": [
+        "deactivated"
+      ],
+      "slip_limit": false,
+      "slip_low_pass_filter": false,
+      "rolling_resistance_model": [
+        "standard"
+      ],
+      "rolling_resistance_factor_velocity_dependent__driving_resistance__physical_": false,
+      "rolling_resistance_adjustment_wheel_load_dependent": false,
+      "rolling_resistance_adjustment_inflation_pressure_dependent": false,
+      "rolling_resistance_adjustment_temperature_dependent": false
+    }
+  },
+  {
+    "id": "32775",
+    "type": "cruise.props.wheel.Settings",
+    "fields": {
+      "dynamic_rolling_radius": [
+        "constant_value"
+      ],
+      "slip": [
+        "deactivated"
+      ],
+      "slip_limit": false,
+      "slip_low_pass_filter": false,
+      "rolling_resistance_model": [
+        "standard"
+      ],
+      "rolling_resistance_factor_velocity_dependent__driving_resistance__physical_": false,
+      "rolling_resistance_adjustment_wheel_load_dependent": false,
+      "rolling_resistance_adjustment_inflation_pressure_dependent": false,
+      "rolling_resistance_adjustment_temperature_dependent": false
+    }
+  },
+  {
+    "id": "33026",
+    "type": "cruise.props.wheel.Settings",
+    "fields": {
+      "dynamic_rolling_radius": [
+        "constant_value"
+      ],
+      "slip": [
+        "deactivated"
+      ],
+      "slip_limit": false,
+      "slip_low_pass_filter": false,
+      "rolling_resistance_model": [
+        "standard"
+      ],
+      "rolling_resistance_factor_velocity_dependent__driving_resistance__physical_": false,
+      "rolling_resistance_adjustment_wheel_load_dependent": false,
+      "rolling_resistance_adjustment_inflation_pressure_dependent": false,
+      "rolling_resistance_adjustment_temperature_dependent": false
+    }
+  },
+  {
+    "id": "40872",
+    "type": "cruise.props.wheel.Settings",
+    "fields": {
+      "dynamic_rolling_radius": [
+        "constant_value"
+      ],
+      "slip": [
+        "deactivated"
+      ],
+      "slip_limit": false,
+      "slip_low_pass_filter": false,
+      "rolling_resistance_model": [
+        "standard"
+      ],
+      "rolling_resistance_factor_velocity_dependent__driving_resistance__physical_": false,
+      "rolling_resistance_adjustment_wheel_load_dependent": false,
+      "rolling_resistance_adjustment_inflation_pressure_dependent": false,
+      "rolling_resistance_adjustment_temperature_dependent": false
+    }
+  },
+  {
+    "id": "32114",
+    "type": "cruise.props.wheel.DynamicRollingRadiusConstant",
+    "fields": {
+      "dynamic_rolling_radius": {
+        "unit": [
+          "length~mm"
+        ],
+        "value": 313.5
+      }
+    }
+  },
+  {
+    "id": "32782",
+    "type": "cruise.props.wheel.DynamicRollingRadiusConstant",
+    "fields": {
+      "dynamic_rolling_radius": {
+        "unit": [
+          "length~mm"
+        ],
+        "value": 313.5
+      }
+    }
+  },
+  {
+    "id": "33033",
+    "type": "cruise.props.wheel.DynamicRollingRadiusConstant",
+    "fields": {
+      "dynamic_rolling_radius": {
+        "unit": [
+          "length~mm"
+        ],
+        "value": 313.5
+      }
+    }
+  },
+  {
+    "id": "40879",
+    "type": "cruise.props.wheel.DynamicRollingRadiusConstant",
+    "fields": {
+      "dynamic_rolling_radius": {
+        "unit": [
+          "length~mm"
+        ],
+        "value": 313.5
+      }
+    }
+  },
+  {
+    "id": "32105",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 1.75
+      }
+    }
+  },
+  {
+    "id": "32773",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 1.75
+      }
+    }
+  },
+  {
+    "id": "33024",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 1.75
+      }
+    }
+  },
+  {
+    "id": "40870",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 1.75
+      }
+    }
+  },
+  {
+    "id": "34209",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.02
+      }
+    }
+  },
+  {
+    "id": "34309",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.02
+      }
+    }
+  },
+  {
+    "id": "40665",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.015
+      }
+    }
+  },
+  {
+    "id": "51365",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.015
+      }
+    }
+  },
+  {
+    "id": "50176",
+    "type": "cruise.props.inertia.MassProperties",
+    "fields": {
+      "moment_of_inertia": {
+        "unit": [
+          "mom_inert~kgm2"
+        ],
+        "value": 0.041748
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+ 
+225 | P a g e  
+ 
+6.3. Electric Vehicles (BEVs) 
+For BEVs, the SAE J1634 test procedure is followed (Light Duty Vehicle Performance and Economy 
+Measure Committee, 2017). The procedure is to start the battery at full SOC and run until minimum SOC 
+is reached. The electric consumption is then computed as: 
+(1) 𝐸𝑙𝑒𝑐𝑡𝑟𝑖𝑐 𝐶𝑜𝑛𝑠𝑢𝑚𝑝𝑡𝑖𝑜𝑛= ∫𝑉𝑜𝑐∗𝐼𝑒𝑠𝑠
+𝜂𝑒𝑠𝑠𝜂𝑐ℎ𝑎𝑟𝑔𝑒𝑟
+ 
+Where 
+𝜂𝑒𝑠𝑠 = efficiency of the battery while charging𝜂𝑐ℎ𝑎𝑟𝑔𝑒𝑟 = average efficiency of the charger while 
+charging 
+𝑉𝑜𝑐 = open-circuit voltage as a function of time over the cycle 
+𝐼𝑒𝑠𝑠 = current as a function of time over the cycle 
+ Cold-Start Penalty 
+An analysis was conducted on the EPA database of MY 2016 light-duty vehicles (U.S. EPA, 2016c) for the 
+different fuel economy values reported for the different bags. Following an average of the ratio of Bag 3 
+fuel economy over Bag 1 fuel economy, a 15% cold-start penalty was selected to be implemented. The 
+cold-start penalty was applied for the fuel consumption during the FTP for conventional vehicles, HEVs, 
+and PHEVs; 0% was applied for BEVs. Figure 181 shows the ratio of Bag 3 fuel economy to Bag 1 fuel 
+economy. An average value of 15% was used as the cold-start penalty value for Bag 1. An additional 
+penalty of 2.5% was applied to the Bag 2 fuel economy 
+ 
+ 
+Figure 181. Ratio of Bag 3 to Bag 1 Fuel Economy (MY 2016) 
+  

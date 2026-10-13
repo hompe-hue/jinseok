@@ -1,0 +1,63 @@
+{
+  "window_s": [
+    20,
+    1489
+  ],
+  "tdms_sha256": "cb8f9e27bac520e5a848e833d5cdff1ba8700f26512f38b02ae1b30313efdf6b",
+  "native_motor_mechanical_CAN": {
+    "net_kWh": 2.9047267256926452,
+    "positive_kWh": 3.792464071948206,
+    "negative_recovery_kWh": 0.8877373462555604
+  },
+  "model_motor_mechanical": {
+    "net_kWh": 2.9190496535925705,
+    "positive_kWh": 3.876546647349037,
+    "negative_recovery_kWh": 0.9574969937564667
+  },
+  "native_battery_DC": {
+    "net_kWh": 3.388131366669756,
+    "positive_kWh": 4.188144581118788,
+    "negative_recovery_kWh": 0.8000132144490326
+  },
+  "model_battery_DC": {
+    "net_kWh": 3.6767205080751197,
+    "positive_kWh": 4.507761719606671,
+    "negative_recovery_kWh": 0.831041211531551
+  },
+  "model_motor_DC": {
+    "net_kWh": 3.5134982391799925,
+    "positive_kWh": 4.36735902439004,
+    "negative_recovery_kWh": 0.8538607852100465
+  },
+  "model_aux_HV_kWh": 0.16322222222222219,
+  "reference_LV_output_kWh": 0.14005131634548593,
+  "model_battery_minus_motorDC_minus_aux_max_kW": 3.3629715175398367e-06,
+  "model_mechanical_power_minus_speed_torque_max_kW": 2.1316282072803006e-14,
+  "mechanical_CAN_caution": "Reported torque/speed product is a diagnostic CAN estimate, not independently calibrated shaft-power metrology. Its time clock is kept separate from meter clock; no lag fit. Negative torque at stationary speed contributes zero shaft power. Model output boundary must match before causal efficiency claim.",
+  "next": "Compare with retained61905060 diagnosis; no new map/aux fit or GUI request",
+  "imported_map_diagnostic": {
+    "map_file": "inputs/Bolt_EDU_Loss_400V_AVL_RegularMap.dat",
+    "model_DC_minus_shaft_net_loss_kWh": 0.5944485855874223,
+    "bilinear_map_loss_at_model_points_kWh": 0.5978120212756095,
+    "model_DC_minus_shaft_vs_map_max_abs_kW": 2.074171896091488,
+    "model_DC_minus_shaft_vs_map_RMSE_kW": 0.08397582181761425,
+    "bilinear_map_loss_at_native_CAN_points_kWh": 0.5909866526424123,
+    "reference_battery_minus_CANshaft_net_kWh": 0.48340464097711067,
+    "limitation": "A standalone bilinear evaluation assumes current interpolation and boundary. Reference residual includes HV accessories and CAN power uncertainty; do not label it measured EDU loss."
+  },
+  "motor_CAN_electrical_proxy": {
+    "signals": [
+      "Motor_1_HV_circuit_voltage_DMCM1",
+      "Motor_1_current_DMCM1"
+    ],
+    "candidate_VI_energy": {
+      "net_kWh": 3.1681470918530463,
+      "positive_kWh": 4.01417772459625,
+      "negative_recovery_kWh": 0.8460306327432039
+    },
+    "candidate_VI_minus_shaft_net_kWh": 0.26342036616040093,
+    "battery_meter_minus_candidate_VI_kWh": 0.21998427481670957,
+    "candidate_minus_model_motorDC_kWh": -0.34535114732694616,
+    "caution": "CAN current electrical meaning (DC input versus transformed current), calibration and accounting boundary are unverified. This proxy is not measured inverter efficiency and must not replace the Hioki battery power channel."
+  }
+}

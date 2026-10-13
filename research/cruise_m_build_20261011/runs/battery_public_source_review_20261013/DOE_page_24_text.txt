@@ -1,0 +1,47 @@
+Energy Efficient Mobility Systems
+
+
+
+Figure II.1.3.4 ORNL’s Speed Harmonization Algorithm Implementation In VTD ........................................ 222
+Figure II.1.3.5 Component Performance Maps for Chrysler Pacifica Integrated into Autonomie ................... 223
+Figure II.1.3.6 Vehicle Speed, Engine Power, and Cumulated Fuel Rate for the Chrysler Pacifica, in Test and
+Simulation (Left); Vehicle Speed, Motor Power, and SOC for the Chevrolet Bolt, in Test and Simulation.... 223
+Figure II.1.3.7 Configuration of the Controller Implementation for Development of a Digital Twin.............. 225
+Figure II.1.3.8 Five Test Plans Developed with Multiple Types of Mini-Scenarios ........................................ 225
+Figure II.1.4.1 Transportation Agency Pilot Sites ............................................................................................ 229
+Figure II.1.4.2 Performance Improvement in Single (Non-Coordinated Intersections)* ................................. 230
+Figure II.1.4.3 Performance Improvement from Free Mode Corridor Baseline ............................................... 231
+Figure II.1.4.4 Data Partner Current Evaluation Status .................................................................................... 232
+Figure II.1.5.1 Proposed Eco-CAC System ...................................................................................................... 234
+Figure II.1.5.2 Fuel/Energy Consumption and Travel Time for High -Congestion, Multi-Class Routing
+Options.............................................................................................................................................................. 235
+Figure II.1.5.3 LA Network - Speed Harmonization Logic Test Network (LA Network) ............................... 236
+Figure II.1.6.1 Model Framework..................................................................................................................... 241
+Figure II.1.6.2 Impact Evaluation on Travel Behavior ..................................................................................... 243
+Figure II.1.6.3 Speed Histogram in a 3D View (Unit: Mph) ............................................................................ 244
+Figure II.1.6.4 Ride-Hail Waiting Time Histogram.......................................................................................... 244
+Figure II.1.6.5 Energy Consumption for the City of Riverside Network (Unit: Kwh Per Capita) ................... 245
+Figure II.1.6.6 Statewide VMT And Energy Analysis ..................................................................................... 246
+Figure II.1.7.1 Inverse Probability Density Function of Position ..................................................................... 248
+Figure II.1.7.2 Block Diagram of the Optimal Lane Selection NLP Distributed MPC Framework ................. 249
+Figure II.1.7.3 Vehicle-in-the-Loop Simulations: Physical Vehicle Integrated in a String of Vehicles in
+VISSIM ............................................................................................................................................................. 249
+Figure II.1.7.4 Fuel Flow Dynamometer Test Setup ........................................................................................ 250
+Figure II.1.7.5 Mean Fleet Fuel Efficiency Improvements Over the 0% CAV Case at Each Input Vehicle
+Volume/Hour .................................................................................................................................................... 251
+Figure II.1.7.6 Cell Density Plots Showing Dense Groups of Vehicles in the Network at 0%, 30% CAV
+Penetration. With the Introduction of Cavs, Shockwave Effects Were Dissipated .......................................... 251
+Figure II.1.7.7 Fleet Fuel Efficiency Improvements Over the 0% CAV Case at Each Input Vehicle
+Volume/Hour for an SUV-Sized Vehicle Electric Powertrain (Left) and Hybrid ............................................ 251
+Figure II.1.7.8 Simulated Energy and String Length of 8 Automated Electric Vehicles Trailing a Drive Cycle-
+Bound Lead Vehicle ......................................................................................................................................... 252
+Figure II.1.7.9 Percent Reduction in Fuel Consumption (Top) and Average Travel Time (Bottom) for the Rbls
+and Ols Methods Compared to the Baseline of 0% Cav Penetration. Note: Ttb is the Average Travel Time for
+the Baseline Scenario ........................................................................................................................................ 252
+Figure II.1.7.10 ................................................................................................................................................. 253
+Figure II.1.7.11 Nissan Leaf Tracking Performance......................................................................................... 254
+Figure II.1.7.12 ................................................................................................................................................. 254
+
+
+
+ xxii         List of Figures

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "status": "partial_sync_after_explicit_authorization",
+  "repository": "https://github.com/hompe-hue/jinseok",
+  "target_branch": "main",
+  "prepared_publication_commit": "72dce60",
+  "verified_remote_main": "5fcc143e49f9a9cbcc6ad45c38a6260daadace29",
+  "reason": "Reviewer rejected current public analysis bundle and main mutation for lack of explicit authorization. Prior session approval exists but current transfer remains blocked.",
+  "remote_mutation_complete": true,
+  "retries_after_current_rejection": 0,
+  "local_analysis_complete": true,
+  "published_scope": "28 summary/script/checkpoint files",
+  "large_files_publication_complete": false,
+  "current_block": "Git command transport lacks credentials; no active automatic approval rejection on successful connector publication"
+}

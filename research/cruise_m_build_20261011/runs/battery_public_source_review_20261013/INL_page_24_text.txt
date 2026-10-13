@@ -1,0 +1,42 @@
+ 
+ 7  
+ 
+Figure 1. Hybrid Pulse Power Characterization Test Profile. 
+3.4.2 Test Procedure Description   
+The HPPC Test incorporates the pulse power characterization profile as defined in Section 3.4.1.  
+Constant current steps are used in the ratios listed in Table 2.  The test is made up of single repetitions of 
+this profile, followed by discharge to the next 10% increment based on operating capacity point using 
+the C/3 rate,6 each time followed by a default rest period to allow the cell to return to an electrochemical 
+and thermal equilibrium condition before applying the next profile.  
+Note that battery developers typically specify a nominal capacity, which corresponds to a pair of voltage 
+limits representing 0% and 100% SOC at beginning of life (BOL). These are defined as Vmin0 and 
+Vmax100 for the purposes of this manual (see Section 3.1.1 and Appendix C). Separately, a developer will 
+supply (or testing will determine) a recommended voltage range of operation, which may be less than the 
+full 100% SOC span  associated with the nominal capacity. The upper voltage limit of the intended 
+operating window is defined as Vmaxop; it is fixed at BOL for all subsequent HPPC testing as the “fully 
+charged” condition for operating mode and is used as the basis for determining the percentage of the 
+operating capacity removed (i.e., 0% capacity removed at Vmaxop) for the Power vs. Energy curves from 
+which parameters of interest are determined.  Note that the manufacturer may also supply an alternative 
+maximum and minimum voltage limit for short-duration pulse conditions (i.e., Vmaxpulse and Vminpulse).  
+The HPPC test begins with a charged device up to Vmaxop using the manufacturer recommended 
+procedure.  Following a default rest period (nominally a 1-hour rest), an HPPC profile is performed 
+                                                 
+6. Note that the capacity of the pulse profile must be accounted for in determining the actual percentage of the operating 
+capacity removed from Vmaxop at which the profile was performed.  The profile in Table 2 may remove several percent of 
+the capacity from a typical device.  The test should be programmed such that 10% of the operating capacity is removed in 
+each test segment, including that removed by the pulse profile itself. 
+-1
+-0.75
+-0.5
+-0.25
+0
+0.25
+0.5
+0.75
+1
+1.25
+0 10 20 30 40 50 60 70 80
+Current (relative)
+Time in Profile (s)
+DISCHARGE
+REGEN

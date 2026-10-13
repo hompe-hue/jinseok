@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "INL_EXT_15_34184_EV_Battery_Test_Manual.pdf",
+    "url": "https://inldigitallibrary.inl.gov/sites/sti/sti/6492291.pdf",
+    "bytes": 1048415,
+    "sha256": "20daf907c097a63074e22cb18e725b06fce51f23ad7028e48b3657dd07d35c78",
+    "downloaded": true
+  },
+  {
+    "filename": "DOE_2020_EEMS_Annual_Progress_Report.pdf",
+    "url": "https://www.energy.gov/sites/default/files/2021-07/VTO_2020_APR_EEMS_06172021_compliant_.pdf",
+    "bytes": 28135580,
+    "sha256": "fc70cd1736306cd1dcb7f2532ddb4f167455812f88f8fb4ff2b25e744365d2ad",
+    "downloaded": true
+  },
+  {
+    "filename": "ANL_2020_CAFE_Vehicle_Simulation_Report.pdf",
+    "url": "https://publications.anl.gov/anlpubs/2020/04/159142.pdf",
+    "bytes": 31524844,
+    "sha256": "1cac9b1e696f6216e625cffb7a3a936446a4b34ee8c06307aa0f22e06a9b972d",
+    "downloaded": true
+  }
+]

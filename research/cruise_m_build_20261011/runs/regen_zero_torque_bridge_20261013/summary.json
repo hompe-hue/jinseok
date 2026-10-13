@@ -1,0 +1,12 @@
+{
+  "samples": 94,
+  "RMSE_kW": 6.73231741089335e-16,
+  "max_abs_error_kW": 3.1086244689504383e-15,
+  "fitted_parameters": 0,
+  "project_changed": false,
+  "new_simulations": 0,
+  "regenerative_shaft_samples_with_positive_motor_DC": 27,
+  "formula": "L(n,T)=(1-T/Tedge)*L_Q1(n,0)+(T/Tedge)*L_Q4(n,Tedge)",
+  "Tedge_Nm": -23.66969696969697,
+  "scope": "Observed implementation behavior in this project/run; not independent measured motor-loss validation; no low-speed regeneration samples available."
+}

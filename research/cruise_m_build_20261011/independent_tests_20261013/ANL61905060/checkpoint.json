@@ -1,0 +1,33 @@
+{
+  "test_id": "61905060",
+  "stage": "recovered_run_inputs_only",
+  "source_sha256": "2dc2f20481655d18193bbc969fa41bf399e3420b66adef9bf1a4211465dcaa92",
+  "source_url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620732786960",
+  "phase_start_row_zero_based": 260,
+  "phase_stop_row_exclusive": 31770,
+  "duration_s": 3150.8969950675964,
+  "native_rows": 31510,
+  "driver_rows": 3152,
+  "native_distance_km": 65.64585275135612,
+  "driver_distance_km": 65.64588017531601,
+  "resampling_distance_difference_percent": 4.177561681029118e-05,
+  "initial_voltage_V": 382.65428018294557,
+  "initial_current_A": 1.4893572765146705,
+  "initial_SOC_model_percent": 81.25424694807245,
+  "initial_SOC_basis": "First low-load voltage inversion using unchanged imported OCV/R tables; initialization only, not physical/CAN SOC mapping",
+  "initial_battery_temperature_C": 24.5,
+  "test_cell_temperature_C": 23.287736867822037,
+  "aux_kW_held": 0.4,
+  "peak_discharge_power_kW": 64.79021387988008,
+  "BMS_45kW_rule": "Preserve existing example setting from user screenshot; not a measured Bolt limit",
+  "source_summary_energy_kWh": 10.362,
+  "CAN_clock_caution": "Raw merged CAN clock retained; no new continuous SOC interpolation or endpoint SOC validation",
+  "run_status": "CRUISE M import/run pending; Windows project unavailable",
+  "next_test": "61905061 only after 61905060 execution/comparison is finished and committed",
+  "prior_prepared_files_unavailable": true,
+  "sha256": {
+    "reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+    "ANL61905060_BoltEV_Phase1.dat": "714dfe6f0d70c48b262fcb6b3676b645678bfd2864378f6a3d92e12d984b0e38",
+    "driver_1s.csv": "5f455fdf9a4f769c51e006cadedce1ceedc9d1da36ce418754024bb31cf59b95"
+  }
+}

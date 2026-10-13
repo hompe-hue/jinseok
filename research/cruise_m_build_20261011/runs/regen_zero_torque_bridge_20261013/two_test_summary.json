@@ -1,0 +1,22 @@
+[
+  {
+    "test": "61905060",
+    "samples": 300,
+    "RMSE_kW": 7.393688031295634e-16,
+    "max_abs_error_kW": 3.552713678800501e-15,
+    "regenerative_shaft_samples_with_positive_motor_DC": 63,
+    "fitted_parameters": 0,
+    "new_simulations": 0,
+    "project_changed": false
+  },
+  {
+    "test": "61905061",
+    "samples": 94,
+    "RMSE_kW": 6.767770075941883e-16,
+    "max_abs_error_kW": 3.1086244689504383e-15,
+    "regenerative_shaft_samples_with_positive_motor_DC": 27,
+    "fitted_parameters": 0,
+    "new_simulations": 0,
+    "project_changed": false
+  }
+]

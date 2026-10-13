@@ -1,0 +1,239 @@
+                                                                                                                                                                                                                                                                                                                                    FY 2020 Annual Progress Report
+
+
+
+
+Demonstration and Validation of Controls (ANL)
+Vehicle Model Validation and Implementation
+Testing of vehicles on a 4-wheel drive chassis dynamometer at ANL was completed for the Bolt and Pacifica
+prior to the integration of additional sensing and controls. ANL engineers instrumented the vehicles with
+sensors, decoded and logged key CAN messages in order to provide a comprehensive picture of the operations
+of the powertrain and the energy consumption. ANL developed models of the vehicles in Autonomie and
+validated them using the dynamometer data. The operations of the vehicle, its individual components (e.g.,
+engine, battery, motor) and controls (e.g., gear shifting logic) were analyzed, modeled and validated in each
+case. Figure II.1.3.5 below shows some of the component performance maps.
+
+
+                                                                                                                                                                                             Up and Down-shifting maps
+                                                                                                                                                                              1
+
+
+
+
+                                                                                                                                                                        0.9
+
+
+
+
+                                                                                                                                                                        0.8
+
+
+
+
+                                                                                                                                                                        0.7
+
+                                                                                                                                                                                                                                                                              Upshift 1            2
+
+                                                                                                                                                                                                                                                                              Downshift 2              1
+                                                                                                                                                                        0.6
+                                                                                                                                                                                                                                                                              Upshift 2            3
+
+                                                                                                                                                                                                                                                                              Downshift 3              2
+                                                                                                                                                                        0.5
+                                                                                                                                                         Accel. Pedal
+
+
+
+
+                                                                                                                                                                                                                                                                              Upshift 3            4
+
+                                                                                                                                                                                                                                                                              Downshift 4              3
+                                                                                                                                                                        0.4
+                                                                                                                                                                                                                                                                              Upshift 4            5
+
+                                                                                                                                                                                                                                                                              Downshift 5              4
+
+                                                                                                                                                                        0.3                                                                                                   Upshift 5            6
+
+                                                                                                                                                                                                                                                                              Downshift 6              5
+
+                                                                                                                                                                        0.2                                                                                                   Upshift 6            7
+
+                                                                                                                                                                                                                                                                              Downshift 7              6
+
+                                                                                                                                                                        0.1                                                                                                   Upshift 7            8
+
+                                                                                                                                                                                                                                                                              Downshift 8              7
+
+
+                                                                                                                                                                              0
+
+                                                                                                                                                                                  0    50              100                                                     150             200                         250
+
+
+                                                                                                                                                                                                         Speed (mile/h)
+
+
+
+
+          Engine BSFC map developed for Chrysler                                                                                                     Transmission shifting map for Chrysler                                                                                                                                                  Battery OCV estimation for
+                        Pacifica                                                                                                                                   Pacifica                                                                                                                                                                        Chevrolet Bolt
+
+
+                                                                  Figure II.1.3.5 Component Performance Maps for Chrysler Pacifica Integrated into Autonomie
+
+ANL implemented models of both vehicles, including calibrated plants and controllers, in Autonomie. The
+validation process is iterative, and combines data analysis, model development and model calibrations. Figure
+II.1.3.6 below shows how a sample of the main signals in the test and in the simulations compare with each
+other for the UDDS driving cycle and demonstrates the successful validation of the vehicles based on
+Normalized Cross-Correlation Power (NCCP).
+
+                                                                                                                 UDDS
+                                                                                                                                                                                                                                                                                                                                         UDDS
+                                            30                                                                                                                                                                                                             30
+
+
+                                                                                                                                            Vehicle Speed (Simulation)
+                                                                                                                                                                                                                                                                                                                                                              Vehicle Speed (Simulation)
+                                            25
+                                                                                                                                                                                                                                                           25
+                                                                                                                                            Vehicle Speed (Test)
+                                                                                                                                                                                                                                                                                                                                                              Vehicle Speed (Test)
+
+
+
+
+                                                                                                       NCCP         0 99441                                                                                                                                                                                            NCCP
+                                            20
+                                                                                                                                                                                                                                                           20
+
+
+
+                                            15
+                                                                                                                                                                                                                                                           15
+                      Vehicle Speed, m/s
+
+
+
+
+                                                                                                                                                                                                                                           Speed, m/s
+
+
+
+
+                                            10
+                                                                                                                                                                                                                                                           10
+
+
+
+                                                  5
+                                                                                                                                                                                                                                                               5
+
+
+                                                  0
+
+                                                      0           200                            400     600                 800     1000                                1200         1400                                                                     0
+ Chrysler Pacifica
+
+
+
+
+                                                                                                                                                                                                                                                                    0                200                         400          600        UDDS    800   1000                    1200        1400
+                                                                                                                                                                                                         Chevrolet Bolt
+
+
+
+
+                                                                                                                                                                                                                                                           60
+                                                                                                                 UDDS
+                                             80                                                                                                                                                                                                                                                                                     ti   (   )
+                                                                                                                                                                                                                                                                                                                                                              Battery Power (Simulation)
+
+                                                          Engine Power (Simulation)                                                                                                                                                                                                                                                                           Battery Power (Test)
+                                                                                                                                                                                                                                                           40
+
+
+
+                                                                                                                                                                                                                                                                                                                       NCCP         0 90854
+                                             60           Engine Power (Test)
+
+
+
+
+                                             40                                                        NCCP         0 90288                                                                                                                                20
+                                                                                                                                                                                                                                    Battery Power, kW
+                     Engine Power, kW
+
+
+
+
+                                                                                                                                                                                                                                                                0
+                                             20
+
+
+
+
+                                                                                                                                                                                                                                                         -20
+                                                  0
+
+
+
+
+                                                                                                                                                                                                                                                         -40
+                                            -20
+                                                                                                                                                                                                                                                                    0                200                         400          600        UDDS    800   1000                    1200        1400
+                                                      0           200                            400     600                 800     1000                                1200         1400
+                                                                                                                                                                                                                                                        0.98
+                                                                                                                 UDDS
+                                                  1                                                            time(sec)
+
+                                                                                                                                                                                                                                                        0.97
+                                                            Engine Cumulated Fuel (Simulation)
+
+                                            0.8             Engine Cumulated Fuel (Test)
+
+
+
+
+                                                                                                                                                                                                                                                                                                                         NCCP            0 99876
+                                                                                                                                                                                                                                                        0.96
+
+
+
+                                            0.6
+                                                                                                                                                                                                                                                        0.95
+                                                                                                                                                                                                                          Battery SOC [0, 1]
+                       Cumulated Fuel, kg
+
+
+
+
+                                            0.4                                                                                                                                                                                                         0.94
+
+
+
+
+                                                                                                                                                                                                                                                        0.93            Battery SOC (Simulation)
+                                            0.2
+                                                                                                                                                                                                                                                                        Battery SOC (Test)
+
+
+
+
+                                                  0
+                                                                                                        NCCP               0 99391                                                                                                                      0.92
+
+                                                                                                                                                                                                                                                                    0                200                         400          600                800   1000                    1200        1400
+                                                      0           200                            400     600                 800     1000                                1200         1400
+                                                                                                                                                                                                                                                                                                                                    time(sec)
+
+
+
+
+        Figure II.1.3.6 Vehicle Speed, Engine Power, and Cumulated Fuel Rate for the Chrysler Pacifica, in Test and Simulation
+                       (Left); Vehicle Speed, Motor Power, and SOC for the Chevrolet Bolt, in Test and Simulation
+
+
+
+
+                                                                                                                                                                                                                                                                            Connectivity and Automation Technology                                                                                223

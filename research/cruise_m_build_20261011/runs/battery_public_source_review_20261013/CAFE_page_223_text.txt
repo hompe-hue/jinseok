@@ -1,0 +1,47 @@
+ 
+223 | P a g e  
+ 
+𝛼ℎ𝑜𝑡 = user-specified hot weighting factor (default value = 0.57)  
+𝑀𝑐𝑑 = column vector of cold-corrected fuel mass 
+(11)   𝑉𝑜𝑙𝑐𝑑 =
+𝑀𝑐𝑑
+𝛿𝑔𝑎𝑠𝑜𝑙𝑖𝑛𝑒
+ 
+Where 
+ 𝑉𝑜𝑙𝑐𝑑 = column vector of cold-corrected fuel volumes 
+Note that each element in the 𝑉𝑜𝑙𝑐𝑑 vector is divided by its respective distance: 
+(12)    𝐹𝐶𝑐𝑑 =
+𝑉𝑜𝑙𝑐𝑑
+𝐷𝑢𝑑𝑑𝑠
+ 
+Where 
+𝐹𝐶𝑐𝑑 = column vector of cold-corrected fuel consumption 
+The net battery energy used was calculated for each cycle using the open-circuit voltage and the current: 
+(13)      𝑓𝑜𝑟 𝑖 = 1, ⋯ , 𝑁𝑐𝑑 ;  𝐸𝑐𝑑
+𝑖 = ∫ 𝑉𝑜𝑐(𝜏)
+(𝑖)𝑇𝑢𝑑𝑑𝑠+𝑡
+(𝑖−1)𝑇𝑢𝑑𝑑𝑠
+∗ 𝐼(𝜏)𝑑𝜏 
+Where 
+𝐸𝑐𝑑
+𝑖  = net battery energy used during the 𝑖𝑡ℎ CD cycle 
+𝑇𝑢𝑑𝑑𝑠 = duration of the UDDS cycle + soak time or (HWFET + 15 sec) 
+𝑖 = index of the CD cycle 
+𝑁𝑐𝑑 = total number of CD cycles 
+𝑉𝑜𝑐 = open-circuit voltage as a function of time during the cycle 
+𝐼 = battery current as a function of time during the cycle  
+(14)     𝐸𝑐𝑑 = [𝐸𝑐𝑑
+1 , ⋯ , 𝐸𝑐𝑑
+𝑁𝑐𝑑]
+𝑇
+ 
+Where 
+𝐸𝑐𝑑 = column vector of net battery energy used on each cycle 
+Note that each element in the 𝐸𝑐𝑑 vector is divided by its respective distance: 
+(15)      𝐸𝐶𝑐𝑑 =
+𝐸𝑐𝑑
+𝐷𝑢𝑑𝑑𝑠∗𝜂𝑐ℎ𝑔
+𝑒𝑠𝑠 ∗𝜂𝑐ℎ𝑎𝑟𝑔𝑒𝑟
+ 
+Where 
+𝐸𝐶𝑐𝑑 = column vector of electrical-energy consumption in AC-Joules (wall outlet) 

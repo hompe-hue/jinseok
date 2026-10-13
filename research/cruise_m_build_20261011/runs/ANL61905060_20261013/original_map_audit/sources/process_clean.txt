@@ -1,0 +1,129 @@
+
+      
+   2018 Chevrolet Bolt 150kW 400V FWD EDU - ALPHA Generation Process
+
+Version: 2023-09-122018 Chevrolet Bolt 150kW 400V FWD EDU - ALPHA Generation Process
+
+This document summarizes the process to generate full efficiency and power loss maps for a 2018 Chevrolet Bolt 150kW 400V FWD Electric Drive Unit (EDU) which includes the inverter, emotor and the gearing using test data collected from the vehicle operating on a hub dynamometer by Southwest Research Institute provided in support of Task Order #9 under Contract #68HERC20D0014 with EPA. The input data file represents valid measurements from three independent mapping runs combined into one result file sorted by speed and torque. The generated efficiency map is used as an input for ALPHA and represents the combined operating boundaries and electrical power consumption of the electric motor, inverter, and gearing, combined together as an EDU.
+
+SUGGESTED CITATION:2018 Chevrolet Bolt 150kW 400V FWD EDU - ALPHA Map Package. Version 2023-09. Ann Arbor MI: US EPA National Vehicle and Fuel Emissions Laboratory, National Center for Advanced Technology, 2023.
+EDU Physical CharacteristicsThe following table sets the key physical characteristics for the 2018 Chevrolet Bolt 150kW 400V FWD electric motor, inverter, and gearing (EDU) used in the ALPHA model based on published information provided by SwRI. The items in the table follow ALPHA’s code syntax for “emachines,” which is: emach.characteristic name_engineering units = value; % comments.The EDU’s inertia value was calculated using SolidWorks models based on measured dimensions of the EDU components including the electric motor as well as the associated gearing in the EDU. The inertia value is calculated in the frame of reference of the motor speed; the corresponding inertia value at the EDU output speed can be calculated by multiplying the given inertia by the square of the EDU’s gear ratio.
+
+emach                             = class_REVS_emachine_geared;
+emach.name                        = '2018 Chevrolet Bolt 150kW 400V FWD EDU';
+emach.type                        = enum_emachine_type.EDU;
+emach.gear.efficiency_norm        = 1;
+emach.inertia_kgm2                = 0.041748; %[kgm^2] Reference description above
+emach.gear.ratio                  = 7.05;
+emach.max_speed_radps             = 8250 * unit_convert.rpm2radps;
+emach.max_torque_Nm               = 360;
+emach.max_motor_power_W           = 150000;
+emach.max_generator_power_W       = emach.max_motor_power_W;
+nominalVoltage_V                  = 400;
+
+Import EDU DataThe following code imports EDU efficiency data provided by SwRI found in 3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx. This test data consists of valid measurements from three independent mapping runs on a hub dynamometer combined into one result file sorted by speed and torque.EPA reviews the quality of the test data we import to ensure consistency with expected data trends and emotor system physics. Any data points considered significant outliers are removed from the dataset before generating the final efficiency map. In addition, since many of the datasets are missing low-speed and torque datapoints, occasionally a few “grounding” datapoints are added to help the curve fitting algorithm extrapolate the gradients near the map’s boundaries.
+
+tbl_data         = readmatrix('3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx','Sheet','Data','Range','A4:E257');
+speed_rpm        = tbl_data(1:end,2);
+torque_Nm        = tbl_data(1:end,4);
+elec_powerloss_W = tbl_data(1:end,5)*1000;
+
+gp.speed_rpm       = [0.01; 3500];
+gp.torque_Nm       = [0.01; 360];
+gp.powerloss_w     = [0.002; 15290];
+
+data(1).name             = 'EDU Data';
+data(1).speed_rpm        = [gp.speed_rpm; speed_rpm(torque_Nm > 0)];
+data(1).torque_Nm        = [gp.torque_Nm; torque_Nm(torque_Nm > 0)];
+data(1).elec_powerloss_W = [gp.powerloss_w; elec_powerloss_W(torque_Nm > 0)];
+data(1).gp               = gp;
+
+EDU Torque LimitsThe following table sets the torque limits of the EDU input map based on test data collected by SwRI provided in 3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx. The maximum torque line is set by defining maximum torque (axis 2) at discrete speeds (axis 1) of the operating map.
+
+emach.positive_torque_limit_Nm.axis_2.signal        =  'voltage_V';
+emach.positive_torque_limit_Nm.axis_2.breakpoints   = nominalVoltage_V;
+emach.negative_torque_limit_Nm.axis_2.signal        =  'voltage_V';
+emach.negative_torque_limit_Nm.axis_2.breakpoints   = nominalVoltage_V;
+
+Build the emachine Object in MatlabThe script below creates an “emach” object which is converted into power loss space for the “drive” quadrant, extrapolated to the edges of the operating space (rather than efficiency space), and scaled for maximum power.These power losses were then “mirrored” to the regen quadrant considering the average of the empirical internal mechanical and electrical losses differences typically seen between operating in the “drive” and “regen” quadrants. Since the dataset did not have any measured regen data, we mirrored the drive quadrant power loss data onto the regen quadrant multiplied by a factor of 1.05 (or 105 %) which represents an empirical average of the additional regen losses observed in confidential data available to this program.
+
+emach = emach.load_data(data,'mirror_factor',1.05,'use_cluster_breakpoints', true);
+
+EDU Efficiency MapThe following code generates the Efficiency Map shown below for this EDU which includes the combined efficiency data of the electric motor, inverter, and gearing.  The efficiency data points used to generate the efficiency map are superimposed on this image.A clean version of the efficiency map (without data points) is included in 4a- 2018 Chevrolet Bolt 150kW 400V FWD EDU.pdf.  The 6- 2018 Chevrolet Bolt 150kW 400V FWD EDU - Electrical Power Consumption Data.xlsx file contains a sample data set extracted from this efficiency map.
+
+REVS_plot_emachine(emach,'efficiency');
+REVS_plot_emachine_data_overlay(data,'efficiency','gear_ratio',emach.gear.ratio);
+ 
+Power Loss Difference (%) TableTo ensure the quality of the map results, the relative power loss difference is calculated by comparing the power loss data derived from the power loss data found in 3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx file and the ALPHA map power data. The relative power loss difference for these data points is calculated using the following formula:WhereThe results of the analysis were assembled in a table which was reviewed and confirmed to be within acceptable limits. The significant variation in torque and speed measurements resulted in a significantly large table which was retained internally but not displayed in this publication.
+
+
+Power Loss MapA clean version of the Power Loss map is shown below and in 5a- Chevrolet Bolt 150kW 400V FWD EDU - Power Loss.pdf. The additional plots show system losses, converted to effective torque loss, as a function of motor output torque and speed. Effective torque loss represents the total power loss in the system as a loss of mechanical power. The associated speed is kept constant, and thus the total loss is expressed as a loss of torque. Torque losses are presented on a log scale.
+
+REVS_plot_emachine(emach,'power loss');
+REVS_plot_emachine(emach,'torque loss curves');
+   
+Generate ALPHA .m file for ALPHA Model SimulationsThis code generates and writes the created ALPHA emachine definition into an “.m file” for use in later ALPHA vehicle model simulations. The .m file is the actual input file used in ALPHA that defines power consumption over the speed and torque operating limits of the 2018 Chevrolet Bolt 150kW 400V FWD EDU.
+
+emach.write_mscript('emachine_2018_Chevrolet_Bolt_150kW_400V_FWD_EDU.m');
+
+Motor Build:  emachine_2018_Chevrolet_Bolt_150kW_400V_FWD_EDU.m
+
+% ALPHA ELECTRIC MOTOR DEFINITION
+% Generated 12-Sep-2023 08:49:39
+
+% Constructor
+mg = class_REVS_emachine_geared();
+mg.name =  '2018 Chevrolet Bolt 150kW 400V FWD EDU'; 
+mg.source_filename = mfilename;
+
+% Physical Description
+mg.electrical_source =  'propulsion'; 
+mg.inertia_kgm2 =  0.041748; 
+mg.type = enum_emachine_type.EDU;
+mg.gear.ratio =  7.05; 
+mg.gear.efficiency_norm =  1; 
+
+% Capacity Limits
+mg.max_speed_radps =  863.93797973719302; 
+mg.max_torque_Nm =  360; 
+mg.max_motor_power_W =  150000; 
+mg.max_generator_power_W =  150000; 
+mg.positive_torque_limit_Nm = class_REVS_dynamic_lookup;
+mg.positive_torque_limit_Nm.axis_1.signal =  'emach_spd_radps'; 
+mg.positive_torque_limit_Nm.axis_1.breakpoints = [	    -872.57735953456495	   -863.93797973719302	   -784.60521968946148	   -714.50060168471714	   -655.89616128141392	   -606.17662072485962	   -563.46381969157767	   -526.37411347517730	   -493.86566853815759	   -465.13905209557385	   -439.57060892096985	   -416.66666666666669	    0.0000000000000000	    416.66666666666669	    439.57060892096985	    465.13905209557385	    493.86566853815759	    526.37411347517730	    563.46381969157767	    606.17662072485962	    655.89616128141392	    714.50060168471714	    784.60521968946148	    863.93797973719302	    872.57735953456495		]; 
+mg.positive_torque_limit_Nm.axis_2.signal =  'voltage_V'; 
+mg.positive_torque_limit_Nm.axis_2.breakpoints =  400; 
+mg.positive_torque_limit_Nm.table = [	     0.0000000000000000	    173.62357428206766	    191.17894736842106	    209.93684210526317	    228.69473684210527	    247.45263157894738	    266.21052631578948	    284.96842105263158	    303.72631578947369	    322.48421052631579	    341.24210526315790	    360.00000000000000	    360.00000000000000	    360.00000000000000	    341.24210526315790	    322.48421052631579	    303.72631578947369	    284.96842105263158	    266.21052631578948	    247.45263157894738	    228.69473684210527	    209.93684210526317	    191.17894736842106	    173.62357428206766	    0.0000000000000000		]; 
+mg.negative_torque_limit_Nm = class_REVS_dynamic_lookup;
+mg.negative_torque_limit_Nm.axis_1.signal =  'emach_spd_radps'; 
+mg.negative_torque_limit_Nm.axis_1.breakpoints = [	    -872.57735953456495	   -863.93797973719302	   -784.60521968946148	   -714.50060168471714	   -655.89616128141392	   -606.17662072485962	   -563.46381969157767	   -526.37411347517730	   -493.86566853815759	   -465.13905209557385	   -439.57060892096985	   -416.66666666666669	    0.0000000000000000	    416.66666666666669	    439.57060892096985	    465.13905209557385	    493.86566853815759	    526.37411347517730	    563.46381969157767	    606.17662072485962	    655.89616128141392	    714.50060168471714	    784.60521968946148	    863.93797973719302	    872.57735953456495		]; 
+mg.negative_torque_limit_Nm.axis_2.signal =  'voltage_V'; 
+mg.negative_torque_limit_Nm.axis_2.breakpoints =  400; 
+mg.negative_torque_limit_Nm.table = [	    -0.0000000000000000	   -173.62357428206766	   -191.17894736842106	   -209.93684210526317	   -228.69473684210527	   -247.45263157894738	   -266.21052631578948	   -284.96842105263158	   -303.72631578947369	   -322.48421052631579	   -341.24210526315790	   -360.00000000000000	   -360.00000000000000	   -360.00000000000000	   -341.24210526315790	   -322.48421052631579	   -303.72631578947369	   -284.96842105263158	   -266.21052631578948	   -247.45263157894738	   -228.69473684210527	   -209.93684210526317	   -191.17894736842106	   -173.62357428206766	   -0.0000000000000000		]; 
+
+% Losses & Efficiency
+mg.electric_power_W = class_REVS_dynamic_lookup;
+mg.electric_power_W.axis_1.signal =  'emach_spd_radps'; 
+mg.electric_power_W.axis_1.breakpoints = [	     0.0000000000000000	    52.359877559829854	    104.71774127821510	    209.43951023931942	    314.15732610425493	    366.51914291880917	    418.86156718611892	    523.59877559829920	    628.32850402797021	    732.95101937501852	    837.75222319310444	    864.04269949231275		]; 
+mg.electric_power_W.axis_2.signal =  'emach_trq_Nm'; 
+mg.electric_power_W.axis_2.breakpoints = [	    -363.10000000000002	   -290.52499999999998	   -235.85500000000002	   -181.65689655172412	   -129.48043478260868	   -81.950000000000017	   -50.518181818181830	   -23.669696969696968	    0.0000000000000000	    9.1155844155844150	    50.518181818181816	    81.950000000000003	    129.48043478260871	    181.65689655172412	    235.85500000000002	    290.52499999999998	    363.10000000000002		]; 
+mg.electric_power_W.table = [
+    11855.100013476964	    7577.5279986573732	    5073.9103828413599	    3104.4995511687266	    1616.9076265988538	    697.77488005132238	    296.59569282932006	    81.972557534512276	    10.198695278633151	    7.3858787261741847	    237.63276527301258	    638.71415338733345	    1534.6377390764019	    2958.7945208689580	    4834.5171994283464	    7217.6076733123236	    11290.441771867803	;
+   -6614.1506135326699	   -7427.6643635704613	   -6986.4420039602610	   -6022.6290703444047	   -4897.7175044799487	   -3244.5760403893491	   -2029.7604861151590	   -917.08645422938753	    211.54451735989775	    682.19546641864235	    3217.5028035089981	    5289.0300535963079	    8571.9607573911726	    12834.327901006214	    17456.922407877013	    22625.381621797442	    30819.221791499727	;
+   -25250.492879267160	   -22260.670371555312	   -19020.711500218742	   -15245.257638609022	   -11387.234823491513	   -7312.1568776531522	   -4490.7171061477075	   -1988.4778284406782	    365.67602507961243	    1313.0381653719612	    6037.2334979085936	    9797.6797321302347	    15627.326816854715	    22620.210228633379	    30105.315857443104	    38196.876800347192	    50187.317670241959	;
+   -62474.098095962967	   -52056.627756422255	   -43254.930145942773	   -33880.475021020931	   -24616.097504750651	   -15631.930641133649	   -9498.2458669451335	   -4207.9509989918342	    604.47574581258834	    2503.3021276015388	    11596.039456531302	    18625.932371783871	    29500.360737460378	    42013.557993275062	    55247.285611157022	    69219.590298623269	    88974.522493401731	;
+   -99710.494642572303	   -81890.442077389831	   -67447.165680140475	   -52536.833836329155	   -37854.742001808692	   -23896.331677811559	   -14478.619207577474	   -6374.9028010033753	    892.69693803757889	    3743.2335590675989	    17184.115646291910	    27511.539564227787	    43364.056193425531	    61385.120399590734	    80427.404768826251	    100203.99925138443	    127746.74467672396	;
+   -116965.74542142624	   -97099.628991832797	   -79949.450553138871	   -62109.421471667134	   -44502.426183705960	   -28068.152230555501	   -17011.071509384987	   -7433.1863300803743	    1149.5209272155610	    4483.4824266730457	    19932.289890899243	    31905.136211128000	    50271.149005204919	    70839.624506051070	    92632.081554290824	    115419.48395960536	    148432.96274129802	;
+   -137229.23349007397	   -112446.66857381859	   -92270.102815560895	   -71581.157492049228	   -51153.111882452780	   -32170.320284755053	   -19445.993098651499	   -8513.2123629095731	    1238.5486044187735	    5037.6828219713198	    22778.970746277289	    36386.802643142168	    57168.266035614637	    80382.314023876927	    105000.59604510046	    130492.69684600562	    166240.44518582601	;
+   -171767.58548351109	   -138444.92606714182	   -115243.31042839699	   -89984.499167452101	   -64491.079286901331	   -40562.504154560840	   -24402.774185691826	   -10592.955701118182	    1633.9867000153395	    6383.5810898544814	    28397.037447905030	    45143.373436945709	    70943.228078015032	    100001.82313380299	    131350.60885796690	    165141.01736254152	    207595.95741019893	;
+   -204018.89441605355	   -165174.42998221843	   -136132.78969683117	   -107090.86022216053	   -77055.046707672780	   -48549.023431929832	   -29355.352284599801	   -12759.312260312583	    1988.3322149148835	    7693.1150625359542	    33982.040825869692	    54299.607713325597	    85452.759988885708	    120853.82219853508	    159681.68453466191	    199088.95725348307	    251125.51502313034	;
+   -235243.36410917615	   -190099.13805171265	   -156090.46969751071	   -122444.16473127535	   -89058.854240899091	   -56064.243684632209	   -33840.507166401745	   -14529.613111196142	    2628.4381411791260	    9271.1007203440586	    40019.560527504596	    63882.408100949375	    100467.95440652338	    143337.44974165119	    188850.94321189835	    234696.19713342583	    295559.52432421362	;
+   -265992.78228517110	   -214395.34147844490	   -175599.00834973133	   -137292.43434599854	   -100452.73250143812	   -63317.333131182313	   -37943.110469838633	   -15982.603290651025	    3568.1394240218069	    11155.563904944333	    46452.595305195835	    73739.450877399111	    116108.92948896762	    166365.68211762721	    218534.00736432459	    271007.21160698880	    340575.08016056271	;
+   -273701.45166855765	   -220485.69351790083	   -180454.55801954324	   -140867.17161579712	   -103106.48368246498	   -65091.273754135516	   -39032.015927670895	   -16381.357406022553	    3796.5811531983222	    11623.255825830118	    47988.931618805640	    76262.465238634628	    120223.50048327979	    172286.77837424327	    226017.31773742044	    280120.65731184377	    351872.62204816716	]; 
+mg.unpowered_torque_loss_Nm = class_REVS_dynamic_lookup;
+mg.unpowered_torque_loss_Nm.axis_1.signal =  'emach_spd_radps'; 
+mg.unpowered_torque_loss_Nm.axis_1.breakpoints = [	    -15000.000000000000	    15000.000000000000		]; 
+mg.unpowered_torque_loss_Nm.table = [	     0.0000000000000000	    0.0000000000000000		]; 
+
+
+

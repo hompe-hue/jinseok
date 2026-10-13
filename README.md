@@ -1,3 +1,5 @@
+> 최신 BOLT EV 비교 재개: [완료 결과·다음 시작점](checkpoints/bolt_validation_resume_20261013_2114.md) · [지속 게시 승인](checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md) · [실제 게시 상태](checkpoints/PROJECT_PUBLICATION_STATUS.json).
+
 # 논문 연구 자료
 
 Bolt 기반 BEV 검증과 Volt 발전계 기반 가상 EREV/EMS 연구의 CRUISE M 입력자료 및 작업 기록입니다.

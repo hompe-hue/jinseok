@@ -1,0 +1,55 @@
+{
+  "test_id": "61905061",
+  "selection": "Post20s, measured/model speed<0.1kmh, abs measured/model current<3A; contiguous rest windows>=10s",
+  "selected_lowload_samples": 77,
+  "rest_intervals": [
+    {
+      "start_s": 868.0,
+      "end_s": 883.0,
+      "duration_s": 15.0,
+      "voltage_bias_V": 1.9741619626572593,
+      "voltage_RMSE_V": 1.974538885944193,
+      "observed_reference_voltage_change_V": 0.12985713477326044,
+      "model_voltage_change_V": -0.0038712824556910164,
+      "mean_current_difference_A": 0.17705728138497046,
+      "current_difference_drop_using_existing_R_V": -0.012374294283054234,
+      "model_SOC_first_last_percent": [
+        59.16717806757398,
+        59.16445146628495
+      ]
+    },
+    {
+      "start_s": 966.0,
+      "end_s": 982.0,
+      "duration_s": 16.0,
+      "voltage_bias_V": 1.5688411936795086,
+      "voltage_RMSE_V": 1.5689599020808742,
+      "observed_reference_voltage_change_V": 0.0530387420661782,
+      "model_voltage_change_V": -0.004033421213989641,
+      "mean_current_difference_A": 0.18392734185178436,
+      "current_difference_drop_using_existing_R_V": -0.012856474472404074,
+      "model_SOC_first_last_percent": [
+        59.0334325005742,
+        59.03052359619279
+      ]
+    },
+    {
+      "start_s": 1320.0,
+      "end_s": 1351.0,
+      "duration_s": 31.0,
+      "voltage_bias_V": 2.728661068910725,
+      "voltage_RMSE_V": 2.729101924669672,
+      "observed_reference_voltage_change_V": 0.154382572084387,
+      "model_voltage_change_V": -0.005553859758265389,
+      "mean_current_difference_A": 0.17311042033830182,
+      "current_difference_drop_using_existing_R_V": -0.012129561028807873,
+      "model_SOC_first_last_percent": [
+        57.113279065029445,
+        57.10762711869898
+      ]
+    }
+  ],
+  "existing_R_model_scope": "Current imported 25C single-temperature static OCV/R model;32*cellR for96S3P",
+  "interpretation": "Voltage residual persisting at low current is not explained by load-current difference alone. Do not call short stops equilibrium OCV; prior polarization, initial history, OCV coordinates, temperature or measurement definition may contribute. R/OCV not fitted.",
+  "next": "Require physical battery dynamic/OCV validation evidence before changing model; keep mismatch in interim report, do not tune initial SOC to held-out voltage."
+}

@@ -1,0 +1,52 @@
+{
+  "source_files_sha256": {
+    "7- emachine_2018_Chevrolet_Bolt_150kW_400V_FWD_EDU.m": "a1753d5a239afb245094872f4a846e8e638fae4943c6eb731c7e7b2b812a90cf",
+    "3b- 2018 Chevrolet Bolt 150kW 400V FWD EDU - SwRI Test Data.xlsx": "4686243e00c90bcc31996f2af94561b25ab8ebf7ad3aeb7a5ae3749ce44406f7",
+    "process_clean.txt": "92789114e39d78c2db6fbee466c6da3d26ee4646b5086bb9b736468a87b15b30",
+    "Bolt_EDU_Loss_400V_AVL_RegularMap.dat": "f46542d309dc6f3597d19b8302506b685c923a7abfa940bcda832084fd043577"
+  },
+  "boundary_confirmed_from_original_process": "Combined electric motor, inverter and gearing EDU; hub dynamometer mapping; motor-equivalent speed/torque axes; gearing ratio7.05 and ALPHA gear.efficiency_norm1",
+  "original_process_sha256_matches_prior": true,
+  "original_grid_shape_speed_torque": [
+    12,
+    17
+  ],
+  "imported_grid_shape_torque_speed": [
+    17,
+    17
+  ],
+  "imported_nodes_max_abs_difference_from_original_bilinear_kW": 1.0658141036401503e-14,
+  "original_SwRI_measurements_match_existing_252_rows": true,
+  "measured_residual_all": {
+    "count": 252,
+    "bias_kW": -0.0016170562393998233,
+    "RMSE_kW": 0.0936039302051992,
+    "max_abs_kW": 0.6486903274815923
+  },
+  "measured_residual_lowtorque_0to50Nm": {
+    "count": 73,
+    "bias_kW": 0.013206864034484197,
+    "RMSE_kW": 0.03900601304734018,
+    "max_abs_kW": 0.1633306014796414
+  },
+  "runtime_common_window_s": [
+    20,
+    3150
+  ],
+  "runtime_lowtorque_seconds": 2147.0,
+  "runtime_lowtorque_inside_measured_hull_seconds": 2028.0,
+  "runtime_lowtorque_outside_measured_hull_seconds": 100.0,
+  "runtime_regen_seconds": 415.0,
+  "runtime_all_loss_kWh": 1.5448636444377344,
+  "runtime_lowtorque_loss_kWh": 1.1565921409047704,
+  "direct_measurement_triangulation_diagnostic": {
+    "comparable_supported_seconds": 2456.0,
+    "EPA_bilinear_loss_supported_kWh": 1.3834991057490864,
+    "SwRI_piecewise_linear_loss_supported_kWh": 1.3762638876280404,
+    "note": "Alternative interpolation of same measurements, diagnostic only; no new map or independent validation; unsupported intervals omitted, not zero-filled"
+  },
+  "regen_basis": "Original EPA process states no measured regen dataset; drive losses mirrored with1.05 factor",
+  "voltage_temperature": "Single400V nominal map; no independently identified voltage/temperature response",
+  "conclusion": "No unit/axis/transpose or general low-torque inflation found in conversion. Loss boundary is EDU as previously applied. Map mismatch to ANL remains; no correction justified solely from9.45percent energy error.",
+  "next": "Use frozen model on61905061 cross-test to separate persistent bias from this-cycle differences; retain current61905060 result as energy-target unmet. No arbitrary efficiency/aux fitting."
+}

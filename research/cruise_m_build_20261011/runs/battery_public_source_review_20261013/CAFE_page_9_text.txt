@@ -1,0 +1,40 @@
+ 
+9 | P a g e  
+ 
+Table 18. Brake Mechanism Weight Selection Summary ......................................................................... 132 
+Table 19. Steering System Weight Selection Summary ............................................................................ 133 
+Table 20. Electrical Accessories Weight Selection Summary .................................................................... 134 
+Table 21. Transmission Technologies ....................................................................................................... 136 
+Table 22. Gear Ratios, Gear Span and Final Drive Ratio Selected for Different Transmissions ................ 142 
+Table 23. Final Drive Weight Summary for All Transmission Types .......................................................... 145 
+Table 24. Gearbox Weight Summary for All Transmission Types ............................................................. 145 
+Table 25. Engine Technologies with Reference Peak Power and Reference Displacement ..................... 156 
+Table 26. Characteristics of Fuel Used for Modeling Engines ................................................................... 158 
+Table 27. IAV Idle Fuel Rate for All Engines .............................................................................................. 183 
+Table 28. Electric Machine Efficiency Map Sources for Different Powertrain Configurations ................. 184 
+Table 29. Efficiency Scaling of Electric Machines ...................................................................................... 187 
+Table 30. BatPaC Input Details .................................................................................................................. 189 
+Table 31. BatPaC Output Performance Metric ......................................................................................... 191 
+Table 32. Battery Pack Details for Full HEVs ............................................................................................. 192 
+Table 33: BatPaC Analysis of HEVs ............................................................................................................ 192 
+Table 34. Battery Pack Details for PHEV20 AERs ...................................................................................... 193 
+Table 35. BatPaC Analysis of PHEV20 AER ................................................................................................ 193 
+Table 36. Battery Pack Details of PHEV50 AERs ........................................................................................ 193 
+Table 37: BatPaC Analysis of PHEV50 AER ................................................................................................ 194 
+Table 38. BatPaC Analysis of BEV200 AERs ............................................................................................... 194 
+Table 39. Battery Pack Details of BEV200 AERs ........................................................................................ 194 
+Table 40. BatPaC analysis of BEV300AERs ................................................................................................ 195 
+Table 41. BatPaC Assumptions for Micro HEV .......................................................................................... 195 
+Table 42. BatPaC Assumptions for Mild Hybrid BISG ................................................................................ 196 
+Table 43. BatPaC Assumptions for Full HEVs ............................................................................................ 196 
+Table 44. BatPaC Assumptions for PHEV20 AER ....................................................................................... 197 
+Table 45. BatPaC Assumptions for PHEV50 AER ....................................................................................... 197 
+Table 46. BatPaC Assumptions for BEV200 AERs ...................................................................................... 198 
+Table 47. BatPaC Assumptions for BEV300 AERs ...................................................................................... 199 
+Table 48. BatPaC Lookup Table for Micro HEVs ........................................................................................ 203 
+Table 49. Mass Assumptions for Micro HEVs ........................................................................................... 203 
+Table 50. BatPaC Lookup Table for Mild Hybrid BISGs ............................................................................. 204 
+Table 51. BatPaC Lookup Table for Full Hybrids (Compact/Midsize) ....................................................... 205 
+Table 52. BatPaC Lookup Table for Full Hybrids (SUVs/Pickups) .............................................................. 206 
+Table 53. BatPaC Lookup Table for PHEV20 AERs (Compact/Midsize) ..................................................... 207 
+Table 54. BatPaC Lookup Table for PHEV20 AERs (SUVs/Pickup) ............................................................. 208 

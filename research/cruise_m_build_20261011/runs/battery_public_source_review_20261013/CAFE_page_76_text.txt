@@ -1,0 +1,23 @@
+ 
+76 | P a g e  
+ 
+Table 6. Initialization Parameters 
+ 
+4.6. Energy Storage Model 
+The energy storage system block models the battery pack as a charge reservoir and an equivalent circuit. 
+The equivalent circuit accounts for the circuit parameters of the battery pack as if it were a perfect 
+open-circuit voltage source in series with an internal resistance and two resistor-capacitor (RC) circuits 
+that represent the polarization time constants. Figure 59 shows the main I/O of the energy storage 
+model.  
+Figure 59. Autonomie Energy-Storage Model I/O 
+Autonomie includes several energy storage models for use in various high power and high energy 
+applications:  
+ High-power application: One battery model is used as a charge reservoir. An equivalent circuit, 
+whose parameters are a function of the remaining charge in the reservoir (also known as the 
+state of charge [SOC]), accounts for circuit parameters of the battery pack as if it were a perfect 
+open-circuit voltage source in series with an internal resistance. 
+ High-energy application: Another battery model in Autonomie is the one used for high-energy 
+batteries. This model uses two time constants to represent the polarization behavior of the 
+battery pack. This lumped parameter model can represent many different battery chemistries 
+for internal resistances, capacitances, and open-circuit voltages, which are all maps based on 
+SOC and, in some cases, temperature. 

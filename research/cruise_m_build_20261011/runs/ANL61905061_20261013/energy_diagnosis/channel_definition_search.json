@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-13",
+  "queries": [
+    "\"Motor_1_current_DMCM1\"",
+    "\"Motor_1_HV_circuit_voltage_DMCM1\""
+  ],
+  "result": "No relevant authoritative channel electrical-definition documentation acquired; unrelated motor control results were not used"
+}

@@ -1,0 +1,51 @@
+{
+  "project_sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
+  "saved_effective_translation_mass_kg": 1757.6704,
+  "final_drive_ratio": 7.05,
+  "final_drive_efficiency": 1.0,
+  "differential_loss_selection": [
+    "deactivated"
+  ],
+  "differential_inactive_base_efficiency": 0.97,
+  "wheel_radius_m": 0.3135,
+  "ABC": [
+    126.329494,
+    0.557775,
+    0.033456276
+  ],
+  "diagnostics": [
+    {
+      "test": "61905060",
+      "start_s": 20.0,
+      "end_s": 3150.0,
+      "kinematic_rpm_RMSE": 8.839809054801019e-13,
+      "kinematic_rpm_max_abs": 3.637978807091713e-12,
+      "ABC_work_model_kWh": 9.304481647251814,
+      "ABC_work_measured_speed_native_kWh": 9.297670616025195,
+      "ABC_work_measured_speed_same_grid_kWh": 9.297500599773198,
+      "ABC_work_tracking_difference_same_grid_kWh": 0.006981047478616276,
+      "model_translational_kinetic_endpoint_change_kWh": 0.0,
+      "input_sha256": {
+        "velocity_ANL61905060(1).csv": "e04a25816e954e1ff1c51ac2f5b3b6a5cde474a0384437204a6edd75c1bc8e1b",
+        "reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+      }
+    },
+    {
+      "test": "61905061",
+      "start_s": 20.0,
+      "end_s": 1489.0,
+      "kinematic_rpm_RMSE": 7.282479482286948e-13,
+      "kinematic_rpm_max_abs": 3.637978807091713e-12,
+      "ABC_work_model_kWh": 2.8434201226998654,
+      "ABC_work_measured_speed_native_kWh": 2.8364711443326156,
+      "ABC_work_measured_speed_same_grid_kWh": 2.8363964073011396,
+      "ABC_work_tracking_difference_same_grid_kWh": 0.007023715398725816,
+      "model_translational_kinetic_endpoint_change_kWh": 1.2878674690616964e-07,
+      "input_sha256": {
+        "velocity_ANL61905061.csv": "06c28efa37cf7f4b67f98d00e20585569710b1b87cca71b886ca2c40d43f8bf0",
+        "reference_native.csv": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03"
+      }
+    }
+  ],
+  "scope": "Saved selections plus sampled kinematics and assumed ABC work only; not measured dyno-load equivalence, full power balance or physical loss validation"
+}

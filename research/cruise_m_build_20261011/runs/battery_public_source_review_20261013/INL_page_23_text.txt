@@ -1,0 +1,41 @@
+ 
+ 6  
+3. Charge at the specified high rate constant current level for 15 minutes.  If Vmaxop is reached 
+during the charge, taper the current to complete the 15 minute charge time. 
+ 
+3.4 Hybrid Pulse Power Characterization Test 
+The Hybrid Pulse Power Characterization (HPPC) Test is intended to determine dynamic power 
+capability over the device’s useable voltage range using a test profile that incorporates both discharge and 
+regen pulses.  The first step of this test is to establish, as a function of capacity removed (a) the Vminpulse 
+discharge power capability at the end of a 30-s discharge current pulse and (b) the Vmaxpulse regen power 
+capability at the end of a 10-s regen current pulse.5   These power and energy capabilities are then used to 
+derive other performance characteristics such as Peak Power and Available Energy for direct comparison 
+with the targets specified in Table 1.   
+Additional data from the HPPC test include the voltage response curves, from which the fixed (ohmic) 
+cell resistance and cell polarization resistance as a function of capacity removed can be determined 
+assuming sufficient resolution to reliably establish cell voltage response time constants during discharge, 
+rest, and regen operating regimes.  These data can be used to evaluate resistance degradation during 
+subsequent life testing and to develop hybrid battery performance models for vehicle systems analysis. 
+3.4.1 Hybrid Pulse Power Characterization Test Profile   
+The objective of this test is to determine the 30-second discharge-pulse and the 10-second regen-pulse 
+power capabilities at each 10% increment relative to the BOL operating capacity for the EV Targets 
+(e.g., for a 2 Ah cell, power capabilities are assessed at 0.2 Ah increments between Vmaxop and Vmin0).  
+Between each pair of discharge and regen pulses, the device is discharged to the next 10% increment 
+based on operating capacity using the C/3 rate.  The pulse profile is shown in Table 2 and Figure 1. 
+Note that the current values are relative, not absolute.  The actual current values are determined as defined 
+at the end of Section 3.4.2.  Also, note that this manual uses positive values for discharge current and 
+power, whereas charge or regen values are negative. 
+Table 2.  Hybrid Pulse Power Characterization Test Profile. 
+ 
+Time Increment 
+(s)  Cumulative Time 
+(s)  Relative Currents  
+ 30  30  1.00  
+ 40  70  0  
+ 10  80  -0.75  
+ 
+                                                 
+5. Vminpulse and Vmaxpulse refer to the device minimum and maximum voltages that correspond to the operating voltage range 
+for the purposes of this manual as defined in Section 3.1.1.  For cells, the specific voltages can be any values appropriate to 
+the technology as long as they fall within the BSF-scaled limits in Table 1.  Expanded definition of voltages can be found in 
+Appendix C. 

@@ -1,0 +1,48 @@
+ 
+ ix  
+GLOSSARY 
+Available Energy (AE) [Wh] – the single energy point that precisely corresponds to Vminop (i.e., the 
+DOD corresponding to the specified margin from the manufacturer based on rated or 
+operating capacity) when discharged from Vmaxop at the C/3 rate. 
+Battery Size Factor (BSF) – an integer which is the minimum number of cells or modules expected to 
+be required to meet all the performance and life targets.    
+Beginning-of-Life (BOL) – the point at which characterization of the test article begins.  The BOL 
+HPPC is usually conducted to determine and/or confirm the BSF prior to life testing.   
+C/3 Rate [A]– a current corresponding to the manufacturer’s rated capacity (in ampere-hours) for a 
+three-hour discharge at BOL and 30°C between Vmax100 and Vmin0.  For example, if the 
+battery’s rated capacity is 40Ah, then the C/3 rate is 13.3A.  Alternatively, the current can be 
+based on the operating capacity between Vmaxop and Vmin0. 
+Charge – any condition in which energy is supplied to the device rather than removed from the 
+device.  Charge includes both recharge and regen conditions.  Charge is indicated in this 
+manual as a negative value (from the perspective of the battery). 
+Default rest [h] – a fixed rest period determined at BOL, it is at least one hour or the time needed to 
+achieve thermal and voltage equilibrium (e.g., rate of change less than 1°C/hour or less than 5 
+mV/h). 
+Depth-of-Discharge (DOD) [%]– the percentage of a device’s operating capacity (Ah) removed by 
+discharge relative to a fully charged condition, normally referenced to a constant current 
+discharge at the C/3 rate.  
+Device – a cell, module, sub-battery or battery pack, depending on the context.  The generic term 
+“device” is normally used in test procedures except where a specific type of device is meant.  
+(Most test procedures are intended to apply to any of these types.) 
+Discharge – any condition in which energy is removed from the device rather than supplied to the 
+device.  Discharge is indicated in this manual as a positive value (from the perspective of the 
+battery). 
+End-of-Life (EOL) – a condition reached when the device under test is no longer capable of meeting 
+the targets.  This is normally determined from HPPC Test results scaled using the Battery 
+Size Factor, and may not coincide exactly with the inability to perform the life test profile 
+(especially if cycling is done at elevated temperatures).  
+End of Test – a condition where life testing is halted, either because criteria specified in the test plan 
+are reached, or because it is not possible to continue testing. 
+Fully Charged – the condition reached by a device when it is subjected to the manufacturer’s 
+recommended recharge algorithm.  In this manual, a device is considered “fully charged” at 
+Vmax
+op, though the manufacturer has the option to make Vmaxop equal to Vmax100.   
+Hybrid Pulse Power Characterization (HPPC) Test – a Reference Performance Test procedure that is 
+used to determine the pulse power and energy capability under no-load conditions as a 
+function of aging for direct comparison with the targets in a Gap Analysis.   
+Initial Total Energy [Wh] – the single energy point that precisely corresponds to Vmin0 (i.e., full 
+discharge) when discharged from Vmaxop at the C/3 rate.  This is the energy used to calculate 
+the Battery Size Factor. 
+Maximum Rated Current (Imax)[A] – the maximum discharge current that a manufacturer will permit 
+to be sustained by a device for 30 seconds or less.  (This value need not be achievable over 
+the full operating range). 

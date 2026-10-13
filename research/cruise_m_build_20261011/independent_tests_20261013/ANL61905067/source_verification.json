@@ -1,0 +1,20 @@
+{
+  "test_id": "61905067",
+  "source": {
+    "source": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620740631815",
+    "bytes": 189907032,
+    "sha256": "fd0f662a44cfa95036b2994fccd52c2f49e0fad105022bab5921d610dc06856c",
+    "signature": "TDSm"
+  },
+  "zip_sha256": "d499e1747603bf25b480c3c8082ebd2a6f0d58c955587d6e9a2eaf4303f38dbf",
+  "raw_zip": "libfile_4408a05667ac8191a9a4eb8ae4b605cb",
+  "zip_crc_valid": true,
+  "tdms_hash_verified": true,
+  "previous_result_preserved_from_user_screenshot": {
+    "integrated_energy_kWh": 46.7227,
+    "test_summary_energy_kWh": 46.853,
+    "difference_percent_rounded": -0.278
+  },
+  "analysis_repeated": false,
+  "limitation": "Previous analysis outputs unavailable in GitHub/Library; numerical result retained from screenshot, not newly independently recomputed. This is source integrity and handoff recovery, not model validation."
+}

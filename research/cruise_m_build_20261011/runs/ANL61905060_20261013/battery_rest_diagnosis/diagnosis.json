@@ -1,0 +1,70 @@
+{
+  "test_id": "61905060",
+  "selection": "Post20s, measured/model speed<0.1kmh, abs measured/model current<3A; contiguous rest windows>=10s",
+  "selected_lowload_samples": 126,
+  "rest_intervals": [
+    {
+      "start_s": 1441.0,
+      "end_s": 1462.0,
+      "duration_s": 21.0,
+      "voltage_bias_V": 0.08081857818496535,
+      "voltage_RMSE_V": 0.09785594527916838,
+      "observed_reference_voltage_change_V": 0.18245717933893957,
+      "model_voltage_change_V": -0.005429710277155664,
+      "mean_current_difference_A": 0.19723468866824678,
+      "current_difference_drop_using_existing_R_V": -0.013620605272675274,
+      "model_SOC_first_last_percent": [
+        72.67516021728846,
+        72.67144533176058
+      ]
+    },
+    {
+      "start_s": 1911.0,
+      "end_s": 1944.0,
+      "duration_s": 33.0,
+      "voltage_bias_V": -0.17321116728159242,
+      "voltage_RMSE_V": 0.18505859529993005,
+      "observed_reference_voltage_change_V": 0.2038566125863781,
+      "model_voltage_change_V": -0.006888393646931945,
+      "mean_current_difference_A": 0.18644450206682928,
+      "current_difference_drop_using_existing_R_V": -0.012903733425060482,
+      "model_SOC_first_last_percent": [
+        69.27961761890364,
+        69.27373621842163
+      ]
+    },
+    {
+      "start_s": 2036.0,
+      "end_s": 2051.0,
+      "duration_s": 15.0,
+      "voltage_bias_V": -0.5763398618553381,
+      "voltage_RMSE_V": 0.5764706811582723,
+      "observed_reference_voltage_change_V": 0.025730139358415727,
+      "model_voltage_change_V": -0.004302622626880748,
+      "mean_current_difference_A": 0.20289545589854183,
+      "current_difference_drop_using_existing_R_V": -0.01404306661648944,
+      "model_SOC_first_last_percent": [
+        69.20140274895776,
+        69.1987277993541
+      ]
+    },
+    {
+      "start_s": 2621.0,
+      "end_s": 2670.0,
+      "duration_s": 49.0,
+      "voltage_bias_V": -0.2268735232403469,
+      "voltage_RMSE_V": 0.2380668673631362,
+      "observed_reference_voltage_change_V": 0.20540057070820694,
+      "model_voltage_change_V": -0.006675702738618838,
+      "mean_current_difference_A": 0.19102363390271662,
+      "current_difference_drop_using_existing_R_V": -0.013235935037378497,
+      "model_SOC_first_last_percent": [
+        67.76658147974432,
+        67.75782356935697
+      ]
+    }
+  ],
+  "existing_R_model_scope": "Current imported 25C single-temperature static OCV/R model;32*cellR for96S3P",
+  "interpretation": "Voltage residual persisting at low current is not explained by load-current difference alone. Do not call short stops equilibrium OCV; prior polarization, initial history, OCV coordinates, temperature or measurement definition may contribute. R/OCV not fitted.",
+  "next": "Require physical battery dynamic/OCV validation evidence before changing model; keep mismatch in interim report, do not tune initial SOC to held-out voltage."
+}
