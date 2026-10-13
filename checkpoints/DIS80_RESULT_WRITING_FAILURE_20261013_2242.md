@@ -1,6 +1,6 @@
-# 61905060 Dis80 诊断执行状态 — 2026-10-13 22:42 KST
+# 61905060 Dis80 진단 실행 상태 — 2026-10-13 22:42 KST
 
-用户上传 screenshot image(2).png，当前作业 Bolt_Model_Check2 / REEV_MBE / Cycle Run / ANL61905060 显示 failed。下面保留韩文操作说明供后续会话。
+사용자가 첨부한 image(2).png에서 Bolt_Model_Check2 / REEV_MBE / Cycle Run / ANL61905060 작업이 failed로 표시됐다. 다음 세션을 위한 오류 근거와 복구 절차를 기록한다.
 
 ## 화면에서 확인한 사실
 
