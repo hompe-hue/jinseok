@@ -1,0 +1,136 @@
+{
+  "status": "Charge-map high-SOC zero-power limitation identified from current GUI",
+  "source": "image(20261013-024118).png",
+  "current_charge_map_SOC_pct_kW": [
+    [
+      0,
+      15
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      40,
+      40
+    ],
+    [
+      75,
+      40
+    ],
+    [
+      85,
+      0
+    ],
+    [
+      99.5,
+      0
+    ]
+  ],
+  "current_discharge_visible_rows_SOC_pct_kW": [
+    [
+      0,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      30,
+      24
+    ],
+    [
+      40,
+      45
+    ],
+    [
+      75,
+      45
+    ],
+    [
+      85,
+      45
+    ],
+    [
+      99.5,
+      45
+    ]
+  ],
+  "run_SOC_range_pct": [
+    88.8363547191733,
+    93.14253200000002
+  ],
+  "charge_limit_in_run_kW": 0,
+  "scope": "Current example BMS charge map excludes recovery over full candidate-run SOC range; downstream binding not traced, but consistent with observed near-zero net battery charging",
+  "diagnostic_charge_map_SOC_pct_kW": [
+    [
+      0,
+      15
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      40,
+      40
+    ],
+    [
+      75,
+      40
+    ],
+    [
+      85,
+      40
+    ],
+    [
+      95,
+      40
+    ],
+    [
+      99.5,
+      0
+    ]
+  ],
+  "diagnostic_only": true,
+  "reason": "Keep existing 40kW cap, extend its plateau through present SOC window, preserve original99.5% zero endpoint; do not label as measured Bolt BMS calibration",
+  "no_change": [
+    "Discharge Power",
+    "SoC function",
+    "Range",
+    "Performance",
+    "Generator Work",
+    "initialSOC",
+    "auxiliary",
+    "battery maps",
+    "roadload"
+  ],
+  "next": "Copy aligned case, apply Charge Power diagnostic curve only, Check syntax/Data Checks as applicable, rerun and export three result CSVs",
+  "screenshots": [
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024046).png",
+      "sha256": "36342074817e5984459f1d5cb6bb150daae89667605a40148159d4d727b306e2"
+    },
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024056).png",
+      "sha256": "8c848de3a36763f05a4e50ff7fa13ddcc457c4fae8724f7f414aa1980a07ed2d"
+    },
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024059).png",
+      "sha256": "dfc2579e92178e5c972726912fd3bb9e8d671c4d9956309d00e67ce459a69fbf"
+    },
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024104).png",
+      "sha256": "5b618496cf06735d584c7a8c51f7a0529ae5cd18a74f0680bd4fad7d2b1bfc38"
+    },
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024111).png",
+      "sha256": "09fc13b78c3ebd440af32223f81be19840f0d47b801fa6b2cec2870083ee5201"
+    },
+    {
+      "file": "research/cruise_m_build_20261011/empirical_alignment_20261013/BMS_charge_diagnosis_20261013/evidence/image(20261013-024118).png",
+      "sha256": "c23e9fb89d364bdd191bd46123a1dd21c3797b50eb5f237a86df16c1b1155ad6"
+    }
+  ]
+}
