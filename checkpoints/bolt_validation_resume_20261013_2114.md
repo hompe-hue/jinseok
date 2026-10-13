@@ -1,3 +1,5 @@
+> **최신 근거 확인 완료:** `research/cruise_m_build_20261011/runs/remaining_source_evidence_20261013/RESULT_KO.md`와 `checkpoints/remaining_evidence_20261013.json`을 우선 읽는다. 실제 시험 Target ABC/질량 일치 확인 완료. 다음 우선 후보는 coastdown 회전손실과 합성 EDU 경계 겹침이며 수치 보정 근거는 미확보. 추가 실행/입력 변경 없음. 아래 기존 질량/ABC 미확정 설명은 이번 원본 확인으로 대체한다.
+
 > **최신 게시 상태:** 지속 승인을 기록하고 분석 보고서·코드·작은 대조표 등 82파일을 GitHub main 커밋 `6762e90eed7d8c8c58c0f0aac8b89140b2612d8e`에 게시해 원격 확인했다. 아래 게시 거절 기록은 이전 이력이다. 대용량 40파일은 미전송이며 `checkpoints/PROJECT_PUBLICATION_STATUS.json`의 목록을 따른다. 새 분석의 원본/재현 자료는 저장된 `Bolt_Validation_Resume_20261013.zip`(Library ID `libfile_333d84fe7f288191ba0c7fae57609d98`)으로 이어받을 수 있다. 같은 범위의 게시 승인은 계속 유효하다.
 
 # 최신 재개 기록: BOLT EV CRUISE M 실측 비교

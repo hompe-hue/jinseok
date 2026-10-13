@@ -1,0 +1,222 @@
+[
+  {
+    "test": "61905060",
+    "group_metadata": {
+      "TestInfo_Dyno_Config": "Front",
+      "TestInfo_Dyno_Mode": "Road Load",
+      "TestInfo_Dyno_Set_A": "9.7782",
+      "TestInfo_Dyno_Set_B": "0.16285",
+      "TestInfo_Dyno_Set_C": "0.017992",
+      "TestInfo_Dyno_Target_A": "28.4",
+      "TestInfo_Dyno_Target_B": "0.2018",
+      "TestInfo_Dyno_Target_C": "0.01948",
+      "TestInfo_Dyno_Test_Weight_lb": "3875",
+      "TestInfo_Test_Cycle_File_Name": "Z:\\All Daq\\Drive Cycles\\Real World Cycles\\RWC 40mile 1bag 3182.txt",
+      "TestInfo_Vehicle_Name": "2017 Chevrolet Bolt"
+    },
+    "channels": {
+      "Dyno_Spd_Front": {
+        "description": "",
+        "unit_string": "mph",
+        "Comment": "Rescaled using dyno at speed 6/13/14 MK, OK 02/04/2019",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_TractiveForce_Front": {
+        "description": "",
+        "unit_string": "N",
+        "Comment": "  Scaled for 2500# signal from WAGO AO2, previously 1500# and 6672.33, 4/25/13",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_LoadCell_Front": {
+        "description": "",
+        "unit_string": "N",
+        "Comment": "",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_Spd_Rear": {
+        "description": "",
+        "unit_string": "mph",
+        "Comment": "Rescaled using dyno at speed 02/04/2019 MK",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_HV_circuit_voltage_DMCM1": {
+        "description": "",
+        "unit_string": "V",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_torque_DMCM1": {
+        "description": "",
+        "unit_string": "Nm",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_speed_DMCM1": {
+        "description": "",
+        "unit_string": "rpm",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Batt_Power_Hioki_P1": {
+        "description": "",
+        "unit_string": "kW",
+        "Comment": "",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Linear",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_u_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_v_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_w_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      }
+    }
+  },
+  {
+    "test": "61905061",
+    "group_metadata": {
+      "TestInfo_Dyno_Config": "Front",
+      "TestInfo_Dyno_Mode": "Road Load",
+      "TestInfo_Dyno_Set_A": "9.7782",
+      "TestInfo_Dyno_Set_B": "0.16285",
+      "TestInfo_Dyno_Set_C": "0.017992",
+      "TestInfo_Dyno_Target_A": "28.4",
+      "TestInfo_Dyno_Target_B": "0.2018",
+      "TestInfo_Dyno_Target_C": "0.01948",
+      "TestInfo_Dyno_Test_Weight_lb": "3875",
+      "TestInfo_Test_Cycle_File_Name": "Z:\\All Daq\\Drive Cycles\\Real World Cycles\\RWC 15mile 1bag 1522.txt",
+      "TestInfo_Vehicle_Name": "2017 Chevrolet Bolt"
+    },
+    "channels": {
+      "Dyno_Spd_Front": {
+        "description": "",
+        "unit_string": "mph",
+        "Comment": "Rescaled using dyno at speed 6/13/14 MK, OK 02/04/2019",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_TractiveForce_Front": {
+        "description": "",
+        "unit_string": "N",
+        "Comment": "  Scaled for 2500# signal from WAGO AO2, previously 1500# and 6672.33, 4/25/13",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_LoadCell_Front": {
+        "description": "",
+        "unit_string": "N",
+        "Comment": "",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Dyno_Spd_Rear": {
+        "description": "",
+        "unit_string": "mph",
+        "Comment": "Rescaled using dyno at speed 02/04/2019 MK",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Table",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_HV_circuit_voltage_DMCM1": {
+        "description": "",
+        "unit_string": "V",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_torque_DMCM1": {
+        "description": "",
+        "unit_string": "Nm",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_speed_DMCM1": {
+        "description": "",
+        "unit_string": "rpm",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Batt_Power_Hioki_P1": {
+        "description": "",
+        "unit_string": "kW",
+        "Comment": "",
+        "Enabled": "YES",
+        "Location": "",
+        "Scale_Type": "Linear",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_u_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_v_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      },
+      "Motor_1_phase_w_current_DMCM1": {
+        "description": "",
+        "unit_string": "A",
+        "wf_increment": "0.1",
+        "wf_start_offset": "-20.0"
+      }
+    }
+  }
+]

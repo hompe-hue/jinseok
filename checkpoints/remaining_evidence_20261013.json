@@ -1,0 +1,27 @@
+{
+  "stage": "remaining_source_evidence_batch_completed_without_rerun",
+  "date": "2026-10-13",
+  "results": "research/cruise_m_build_20261011/runs/remaining_source_evidence_20261013/RESULT_KO.md",
+  "verified": [
+    "Actual TDMS target ABC and 3875lb mass match current saved model",
+    "Original file hashes match prior preserved sources",
+    "Target/set/loadcell/tractive-force boundaries distinguished"
+  ],
+  "new_priority_hypothesis": "Coastdown passive spin-loss overlap with combined EDU map; generic EPA methodology verified, Bolt-specific numeric overlap not identified",
+  "not_acquired": [
+    "Exact CAN current/torque calibration and electrical/shaft boundary",
+    "Compatible new battery OCV/HPPC/history numeric data",
+    "Bolt-specific neutral/backdrive or separated gear-loss numeric map"
+  ],
+  "input_modified": false,
+  "new_CRUISE_runs": 0,
+  "validation_passed": false,
+  "next": "Acquire bounded Bolt neutral/backdrive or separated gearing evidence; do not repeat mass/ABC checks or subtract all zero-torque EDU loss",
+  "authorization": "PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "evidence_package": {
+    "filename": "Bolt_Remaining_Source_Evidence_20261013.zip",
+    "library_file_id": "libfile_55d8ee987198819184247f542af9f53c",
+    "contents": "Selected original metadata, full derived boundary CSVs, source register, reports, checked script and executed notebook; raw TDMS and third-party full PDFs not included"
+  },
+  "publication_scope": "11 report/code/metadata/checkpoint files; two larger boundary CSVs preserved in the evidence package rather than in this GitHub batch"
+}

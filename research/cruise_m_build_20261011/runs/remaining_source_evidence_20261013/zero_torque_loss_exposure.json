@@ -1,0 +1,20 @@
+[
+  {
+    "test": "61905060",
+    "window_s": [
+      20,
+      3150
+    ],
+    "map_zero_torque_total_loss_exposure_kWh": 1.37350987546725,
+    "caution": "Whole inverter/motor/gearing electrical zero-torque loss; not identified mechanical neutral drag; must not subtract it from ABC or DC consumption."
+  },
+  {
+    "test": "61905061",
+    "window_s": [
+      20,
+      1489
+    ],
+    "map_zero_torque_total_loss_exposure_kWh": 0.4882507350767928,
+    "caution": "Whole inverter/motor/gearing electrical zero-torque loss; not identified mechanical neutral drag; must not subtract it from ABC or DC consumption."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "queries": [
+    "Motor_1_current_DMCM1 Bolt",
+    "DMCM1 DC current",
+    "2017 Chevrolet Bolt HPPC battery OCV data Argonne",
+    "2017 Bolt HPPC",
+    "2026-01-0198 pdf",
+    "site.epa.gov ALPHA target roadload transmission spin losses"
+  ],
+  "negative_findings": [
+    "Exact ANL DMCM1 current electrical definition not acquired",
+    "Compatible new controlled HPPC/OCV raw parameter data not acquired",
+    "2026 paper numerical separated-gear map not acquired"
+  ],
+  "access_notes": [
+    "Several ANL site accesses returned 403 or inaccessible; recovered local original TDMS and test summary used",
+    "2024 paper read from EPA-author-uploaded full text; direct PDF link returned 404",
+    "2026 publisher abstract inspected; no numerical data acquired"
+  ],
+  "interpretation": "Bounded search and acquired-evidence report; does not prove universal absence of data"
+}

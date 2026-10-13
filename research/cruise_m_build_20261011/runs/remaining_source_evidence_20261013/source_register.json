@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ANL61905060",
+    "type": "original TDMS dataset",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620732786960",
+    "sha256": "2dc2f20481655d18193bbc969fa41bf399e3420b66adef9bf1a4211465dcaa92",
+    "location": "group TestInfo_Dyno_*; original channel properties and Phase_1 slice",
+    "use": "Actual recorded test setup and boundary diagnostics"
+  },
+  {
+    "id": "ANL61905061",
+    "type": "original TDMS dataset",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620735411697",
+    "sha256": "cb8f9e27bac520e5a848e833d5cdff1ba8700f26512f38b02ae1b30313efdf6b",
+    "location": "group TestInfo_Dyno_*; original channel properties and Phase_1 slice",
+    "use": "Actual recorded test setup and boundary diagnostics"
+  },
+  {
+    "id": "EPA_2017_01_0899",
+    "type": "EPA author paper",
+    "url": "https://19january2021snapshot.epa.gov/sites/static/files/2017-06/documents/sae-2017-01-0899-fleet-level-modeling-real-world-factors-influencing-greenhouse-gas-emission-simulation-in-alpha.pdf",
+    "location": "PDF pages 5–6, printed pages 221–222: Axle Losses and Vehicle Subsystem",
+    "use": "Target ABC contains passive driveline spin loss; component maps need boundary reconciliation; general method, not numeric Bolt correction"
+  },
+  {
+    "id": "EPA_2024_01_2270",
+    "type": "EPA/SwRI author paper",
+    "url": "https://www.researchgate.net/publication/379946298_Development_of_Benchmarking_Methods_for_Electric_Vehicle_Drive_Units",
+    "location": "Author-uploaded full-text, Test Method B Experimental Setup/Results and Test Method Selections",
+    "use": "Hub-based EDU boundary and motor-equivalent axes; separate DC/AC instruments; does not define ANL DMCM1 generic current"
+  },
+  {
+    "id": "SAE_2026_01_0198",
+    "type": "Publisher abstract",
+    "url": "https://saemobilus.sae.org/papers/development-comparison-benchmarking-methods-electric-vehicle-drive-units-2026-01-0198",
+    "location": "Public abstract; Data Sets navigation returns no numerical table in retrieved text",
+    "use": "Newer separated gearing/EDU test exists; full text and raw maps NOT acquired"
+  },
+  {
+    "id": "EPA_EMOTOR_MAPS",
+    "type": "EPA official data catalog",
+    "url": "https://www.epa.gov/vehicle-and-fuel-emissions-testing/combining-data-complete-emotor-alpha-maps",
+    "location": "EDU/EMOT definitions and Bolt map packages",
+    "use": "Verify combined EDU versus MOTO boundary and currently offered packages"
+  },
+  {
+    "id": "NREL_75323",
+    "type": "National laboratory report, previously acquired original PDF",
+    "url": "https://www.nrel.gov/docs/fy20osti/75323.pdf",
+    "location": "§1.2.2 PDF15; §1.3.2 PDF19–21; §1.5.1.3 PDF26",
+    "use": "Charging ohmic-model scope and Hioki/CAN acquisition; not a new independent discharge/HPPC map"
+  },
+  {
+    "id": "ECFR_1066_301",
+    "type": "Official methodology",
+    "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-U/part-1066/subpart-D/section-1066.301",
+    "location": "Introductory paragraph",
+    "use": "Two-stage target/load-setting distinction; no claim of certification of ANL individual run"
+  }
+]

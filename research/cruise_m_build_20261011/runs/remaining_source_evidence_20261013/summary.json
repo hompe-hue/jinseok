@@ -1,0 +1,152 @@
+[
+  {
+    "test": "61905060",
+    "source_sha256": "2dc2f20481655d18193bbc969fa41bf399e3420b66adef9bf1a4211465dcaa92",
+    "source_hash_matches_prior": true,
+    "window_s": [
+      20,
+      3150
+    ],
+    "metadata": {
+      "TestInfo_Dyno_Config": "Front",
+      "TestInfo_Dyno_Mode": "Road Load",
+      "TestInfo_Dyno_Set_A": "9.7782",
+      "TestInfo_Dyno_Set_B": "0.16285",
+      "TestInfo_Dyno_Set_C": "0.017992",
+      "TestInfo_Dyno_Target_A": "28.4",
+      "TestInfo_Dyno_Target_B": "0.2018",
+      "TestInfo_Dyno_Target_C": "0.01948",
+      "TestInfo_Dyno_Test_Weight_lb": "3875",
+      "TestInfo_Test_Cycle_File_Name": "Z:\\All Daq\\Drive Cycles\\Real World Cycles\\RWC 40mile 1bag 3182.txt",
+      "TestInfo_Vehicle_Name": "2017 Chevrolet Bolt"
+    },
+    "target_ABC_N_kmh": [
+      126.32949387339818,
+      0.5577745478651978,
+      0.03345627600353471
+    ],
+    "set_ABC_N_kmh": [
+      43.49560059834022,
+      0.4501168737356167,
+      0.03090068366815177
+    ],
+    "target_minus_model_ABC": [
+      -1.2660181880619348e-07,
+      -4.52134802264581e-07,
+      3.5347072491198617e-12
+    ],
+    "test_mass_kg": 1757.67043375,
+    "target_ABC_work_kWh": 9.29766982532518,
+    "set_ABC_work_kWh": 7.139418828953577,
+    "target_minus_set_work_kWh": 2.158250996371603,
+    "dyno_front_force_speed_candidate_work_kWh": 7.051531775749318,
+    "dyno_front_loadcell_speed_candidate_work_kWh": -6.8185673653930134,
+    "rear_dyno_speed_max_mph": 0.0,
+    "kinematic_radius_diagnostic": {
+      "samples": 17000,
+      "median_m": 0.3140706630958787,
+      "p10_m": 0.3134031740901632,
+      "p90_m": 0.3144568755068474,
+      "model_radius_m": 0.3135,
+      "caution": "Not a calibrated tire-radius measurement: CAN rpm and dyno speed synchronization/scaling, tire slip and effective circumference remain confounded. No lag/radius fitted."
+    },
+    "reported_CAN_range": {
+      "motor_HV_voltage_V": [
+        355.4996043624991,
+        384.6270024554943
+      ],
+      "transmission_oil_C": [
+        48.0,
+        68.0
+      ],
+      "motor_calculated_temp_C": [
+        67.0,
+        83.0
+      ],
+      "inverter_sensor1_C": [
+        26.0,
+        35.0
+      ]
+    },
+    "caveats": [
+      "ABC metadata units are interpreted using the documented US convention, not declared by these strings alone.",
+      "Set coefficients compensate vehicle-on-dyno losses; must not replace road target with set coefficients in the whole vehicle model.",
+      "Force-speed products are channel-boundary diagnostics, not independently certified wheel/shaft power."
+    ]
+  },
+  {
+    "test": "61905061",
+    "source_sha256": "cb8f9e27bac520e5a848e833d5cdff1ba8700f26512f38b02ae1b30313efdf6b",
+    "source_hash_matches_prior": true,
+    "window_s": [
+      20,
+      1489
+    ],
+    "metadata": {
+      "TestInfo_Dyno_Config": "Front",
+      "TestInfo_Dyno_Mode": "Road Load",
+      "TestInfo_Dyno_Set_A": "9.7782",
+      "TestInfo_Dyno_Set_B": "0.16285",
+      "TestInfo_Dyno_Set_C": "0.017992",
+      "TestInfo_Dyno_Target_A": "28.4",
+      "TestInfo_Dyno_Target_B": "0.2018",
+      "TestInfo_Dyno_Target_C": "0.01948",
+      "TestInfo_Dyno_Test_Weight_lb": "3875",
+      "TestInfo_Test_Cycle_File_Name": "Z:\\All Daq\\Drive Cycles\\Real World Cycles\\RWC 15mile 1bag 1522.txt",
+      "TestInfo_Vehicle_Name": "2017 Chevrolet Bolt"
+    },
+    "target_ABC_N_kmh": [
+      126.32949387339818,
+      0.5577745478651978,
+      0.03345627600353471
+    ],
+    "set_ABC_N_kmh": [
+      43.49560059834022,
+      0.4501168737356167,
+      0.03090068366815177
+    ],
+    "target_minus_model_ABC": [
+      -1.2660181880619348e-07,
+      -4.52134802264581e-07,
+      3.5347072491198617e-12
+    ],
+    "test_mass_kg": 1757.67043375,
+    "target_ABC_work_kWh": 2.8364708913655567,
+    "set_ABC_work_kWh": 2.078125536635283,
+    "target_minus_set_work_kWh": 0.7583453547302739,
+    "dyno_front_force_speed_candidate_work_kWh": 2.0711035509243105,
+    "dyno_front_loadcell_speed_candidate_work_kWh": -1.9949873134454177,
+    "rear_dyno_speed_max_mph": 0.0,
+    "kinematic_radius_diagnostic": {
+      "samples": 5880,
+      "median_m": 0.31384471473246256,
+      "p10_m": 0.3134285554986398,
+      "p90_m": 0.3142473791886371,
+      "model_radius_m": 0.3135,
+      "caution": "Not a calibrated tire-radius measurement: CAN rpm and dyno speed synchronization/scaling, tire slip and effective circumference remain confounded. No lag/radius fitted."
+    },
+    "reported_CAN_range": {
+      "motor_HV_voltage_V": [
+        351.8150228730854,
+        371.1199269246604
+      ],
+      "transmission_oil_C": [
+        54.0,
+        63.0
+      ],
+      "motor_calculated_temp_C": [
+        76.0,
+        80.0
+      ],
+      "inverter_sensor1_C": [
+        26.0,
+        36.0
+      ]
+    },
+    "caveats": [
+      "ABC metadata units are interpreted using the documented US convention, not declared by these strings alone.",
+      "Set coefficients compensate vehicle-on-dyno losses; must not replace road target with set coefficients in the whole vehicle model.",
+      "Force-speed products are channel-boundary diagnostics, not independently certified wheel/shaft power."
+    ]
+  }
+]
