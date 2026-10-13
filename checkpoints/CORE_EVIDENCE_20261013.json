@@ -1,0 +1,45 @@
+{
+  "stage": "core_source_trace_and_new_battery_tests_reviewed",
+  "date": "2026-10-13",
+  "result": "research/cruise_m_build_20261011/runs/core_evidence_20261013/RESULT_KO.md",
+  "completed": [
+    {
+      "task": "Bolt-specific passive-loss source trace",
+      "outcome": "Specific2022coastdown assumption strengthens overlap candidate;2024difference maps not neutral-loss identification;compatible separated curve unavailable"
+    },
+    {
+      "task": "Original CAN current/torque boundary checks",
+      "outcome": "DC-compatible behavior but no independent sensor certification;torque channels not exactly equivalent;undocumented CAN capacity/resistance excluded"
+    },
+    {
+      "task": "New soak/full-charge data review",
+      "outcome": "Downloaded63/65/68;soakHV voltage unavailable;320s highSOC low-current interval;injectedAh approximatelysupports168 but raw/summary discrepancy;unfitted displayedSOC charge voltageRMSE3.753V"
+    }
+  ],
+  "new_source_manifests": [
+    "research/cruise_m_build_20261011/runs/core_evidence_20261013/new_battery_source_manifest.json",
+    "research/cruise_m_build_20261011/runs/core_evidence_20261013/public_document_manifest.json"
+  ],
+  "unresolved": [
+    "Compatible measured neutral/backdrive loss curve",
+    "DC and rotor/hub sensor definitions/calibration",
+    "Charging summary zero-offset/postprocessing definition",
+    "CAN/trueSOC mapping and physical OCV-R-RC identification"
+  ],
+  "no_new_CRUISE_simulations_requested": true,
+  "no_CRUISE_model_inputs_modified": true,
+  "new_tests_now_used_for_diagnosis": [
+    "61905063",
+    "61905065",
+    "61905068"
+  ],
+  "energy_error_percent_unchanged": 9.484480632311909,
+  "final_validation_passed": false,
+  "next": "Resolve compatible separated-loss/measurement definitions and charging raw-summary discrepancy before numerical calibration; preserve existing thresholds and use genuinely held-out final tests.",
+  "authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "complete_replay_package": {
+    "filename": "Bolt_Core_Evidence_20261013.zip",
+    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544",
+    "archive_sha256": "56fdcd5665c92c698a01643040efd86d23fed28fc8b0289e91e12c2d30605213"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "test": "61905063",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620741356909",
+    "bytes": 176701245,
+    "sha256": "8c39657a69caccd41c9f52743b695b1f531e3eb63c9bf87189a17fd753cdda8a"
+  },
+  {
+    "test": "61905065",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620742648591",
+    "bytes": 43567568,
+    "sha256": "ef946d0bfefd96ba6c5031fe4de7f88371c88bbcd4089d0ad8f0af53613582ea"
+  },
+  {
+    "test": "61905068",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620725350822",
+    "bytes": 62543236,
+    "sha256": "ab56c467460cd502962c69768c0aefc9a4a8a96df550e84f928f51b13f01d4b4"
+  }
+]

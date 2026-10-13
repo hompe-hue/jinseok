@@ -1,0 +1,328 @@
+[
+  {
+    "test": "61905060",
+    "window_s": [
+      20,
+      3150
+    ],
+    "rows": 31302,
+    "duplicate_CAN_clock_rows_kept_last": 97,
+    "source_sha256": "2dc2f20481655d18193bbc969fa41bf399e3420b66adef9bf1a4211465dcaa92",
+    "generic_current": {
+      "raw_unit": "A",
+      "meter_current_comparison_A": {
+        "RMSE": 1.7214976283790742,
+        "bias": -1.3414995021230156,
+        "max_abs": 10.971191619390334
+      },
+      "generic_VI_proxy_net_kWh": 9.876561509653989,
+      "meter_net_kWh": 10.312260606885413,
+      "LV_output_kWh": 0.2906366089476241,
+      "CAN_torque_rpm_mech_candidate_kWh": 9.234502211282253,
+      "proxy_minus_mech_candidate_kWh": 0.6420592983717337,
+      "drive_rows_proxy_below_mech_by_gt1kW": 0,
+      "minimum_proxy_minus_mech_during_drive_kW": -0.4925585688613652,
+      "low_speed_loaded_rows": 822,
+      "low_speed_loaded_generic_current_A": {
+        "min": -6.092379958245511,
+        "max": 23.253736624266093,
+        "mean": 2.0315111234631953
+      },
+      "low_speed_loaded_meter_current_A": {
+        "min": -5.125037924197654,
+        "max": 22.34479549243449,
+        "mean": 3.0580697969057673
+      },
+      "generic_current_motor_torque_correlation": 0.8073781597271171,
+      "voltage_offset_from_meter_V": {
+        "RMSE": 0.3891164327118813,
+        "bias": 0.32400239360060035,
+        "max_abs": 1.4910272784811127
+      },
+      "interpretation": "Unit A and sign alone do not define DC/phase/torque-current. Proxy and CAN mechanical inconsistencies cannot identify which estimate is wrong. Do not use generic V*I as independent inverter DC power."
+    },
+    "torque_boundary": {
+      "axle_minus_7p05_motor_Nm": {
+        "RMSE": 11.064555340332019,
+        "bias": -5.645483335801205,
+        "max_abs": 113.36646715685328
+      },
+      "axle_CAN_power_candidate_net_kWh": 8.813682833777312,
+      "axle_minus_motor_power_candidate_kWh": -0.42081937750494264,
+      "interpretation": "Both CAN estimates lack sensor location/accuracy definitions. Neither establishes measured rotor or hub torque; do not identify passive gear losses from their difference."
+    },
+    "battery_undocumented_values": {
+      "HVBatt_pack_capacity_HPCM2": {
+        "unit_string": "kW",
+        "min": 1850.0,
+        "max": 1850.0,
+        "mean": 1850.0
+      },
+      "HVBatt_pack_resistance_HPCM2": {
+        "unit_string": "Ohm",
+        "min": 127.5,
+        "max": 134.5,
+        "mean": 131.3849049036971
+      }
+    },
+    "battery_current_channels": {
+      "HVBatt_HEV_batt_pack_current_HPCM": {
+        "raw_minus_discharge_positive_meter": {
+          "RMSE": 1.197299258389445,
+          "bias": 0.8657848109873908,
+          "max_abs": 8.556479492691857
+        },
+        "negated_raw_minus_discharge_positive_meter": {
+          "RMSE": 100.00053242079572,
+          "bias": -65.38587241417926,
+          "max_abs": 357.5644892266753
+        }
+      },
+      "HVBatt_current_high_CAN": {
+        "raw_minus_discharge_positive_meter": {
+          "RMSE": 100.00020404524726,
+          "bias": -65.57408854449633,
+          "max_abs": 357.4124896447937
+        },
+        "negated_raw_minus_discharge_positive_meter": {
+          "RMSE": 1.4934356145011116,
+          "bias": 1.054000941304454,
+          "max_abs": 10.532234330565075
+        }
+      }
+    },
+    "SOC_coordinate": {
+      "HVBatt_pack_SOC_HPCM2": {
+        "start_percent": 83.49600000000001,
+        "end_percent": 67.816,
+        "delta_percentage_points": 15.680000000000007,
+        "net_meter_Ah": 28.05002656595224,
+        "apparent_Ah_per_full_CAN_SOC_span": 178.89047554816472,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_SOC_HPCM": {
+        "start_percent": 83.104,
+        "end_percent": 67.424,
+        "delta_percentage_points": 15.679999999999993,
+        "net_meter_Ah": 28.05002656595224,
+        "apparent_Ah_per_full_CAN_SOC_span": 178.8904755481649,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_pack_SOC_gauge_HPCM2": {
+        "start_percent": 84.672,
+        "end_percent": 66.64,
+        "delta_percentage_points": 18.031999999999996,
+        "net_meter_Ah": 28.05002656595224,
+        "apparent_Ah_per_full_CAN_SOC_span": 155.55693525927376,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_SOC_displayed_CAN3": {
+        "start_percent": 84.6936,
+        "end_percent": 66.657,
+        "delta_percentage_points": 18.036600000000007,
+        "net_meter_Ah": 28.05002656595224,
+        "apparent_Ah_per_full_CAN_SOC_span": 155.51726248823076,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      }
+    },
+    "battery_temperature_C": {
+      "min": 24.0,
+      "max": 25.5,
+      "mean": 24.985973477806887
+    },
+    "SOC_CAN4_requires_scaling": {
+      "raw_unit": "per",
+      "min": 4418.5,
+      "max": 5453.900000000001,
+      "mean": 4963.668612142234
+    },
+    "HV_accessory_reported_channels": {
+      "HVBatt_pack_heater_power_required_HPCM2": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "HVAC_AC_comp_power_delivered_by HVBatt_HPCM2": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "HVAC_ac_comp_power_consumption_HPCM": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "SOC_HPCM2_minus_HPCM_percentage_points": {
+      "min": 0.0,
+      "max": 0.3920000000000101,
+      "mean": 0.27241033655523506
+    }
+  },
+  {
+    "test": "61905061",
+    "window_s": [
+      20,
+      1489
+    ],
+    "rows": 14692,
+    "duplicate_CAN_clock_rows_kept_last": 243,
+    "source_sha256": "cb8f9e27bac520e5a848e833d5cdff1ba8700f26512f38b02ae1b30313efdf6b",
+    "generic_current": {
+      "raw_unit": "A",
+      "meter_current_comparison_A": {
+        "RMSE": 1.8424519711553238,
+        "bias": -1.4894145917633959,
+        "max_abs": 8.29736685196071
+      },
+      "generic_VI_proxy_net_kWh": 3.1681470918530485,
+      "meter_net_kWh": 3.3881313666697555,
+      "LV_output_kWh": 0.14005131634548593,
+      "CAN_torque_rpm_mech_candidate_kWh": 2.904726725693317,
+      "proxy_minus_mech_candidate_kWh": 0.2634203661597312,
+      "drive_rows_proxy_below_mech_by_gt1kW": 0,
+      "minimum_proxy_minus_mech_during_drive_kW": -0.31284012371544634,
+      "low_speed_loaded_rows": 865,
+      "low_speed_loaded_generic_current_A": {
+        "min": -6.209308822550917,
+        "max": 24.26086683624735,
+        "mean": 1.945690265249349
+      },
+      "low_speed_loaded_meter_current_A": {
+        "min": -5.3118665136445165,
+        "max": 24.35692738663655,
+        "mean": 3.028484911988992
+      },
+      "generic_current_motor_torque_correlation": 0.8269646210748907,
+      "voltage_offset_from_meter_V": {
+        "RMSE": 0.4437286036953627,
+        "bias": 0.3854597004613985,
+        "max_abs": 1.2696656371869608
+      },
+      "interpretation": "Unit A and sign alone do not define DC/phase/torque-current. Proxy and CAN mechanical inconsistencies cannot identify which estimate is wrong. Do not use generic V*I as independent inverter DC power."
+    },
+    "torque_boundary": {
+      "axle_minus_7p05_motor_Nm": {
+        "RMSE": 11.273055126511329,
+        "bias": -4.793059156035764,
+        "max_abs": 134.78584412070933
+      },
+      "axle_CAN_power_candidate_net_kWh": 2.763164062268556,
+      "axle_minus_motor_power_candidate_kWh": -0.14156266342476143,
+      "interpretation": "Both CAN estimates lack sensor location/accuracy definitions. Neither establishes measured rotor or hub torque; do not identify passive gear losses from their difference."
+    },
+    "battery_undocumented_values": {
+      "HVBatt_pack_capacity_HPCM2": {
+        "unit_string": "kW",
+        "min": 1850.0,
+        "max": 1850.0,
+        "mean": 1850.0
+      },
+      "HVBatt_pack_resistance_HPCM2": {
+        "unit_string": "Ohm",
+        "min": 126.5,
+        "max": 133.5,
+        "mean": 129.9859013761566
+      }
+    },
+    "battery_current_channels": {
+      "HVBatt_HEV_batt_pack_current_HPCM": {
+        "raw_minus_discharge_positive_meter": {
+          "RMSE": 1.1082496886442488,
+          "bias": 0.7225533224747929,
+          "max_abs": 6.680632283166958
+        },
+        "negated_raw_minus_discharge_positive_meter": {
+          "RMSE": 91.49947227663408,
+          "bias": -47.22592573319929,
+          "max_abs": 301.2767196510867
+        }
+      },
+      "HVBatt_current_high_CAN": {
+        "raw_minus_discharge_positive_meter": {
+          "RMSE": 91.48075579842292,
+          "bias": -47.311150663404746,
+          "max_abs": 301.26445367233134
+        },
+        "negated_raw_minus_discharge_positive_meter": {
+          "RMSE": 1.3779647968049187,
+          "bias": 0.8077782526802455,
+          "max_abs": 10.025197747464304
+        }
+      }
+    },
+    "SOC_coordinate": {
+      "HVBatt_pack_SOC_HPCM2": {
+        "start_percent": 67.816,
+        "end_percent": 62.328,
+        "delta_percentage_points": 5.4879999999999995,
+        "net_meter_Ah": 9.489206632016312,
+        "apparent_Ah_per_full_CAN_SOC_span": 172.9082841110844,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_SOC_HPCM": {
+        "start_percent": 67.424,
+        "end_percent": 62.328,
+        "delta_percentage_points": 5.096000000000004,
+        "net_meter_Ah": 9.489206632016312,
+        "apparent_Ah_per_full_CAN_SOC_span": 186.20892135039847,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_pack_SOC_gauge_HPCM2": {
+        "start_percent": 66.64,
+        "end_percent": 61.152,
+        "delta_percentage_points": 5.4879999999999995,
+        "net_meter_Ah": 9.489206632016312,
+        "apparent_Ah_per_full_CAN_SOC_span": 172.9082841110844,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      },
+      "HVBatt_SOC_displayed_CAN3": {
+        "start_percent": 66.657,
+        "end_percent": 61.1676,
+        "delta_percentage_points": 5.489399999999996,
+        "net_meter_Ah": 9.489206632016312,
+        "apparent_Ah_per_full_CAN_SOC_span": 172.86418610442524,
+        "not_physical_capacity": "SOC estimator reserve/offset/nonlinearity/recalibration and timing not independently defined; ratio cannot replace168Ah."
+      }
+    },
+    "battery_temperature_C": {
+      "min": 25.5,
+      "max": 26.0,
+      "mean": 25.99953044557646
+    },
+    "SOC_CAN4_requires_scaling": {
+      "raw_unit": "per",
+      "min": 4079.4,
+      "max": 4433.0,
+      "mean": 4246.160896045976
+    },
+    "HV_accessory_reported_channels": {
+      "HVBatt_pack_heater_power_required_HPCM2": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "HVAC_AC_comp_power_delivered_by HVBatt_HPCM2": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "HVAC_ac_comp_power_consumption_HPCM": {
+        "unit": "kW",
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "SOC_HPCM2_minus_HPCM_percentage_points": {
+      "min": 0.0,
+      "max": 0.3920000000000101,
+      "mean": 0.214828431446159
+    }
+  }
+]

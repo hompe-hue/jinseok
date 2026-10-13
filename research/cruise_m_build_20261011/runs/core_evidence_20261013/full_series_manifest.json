@@ -1,0 +1,36 @@
+{
+  "full_series_location": {
+    "filename": "Bolt_Core_Evidence_20261013.zip",
+    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544",
+    "archive_sha256": "56fdcd5665c92c698a01643040efd86d23fed28fc8b0289e91e12c2d30605213"
+  },
+  "files": [
+    {
+      "path": "research/cruise_m_build_20261011/runs/core_evidence_20261013/ANL61905061_CAN_boundary.csv",
+      "bytes": 6539635,
+      "sha256": "444a7fa90294a283ebdd45f5e5360472a0efaeb79fdca24bf4ce6e8c5af79634"
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/core_evidence_20261013/ANL61905060_CAN_boundary.csv",
+      "bytes": 14161105,
+      "sha256": "4a5473f2e38bd3cf061b88719f9e80366fc639af9a848dd4c8a7e03c90020265"
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/core_evidence_20261013/ANL61905068_battery_evidence.csv",
+      "bytes": 11325540,
+      "sha256": "5f5534397423beaed0366b2011ed5b001721db3f2bd113b263e6731a512a6bfa"
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/core_evidence_20261013/ANL61905065_battery_evidence.csv",
+      "bytes": 7852573,
+      "sha256": "fd752d1e8c64517f6e264ab1c2191f842e1eced51dab7d0268b82e72d56e4b7f"
+    },
+    {
+      "path": "research/cruise_m_build_20261011/runs/core_evidence_20261013/ANL61905063_battery_evidence.csv",
+      "bytes": 12188982,
+      "sha256": "19085893e62ecfcf2d06bfa9d2fc86ec97dd40478f3866b8e70f58c363061771"
+    }
+  ],
+  "raw_TDMS": "Recover original5TDMS via pinned source URLs+hashes in manifests; not included in this compact replay archive.",
+  "github_scope": "Full results/metadata/code/checkpoints posted; full CSVs retained in complete archive, no sampled CSV presented as full evidence."
+}

@@ -67,13 +67,13 @@
   "uploaded_project_sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
   "project_audit": "research/cruise_m_build_20261011/runs/project_audit_20261013/RESULT_KO.md",
   "project_saved_state_audit_commit": "33dc32d",
-  "latest_checkpoint": "checkpoints/REMAINING_REVIEW_20261013.json",
-  "latest_result": "research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md",
-  "latest_stage": "all_accessible_remaining_reviews_complete",
+  "latest_checkpoint": "checkpoints/CORE_EVIDENCE_20261013.json",
+  "latest_result": "research/cruise_m_build_20261011/runs/core_evidence_20261013/RESULT_KO.md",
+  "latest_stage": "core_source_trace_and_new_battery_tests_reviewed",
   "current_user_simulation_required": false,
   "final_physical_validation_passed": false,
   "latest_replay_package": {
-    "filename": "Bolt_Remaining_Review_20261013.zip",
-    "library_file_id": "libfile_762dd27a7b288191a7d0de9dae01f596"
+    "filename": "Bolt_Core_Evidence_20261013.zip",
+    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544"
   }
 }

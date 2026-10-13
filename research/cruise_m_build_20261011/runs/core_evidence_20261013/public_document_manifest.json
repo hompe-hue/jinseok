@@ -1,0 +1,34 @@
+[
+  {
+    "name": "SAE2022_Bolt_model.pdf",
+    "url": "https://saemobilus.sae.org/downloads/papers/2022-01-0678/Full%20Text%20PDF",
+    "bytes": 2271689,
+    "sha256": "3ede5089fe2c1321e530ead61c29091f8bbf17d2d752b0fbb637b3d74990ecc6",
+    "pages": 12,
+    "access_date_UTC": "2026-10-13"
+  },
+  {
+    "name": "NREL75323.pdf",
+    "url": "https://docs.nlr.gov/docs/fy20osti/75323.pdf",
+    "bytes": 10604578,
+    "sha256": "f6394516264d93126116f2f421ecd4bd61c47c1aaabe26e87320317a1aab7c52",
+    "pages": 140,
+    "access_date_UTC": "2026-10-13"
+  },
+  {
+    "name": "MDEC2018.pdf",
+    "url": "https://mdec.ca/2018/workshop_book.pdf",
+    "bytes": 6496409,
+    "sha256": "aebb7a369f00a47bcc4f9531b8210bd2b2d89cead2b863a65b1dcfdc34e29ed5",
+    "pages": 170,
+    "access_date_UTC": "2026-10-13"
+  },
+  {
+    "name": "2017_Bolt_TestSummary.pdf",
+    "url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1656495479362",
+    "bytes": 1662880,
+    "sha256": "8e61bcf13ab8ea295c07b6c8013c8f818944e5cf259b13347ded942a9f75800a",
+    "pages": 3,
+    "access_date_UTC": "2026-10-13"
+  }
+]
