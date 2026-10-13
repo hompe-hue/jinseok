@@ -1,0 +1,35 @@
+{
+  "Q1_interior": {
+    "rows": 2440,
+    "RMSE_kW": 3.1422512403695063e-15,
+    "max_abs_kW": 1.5987211554602254e-14
+  },
+  "Q4_interior": {
+    "rows": 173,
+    "RMSE_kW": 3.604429119047222e-15,
+    "max_abs_kW": 1.4654943925052066e-14
+  },
+  "low_torque_bridge": {
+    "rows": 300,
+    "RMSE_kW": 6.143122600406063e-16,
+    "max_abs_kW": 3.552713678800501e-15
+  },
+  "uncovered_regenerative_rows": 0,
+  "scope": "Observed map application, not independent physical EDU validation",
+  "energy_accounting": {
+    "baseline": {
+      "total_difference_kWh": 0.9741036945713741,
+      "model_minus_CAN_mechanical_candidate_kWh": 0.16614225924213066,
+      "remaining_boundary_difference_kWh": 0.8079614353292435,
+      "model_EDU_DC_minus_output_kWh": 1.5379420018627599,
+      "caution": "CAN rotor/EDU equivalent shaft boundary not independently aligned; descriptive accounting, not measured loss decomposition."
+    },
+    "dis80": {
+      "total_difference_kWh": 0.9780643600135779,
+      "model_minus_CAN_mechanical_candidate_kWh": 0.16877255392867951,
+      "remaining_boundary_difference_kWh": 0.8092918060848984,
+      "model_EDU_DC_minus_output_kWh": 1.539272373436642,
+      "caution": "CAN rotor/EDU equivalent shaft boundary not independently aligned; descriptive accounting, not measured loss decomposition."
+    }
+  }
+}

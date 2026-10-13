@@ -1,0 +1,21 @@
+{
+  "stage": "DIS80_export_comparison_and_map_diagnostics_complete",
+  "test": "61905060",
+  "diagnostic_result": "research/cruise_m_build_20261011/runs/ANL61905060_DIS80_20261013/RESULT_KO.md",
+  "tracking_RMSE_kmh": 0.42102528861922156,
+  "energy_error_percent": 9.484480632311909,
+  "input_changed_by_analysis": false,
+  "new_simulations_required_now": false,
+  "conclusion": "Discharge limit affects tracking but does not explain dominant positive energy residual",
+  "next": "Bolt neutral/backdrive or separated gearing loss evidence; preserve CAN/DC and battery uncertainty. Do not repeat DIS80 on61905061 for energy diagnosis alone.",
+  "raw_upload_library_ids": [
+    "libfile_0f25e6f9ea7c8191be48d374abce0ea2",
+    "libfile_845973d0566c8191b44f6973dacc4066",
+    "libfile_33d933e661c08191ab277a2623fe8f7f"
+  ],
+  "authorization": "PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "complete_replay_package": {
+    "filename": "DIS80_Validation_20261013.zip",
+    "library_file_id": "libfile_41685f6119608191ac362884efee18db"
+  }
+}

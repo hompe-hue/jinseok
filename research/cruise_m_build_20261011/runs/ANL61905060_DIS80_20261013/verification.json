@@ -1,0 +1,289 @@
+{
+  "new_source_files": {
+    "velocity": {
+      "filename": "velocity_ANL61905060DIS80.csv",
+      "sha256": "9a037c21ecea3daf55722ecd994c587aa66eaad8b6ef0fe487efa67b834cdb74"
+    },
+    "battery": {
+      "filename": "battery_ANL61905060DIS80.csv",
+      "sha256": "69300e0229b82efc961396d29fb7d9cc465fe8f251228203863248af4c96660b"
+    },
+    "generator": {
+      "filename": "generator_ANL61905060DIS80.csv",
+      "sha256": "57dc3c097d5a453996550363767c0b38a452dac07024245ad859bfbb21d30e30"
+    }
+  },
+  "reference_sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+  "baseline": {
+    "label": "45kW baseline",
+    "rows": 3151,
+    "export_window_s": [
+      0.0,
+      3150.0
+    ],
+    "energy_window_s": [
+      20,
+      3150
+    ],
+    "VI_metric_window_s": [
+      21,
+      3150
+    ],
+    "initial_SOC_percent": 81.25424699999999,
+    "profile_error_max_kmh": 1.2762906465013657e-07,
+    "desired_matches_other_run_max_kmh": 0.0,
+    "initial_SOC_matches": true,
+    "tracking": {
+      "RMSE": 0.5935399036461063,
+      "bias": -0.011458850327457547,
+      "MAE": 0.3222676867517058,
+      "max_abs": 8.410961349658223
+    },
+    "tracking_max_error_time_s": 1479.0,
+    "actual_distance_km": 65.63585050049053,
+    "desired_distance_km": 65.645880169908,
+    "reported_distance_km": 65.63584686492713,
+    "distance_error_percent": -0.015278444574895467,
+    "voltage": {
+      "RMSE": 1.5252971275826763,
+      "bias": 0.9084939789615102,
+      "MAE": 1.1887754244355984,
+      "max_abs": 6.050373201072148
+    },
+    "current": {
+      "RMSE": 6.244967993472709,
+      "bias": 2.9929598697969912,
+      "MAE": 4.044574821662059,
+      "max_abs": 65.8309459206162
+    },
+    "model_net_kWh": 11.286364301456787,
+    "reference_net_kWh": 10.312260606885413,
+    "energy_error_percent": 9.446073287955636,
+    "model_gross_discharge_kWh": 12.291245136060638,
+    "model_gross_recovered_kWh": 1.0048808346038522,
+    "power_kW": {
+      "first": 0.39999873998467206,
+      "last": 0.40000000000000013,
+      "min": -40.00269129834588,
+      "max": 45.071793500720034
+    },
+    "SOC_percent": {
+      "first": 81.25424699999999,
+      "last": 63.025735859512736,
+      "min": 62.76279400127616,
+      "max": 81.25424699999999
+    },
+    "aux_HV_kW": {
+      "first": 0.4,
+      "last": 0.40000000000000013,
+      "min": 0.39999999999999986,
+      "max": 0.4000000000000002
+    },
+    "battery_power_minus_VI_max_abs_kW": 2.1316282072803006e-14,
+    "battery_minus_motorDC_minus_aux_max_abs_kW": 3.553343152662425e-06,
+    "motor_mech_net_kWh": 9.400644470524414,
+    "motor_DC_net_kWh": 10.938586472387174,
+    "aux_HV_net_kWh": 0.3477777777777778,
+    "samples_near45kW": 59,
+    "samples_near80kW": 0,
+    "measured_above45_speed_deficit_gt1kmh": 19,
+    "generator_off": true,
+    "generator": {
+      "Actual Engine Speed": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Cumulated Fuel Consumption": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Current": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Desired Engine Speed": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Fuel Massflow": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Power Generator": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Power ICE": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "proposed_targets": {
+      "voltage_RMSE_met": true,
+      "voltage_bias_met": true,
+      "energy_met": false
+    }
+  },
+  "diagnostic": {
+    "label": "DIS80 received diagnostic",
+    "rows": 3151,
+    "export_window_s": [
+      0.0,
+      3150.0
+    ],
+    "energy_window_s": [
+      20,
+      3150
+    ],
+    "VI_metric_window_s": [
+      21,
+      3150
+    ],
+    "initial_SOC_percent": 81.25424699999999,
+    "profile_error_max_kmh": 1.2762906465013657e-07,
+    "desired_matches_other_run_max_kmh": 0.0,
+    "initial_SOC_matches": true,
+    "tracking": {
+      "RMSE": 0.42102528861922156,
+      "bias": 0.005926455505628386,
+      "MAE": 0.2872278216689246,
+      "max_abs": 3.020609997769423
+    },
+    "tracking_max_error_time_s": 2678.0,
+    "actual_distance_km": 65.6510674723461,
+    "desired_distance_km": 65.645880169908,
+    "reported_distance_km": 65.65105895463604,
+    "distance_error_percent": 0.007901946663935178,
+    "voltage": {
+      "RMSE": 1.5186320139101257,
+      "bias": 0.9043370403962989,
+      "MAE": 1.1850709034420708,
+      "max_abs": 6.045501116320793
+    },
+    "current": {
+      "RMSE": 5.1645635595397925,
+      "bias": 3.0078273303224843,
+      "MAE": 3.7979127581333856,
+      "max_abs": 41.75118108047781
+    },
+    "model_net_kWh": 11.290324966898991,
+    "reference_net_kWh": 10.312260606885413,
+    "energy_error_percent": 9.484480632311909,
+    "model_gross_discharge_kWh": 12.294716275757128,
+    "model_gross_recovered_kWh": 1.0043913088581373,
+    "power_kW": {
+      "first": 0.39999873998467206,
+      "last": 0.4,
+      "min": -40.00269128673792,
+      "max": 66.3215759270904
+    },
+    "SOC_percent": {
+      "first": 81.25424699999999,
+      "last": 63.018204933184975,
+      "min": 62.75525969369038,
+      "max": 81.25424699999999
+    },
+    "aux_HV_kW": {
+      "first": 0.4,
+      "last": 0.4,
+      "min": 0.39999999999999986,
+      "max": 0.4000000000000002
+    },
+    "battery_power_minus_VI_max_abs_kW": 2.1316282072803006e-14,
+    "battery_minus_motorDC_minus_aux_max_abs_kW": 3.553343154161226e-06,
+    "motor_mech_net_kWh": 9.403274765210963,
+    "motor_DC_net_kWh": 10.942547138647605,
+    "aux_HV_net_kWh": 0.3477777777777778,
+    "samples_near45kW": 1,
+    "samples_near80kW": 0,
+    "measured_above45_speed_deficit_gt1kmh": 9,
+    "generator_off": true,
+    "generator": {
+      "Actual Engine Speed": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Cumulated Fuel Consumption": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Current": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Desired Engine Speed": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Fuel Massflow": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Power Generator": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "Power ICE": {
+        "first": 0.0,
+        "last": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "proposed_targets": {
+      "voltage_RMSE_met": true,
+      "voltage_bias_met": true,
+      "energy_met": false
+    }
+  },
+  "delta_DIS80_minus_baseline": {
+    "model_net_kWh": 0.003960665442203748,
+    "energy_error_percent": 0.03840734435627269,
+    "model_gross_discharge_kWh": 0.0034711396964901553,
+    "model_gross_recovered_kWh": -0.0004895257457149249,
+    "motor_mech_net_kWh": 0.002630294686548851,
+    "motor_DC_net_kWh": 0.003960666260431012,
+    "aux_HV_net_kWh": 0.0,
+    "tracking_RMSE_kmh": -0.17251461502688475,
+    "voltage_RMSE_V": -0.006665113672550627
+  },
+  "checks": {
+    "baseline_energy_matches_previous": true,
+    "initial_SOC_matches": true,
+    "profile_matches": true,
+    "generator_off": true,
+    "aux_0p4kW": true,
+    "VI_identity": true,
+    "DC_identity": true
+  },
+  "unexported_tail_s": 0.8969950675964355,
+  "temperature_confirmation": "No battery/environment temperature channels in CSV; not independently confirmed.",
+  "settings_confirmation": "User-reported Dis80 change; export has no BMS commanded/allowed power trace and no current project. Changed output cannot prove all other saved parameters stayed identical.",
+  "scope": "Same-test single-setting diagnostic, not independently identified Bolt BMS map or final held-out validation; existing research proposal thresholds are not certification criteria."
+}
