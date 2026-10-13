@@ -1,3 +1,5 @@
+> **최신 연구 방향과 중간보고 준비(2026-10-13):** [비판적 검토·계산·실행 계획](research/research_direction_20261013/RESULT_KO.md) · [12장 발표 원고](research/research_direction_20261013/midterm_content.json) · [다음 세션 재개 기록](checkpoints/RESEARCH_DIRECTION_20261013.json). 유한 주행 미션의 성능 유지 경계와 기존 S0~S4의 조건부 효과를 중심에 둡니다. 054의 조건부 재현 목표 충족과 060 에너지 +9.484% 미충족을 함께 보고하며, 066 독립 평가와 전체 모델 검증은 아직 완료하지 않았습니다.
+
 > **최신 작업:** [Bolt 핵심 근거 검토](research/cruise_m_build_20261011/runs/core_evidence_20261013/RESULT_KO.md) · [재개 기록](checkpoints/CORE_EVIDENCE_20261013.json). 새 CAN·soak·완전충전 자료를 검토했습니다. 에너지 +9.484% 편차와 계측경계 불확실성은 남아 있으며, 모델입력 변경이나 추가 사용자 실행 요청은 없습니다.
 
 > **최신 검토(2026-10-13):** Bolt EV 잔여 항목의 접근 가능한 자료 검토를 완료했습니다. [검토 결과](research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md)와 [재개 기록](checkpoints/REMAINING_REVIEW_20261013.json)을 먼저 읽으세요. DIS80 에너지 +9.484% 편차는 미해소이며, 추가 사용자 실행이나 모델 입력 변경은 없습니다. Bolt 분리손실 및 계측경계 근거가 다음 시작점입니다.
@@ -41,3 +43,4 @@ FTP75 실행·수치 점검과 Report Page 오류 해결까지 기존 커밋에 
 - [이전 Range Extender 입력자료](research/range_extender_20261006/RESUME.md)
 
 이전 65 kW 표는 가정 기반 후보이며 실측 연속 정격 검증이 아닙니다. 과거 GitHub 쓰기 거절 기록은 이전 시도에 관한 것으로, 이후 동기화 완료 기록과 최신 커밋으로 실제 반영 상태를 확인합니다.
+

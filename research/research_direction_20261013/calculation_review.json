@@ -1,0 +1,148 @@
+{
+  "evidence_class": "ASSUMED_QUASI_STATIC_NOT_CRUISE_M_NOT_MEASURED",
+  "assumptions": {
+    "test_mass_kg": 1757.6704,
+    "additional_mass_kg": 120,
+    "total_mass_kg": 1877.6704,
+    "eta_traction": 0.95,
+    "aux_kw": 0.4,
+    "usable_energy_kwh": 58.5,
+    "soc_energy_linear_approximation": true,
+    "grade_convention": "tan(theta)",
+    "roadload_unchanged_with_extra_mass": true,
+    "accel_rotating_mass_factor": 1.03,
+    "battery_current_limit_omitted": true,
+    "pack_mass_scaling_omitted": true
+  },
+  "duration": [
+    {
+      "speed_kmh": 100,
+      "grade_pct": 4.0,
+      "demand_dc_kw": 37.026534510632885,
+      "depletion_minutes": {
+        "26": 31.83230412615412,
+        "40": null,
+        "65": null
+      }
+    },
+    {
+      "speed_kmh": 120,
+      "grade_pct": 4.0,
+      "demand_dc_kw": 49.90844191802262,
+      "depletion_minutes": {
+        "26": 14.681006867930186,
+        "40": 35.42433844836499,
+        "65": null
+      }
+    },
+    {
+      "speed_kmh": 120,
+      "grade_pct": 6.0,
+      "demand_dc_kw": 62.781366054732764,
+      "depletion_minutes": {
+        "26": 9.542875582100242,
+        "40": 15.407328917709075,
+        "65": null
+      }
+    },
+    {
+      "speed_kmh": 100,
+      "grade_pct": 5.0,
+      "demand_dc_kw": 42.394265358067045,
+      "depletion_minutes": {
+        "26": 21.409925503449603,
+        "40": 146.6002917418359,
+        "65": null
+      }
+    }
+  ],
+  "height": [
+    {
+      "speed_kmh": 100,
+      "grade_pct": 5.0,
+      "usable_energy_kwh": 58.5,
+      "soc_reserve_pp": {
+        "300": 1.6835636305363968,
+        "500": 2.805939384227328,
+        "800": 4.4895030147637245
+      }
+    },
+    {
+      "speed_kmh": 120,
+      "grade_pct": 4.0,
+      "usable_energy_kwh": 58.5,
+      "soc_reserve_pp": {
+        "300": 2.5563633575822715,
+        "500": 4.260605595970453,
+        "800": 6.816968953552724
+      }
+    },
+    {
+      "speed_kmh": 120,
+      "grade_pct": 4.0,
+      "usable_energy_kwh": 19.5,
+      "soc_reserve_pp": {
+        "300": 7.6690900727468145,
+        "500": 12.78181678791136,
+        "800": 20.450906860658176
+      }
+    }
+  ],
+  "acceleration": [
+    {
+      "available_dc_kw": 150,
+      "time_80_120_s": 4.708108379314339
+    },
+    {
+      "available_dc_kw": 100,
+      "time_80_120_s": 7.536160989521639
+    },
+    {
+      "available_dc_kw": 60,
+      "time_80_120_s": 14.554144662504322
+    },
+    {
+      "available_dc_kw": 40,
+      "time_80_120_s": 27.56634365567687
+    }
+  ],
+  "battery": [
+    {
+      "parallel": 3,
+      "voc_v": 333.67627500000003,
+      "r_ohm": 0.07805036600000001,
+      "voltage_only_kw": {
+        "2.5": 288.04869409580994,
+        "3.0": 168.54203092398066
+      }
+    },
+    {
+      "parallel": 2,
+      "voc_v": 333.67627500000003,
+      "r_ohm": 0.11707554900000001,
+      "voltage_only_kw": {
+        "2.5": 192.03246273053998,
+        "3.0": 112.36135394932043
+      }
+    },
+    {
+      "parallel": 1,
+      "voc_v": 333.67627500000003,
+      "r_ohm": 0.23415109800000003,
+      "voltage_only_kw": {
+        "2.5": 96.01623136526999,
+        "3.0": 56.180676974660216
+      }
+    }
+  ],
+  "causality_example": {
+    "demand_kw": 80,
+    "battery_limit_kw": 60,
+    "generator_max_kw": 26,
+    "delay_s": 0.5,
+    "ramp_kw_s": 20,
+    "required_advance_s": 1.5,
+    "reactive_deficit_wh": 5.555555555555555,
+    "oracle_advance_deficit_wh": 0.0
+  }
+}

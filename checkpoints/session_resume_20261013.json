@@ -2,7 +2,7 @@
   "date": "2026-10-13",
   "baseline_remote_commit": "f43b643b738ce3174d230a7e5455d0c29bdb2807",
   "recovered_67_local_commit": "8f69635",
-  "current_stage": "project_map_boundary_audit_complete",
+  "current_stage": "research_direction_review_and_midterm_preparation",
   "complete": [
     "61905067 source CRC/size/SHA256 verification without repeated analysis",
     "61905060 DAT/CSV generation and numeric roundtrip verification",
@@ -16,7 +16,10 @@
     "Common-grid voltage/current/measurement-power energy accounting identity verified",
     "61905061 mechanical/DC/aux comparison plus unverified motor CAN VI proxy preserved",
     "Uploaded61905061 project read-only CRC, six battery tables, Q1/Q4 loss nodes, profile and saved state verified",
-    "Current embeddedQ1/Q4 interior and low-torque boundary-use diagnostics completed"
+    "Current embeddedQ1/Q4 interior and low-torque boundary-use diagnostics completed",
+    "Critical review of research proposal and reproducible quasi-static recalculation",
+    "Existing S0-S4 definitions recovered from canonical guide revision 3",
+    "Professor one-page brief and 12-slide interim report draft prepared"
   ],
   "not_complete": [
     "battery physical parameter identification",
@@ -75,5 +78,14 @@
   "latest_replay_package": {
     "filename": "Bolt_Core_Evidence_20261013.zip",
     "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544"
-  }
+  },
+  "latest_research_direction_checkpoint": "checkpoints/RESEARCH_DIRECTION_20261013.json",
+  "latest_report": "research/research_direction_20261013/RESULT_KO.md",
+  "research_scope": "Finite-mission performance feasibility boundaries and conditional effects of unchanged S0-S4; virtual net-DC genset",
+  "validation_complete": false,
+  "next_actions": [
+    "Freeze physically justified BEV calibration on060/061; regen-only repair cannot explain9.484%",
+    "Independent066 comparison after protocol and inputs frozen; actual CSV/log/project required",
+    "Analytical boundary envelope then representative EREV simulation batch;27 proposed runs"
+  ]
 }

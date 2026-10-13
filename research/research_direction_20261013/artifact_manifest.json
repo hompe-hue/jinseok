@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-13",
+  "artifacts": [
+    {
+      "filename": "Professor_Brief_Bolt_EREV_20261013.docx",
+      "sha256": "808b3f7454c2ab8611e9abb7666e312b5f4233567b7691ac96397712ed8d1fba",
+      "size_bytes": 38712,
+      "local_path": "/workspace/scratch/a5204a7b57f4/output/bolt_midterm_20261013/Professor_Brief_Bolt_EREV_20261013.docx",
+      "library_file_id": "libfile_56dbfd954ffc8191a9b9e20973345c7f",
+      "current_version_number": 0,
+      "persisted": true
+    },
+    {
+      "filename": "Professor_Brief_Bolt_EREV_20261013.pdf",
+      "sha256": "edff4cf92d3b3af97de60474d70eb7c1bd1e1e9b724c268740262dd4e1bde8a7",
+      "size_bytes": 90772,
+      "local_path": "/workspace/scratch/a5204a7b57f4/output/bolt_midterm_20261013/Professor_Brief_Bolt_EREV_20261013.pdf",
+      "library_file_id": "libfile_908a000096d08191927f5dc230e7bb7c",
+      "current_version_number": 0,
+      "persisted": true
+    },
+    {
+      "filename": "Bolt_EREV_Midterm_Draft_20261013_v4.pptx",
+      "sha256": "d6194999f86dd9f4a3c2724df5a8b579036d6dfc211b836d54f5421860c1859b",
+      "size_bytes": 59783,
+      "local_path": "/workspace/scratch/a5204a7b57f4/output/bolt_midterm_20261013/Bolt_EREV_Midterm_Draft_20261013_v4.pptx",
+      "library_file_id": "libfile_7f45f765da5c8191827ce84b91f9bcb2",
+      "current_version_number": 0,
+      "persisted": true
+    },
+    {
+      "filename": "Bolt_EREV_Midterm_Draft_20261013_v4.pdf",
+      "sha256": "9e8624050d6e3cef977e7706d86a52780c7d4e50957275bc7cb8ea7c14180ff0",
+      "size_bytes": 145904,
+      "local_path": "/workspace/scratch/a5204a7b57f4/output/bolt_midterm_20261013/Bolt_EREV_Midterm_Draft_20261013_v4.pdf",
+      "library_file_id": "libfile_0a03bfc2a00481919def8598166e36bc",
+      "current_version_number": 0,
+      "persisted": true
+    },
+    {
+      "filename": "Research_Review_and_Plan_KO.md",
+      "sha256": "16128cd1d15a3146e547477d8a9f49b0a6159769a4d15c4aa182bae47213a65c",
+      "size_bytes": 20811,
+      "local_path": "/workspace/scratch/a5204a7b57f4/output/bolt_midterm_20261013/Research_Review_and_Plan_KO.md",
+      "library_file_id": "libfile_cf8ae54b55f481919bbe845462bf9560",
+      "current_version_number": 0,
+      "persisted": true
+    }
+  ],
+  "validation": {
+    "brief_A4_pages": 1,
+    "deck_slides": 12,
+    "editable_native_tables": 4,
+    "model_validation_complete": false,
+    "new_CRUISE_M_run": false
+  },
+  "status": "all_six_artifacts_persisted",
+  "bundle": {
+    "filename": "Bolt_EREV_Midterm_Preparation_20261013.zip",
+    "library_file_id": "libfile_316696bb803081919bd940fbb6ebb419",
+    "current_version_number": 0,
+    "sha256": "d5b8315d3db3756850dec6bfc3b0a635ca243ed86b04acfc1f368175fc2609e9",
+    "size_bytes": 286926,
+    "persisted": true
+  }
+}

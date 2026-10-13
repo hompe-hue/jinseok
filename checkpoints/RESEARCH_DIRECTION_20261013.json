@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-13",
+  "status": "review_and_midterm_preparation_complete_not_model_validation_complete",
+  "report": "research/research_direction_20261013/RESULT_KO.md",
+  "calculation": "research/research_direction_20261013/calculation_review.json",
+  "calculation_script": "research/research_direction_20261013/scripts/check_direction_calculations.py",
+  "presentation_content": "research/research_direction_20261013/midterm_content.json",
+  "midterm_date": "2026-10-30",
+  "completed_work": [
+    {
+      "task": "critical_scientific_review",
+      "status": "complete",
+      "findings": "Causal trigger cannot foresee step; finite-energy feasibility depends on pack size; no-performance-difference does not imply equal fuel; regen-only fix insufficient for current060 energy error"
+    },
+    {
+      "task": "quasi_static_recalculation",
+      "status": "complete",
+      "evidence": "ASSUMPTIONS_NOT_CRUISE_M_NOT_ANL_MEASUREMENTS",
+      "duration_26kw_minutes": [
+        31.8323041262,
+        14.6810068679,
+        9.5428755821
+      ]
+    },
+    {
+      "task": "canonical_controller_recovery",
+      "status": "complete",
+      "source": "Bolt_EREV_CRUISE_M_Claude_Guide_20261006.docx revision3 pages13-14 Library libfile_377a5884afcc8191a9e8a9c012920f0e version2",
+      "S0": "SOC6/8",
+      "S1": "S0+requestedwheel35kW",
+      "S2": "SOC15/18reserve",
+      "S3": "S0+causalDCforecast",
+      "S4": "S2 OR S3",
+      "definitions_changed": false
+    },
+    {
+      "task": "professor_brief",
+      "status": "complete",
+      "format": "A4 one page DOCX and PDF"
+    },
+    {
+      "task": "midterm_draft",
+      "status": "complete",
+      "format": "12 editable PPTX slides with source notes and PDF"
+    }
+  ],
+  "recommended_scope": {
+    "question": "Finite-mission performance feasibility boundary and strategy benefits/cost under virtual battery and net-DC genset constraints",
+    "primary": "Sustained load and SOC energy reserve",
+    "secondary": "Transient requested-power deficit and80-120acceleration sensitivity",
+    "generator_kw": [
+      26,
+      40,
+      65
+    ],
+    "generator_evidence": "netDC abstract-source assumptions; not measured continuous ratings; do not scale fuel maps",
+    "main_temperature_c": 25,
+    "pack_variants": "virtual96S3P/2P/1P; linked energy/R/current constraints; mass separately",
+    "first_vehicle_batch_proposal": "15main+6independent+6sensitivity=27; existing1200/180loworder grids retained as expansion candidates"
+  },
+  "validation_state": {
+    "complete": false,
+    "054": "same-test conditional reproduction Vrmse0.663192V energy+3.570158%20-1144s; not independent generalization",
+    "060_DIS80": "Vrmse1.518632V energy+9.484481%; energy target unmet",
+    "066": "No new CRUISE M output received or executed in this task",
+    "regen_error_share_pct": 3.71,
+    "new_model_changes": false,
+    "local_empirical_fit_candidate": "calibration_gate_20261014 paused, unpublished, unapplied and not validation evidence"
+  },
+  "next_session": [
+    "Read latest report and this checkpoint before previous roadmap",
+    "Recover finalized report artifacts from artifact_manifest.json",
+    "Resolve BEV regen split and discharge-loss measurement boundaries before calibration freeze",
+    "Verify066 protocol, freeze input hashes, analyze actual output without retuning on holdout",
+    "Update12-slide draft with actual outcomes; keep assumptions distinct from measured/runtime results"
+  ],
+  "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md; ongoing publichompe-hue/jinseok authorization retained",
+  "external_messages_sent": false,
+  "artifact_manifest": "research/research_direction_20261013/artifact_manifest.json",
+  "artifact_persistence": "all6succeeded"
+}
