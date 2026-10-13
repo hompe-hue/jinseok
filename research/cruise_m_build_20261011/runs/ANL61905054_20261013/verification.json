@@ -1,0 +1,112 @@
+{
+  "status": "Actual-speed input verified on exported 0–1144 s interval; empirical energy validation pending condition alignment",
+  "files": {
+    "velocity_ANL61905054.csv": "16aea7366d2b21d78ec9d91967cc8a2f0a03b4c7b94e921fa306cff878416ae2",
+    "battery_ANL61905054.csv": "e1633163dbee61f3ce15002b6afea35370bd112c0f48e91d3f5193f8cc2377ae",
+    "generator_ANL61905054.csv": "7d70061877c740bf160fee105bb290a4c2373d22abdd4ff81d37c35c6557bd2f"
+  },
+  "quality": {
+    "rows": {
+      "velocity": 1145,
+      "battery": 1145,
+      "generator": 1145
+    },
+    "all_finite": true,
+    "same_times": true,
+    "strictly_increasing": true
+  },
+  "time": {
+    "export_end_s": 1144,
+    "profile_end_s": 1144.8989081382751,
+    "unexported_tail_s": 0.8989081382751465,
+    "note": "1 s exports omit fractional endpoint; actual simulation completion not inferred from export alone"
+  },
+  "tracking": {
+    "desired_input_max_abs_error_kmh": 4.575618106628099e-9,
+    "RMSE_kmh": 0.5650883842947064,
+    "MAE_kmh": 0.36970063432583994,
+    "max_abs_error_kmh": 2.6838928436771337,
+    "max_error_time_s": 658,
+    "actual_distance_integrated_km": 17.02185832771692,
+    "desired_distance_integrated_km": 17.015151069378135,
+    "reported_distance_km": 17.02192663357874,
+    "actual_vs_desired_distance_pct": 0.03941932875846099
+  },
+  "battery": {
+    "voltage_V": {
+      "min": 354.11212874281114,
+      "max": 371.7305436152404,
+      "first": 364.5412820937204,
+      "last": 362.1314156589744
+    },
+    "current_A_discharge_negative": {
+      "min": -127.21678328768652,
+      "max": 107.83583906308826,
+      "first": -2.6334376557979295,
+      "last": -2.650971328331395
+    },
+    "SOC_percent": {
+      "min": 55.90661857876782,
+      "max": 60,
+      "first": 60,
+      "last": 55.9955452247417
+    },
+    "VI_net_discharge_kWh": 2.408901892731694,
+    "reported_power_net_discharge_kWh": 2.408901892731694,
+    "max_abs_P_vs_VI_kW": 1.4210854715202004e-14,
+    "net_charge_discharge_Ah": 6.7293214497254095,
+    "reported_energy_decrease_kWh": 2.6599573937568195,
+    "aux_power_from_consumer_kW": {
+      "min": 0.9599999999999999,
+      "max": 0.9600000000000001,
+      "first": 0.96,
+      "last": 0.9599999999999999
+    }
+  },
+  "generator": {
+    "Actual Engine Speed": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Cumulated Fuel Consumption": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Current": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Fuel Massflow": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Power Generator": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Power ICE": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    }
+  },
+  "reference": {
+    "native_full_phase_energy_kWh": 2.155018045705634,
+    "native_common_0_1144s_energy_kWh": 2.1549315188893154,
+    "summary_full_test_kWh": 2.172,
+    "interpretation": "Different initial SOC, temperature and auxiliary boundary; diagnostic differences do not prove validation."
+  },
+  "next": "Align initial state and HV auxiliary boundary using existing source definitions; do not request completed parameter screenshots again.",
+  "diagnostic_energy_difference_pct": 11.78554267809302
+}

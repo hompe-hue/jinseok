@@ -1,3 +1,18 @@
+# 최신 재개 지점 — 2026-10-13
+
+**최신 결과 수신:** 실측조건 후보 실행의 CSV 3종을 받았고 `../runs/ANL61905054_aligned_20261013/RESULT.md`에 검증했다. 초기SOC93.142532%, aux0.4kW가 결과에 반영됐다. 순DC에너지2.837658923kWh(+31.68%), 회생충전이 거의없다. 최신 다음 작업은 BMS의 고SOC 충전/회생 제한 진단이다. 아래의 후보실행 요청은 과거이며 반복하지 않는다.
+
+- 완료: FTP75 발전 정지, 질량/주행저항/Environment 확인, ANL61905054 실측 속도 DAT 작성, 초기BEV 실행 CSV 3종 검증. 완료된 설정과 실행을 반복하지 않는다.
+- 최신 실행 결과: `../runs/ANL61905054_20261013/RESULT.md` 및 `verification.json`. 속도RMSE0.565088km/h, 실제거리17.0219km, 발전정지, 순DC에너지2.408901893kWh. 아직 독립 실차 검증 통과가 아니다.
+- 다음 실행 안내: `ANL_61905054_phase1/NEXT_RUN_KO.md`. 두 모듈 초기SOC93.142532%, Power Consumer→General→Power0.40kW, 배터리22°C, Environment23.34°C. 기존 맵과 질량/주행저항은 고정한다.
+- 사용자가 보낸 최신 화면에서 Module1 초기SOC93.142532%, Module1 Thermal Model22°C, Environment23.34°C를 확인했다. Module2 변경은 화면 증거가 없으므로 두 모듈 모두 확인 완료라고 쓰지 않는다. Power Consumer0.40kW 실행 결과는 아직 받지 않았다.
+- 초기SOC는 첫 실측전압으로부터 현재표를 역산한 초기화 값이며, 보조부하는 추정값이다. 동일 시험 초기조건 식별과 이후 구간 평가를 구분한다.
+- 다음 수신파일: 새 실행의 velocity/battery/generator CSV. 이전 CSV 원본을 덮어쓰지 않는다.
+
+---
+
+## 아래는 과거 시험조건 대조 기록이며 최신 재개 지점이 아니다
+
 # 실험자료 시험조건 대조 — 시작 체크포인트 (2026-10-13)
 
 ## 직전 단계 완료
@@ -30,3 +45,4 @@ CRUISE M Home의 Vehicle 컴포넌트 Parameters에서 Curb weight, Additional l
 - Phase 시간 및 SOC: 기존 research/validation_fix_20261006/results/battery_data_quality.json.
 - EPA Target ABC/ETW: 기존 source_hashes.json이 가리키는 vehicle_roadload_CRUISE_units.csv 및 기존 구축 README.
 - 기존 전체 speed_for_driver.csv를 Phase 구간 확인 없이 완성된 시험 입력으로 import하지 않는다. 전후 구간이 포함돼 있기 때문이다.
+

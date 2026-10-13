@@ -1,0 +1,58 @@
+{
+  "test_id": "61905054",
+  "cycle": "Day 4 first 10 mile drive; not FTP75",
+  "source_sha256": "c3b02d2a66138a69a6260b01533f47210721fb2a444bedb74fad5dba4b754844",
+  "source_phase_rows": [
+    260,
+    11710
+  ],
+  "native_rows": 11450,
+  "driver_rows": 1146,
+  "phase_duration_s": 1144.8989081382751,
+  "meter_clock_origin_s": 5.999975204467773,
+  "native_dt_min_max_s": [
+    0.09999990463256836,
+    0.09999990463256836
+  ],
+  "native_distance_km": 17.014852891715567,
+  "driver_distance_km": 17.015158286050656,
+  "resampling_distance_difference_pct": 0.0017948690889864193,
+  "driver_transform": "Linear interpolation at integer seconds; exact fractional final endpoint retained; no extrapolation. Stationary negative-speed noise in [-0.01,0) km/h clipped to zero only in the driver. Native reference unchanged.",
+  "driver_clipped_negative_samples": 0,
+  "export_reference_interpolation": "none; native meter/CAN clocks and SOC columns preserved",
+  "source_test_cell_temperature_C": 23.34,
+  "source_summary_energy_Wh": 2172,
+  "prior_native_phase_energy_Wh": 2155.018045705633,
+  "display_SOC": {
+    "first": 99.9855,
+    "last": 98.025,
+    "min": 98.025,
+    "max": 99.9855
+  },
+  "HPCM2_SOC": {
+    "first": 96.824,
+    "last": 93.688,
+    "min": 93.688,
+    "max": 96.824
+  },
+  "battery_temperature_C": {
+    "first": 22,
+    "last": 22.5,
+    "min": 22,
+    "max": 22.5
+  },
+  "HVAC_kW": {
+    "first": 0,
+    "last": 0,
+    "min": 0,
+    "max": 0
+  },
+  "LV_DCDC_output_W": {
+    "first": 491.79787501423647,
+    "last": 344.47079232727805,
+    "min": 322.0841508551254,
+    "max": 494.41240182265074
+  },
+  "next_run_scope": "First run uses the actual-speed input with existing BEV settings to check trace import and tracking. Current initial SOC60%, temperature25C, auxiliary0.96kW do not match source conditions; do not call energy/voltage/SOC differences independent empirical validation.",
+  "native_CRUISE_profile_import": "Not yet tested in CRUISE M. CSV/TSV are prepared data, not a native .prox project/profile."
+}

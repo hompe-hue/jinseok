@@ -1,0 +1,14 @@
+{
+  "completed_stage": "ANL actual-speed run: exported-window input, tracking, terminal energy, generator stop checks",
+  "verification": "verification.json",
+  "next_stage": "Source-based initial-state and HV auxiliary boundary alignment",
+  "do_not_repeat": [
+    "FTP75 generator verification",
+    "Vehicle mass screenshot",
+    "Roadload screenshot",
+    "Environment screenshot",
+    "Battery parameter screenshot",
+    "ANL driver file generation"
+  ],
+  "git_publication": "not attempted this batch; previous auto-review publication rejection unresolved"
+}

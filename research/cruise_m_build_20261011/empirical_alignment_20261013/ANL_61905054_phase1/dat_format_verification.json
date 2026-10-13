@@ -1,0 +1,22 @@
+{
+  "vehicle": "2017 Chevrolet Bolt EV",
+  "test_id": "ANL 61905054",
+  "rows": 1146,
+  "columns": 7,
+  "duration_s": 1144.89890813828,
+  "distance_km": 17.01515828605067,
+  "max_time_speed_roundtrip_abs_error": 4.774847184307873e-12,
+  "line_endings": "CRLF",
+  "control_columns": {
+    "Gear": 1,
+    "Shift Time": 0,
+    "Start Switch": "1 except final row 0, following sample"
+  },
+  "speed_bounds": "Min. Velocity = Max. Velocity = target speed; no invented measured tolerance envelope",
+  "sha256": {
+    "profile_format_sample.dat": "5c6a3cfae62e04e1099843a9ef60a9ecd8e6e1dd2d02e0b2df41bb73500d9443",
+    "ANL_61905054_Phase1_driver_1s.csv": "ad27665256743c64614a1e956796ef8c2ec3a40032f456882ccfd5c1b464bea6",
+    "ANL_61905054_BoltEV_Phase1.dat": "7e68947f36b38d7e5962315119973789bdbe5051671510a136a9d7823755f8f4"
+  },
+  "status": "format and numeric roundtrip verified; CRUISE M GUI import and run pending"
+}

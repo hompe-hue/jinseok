@@ -6,7 +6,7 @@ Bolt 기반 BEV 검증과 Volt 발전계 기반 가상 EREV/EMS 연구의 CRUISE
 
 [FTP75 발전 정지 검증 완료](research/cruise_m_build_20261011/runs/FTP75_2477s_20261012_1626/generator_verification.md): 사용자 generator.csv의 0–2477초 / 2478점에서 발전기·엔진 출력/회전수·전류·연료가 모두 0이며, 기존 배터리/속도 export와 일치합니다.
 
-[다음 단계: 실험 시험조건 대조](research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md). Vehicle의 질량·주행저항 적용부터 확인합니다. ANL 61905054는 현재 FTP75와 다른 주행 시험이며, 현재 결과를 그대로 실차 검증 통과로 판단하지 않습니다.
+[ANL 실측 속도 실행 검증 완료](research/cruise_m_build_20261011/runs/ANL61905054_20261013/RESULT.md). [최신 재개 지점](research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md)은 실측 초기상태·보조부하 후보 적용 후 실행입니다. 기존 설정 화면 확인은 반복하지 않습니다. 독립 실차 검증 통과는 아직 판정하지 않았습니다.
 
 화면 자료 복구의 최신 반영 범위는 [PUBLISH_STATUS.json](research/cruise_m_build_20261011/session_recovery_20261012_1649/PUBLISH_STATUS.json)에 기록합니다.
 
@@ -14,7 +14,7 @@ Bolt 기반 BEV 검증과 Volt 발전계 기반 가상 EREV/EMS 연구의 CRUISE
 
 [CRUISE M 입력표 복구: 최신 완료 상태와 다음 시작점](research/cruise_m_build_20261011/session_recovery_20261012_1649/RESUME.md)
 
-FTP75 실행·수치 점검과 Report Page 오류 해결까지 기존 커밋에 저장돼 있습니다. 누락된 결과 CSV와 화면 자료를 추가했습니다. 다음 단계는 FTP75 Range Extender Monitor의 발전기 출력·연료소비가 전 구간 0인지 수치로 확인하는 것입니다. 과거의 첫 실행 전 체크리스트보다 최신 runs 체크포인트와 위 인계 기록을 우선합니다.
+FTP75 실행·수치 점검과 Report Page 오류 해결까지 기존 커밋에 저장돼 있습니다. 누락된 결과 CSV와 화면 자료를 추가했습니다. FTP75 발전 정지 확인은 완료됐습니다. 과거의 첫 실행 전 체크리스트보다 최신 runs 체크포인트와 위 인계 기록을 우선합니다.
 
 ## 초기 구축 기록 — 2026-10-11
 

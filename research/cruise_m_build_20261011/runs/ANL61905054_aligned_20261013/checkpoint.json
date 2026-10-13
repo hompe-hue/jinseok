@@ -1,0 +1,7 @@
+{
+  "stage_complete": "Aligned candidate run diagnostics saved",
+  "next": "Targeted BMS charging/regen control diagnosis; no general parameter recheck",
+  "validation_pass": false,
+  "cause_confirmed": false,
+  "publication": "Pending authorized GitHub sync"
+}

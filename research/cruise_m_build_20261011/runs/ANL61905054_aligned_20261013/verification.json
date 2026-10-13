@@ -1,0 +1,142 @@
+{
+  "status": "Condition-candidate replay evaluated: voltage improved but energy discrepancy and suppressed recovery remain",
+  "files": {
+    "velocity1_ANL61905054.csv": "b2e1dd736327add5ed4c5e573d553ad9e7c8ffb3443cf02678b360ba0ac4f309",
+    "battery1_ANL61905054.csv": "b30d8fa13a40da96da058f180f4bf3c1e76916611e80be3072b71eedbee9115e",
+    "generator1_ANL61905054.csv": "435754a5199ba580e0bd912966cf2511526dad73c2829dd5fceb41d414207da6"
+  },
+  "quality": {
+    "rows": {
+      "velocity": 1145,
+      "battery": 1145,
+      "generator": 1145
+    },
+    "all_finite": true,
+    "same_times": true,
+    "strictly_increasing": true
+  },
+  "time": {
+    "export_end_s": 1144,
+    "profile_end_s": 1144.8989081382751,
+    "unexported_tail_s": 0.8989081382751465,
+    "note": "1 s exports omit fractional endpoint; actual simulation completion not inferred from export alone"
+  },
+  "tracking": {
+    "desired_input_max_abs_error_kmh": 4.575618106628099e-09,
+    "RMSE_kmh": 0.5835972807411828,
+    "MAE_kmh": 0.3821873717269475,
+    "max_abs_error_kmh": 2.7516319326045977,
+    "max_error_time_s": 658,
+    "actual_distance_integrated_km": 17.022717899012978,
+    "desired_distance_integrated_km": 17.015151069378135,
+    "reported_distance_km": 17.022762254918206,
+    "actual_vs_desired_distance_pct": 0.04447112813743548
+  },
+  "battery": {
+    "voltage_V": {
+      "min": 386.22696668391984,
+      "max": 398.7199491332757,
+      "first": 398.7199491332757,
+      "last": 392.28372503491056
+    },
+    "current_A_discharge_negative": {
+      "min": -116.62875608252698,
+      "max": 0.0029920218211447257,
+      "first": -1.0032072136893264,
+      "last": -1.019670137894206
+    },
+    "SOC_percent": {
+      "min": 88.8363547191733,
+      "max": 93.14253200000002,
+      "first": 93.14253200000002,
+      "last": 88.8363547191733
+    },
+    "VI_net_discharge_kWh": 2.837658923446206,
+    "reported_power_net_discharge_kWh": 2.837658923446206,
+    "max_abs_P_vs_VI_kW": 1.4210854715202004e-14,
+    "net_charge_discharge_Ah": 7.235157714745942,
+    "reported_energy_decrease_kWh": 3.7913555573421007,
+    "aux_power_from_consumer_kW": {
+      "min": 0.39999999999999997,
+      "max": 0.4000000000000001,
+      "first": 0.4,
+      "last": 0.4
+    }
+  },
+  "generator": {
+    "Actual Engine Speed": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Cumulated Fuel Consumption": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Current": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Fuel Massflow": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Power Generator": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    },
+    "Power ICE": {
+      "min": 0,
+      "max": 0,
+      "first": 0,
+      "last": 0
+    }
+  },
+  "reference": {
+    "native_full_phase_energy_kWh": 2.155018045705634,
+    "native_common_0_1144s_energy_kWh": 2.1549315188893154,
+    "summary_full_test_kWh": 2.172,
+    "interpretation": "Initial voltage calibrated and aux approximated; same-test conditional comparison, not independent full vehicle validation."
+  },
+  "next": "Inspect BMS charging/regen limits at current model SOC88.8–93.1%; do not reduce SOC or auxiliary to force energy agreement.",
+  "diagnostic_energy_difference_pct": 31.682092844824083,
+  "empirical_comparison": {
+    "initialization_window_s": [
+      0,
+      20
+    ],
+    "voltage_current_metrics_window": "Export timestamps >20 s; measured meter channels linearly interpolated with no time lag fitted",
+    "voltage_RMSE_V": 1.4956431003256736,
+    "voltage_bias_V": -1.0069399454096133,
+    "voltage_max_abs_error_V": 5.490141315874553,
+    "current_RMSE_A": 13.764268989864734,
+    "current_bias_A": 5.675501973112938,
+    "energy_window_s": [
+      20,
+      1144
+    ],
+    "model_net_kWh": 2.835436701400482,
+    "measured_meter_net_kWh": 2.1519925187930182,
+    "measured_VI_net_kWh": 2.148023653955883,
+    "energy_error_pct": 31.758669077101874,
+    "reference_SOC_endpoint_HPCM2": 93.688,
+    "SOC_endpoint_comparison": "Not evaluated: model SOC coordinate not mapped to CAN",
+    "scope": "Same-test conditional replay, initialization calibrated at first point and auxiliary approximation uses observed LV mean; independent cross-test generalization not established"
+  },
+  "regen_diagnostic": {
+    "mechanical_power_min_kW": -2.291388952847379,
+    "max_battery_charge_current_A": 0.0029920218211447257,
+    "prior_run_max_battery_charge_current_A": 107.83583906308826,
+    "prior_min_mechanical_power_kW": -45.23943682755017,
+    "hypothesis": "High-SOC charge/regen limit or brake blending control; exact component and limiting rule not yet established from result channels"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "Initial-state and auxiliary-boundary evidence preparation",
+  "LV_DCDC_output_energy_kWh": 0.11429940062818575,
+  "LV_DCDC_time_mean_W": 359.4010260089902,
+  "model_aux_0_1144s_kWh": 0.30506666666666665,
+  "model_aux_boundary": "HV consumer, verified V*I",
+  "source_aux_boundary": "Measured LV DCDC output; HV input requires converter efficiency/loss",
+  "initial_SOC_mapping": "Unresolved: displayed 99.9855%, HPCM2 96.824%, HPCM 96.432% cannot be equated to model coulomb SOC",
+  "battery_temperature_source_C": 22,
+  "temperature_model_C": 25,
+  "next_required_evidence": "Identify source-consistent SOC coordinate and DCDC loss boundary from existing public source documentation before issuing a matched-condition run",
+  "do_not_tune": "Do not subtract LV energy directly as if it were HV energy; do not fit several parameters to 2.172 kWh"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "Initialization and auxiliary approximation candidate, not completed matched validation",
+  "initial_SOC_percent": 93.14253180248753,
+  "initial_voltage_reconstructed_V": 398.6963930994201,
+  "reference_initial_voltage_V": 398.6963930994201,
+  "reference_initial_current_A": 1.3450930498902987,
+  "SOC_basis": "Invert current imported OCV/R tables against first low-load measured terminal voltage; initialization calibration only, not proof of physical or CAN SOC",
+  "startup_identification_window_s": [
+    0,
+    20
+  ],
+  "effective_standby_HV_to_LV_ratio": 1.0923388940749117,
+  "full_phase_mean_LV_output_W": 359.40102600899144,
+  "estimated_mean_HV_aux_W": 392.5877192800503,
+  "aux_basis": "Measured mean LV output scaled by initial stationary effective HV/LV ratio; constant-load approximation and unmeasured moving HV accessories remain limitations",
+  "candidate_aux_kW": 0.4,
+  "aux_sensitivity_kW": [
+    0.35,
+    0.4,
+    0.45
+  ],
+  "battery_initial_temperature_C": 22,
+  "environment_temperature_C": 23.34,
+  "temperature_limitation": "OCV/R tables have only 25 C data; setting 22 C does not establish identified temperature dependence",
+  "held_out_segment": "After 20 s driving; model maps and Q fixed. Same-test segment evaluation only; second test required for broader generalization",
+  "SOC_result": "Compare integrated Ah and voltage; chemical/CAN SOC endpoint error unavailable until coordinate mapping is established",
+  "existing_provisional_targets_file": "research/validation_fix_20261006/inputs/validation_and_comparison_gates.csv",
+  "next_user_run": "ANL61905054_AlignedCandidate: both modules initial SOC as calculated, EConsumer 0.40kW, same speed, generator stays off"
+}
