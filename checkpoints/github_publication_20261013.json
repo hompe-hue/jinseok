@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/hompe-hue/jinseok",
+  "branch": "main",
+  "status": "verified",
+  "verified_contents_commit": "122a4396d876b456786131a1c41e6adeec883b8c",
+  "recovery_files": 95,
+  "changed_paths_checked": 95,
+  "mismatches": 0,
+  "unrelated_remote_files_preserved": true,
+  "latest_run": "research/cruise_m_build_20261011/runs/ANL61905054_aligned_20261013/RESULT.md",
+  "resume": "research/cruise_m_build_20261011/empirical_alignment_20261013/RESUME.md",
+  "next": "BMS charging/regen limits diagnosis; do not repeat completed input/run checks"
+}

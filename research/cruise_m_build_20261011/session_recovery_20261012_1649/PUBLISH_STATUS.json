@@ -1,5 +1,5 @@
 {
-  "status": "all_recovery_contents_ready_for_atomic_publication",
+  "status": "publication_complete_remote_verified",
   "base_commit": "aa4adda5e48ab9bb5f1f2659d174ef8538f462be",
   "local_prepared_commit": "ce929f74ed5e377ce6c10d85c0c5d6122766e2aa",
   "planned_files": 95,
@@ -73,9 +73,11 @@
   ],
   "pending_paths": [],
   "publication_authorized_by_user": true,
-  "reason_pending": "All required blobs prepared; atomic branch update and readback pending.",
+  "reason_pending": null,
   "next_research_step": "Aligned ANL run received and evaluated: diagnose BMS high-SOC charging/regen limits. See empirical_alignment_20261013/RESUME.md.",
   "generator_verification_commit": "e27fc0c756cd2dc599f1d8dd755118c1a8aa22b4",
-  "published_recovery_files": 40,
-  "empirical_alignment_checkpoint": "3e3a4cde749fbe16bb1ba38f0dd03ad6acfa8099"
+  "published_recovery_files": 95,
+  "empirical_alignment_checkpoint": "3e3a4cde749fbe16bb1ba38f0dd03ad6acfa8099",
+  "verified_publication_commit": "122a4396d876b456786131a1c41e6adeec883b8c",
+  "verification": "All 95 changed paths match local git blob SHA; unrelated remote files preserved. All 95 original recovery-plan paths present."
 }
