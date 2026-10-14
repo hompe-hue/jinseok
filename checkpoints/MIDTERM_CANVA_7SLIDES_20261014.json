@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "stage": "MIDTERM_7SLIDES_CANVA_AND_PPT_PREPARED",
+  "report": "research/midterm_20261014/RESULT_KO.md",
+  "deliverables": "research/midterm_20261014/deliverables.json",
+  "canva_design_id": "DAHX9w_76Hw",
+  "canva_edit_url": "https://www.canva.com/d/E-yHl20gv8DC7w5",
+  "slide_count": 7,
+  "source_template_library_file_id": "libfile_2be737c6bca481919ff1d33e97dffa49",
+  "PPT_library_file_id": "libfile_614b84ab2b288191aad67cf55214e79c",
+  "C2_project_library_file_id": "libfile_0ab40277228c8191ae2a02b2995a4243",
+  "confirmed_C2_project_filename": "C2_CAL_61905060.proj",
+  "baseline_parameters_changed": false,
+  "warm_BEV_validation_complete": true,
+  "all_conditions_physical_validation_complete": false,
+  "official_acceleration_and_range_C2_directly_tested": false,
+  "next": "Review midterm narrative and prepare separate virtual seriesEREV implementation;keep frozen C2 andscope",
+  "current_user_simulation_required": false
+}

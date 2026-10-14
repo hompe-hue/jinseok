@@ -1,0 +1,53 @@
+[
+  {
+    "title": "GM2017BoltNewModelFeatures",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2016/MC-10138000-9999.pdf",
+    "used_for": "2017specs/GMacceleration/vehiclephoto",
+    "pages": [
+      3,
+      4
+    ]
+  },
+  {
+    "title": "EPA2017BoltENERGYSTAR",
+    "url": "https://www.energystar.gov/products/ev_chargers/electric-vehicles-and-hybrids/details/38187",
+    "used_for": "238mi/28kWhper100mi",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "title": "EPAFuelEconomyRangeTesting",
+    "url": "https://www.epa.gov/greenvehicles/fuel-economy-and-ev-range-testing",
+    "used_for": "Charginglossboundary",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "title": "AVLCRUISE M",
+    "url": "https://www.avl.com/en/simulation-solutions/simulation-software/avl-cruise-m",
+    "used_for": "Officialcapabilities/multidomain/scalable/FMI",
+    "pages": [
+      6
+    ]
+  },
+  {
+    "title": "LiAutoL9official",
+    "url": "https://ir.lixiang.com/static-files/743d9acf-2fdf-4fa2-8219-f28e41237bd6",
+    "used_for": "Rangeextensioncontext",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "title": "ActualC2CALandHOLD",
+    "path": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/RESULT_KO.md",
+    "used_for": "Actual5tests andscope",
+    "pages": [
+      4,
+      5,
+      6
+    ]
+  }
+]
