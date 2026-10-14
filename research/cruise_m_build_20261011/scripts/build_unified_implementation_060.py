@@ -39,14 +39,10 @@ def main():
     assert len(wiring)==3,wiring # Power2 in both models; SOC2 was wrong in one model.
     assert sum(x['after_port1']=='Power.5' for x in wiring)==2
     assert sum(x['after_port1']=='State of charge.5' for x in wiring)==1
-    name='C3_IMPL_61905060'
-    p.fields(p.index['82936'])['name'].text=name
-    for n in p.nodes('cruise.props.tasks.profile.General'):
-        if p.decode(p.fields(n)['name'])=='C2_CAL_61905060':p.fields(n)['name'].text=name
-    for d in p.root.iter('dict'):
-        xs=list(d)
-        for k,v in zip(xs[::2],xs[1::2]):
-            if k.tag=='str' and k.text=='ANL61905060' and p.resolve(v).get('id')=='40659':k.text=name
+    # R1 renamed Case.name but left CaseList.slots._map at ANL61905060.
+    # Restore the entire known-working Case/profile/pool structure by rebuilding
+    # from the actual-tested C2 source, without any UI/Case/profile renaming.
+    name='C3_IMPL_61905060_R2'
     dest=OUT/(name+'.proj');tmp=dest.with_suffix('.proj.part')
     with zipfile.ZipFile(source) as zin,zipfile.ZipFile(tmp,'w',zipfile.ZIP_DEFLATED) as zout:
         for info in zin.infolist():zout.writestr(copy.copy(info),E.tostring(p.root,encoding='utf-8',xml_declaration=True) if info.filename=='project.xml' else zin.read(info.filename))
@@ -55,6 +51,17 @@ def main():
     os.replace(tmp,dest);fd=os.open(dest.parent,os.O_DIRECTORY);os.fsync(fd);os.close(fd)
     after=SavedProject(dest);assert before.index.keys()==after.index.keys()
     assert [x.get('id') for x in before.root.iter('ref')]==[x.get('id') for x in after.root.iter('ref')]
+    for oid in ['82908','40659','73213']:
+        assert E.tostring(before.index[oid])==E.tostring(after.index[oid]),'Case manager/profile/pool must exactly match working source'
+    case_list=after.resolve(after.fields(after.index['82928'])['container'])
+    slot_map=after.fields(after.resolve(after.fields(after.index['82928'])['slots']))['_map']
+    slot_map=after.resolve(after.fields(after.resolve(slot_map))['container'])
+    lookup=after.fields(slot_map)
+    for index,case in enumerate(case_list):
+        cname=after.decode(after.fields(after.resolve(case))['name'])
+        assert cname in lookup and after.decode(lookup[cname])==index,'Case name/index consistency'
+    selected=after.fields(after.index['82908'])['active_case'];assert after.resolve(selected).get('id')=='82936'
+    assert after.resolve(list(after.index['82958'])[5]).get('id')=='40659','Active060 case profile reference'
     # Every non-battery numeric array, including profile, EDU, BMS maps, is unchanged.
     for oid,node in before.index.items():
         if node.tag=='numpy_array' and node.text!=after.index[oid].text:assert oid in modified
@@ -67,6 +74,6 @@ def main():
         assert all(zin.read(n)==zout.read(n) for n in zin.namelist() if n!='project.xml')
     ref=C2/'references/ANL61905060_reference_native.csv';copyfile=OUT/'ANL61905060_reference_native.csv';copyfile.write_bytes(ref.read_bytes());assert sha(ref)==sha(copyfile)
     for src in [U/'Unified_Candidate_Cell_OCV_25C.dat',U/'Unified_Candidate_Cell_Resistance_25C.dat',U/'development_screen.json',U/'fixed_power_screen.json']: (OUT/src.name).write_bytes(src.read_bytes())
-    manifest=dict(status='IMPLEMENTATION_CHECK_ONLY_PENDING_USER_CRUISE',candidate='C3 common battery development candidate, not final adoption',project=dest.name,project_sha256=sha(dest),bytes=dest.stat().st_size,source_C2_sha256=sha(source),test='61905060',role='training implementation check',model='REEV_MBE',case='Cycle Run / C3_IMPL_61905060',initial_model_SOC_percent=s0,cell_capacity_Ah=cfg['cell_capacity_Ah'],pack_capacity_Ah=cfg['capacity_Ah'],end_time_s=after.amount(after.index['79182'],'end_time'),mass_kg=1757.6704,battery_temperature_C=24.5,diagnostic_SOC_power_maps_unchanged=True,controller_denominator_floor_V=350,denominator_floor_is_not_BMS_cutoff=True,low_SOC_limiting_policy_still_unvalidated=True,not_for_EPA_range_or_lowSOC_final_validation=True,wiring_fixes=wiring,reference_sha256=sha(ref),CRC_XML_readback_passed=True,CRUISE_load_tested=False,CRUISE_solver_tested=False,gates=dict(energy_error_abs_percent_max=5,voltage_RMSE_V_max=2,voltage_bias_abs_V_max=1,speed_RMSE_kmh_max=1,distance_error_abs_percent_max=.5,integrated_DC_balance_abs_percent_max=1))
+    manifest=dict(status='R2_CASE_STRUCTURE_REPAIRED_PENDING_USER_CRUISE',candidate='C3 common battery development candidate, not final adoption',project=dest.name,project_sha256=sha(dest),bytes=dest.stat().st_size,source_C2_sha256=sha(source),test='61905060',role='training implementation check',model='REEV_MBE',case='Cycle Run / ANL61905060',profile_pool_name='ANL61905060',profile_property_name_retained='C2_CAL_61905060',repair='Working C2 Case manager/profile/pool retained byte-for-byte; no names changed',Case_index_consistency_verified=True,active_case_profile_reference_verified=True,initial_model_SOC_percent=s0,cell_capacity_Ah=cfg['cell_capacity_Ah'],pack_capacity_Ah=cfg['capacity_Ah'],end_time_s=after.amount(after.index['79182'],'end_time'),mass_kg=1757.6704,battery_temperature_C=24.5,diagnostic_SOC_power_maps_unchanged=True,controller_denominator_floor_V=350,denominator_floor_is_not_BMS_cutoff=True,low_SOC_limiting_policy_still_unvalidated=True,not_for_EPA_range_or_lowSOC_final_validation=True,wiring_fixes=wiring,reference_sha256=sha(ref),CRC_XML_readback_passed=True,CRUISE_load_tested=False,CRUISE_solver_tested=False,gates=dict(energy_error_abs_percent_max=5,voltage_RMSE_V_max=2,voltage_bias_abs_V_max=1,speed_RMSE_kmh_max=1,distance_error_abs_percent_max=.5,integrated_DC_balance_abs_percent_max=1))
     (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n');print(json.dumps(manifest,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "status": "CASE_STRUCTURE_REPAIRED_PENDING_USER_OPEN",
+  "previous_head": "c0ed4660c16b79b6391b9f9b926c4e9f56a411db",
+  "observed": "User screenshot Internal error/Unstable Project State in Cases with missing selected Profile",
+  "confirmed_file_defect": "Case.name changed to C3_IMPL_61905060 but CaseList.slots._map retained ANL61905060; profile/pool names also modified",
+  "repair": "Rebuild from actual-tested C2 source; preserve CaseManager/Profile/Pool serialized bytes exactly; keep C3 battery and wiring fixes",
+  "new_project": "C3_IMPL_61905060_R2.proj",
+  "project_sha256": "33c9577a6e4c68155d187f9a44d224fd25ca66d2d0ad8fc318d315565d4ac103",
+  "package": {
+    "file_name": "Bolt_C3_Implementation_Check_060_20261014.zip",
+    "library_file_id": "libfile_8b572b7e45c48191b5bb3aa4ed9d821d",
+    "file_id": "file_00000000acc882099dbdaa9f288519fa",
+    "current_version_number": 1,
+    "bytes": 3478580,
+    "sha256": "416ca2299082807ebe968259caf34fc46042201fdae1b1ad34fc97dae15d02ac",
+    "download_all_hashes_and_CRC_verified": true
+  },
+  "case": "Cycle Run / ANL61905060",
+  "first_action": "Exit unstable app without overwrite, download revisedZIP, openR2, check ANL61905060 Profile then DataChecks",
+  "final_model_adopted": false,
+  "CRUISE_open_tested": false,
+  "actual_CRUISE_runs": 0
+}

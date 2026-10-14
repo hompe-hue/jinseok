@@ -1,5 +1,15 @@
 [
   {
+    "path": "C3_IMPL_61905060_R2.proj",
+    "bytes": 1582154,
+    "sha256": "33c9577a6e4c68155d187f9a44d224fd25ca66d2d0ad8fc318d315565d4ac103"
+  },
+  {
+    "path": "ANL61905060_reference_native.csv",
+    "bytes": 4809069,
+    "sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+  },
+  {
     "path": "Unified_Candidate_Cell_OCV_25C.dat",
     "bytes": 5066,
     "sha256": "f749d12cea713b1123635b5a93f413fc53234a3ddf4ba84b0fb20f11666f599b"
@@ -10,26 +20,6 @@
     "sha256": "49c83165fc07c6f3c76162df8cf7a5722c8abc589dcdfe257d20f3d7c9302a8a"
   },
   {
-    "path": "manifest.json",
-    "bytes": 2124,
-    "sha256": "a7a2ce4656c784cb09fa68ed81e76c4a4d8ccadf1c99828b1739b778d7743426"
-  },
-  {
-    "path": "C3_IMPL_61905060.proj",
-    "bytes": 1582171,
-    "sha256": "fb393f750bc709993afc5852a35688c7f3f2021665028ed4b389eec3a59f528a"
-  },
-  {
-    "path": "START_HERE_KO.md",
-    "bytes": 3312,
-    "sha256": "12cd19c9ae6abc307a43b009b931aac0fb2ec9405e385da472ed4c88c0700273"
-  },
-  {
-    "path": "ANL61905060_reference_native.csv",
-    "bytes": 4809069,
-    "sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
-  },
-  {
     "path": "development_screen.json",
     "bytes": 5886,
     "sha256": "8faea8c6d30ff953f33ac659ef6e1b9bd3be3dec97487fa0c222c598bd76c88a"
@@ -38,6 +28,16 @@
     "path": "fixed_power_screen.json",
     "bytes": 3429,
     "sha256": "27ca7ed2780d9c7cd01f20d80e4e23042fc228fc5c3bb81f52e00873770b6bbd"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 2402,
+    "sha256": "1b842de26acea96a1142c21f09ba4404841b383862c1265defa3079ab0a567d8"
+  },
+  {
+    "path": "START_HERE_KO.md",
+    "bytes": 3748,
+    "sha256": "9f865a32c5ba68c0f35a5e3569694c4d65f7eee0ed1ee2a0089fe3e59d99d636"
   },
   {
     "path": "scripts/evaluate_C3_implementation.py",
