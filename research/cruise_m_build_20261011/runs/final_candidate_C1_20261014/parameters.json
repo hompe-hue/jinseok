@@ -1,0 +1,101 @@
+{
+  "candidate": "C1",
+  "status": "C1_PARAMETERS_FIXED_PENDING_CRUISE_CONFIRMATION",
+  "source_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "calibration_tests": [
+    "61905060",
+    "61905061"
+  ],
+  "heldout_test": "61905066",
+  "no_fit_on066": true,
+  "EDU_speed_baseline_subtraction_fraction": 0.6480886993696341,
+  "EDU_fraction_positive_loss_limit": 0.7234741940870001,
+  "EDU_rule": "LossC1(T,w)=LossOriginal(T,w)-beta*LossOriginal(0,w); Q4 subtracts1.05 timesQ1zero baseline; lowtorque bridge follows changedboundarynodes. Keep torque-dependent differences and loss>0.",
+  "battery_OCV_pack_correction_V_at_SOC60": -4.8,
+  "battery_OCV_pack_correction_V_at_SOC70": -0.9465037712521921,
+  "battery_OCV_correction_SOC_knots_percent": [
+    0,
+    50,
+    60,
+    70,
+    85,
+    100
+  ],
+  "battery_OCV_correction_values_V": [
+    0,
+    0,
+    -4.8,
+    -0.9465037712521921,
+    0,
+    0
+  ],
+  "battery_R_multiplier": 1.13749552839391,
+  "initial_SOC_rule": "Firstlow-loadV/I inversionusingC1OCV/R;capacity168Ah;nomannualoffset;noCANmappingclaim",
+  "OCV_cell_correction_bound_mV": 50,
+  "OCV_bound_active": true,
+  "preserved": [
+    "mass",
+    "TargetABC",
+    "gear7.05",
+    "radius0.3135",
+    "aux0.4kW",
+    "battery96S3P168Ah",
+    "originalRCoff",
+    "regencontrollerdistribution",
+    "80kWdiagnosticBMSmap"
+  ],
+  "physical_component_identification": false,
+  "new_CRUISE_results": false,
+  "results": [
+    {
+      "test": "61905060",
+      "initial_SOC_rule_percent": 81.46223295727737,
+      "measured_current_replay_voltage_RMSE_V": 1.3327444699252244,
+      "measured_current_replay_voltage_bias_V": 0.6891673200111202,
+      "frozen_shaft_power_energy_error_percent": 0.8669818173757449,
+      "frozen_power_replay_voltage_RMSE_V": 1.3070274507829662,
+      "frozen_power_replay_voltage_bias_V": 0.6031256436202557,
+      "screened_energy_kWh": 10.401666031307512,
+      "reference_native_kWh": 10.312260606885413,
+      "model_SOC_range_percent": [
+        64.34709011075208,
+        81.46223295727737
+      ],
+      "screen_targets_met": true,
+      "source_sha256": {
+        "runs/ANL61905060_DIS80_20261013/velocity_ANL61905060DIS80.csv": "9a037c21ecea3daf55722ecd994c587aa66eaad8b6ef0fe487efa67b834cdb74",
+        "runs/ANL61905060_DIS80_20261013/battery_ANL61905060DIS80.csv": "69300e0229b82efc961396d29fb7d9cc465fe8f251228203863248af4c96660b",
+        "independent_tests_20261013/ANL61905060/reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+      }
+    },
+    {
+      "test": "61905061",
+      "initial_SOC_rule_percent": 66.25148254338102,
+      "measured_current_replay_voltage_RMSE_V": 1.5296561787771203,
+      "measured_current_replay_voltage_bias_V": 0.9715452472084897,
+      "frozen_shaft_power_energy_error_percent": -0.8016894553751652,
+      "frozen_power_replay_voltage_RMSE_V": 1.605510015257844,
+      "frozen_power_replay_voltage_bias_V": 0.9776833346434084,
+      "screened_energy_kWh": 3.3609690747689056,
+      "reference_native_kWh": 3.3881313666697555,
+      "model_SOC_range_percent": [
+        60.48332076811426,
+        66.25148254338102
+      ],
+      "screen_targets_met": true,
+      "source_sha256": {
+        "runs/ANL61905061_20261013/velocity_ANL61905061.csv": "06c28efa37cf7f4b67f98d00e20585569710b1b87cca71b886ca2c40d43f8bf0",
+        "runs/ANL61905061_20261013/battery_ANL61905061.csv": "794ab673f756d130d1ad3677356c692827082ccb0c8162ef28cc81f62d64a556",
+        "independent_tests_20261013/ANL61905061/reference_native.csv": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03"
+      }
+    }
+  ],
+  "candidate_screen_gate_met": true,
+  "limitations": [
+    "Effectivevehicle-level warmBEVcalibration,notmeasuredneutralgearorcellOCV/Ridentification",
+    "Fixedshaft/controltrace screening; actualCRUISErequired",
+    "LowSOC/lowtemperature/highSOCOCVgeneralizationnotvalidated",
+    "061screenusesold45kWtrajectory;C1confirmationusescommon80kWmap"
+  ],
+  "adoption_authorization": "User request2026-10-14: 이제 BOLT EV 모델링은 마무리해야해. 보정안 확정하자."
+}

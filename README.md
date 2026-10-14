@@ -1,3 +1,5 @@
+> **2026-10-14 C1 보정안 확정·실행 패키지 준비:** 따뜻한 조건의 차량 수준 유효 보정이며 아직 CRUISE 확인 실행 전입니다. 현재 작업은 C1 CAL060/061 실행 및 새 CSV 6개 비교 → 통과 후 HOLD066 연속 독립 검증입니다. [적용 수치·근거](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md) · [실행 안내](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/START_HERE_KO.md) · [재개 기록](checkpoints/BOLT_C1_CANDIDATE_FIXED_20261014.json)
+
 > **2026-10-14 DIS80 저장본 연결 완료:** 현재 파일의 80 kW 상한·060 프로파일·OCV/R·EDU 표를 실제 출력과 대조했습니다. 저장본 요청은 해결됐고, 오차 보정·066 독립 검증은 남아 있습니다. [최신 분석](research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md) · [재개 기록](checkpoints/BOLT_DIS80_PROJECT_CLOSURE_20261014.json)
 
 > **Bolt BEV 실측 비교 재개(2026-10-14):** [새 구간별 잔차 진단·남은 작업·066 준비](research/cruise_m_build_20261011/runs/validation_closure_20261014/RESULT_KO.md) · [재개 기록](checkpoints/BOLT_VALIDATION_CLOSURE_20261014.json).066 연속 7630.893초 입력과 자동 비교 코드 준비 완료. 보정 입력 동결·066 실제 CRUISE 실행은 미완료입니다. 최신 업로드 .proj는 이전45kW 저장본이므로 DIS80 현재 저장 프로젝트1개가 다음 필요한 입력입니다.

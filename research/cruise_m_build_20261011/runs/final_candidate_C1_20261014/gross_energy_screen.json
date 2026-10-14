@@ -1,0 +1,30 @@
+[
+  {
+    "test": "61905060",
+    "scope": "Fixedshaft/power screening;notactualCRUISE",
+    "gross_discharge": {
+      "screen_kWh": 11.492208327361444,
+      "reference_kWh": 11.352898137812648,
+      "error_percent": 1.2270892230134667
+    },
+    "gross_recovered": {
+      "screen_kWh": 1.090542296053933,
+      "reference_kWh": 1.040637530927237,
+      "error_percent": 4.7955953579945865
+    }
+  },
+  {
+    "test": "61905061",
+    "scope": "Fixedshaft/power screening;notactualCRUISE",
+    "gross_discharge": {
+      "screen_kWh": 4.231684163359421,
+      "reference_kWh": 4.188144581118788,
+      "error_percent": 1.039591193602063
+    },
+    "gross_recovered": {
+      "screen_kWh": 0.8707150885905149,
+      "reference_kWh": 0.8000132144490327,
+      "error_percent": 8.837588287860276
+    }
+  }
+]

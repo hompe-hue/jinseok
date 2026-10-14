@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-14",
+  "stage": "C1_effective_warm_BEV_candidate_fixed_projects_prepared_user_CAL_runs_required",
+  "candidate": "C1",
+  "model_validation_complete": false,
+  "parameters_fixed": true,
+  "physical_component_identification": false,
+  "actual_C1_CRUISE_results_received": false,
+  "source_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "source_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "decision_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md",
+  "contract": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/candidate_contract.json",
+  "execution_package": {
+    "library_file_id": "libfile_2045c7e2489881918a38dd61a57b40c8",
+    "file_id": "file_00000000bb348209a6414e38c08f79fa",
+    "version_number": 1,
+    "filename": "C1_BoltEV_Execution_20261014.zip",
+    "library_path": "/C1_BoltEV_Execution_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_BoltEV_Execution_20261014.zip",
+    "sha256": "b09a1942a019cbc058b148177392f9e5c18fc8a660a66cbe4b2ca06d9fd35546",
+    "size_bytes": 8931917,
+    "kind": "Execution_package_C1_candidate_not_actual_CRUISE_results"
+  },
+  "calibration_tests": [
+    "61905060",
+    "61905061"
+  ],
+  "independent_test": "61905066",
+  "no_fit_on066": true,
+  "correction": {
+    "EDU_speed_baseline_fraction": 0.6480886993696341,
+    "OCV_pack_delta_at_SOC60_V": -4.8,
+    "OCV_pack_delta_at_SOC70_V": -0.9465037712521921,
+    "R_multiplier": 1.13749552839391,
+    "manual_initial_SOC_shift": false
+  },
+  "screening_not_CRUISE_results": {
+    "energy_error_percent": {
+      "060": 0.8669818173757449,
+      "061": -0.8016894553751652
+    },
+    "voltage_RMSE_V": {
+      "060": 1.3070274507829662,
+      "061": 1.605510015257844
+    },
+    "voltage_bias_V": {
+      "060": 0.6031256436202557,
+      "061": 0.9776833346434084
+    },
+    "gross_recovered_error_percent": {
+      "060": 4.7955953579945865,
+      "061": 8.837588287860276
+    }
+  },
+  "current_user_action": "Run C1_CAL_61905060.proj and C1_CAL_61905061.proj;send battery/velocity/generator CSV3each;HOLD066onlyafterbothconfirmed",
+  "current_user_simulation_required": true,
+  "do_not_repeat": [
+    "Oldsavedprojectrequests",
+    "Oldsame-settingdiagnosticruns",
+    "AdoptoldwholeEDUloss0.3646orSOCminus1.5candidate"
+  ],
+  "remaining": [
+    "Actual060/061C1confirmation",
+    "Independent066withunchangedC1",
+    "FinalvalidationfiguresandOctober30report"
+  ],
+  "checks_completed": [
+    "ZIP/XMLreadbackandunchangedobject/refidentity",
+    "Originalsourcehashunchanged",
+    "PositiveQ1/Q4lossandpreservedtorqueincrements",
+    "MonotoneOCVandpositiveR",
+    "PackageCRC/hash/sourcecontracts",
+    "Oldactual061exportsrejectedasC1"
+  ],
+  "limitations": [
+    "Effective warm vehicle-level fit,not identified neutral/cellparameters",
+    "OCV60correctionat50mV/cellbound",
+    "061screenold45kWtrace;C1actualuses80kW",
+    "061screenvoltagebiasclose1V;grossregen8.84percentresidual",
+    "LowSOC/temperature/EREVhardwaregeneralizationunvalidated"
+  ],
+  "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md"
+}

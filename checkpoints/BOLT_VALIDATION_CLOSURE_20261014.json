@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "timezone": "Asia/Seoul",
-  "stage": "DIS80_saved_project_bound_to060_outputs_calibration_still_pending",
+  "stage": "C1_effective_warm_BEV_candidate_fixed_projects_prepared_user_CAL_runs_required",
   "model_validation_complete": false,
   "report": "research/cruise_m_build_20261011/runs/validation_closure_20261014/RESULT_KO.md",
   "completed": [
@@ -13,7 +13,8 @@
     "LatestuploadedProject3hash confirmedsameasarchived45kWsnapshot; notcurrentDIS80savedproject",
     "CurrentDIS80projectreceived;7column060profile/SOC/OCV/R/EDU/80kWtablecheckedagainstactualoutputsandoriginalmaps",
     "SerializerIDschanged;semanticlookupcodeprepared",
-    "Fixedtraceoverlapidentifiabilityscreencomplete;nocorrectionapplied"
+    "Fixedtraceoverlapidentifiabilityscreencomplete;nocorrectionapplied",
+    "C1 effectivewarmBEVcandidateparametersfixed and separate060/061/066projects built;notactualCRUISE validation"
   ],
   "findings": {
     "060_dis80_energy_error_percent": 9.484481,
@@ -31,8 +32,8 @@
   },
   "remaining_stage_count": 3,
   "remaining_stages": [
-    "Resolve060/061correctionbasisandfreezeactualproject/parameters",
-    "066continuousindependentCRUISErunandactualCSV/logevaluation",
+    "Actual060/061C1confirmationwithfixedparameters",
+    "066continuousindependentrunandactualCSV/logevaluation",
     "FinalizevalidationfiguresandOctober30midtermreport"
   ],
   "minimum_user_runs_after_candidate_freeze": {
@@ -42,10 +43,10 @@
     "total": 3,
     "condition": "Candidatepassesonfirstconfirmationbatch;notaguaranteedorcompletedruncount"
   },
-  "immediate_user_input": null,
+  "immediate_user_input": "Run C1_CAL_61905060.proj and C1_CAL_61905061.proj;send battery/velocity/generator CSV3each;HOLD066onlyafterbothconfirmed",
   "current_project_provenance": "research/cruise_m_build_20261011/runs/validation_closure_20261014/current_project_provenance.json",
   "midterm_date": "2026-10-30",
-  "new_model_changes": false,
+  "new_model_changes": true,
   "old_empirical_multifit_candidate": "Notappliedandnotadopted;CRUISEandheldoutverificationabsent",
   "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
   "artifact_receipt": "research/cruise_m_build_20261011/runs/validation_closure_20261014/artifact_receipt.json",
@@ -53,5 +54,9 @@
   "followup_project_audit": "research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md",
   "current_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
   "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
-  "project_input_blocker_resolved": true
+  "project_input_blocker_resolved": true,
+  "latest_followup_checkpoint": "checkpoints/BOLT_C1_CANDIDATE_FIXED_20261014.json",
+  "latest_followup_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md",
+  "parameters_fixed": true,
+  "current_user_simulation_required": true
 }

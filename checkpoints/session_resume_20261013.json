@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "baseline_remote_commit": "f43b643b738ce3174d230a7e5455d0c29bdb2807",
   "recovered_67_local_commit": "8f69635",
-  "current_stage": "BEV_DIS80_saved_project_received_audited_calibration_pending",
+  "current_stage": "C1_effective_warm_BEV_candidate_fixed_projects_prepared_user_CAL_runs_required",
   "complete": [
     "61905067 source CRC/size/SHA256 verification without repeated analysis",
     "61905060 DAT/CSV generation and numeric roundtrip verification",
@@ -21,14 +21,15 @@
     "Existing S0-S4 definitions recovered from canonical guide revision 3",
     "Professor one-page brief and 12-slide interim report draft prepared",
     "Existing-run residual regionpartition,sensitivityandclosure;066continuousdata/profile/evaluationcodeprepared2026-10-14",
-    "DIS80 savedproject correspondence audit and overlap identifiability screen; no source edits"
+    "DIS80 savedproject correspondence audit and overlap identifiability screen; no source edits",
+    "C1empiricalcandidatefixedandthreeprojectcopiesprepared; actualCRUISEpending"
   ],
   "not_complete": [
-    "060/061 correction basis and scope; actual candidate confirmation",
-    "066 independent frozen-model validation",
-    "October30 final validation figures and midterm report"
+    "Actual060/061C1confirmation",
+    "Independent066withunchangedC1",
+    "FinalvalidationfiguresandOctober30report"
   ],
-  "next": "Use currentDIS80savedproject asreference;do notrequestit/screenshotsagain; Resolve060/061correctionbasisandcalibrationscope;originalmapsnotmodified",
+  "next": "Run C1_CAL_61905060.proj and C1_CAL_61905061.proj;send battery/velocity/generator CSV3each;HOLD066onlyafterbothconfirmed",
   "github_push": "Connector publication; no approval blocker",
   "auto_review_reason": "Large public analysis bundle to main; reviewer reports lack of explicit authorization for current disclosure/main mutation despite prior session authorization",
   "rules_preserved": [
@@ -72,26 +73,34 @@
   "uploaded_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
   "project_audit": "research/cruise_m_build_20261011/runs/project_audit_20261013/RESULT_KO.md",
   "project_saved_state_audit_commit": "33dc32d",
-  "latest_checkpoint": "checkpoints/BOLT_DIS80_PROJECT_CLOSURE_20261014.json",
-  "latest_result": "research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md",
-  "latest_stage": "BEV_DIS80_saved_project_received_audited_calibration_pending",
-  "current_user_simulation_required": false,
+  "latest_checkpoint": "checkpoints/BOLT_C1_CANDIDATE_FIXED_20261014.json",
+  "latest_result": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md",
+  "latest_stage": "C1_effective_warm_BEV_candidate_fixed_projects_prepared_user_CAL_runs_required",
+  "current_user_simulation_required": true,
   "final_physical_validation_passed": false,
   "latest_replay_package": {
-    "filename": "Bolt_Core_Evidence_20261013.zip",
-    "library_file_id": "libfile_dcbdd6f4e43c819181d6cf85b0af6544"
+    "library_file_id": "libfile_2045c7e2489881918a38dd61a57b40c8",
+    "file_id": "file_00000000bb348209a6414e38c08f79fa",
+    "version_number": 1,
+    "filename": "C1_BoltEV_Execution_20261014.zip",
+    "library_path": "/C1_BoltEV_Execution_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_BoltEV_Execution_20261014.zip",
+    "sha256": "b09a1942a019cbc058b148177392f9e5c18fc8a660a66cbe4b2ca06d9fd35546",
+    "size_bytes": 8931917,
+    "kind": "Execution_package_C1_candidate_not_actual_CRUISE_results"
   },
   "latest_research_direction_checkpoint": "checkpoints/RESEARCH_DIRECTION_20261013.json",
-  "latest_report": "research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md",
+  "latest_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md",
   "research_scope": "Finite-mission performance feasibility boundaries and conditional effects of unchanged S0-S4; virtual net-DC genset",
   "validation_complete": false,
   "next_actions": [
-    "Use currentDIS80savedproject asreference;do notrequestit/screenshotsagain",
-    "Resolve060/061correctionbasisandcalibrationscope;originalmapsnotmodified",
-    "Freezeapprovedscopedcandidateonlyafteractual060/061confirmation",
-    "Evaluate066continuouslywithfrozenproject;thenfinalizemidtermfigures"
+    "Run C1_CAL_61905060.proj and C1_CAL_61905061.proj;send battery/velocity/generator CSV3each;HOLD066onlyafterbothconfirmed",
+    "EvaluategenuineC1exportswithverify_C1_exports.py; donotuseoldCSV",
+    "AfterbothCALpass,runcontinuousHOLD066andkeepparametersunchanged",
+    "Finalizevalidationfiguresandmidtermreport"
   ],
   "latest_validation_checkpoint": "checkpoints/BOLT_VALIDATION_CLOSURE_20261014.json",
-  "immediate_user_input": null,
-  "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee"
+  "immediate_user_input": "C1 CAL060/061 newCSV6files",
+  "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "candidate": "C1"
 }
