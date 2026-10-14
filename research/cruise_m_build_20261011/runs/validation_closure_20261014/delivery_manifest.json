@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-14",
+  "status": "INPUT_AND_COMPARISON_PREPARATION_ONLY",
+  "files": [
+    {
+      "path": "figure_contract.json",
+      "bytes": 911,
+      "sha256": "2f712adddca08819a9a24ed043a8a6a7704048797634cd5362a15f0f346d7958"
+    },
+    {
+      "path": "066_preparation.json",
+      "bytes": 2914,
+      "sha256": "25a111c7c7d423e07761dbad32dacd806a095bf08b0637dd33ffc9e5cdd5899a"
+    },
+    {
+      "path": "residual_regions.json",
+      "bytes": 12440,
+      "sha256": "8e0956814e54262ba478eb98420cd703783c5d93aa3ada37b77b5617db55fc20"
+    },
+    {
+      "path": "current_project_provenance.json",
+      "bytes": 419,
+      "sha256": "0ef1e6af96ab34a5f45f75192dff53c3f11549ade0a3b2ab5100d47933ebac0c"
+    },
+    {
+      "path": "residual_regions.csv",
+      "bytes": 2421,
+      "sha256": "03b8ef76a717eebc5c94fd8fa284b784fd602d2b715a484941c3016f8f8c3e05"
+    },
+    {
+      "path": "Validation_Closure.ipynb",
+      "bytes": 1463,
+      "sha256": "7655ada2e076b1c5b740dadceae182c9e5e3d95eb905291024b60e6c536f7995"
+    },
+    {
+      "path": "residual_regions.png",
+      "bytes": 74709,
+      "sha256": "d1992c9d94d96982d0ec64dbfc3eadf11873080d36c3745f2d7454ec19862bd5"
+    },
+    {
+      "path": "RESULT_KO.md",
+      "bytes": 9560,
+      "sha256": "ad44158a56dd1233c78ccae304eacbe13b0bbfac462e51477251bb53ea43b5b5"
+    },
+    {
+      "path": "phase_metadata_audit.json",
+      "bytes": 3969,
+      "sha256": "207ce350633d79c1e9e690fb424fdfe79cd150b9cf063f7da21bfa2b343c5de8"
+    },
+    {
+      "path": "residual_regions.pdf",
+      "bytes": 38032,
+      "sha256": "ddee0a24ebb278ba0aff0910a0145f84254c604391509915455252f3614f8be4"
+    },
+    {
+      "path": "frozen_model_template.json",
+      "bytes": 580,
+      "sha256": "076b202b66df690859adb2c23e93abc60bf3f6f6d2ffc4cd72dc908a04ef5a40"
+    },
+    {
+      "path": "sources/source_manifest.json",
+      "bytes": 296,
+      "sha256": "667669342190cdcd0b0bc6e08b12cf440c0e3b734abe2f8f83334ac3ff92fc6a"
+    },
+    {
+      "path": "references/ANL61905066_reference_native.csv",
+      "bytes": 10183614,
+      "sha256": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e"
+    },
+    {
+      "path": "references/phase_windows.csv",
+      "bytes": 882,
+      "sha256": "24e3f00de6c2d59f4712c5896ae4acaf140cf0cf07ad4b183b5ae0eaaf16d2fd"
+    },
+    {
+      "path": "inputs/ANL61905066_BoltEV_Continuous.dat",
+      "bytes": 482210,
+      "sha256": "f5fd7fa91f0e1b1392deda9951218da26eee76b479641ad530685fcc426f7823"
+    },
+    {
+      "path": "inputs/ANL61905066_driver_1s.csv",
+      "bytes": 193028,
+      "sha256": "041bcccda57c4f741560128ee291c7bccc8a8c070e3d1327e595f6f274409fff"
+    },
+    {
+      "path": "scripts/prepare_066_inputs.py",
+      "bytes": 6818,
+      "sha256": "473ba61100e42f5b06ae2a23d33c0032781235cee240c6217ff59dd2b9409a8f"
+    },
+    {
+      "path": "scripts/verify_066_exports.py",
+      "bytes": 5132,
+      "sha256": "61648c764d65e400089cb6cc0a885d1e0491c189835707e31648a8ac142a5feb"
+    },
+    {
+      "path": "scripts/audit_residual_regions.py",
+      "bytes": 4444,
+      "sha256": "51732f7969aed8d9b493f6362cfce214b1924cea3b95966df5ad23425f1348d9"
+    }
+  ],
+  "raw_TDMS_included": false,
+  "raw_source_manifest": "sources/source_manifest.json",
+  "model_project_included": false,
+  "model_validation_complete": false
+}

@@ -1,0 +1,48 @@
+{
+  "test": "61905066",
+  "status": "DATA_READY_MODEL_NOT_FROZEN_CRUISE_NOT_RUN",
+  "continuous_duration_s": 7630.892722606659,
+  "native_rows": 76310,
+  "driver_rows": 7632,
+  "source_sha256": "2d0b5f5cc767b8be7f9245f4e24e694177934a56065331291efee7d6acabb3e5",
+  "source_url": "https://anl.app.box.com/index.php?rm=box_download_shared_file&shared_name=rpx3ss7ceabzrhgd9k644vka67rx9ce2&file_id=f_1620743305926",
+  "source_bytes": 143149242,
+  "profile_format_sample": "empirical_alignment_20261013/ANL_61905054_phase1/sources/profile_format_sample.dat",
+  "profile_columns": [
+    "Time Velocity Gear \"Shift Time\" \"Start Switch\" \"Min. Velocity\" \"Max. Velocity\"",
+    "s km/h - s - km/h km/h"
+  ],
+  "native_distance_km": 93.34689898267654,
+  "driver_distance_km": 93.34942988971807,
+  "resampling_distance_difference_percent": 0.0027112920398142393,
+  "initial_SOC_provisional_percent": 92.86568021018186,
+  "initial_voltage_V": 398.2083849755389,
+  "initial_current_A": 2.082083014789825,
+  "initial_battery_temperature_C": 23.5,
+  "observed_battery_temperature_range_C": [
+    23.5,
+    24.5
+  ],
+  "initial_environment_temperature_C": 21.90716962952898,
+  "auxiliary_kW_rule": "Keep previous0.4kW; no fitting to066. Actual final model tobe frozen separately.",
+  "grade_rule": "Digital Drive_trace_grade iszero; analogue Grade_Output has small offset, not physical roadgrade.",
+  "initialization_rule": "Invert only first low-load V/I using final frozen OCV/R; no manualSOCoffset; no reinitialization betweenphases.",
+  "initial_SOC_caution": "Provisional value uses oldOCV/R. Recompute via same rule if calibrated maps change beforefreeze. NotCAN SOCidentification.",
+  "sampling_caution": "Main mergedTime andTime3 matchTimeH0. Instrument-localHioki_Time_H0 has38nonpositiveintervals and isnot used toalign.",
+  "phase_rule": "Primary longest contiguoussegment perphase; extra1-2sample metadata segments retained inaudit. Neverintegrateacrossseparatedsegments.",
+  "evaluation_rule": "Primarycontinuous native-meter comparison20stoactualCSVendpoint; voltageexcludesfirst20s onlyonce; sevenprimarywindows diagnostic. Do notcomparecontinuous integral withsum ofroundedsummarynumbers.",
+  "no_model_inputs_modified": true,
+  "no_fit_on066": true,
+  "required_before_run": [
+    "CurrentsavedDIS80projectorconfirmedfrozenvariant",
+    "BEVgeneratorOFF",
+    "Unchangedtrain-calibratedmapsandlimits",
+    "Input/projectSHA256manifest"
+  ],
+  "sha256": {
+    "inputs/ANL61905066_BoltEV_Continuous.dat": "f5fd7fa91f0e1b1392deda9951218da26eee76b479641ad530685fcc426f7823",
+    "inputs/ANL61905066_driver_1s.csv": "041bcccda57c4f741560128ee291c7bccc8a8c070e3d1327e595f6f274409fff",
+    "references/ANL61905066_reference_native.csv": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e",
+    "references/phase_windows.csv": "24e3f00de6c2d59f4712c5896ae4acaf140cf0cf07ad4b183b5ae0eaaf16d2fd"
+  }
+}

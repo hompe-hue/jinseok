@@ -1,0 +1,306 @@
+[
+  {
+    "test": "61905060",
+    "energy_window_s": [
+      20,
+      3150.0
+    ],
+    "model_kWh": 11.290324966898991,
+    "reference_native_kWh": 10.312260606885413,
+    "native_residual_kWh": 0.9780643600135779,
+    "common_grid_residual_kWh": 0.9897634158719074,
+    "native_minus_common_grid_kWh": -0.011699055858329532,
+    "cases": [
+      {
+        "threshold_kW": 0.5,
+        "regions": [
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 0.5,
+            "category": "positive_shaft",
+            "duration_s": 2351.0,
+            "signed_residual_kWh": 0.9286525927295232,
+            "positive_residual_kWh": 0.9746867364772387,
+            "negative_residual_kWh": -0.04603414374771535
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 0.5,
+            "category": "negative_shaft",
+            "duration_s": 438.0,
+            "signed_residual_kWh": 0.03871488813199274,
+            "positive_residual_kWh": 0.09851804859417437,
+            "negative_residual_kWh": -0.059803160462181634
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 0.5,
+            "category": "stationary",
+            "duration_s": 145.0,
+            "signed_residual_kWh": 0.00046005677217484623,
+            "positive_residual_kWh": 0.00219464844952955,
+            "negative_residual_kWh": -0.0017345916773547037
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 0.5,
+            "category": "low_shaft_moving",
+            "duration_s": 196.0,
+            "signed_residual_kWh": 0.02193587823821662,
+            "positive_residual_kWh": 0.027230231886994888,
+            "negative_residual_kWh": -0.005294353648778274
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.9174135936433685,
+        "algebraic_remaining_error_percent": 8.896338335658612,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      },
+      {
+        "threshold_kW": 1.0,
+        "regions": [
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 1.0,
+            "category": "positive_shaft",
+            "duration_s": 2312.0,
+            "signed_residual_kWh": 0.9237580013326113,
+            "positive_residual_kWh": 0.9691452710527816,
+            "negative_residual_kWh": -0.045387269720170466
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 1.0,
+            "category": "negative_shaft",
+            "duration_s": 401.0,
+            "signed_residual_kWh": 0.029192884189596004,
+            "positive_residual_kWh": 0.08859795704429943,
+            "negative_residual_kWh": -0.05940507285470343
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 1.0,
+            "category": "stationary",
+            "duration_s": 145.0,
+            "signed_residual_kWh": 0.00046005677217484623,
+            "positive_residual_kWh": 0.00219464844952955,
+            "negative_residual_kWh": -0.0017345916773547037
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 1.0,
+            "category": "low_shaft_moving",
+            "duration_s": 272.0,
+            "signed_residual_kWh": 0.03635247357752537,
+            "positive_residual_kWh": 0.04269178886132674,
+            "negative_residual_kWh": -0.006339315283801374
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.9125190022464565,
+        "algebraic_remaining_error_percent": 8.84887452938471,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      },
+      {
+        "threshold_kW": 2.0,
+        "regions": [
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 2.0,
+            "category": "positive_shaft",
+            "duration_s": 2208.0,
+            "signed_residual_kWh": 0.9121456472896069,
+            "positive_residual_kWh": 0.9555678110137108,
+            "negative_residual_kWh": -0.04342216372410377
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 2.0,
+            "category": "negative_shaft",
+            "duration_s": 353.0,
+            "signed_residual_kWh": 0.013559301790995027,
+            "positive_residual_kWh": 0.07294805889551507,
+            "negative_residual_kWh": -0.05938875710452006
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 2.0,
+            "category": "stationary",
+            "duration_s": 145.0,
+            "signed_residual_kWh": 0.00046005677217484623,
+            "positive_residual_kWh": 0.00219464844952955,
+            "negative_residual_kWh": -0.0017345916773547037
+          },
+          {
+            "test": "61905060",
+            "shaft_threshold_kW": 2.0,
+            "category": "low_shaft_moving",
+            "duration_s": 424.0,
+            "signed_residual_kWh": 0.0635984100191306,
+            "positive_residual_kWh": 0.07191914704918202,
+            "negative_residual_kWh": -0.008320737030051447
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.9009066482034522,
+        "algebraic_remaining_error_percent": 8.73626727006806,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      }
+    ],
+    "required_reduction_to_upper5percent_kWh": 0.4624513296693067,
+    "source_sha256": {
+      "runs/ANL61905060_DIS80_20261013/velocity_ANL61905060DIS80.csv": "9a037c21ecea3daf55722ecd994c587aa66eaad8b6ef0fe487efa67b834cdb74",
+      "independent_tests_20261013/ANL61905060/reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+    },
+    "classification_caution": "Model shaft state, not independently measured driver braking state. Changes in controls may change the trajectory. No passive-loss or regen split parameter is identified."
+  },
+  {
+    "test": "61905061",
+    "energy_window_s": [
+      20,
+      1489.0
+    ],
+    "model_kWh": 3.6767205080751197,
+    "reference_native_kWh": 3.3881313666697555,
+    "native_residual_kWh": 0.2885891414053643,
+    "common_grid_residual_kWh": 0.29640098804595977,
+    "native_minus_common_grid_kWh": -0.007811846640595477,
+    "cases": [
+      {
+        "threshold_kW": 0.5,
+        "regions": [
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 0.5,
+            "category": "positive_shaft",
+            "duration_s": 1027.0,
+            "signed_residual_kWh": 0.31669215573279474,
+            "positive_residual_kWh": 0.355635908857496,
+            "negative_residual_kWh": -0.03894375312470127
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 0.5,
+            "category": "negative_shaft",
+            "duration_s": 225.0,
+            "signed_residual_kWh": -0.028702011004632412,
+            "positive_residual_kWh": 0.03910714758802831,
+            "negative_residual_kWh": -0.06780915859266072
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 0.5,
+            "category": "stationary",
+            "duration_s": 94.0,
+            "signed_residual_kWh": -0.0003321874570008953,
+            "positive_residual_kWh": 0.0012247552726310903,
+            "negative_residual_kWh": -0.0015569427296319857
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 0.5,
+            "category": "low_shaft_moving",
+            "duration_s": 123.0,
+            "signed_residual_kWh": 0.00874303077479834,
+            "positive_residual_kWh": 0.014109686173839658,
+            "negative_residual_kWh": -0.005366655399041317
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.30854812163519835,
+        "algebraic_remaining_error_percent": 9.106734309964931,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      },
+      {
+        "threshold_kW": 1.0,
+        "regions": [
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 1.0,
+            "category": "positive_shaft",
+            "duration_s": 1000.0,
+            "signed_residual_kWh": 0.31426430362227165,
+            "positive_residual_kWh": 0.35267060695877706,
+            "negative_residual_kWh": -0.038406303336505375
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 1.0,
+            "category": "negative_shaft",
+            "duration_s": 211.0,
+            "signed_residual_kWh": -0.03181440961300338,
+            "positive_residual_kWh": 0.03596546678890743,
+            "negative_residual_kWh": -0.06777987640191081
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 1.0,
+            "category": "stationary",
+            "duration_s": 94.0,
+            "signed_residual_kWh": -0.0003321874570008953,
+            "positive_residual_kWh": 0.0012247552726310903,
+            "negative_residual_kWh": -0.0015569427296319857
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 1.0,
+            "category": "low_shaft_moving",
+            "duration_s": 164.0,
+            "signed_residual_kWh": 0.014283281493692361,
+            "positive_residual_kWh": 0.0202166688716795,
+            "negative_residual_kWh": -0.005933387377987138
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.3061202695246753,
+        "algebraic_remaining_error_percent": 9.035076754581846,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      },
+      {
+        "threshold_kW": 2.0,
+        "regions": [
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 2.0,
+            "category": "positive_shaft",
+            "duration_s": 957.0,
+            "signed_residual_kWh": 0.3060104988758778,
+            "positive_residual_kWh": 0.34382809060634073,
+            "negative_residual_kWh": -0.03781759173046299
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 2.0,
+            "category": "negative_shaft",
+            "duration_s": 191.0,
+            "signed_residual_kWh": -0.03985720376663981,
+            "positive_residual_kWh": 0.027922672635270998,
+            "negative_residual_kWh": -0.06777987640191081
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 2.0,
+            "category": "stationary",
+            "duration_s": 94.0,
+            "signed_residual_kWh": -0.0003321874570008953,
+            "positive_residual_kWh": 0.0012247552726310903,
+            "negative_residual_kWh": -0.0015569427296319857
+          },
+          {
+            "test": "61905061",
+            "shaft_threshold_kW": 2.0,
+            "category": "low_shaft_moving",
+            "duration_s": 227.0,
+            "signed_residual_kWh": 0.030579880393722697,
+            "positive_residual_kWh": 0.0371019793777522,
+            "negative_residual_kWh": -0.00652209898402951
+          }
+        ],
+        "algebraic_perfect_negative_and_low_shaft_residual_kWh": 0.2978664647782814,
+        "algebraic_remaining_error_percent": 8.791467406148975,
+        "scope": "Set existing negative/low-shaft signed residual tozero only; fixed-state accounting, not a controller/regen modification or CRUISE prediction."
+      }
+    ],
+    "required_reduction_to_upper5percent_kWh": 0.11918257307187652,
+    "source_sha256": {
+      "runs/ANL61905061_20261013/velocity_ANL61905061.csv": "06c28efa37cf7f4b67f98d00e20585569710b1b87cca71b886ca2c40d43f8bf0",
+      "independent_tests_20261013/ANL61905061/reference_native.csv": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03"
+    },
+    "classification_caution": "Model shaft state, not independently measured driver braking state. Changes in controls may change the trajectory. No passive-loss or regen split parameter is identified."
+  }
+]

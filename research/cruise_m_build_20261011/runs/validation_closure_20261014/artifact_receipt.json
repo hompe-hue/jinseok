@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-14",
+  "filename": "Bolt_BEV_Validation_Preparation_20261014.zip",
+  "library_file_id": "libfile_a1b6ddfa8350819191ca765f5c9adf8c",
+  "current_version_number": 0,
+  "sha256": "0f65b4b021b1ba1b9d8eb7b158bf0b5be0010fd3dd04a1271782db16f3f34ce3",
+  "bytes": 4321689,
+  "status": "persisted",
+  "contains": "066DAT,native-reference,phase-windows,protocol,code,notebook,residual-figure",
+  "no_CRUISE_project_or_runtime_result": true
+}

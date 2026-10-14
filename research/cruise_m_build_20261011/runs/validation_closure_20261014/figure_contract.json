@@ -1,0 +1,25 @@
+{
+  "question": "기존060/061의 에너지 잔차가 어느 모델 운전 구간에서 누적되는가",
+  "takeaway": "두 시험 모두 양의 모터 출력 구간의 잔차가 크다",
+  "family": "bar",
+  "variant": "grouped signed bars",
+  "rows": 8,
+  "grain": "test × modelshaftregion,common1secondintervalsafter20s",
+  "surface": "standalone scientific figure for exported validation package/notebook",
+  "renderer": "Matplotlib",
+  "units": "kWh",
+  "threshold_kW": 1,
+  "sensitivity_thresholds_kW": [
+    0.5,
+    1,
+    2
+  ],
+  "zero_line": true,
+  "palette": [
+    "#215780",
+    "#E18B32"
+  ],
+  "non_color_encoding": "legendlabels,consistentbarorder,numericlabels",
+  "scope": "statepartition accounting; notcausal identification orpost-changeprediction",
+  "QA": "RenderedPNG visuallyinspected,alllabelsvisible; fourregion residualsclose tocommon grid,source-native difference keptseparate"
+}

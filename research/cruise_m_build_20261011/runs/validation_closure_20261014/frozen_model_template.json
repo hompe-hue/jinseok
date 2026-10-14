@@ -1,0 +1,17 @@
+{
+  "status": "TEMPLATE_NOT_FROZEN",
+  "frozen_before066_comparison": false,
+  "model_project_sha256": null,
+  "model_project_name": null,
+  "calibration_test_ids": ["61905060", "61905061"],
+  "calibration_completed_at_KST": null,
+  "frozen_at_KST": null,
+  "no_tuning_using066": false,
+  "OCV_R_unchanged_or_calibrated_scope": null,
+  "initial_SOC_rule": "Invert first low-load measured V/I using frozen OCV/R; no phase resets",
+  "regen_and_BMS_rules": null,
+  "EDU_and_roadload_boundary": null,
+  "aux_HV_kW": 0.4,
+  "generator_OFF": true,
+  "solver_and_export_record": null
+}

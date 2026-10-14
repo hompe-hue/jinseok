@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "stage": "back_to_BEV_validation_residual_partition_and066_inputs_complete",
+  "model_validation_complete": false,
+  "report": "research/cruise_m_build_20261011/runs/validation_closure_20261014/RESULT_KO.md",
+  "completed": [
+    "Existing060DIS80and061actualCSV residual partition byshaftstate;native/common-grid closure and0.5/1/2kWthreshold sensitivity",
+    "066officialTDMS downloaded;143149242bytes andSHA256 recorded",
+    "066unit/clock/index/valid-voltage QA;continuous7630.892722607s and7primary diagnostic windows",
+    "Existing sample7columnDAT prepared andnumeric roundtrip checked;7632driver rows anddistance difference0.0027113percent",
+    "Actual066CSVcomparison script prepared; syntax/help verified; no syntheticCRUISEoutputs created",
+    "LatestuploadedProject3hash confirmedsameasarchived45kWsnapshot; notcurrentDIS80savedproject"
+  ],
+  "findings": {
+    "060_dis80_energy_error_percent": 9.484481,
+    "061_energy_error_percent": 8.517649,
+    "positive_shaft_common_grid_residual_kWh": {
+      "060": 0.923758,
+      "061": 0.314264
+    },
+    "perfect_negative_low_shaft_fixed_trace_remaining_error_percent": {
+      "060": 8.848875,
+      "061": 9.035077
+    },
+    "region_caveat": "Accounting onexisting trajectories;notcausal calibration ornewruntime prediction",
+    "066": "inputsready;modelnotfrozen;CRUISEnotrun;noPASS"
+  },
+  "remaining_stage_count": 3,
+  "remaining_stages": [
+    "Resolve060/061correctionbasisandfreezeactualproject/parameters",
+    "066continuousindependentCRUISErunandactualCSV/logevaluation",
+    "FinalizevalidationfiguresandOctober30midtermreport"
+  ],
+  "minimum_user_runs_after_candidate_freeze": {
+    "060_calibration_confirmation": 1,
+    "061_calibration_confirmation": 1,
+    "066_continuous_validation": 1,
+    "total": 3,
+    "condition": "Candidatepassesonfirstconfirmationbatch;notaguaranteedorcompletedruncount"
+  },
+  "immediate_user_input": "Current saved .proj thatproduced DIS80 outputs;onefile;noscreenshotorsame-settingrerunrequired",
+  "current_project_provenance": "research/cruise_m_build_20261011/runs/validation_closure_20261014/current_project_provenance.json",
+  "midterm_date": "2026-10-30",
+  "new_model_changes": false,
+  "old_empirical_multifit_candidate": "Notappliedandnotadopted;CRUISEandheldoutverificationabsent",
+  "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
+  "artifact_receipt": "research/cruise_m_build_20261011/runs/validation_closure_20261014/artifact_receipt.json",
+  "bundle_library_file_id": "libfile_a1b6ddfa8350819191ca765f5c9adf8c"
+}

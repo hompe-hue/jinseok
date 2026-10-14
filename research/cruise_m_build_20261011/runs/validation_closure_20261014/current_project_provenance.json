@@ -1,0 +1,17 @@
+{
+  "library_file_id": "libfile_489a96d47c1481919808b66ffb8ef7ed",
+  "filename": "Bolt_Model_Check(3).proj",
+  "sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
+  "matches_previously_audited_project": true,
+  "stored_discharge_map_kW": [
+    0.0,
+    0.0,
+    24.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0
+  ],
+  "DIS80_current_saved_project_received": false,
+  "no_old_run_repeated": true
+}

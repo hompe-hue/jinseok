@@ -1,0 +1,163 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "start_indices": [
+        211,
+        13950,
+        41360,
+        49020,
+        62770
+      ],
+      "stop_indices": [
+        13940,
+        13951,
+        41361,
+        49021,
+        62771
+      ],
+      "primary_start": 210,
+      "primary_stop_exclusive": 13940,
+      "primary_start_time_s": 0.9999799728393555,
+      "primary_end_time_s": 1373.8986706733704,
+      "rows": 13730,
+      "primary_duration_s": 1372.898690700531,
+      "metadata_duration_s": 1373.2986903190613
+    },
+    {
+      "phase": 2,
+      "start_indices": [
+        13951,
+        27691,
+        35360,
+        76520
+      ],
+      "stop_indices": [
+        27680,
+        27692,
+        35361,
+        76521
+      ],
+      "primary_start": 13950,
+      "primary_stop_exclusive": 27680,
+      "primary_start_time_s": 1374.9986696243286,
+      "primary_end_time_s": 2747.8973603248596,
+      "rows": 13730,
+      "primary_duration_s": 1372.898690700531,
+      "metadata_duration_s": 1373.1230646243712
+    },
+    {
+      "phase": 3,
+      "start_indices": [
+        27692,
+        41371
+      ],
+      "stop_indices": [
+        35350,
+        41372
+      ],
+      "primary_start": 27691,
+      "primary_stop_exclusive": 35350,
+      "primary_start_time_s": 2749.0973591804504,
+      "primary_end_time_s": 3514.896628856659,
+      "rows": 7659,
+      "primary_duration_s": 765.7992696762085,
+      "metadata_duration_s": 765.8992695808411
+    },
+    {
+      "phase": 4,
+      "start_indices": [
+        35361,
+        49040,
+        62790
+      ],
+      "stop_indices": [
+        41360,
+        49041,
+        62791
+      ],
+      "primary_start": 35360,
+      "primary_stop_exclusive": 41360,
+      "primary_start_time_s": 3515.996627807617,
+      "primary_end_time_s": 4115.896055698395,
+      "rows": 6000,
+      "primary_duration_s": 599.8994278907776,
+      "metadata_duration_s": 600.0994277000427
+    },
+    {
+      "phase": 5,
+      "start_indices": [
+        41372
+      ],
+      "stop_indices": [
+        49020
+      ],
+      "primary_start": 41371,
+      "primary_stop_exclusive": 49020,
+      "primary_start_time_s": 4117.096054553986,
+      "primary_end_time_s": 4881.895325183868,
+      "rows": 7649,
+      "primary_duration_s": 764.7992706298828,
+      "metadata_duration_s": 764.7992706298828
+    },
+    {
+      "phase": 6,
+      "start_indices": [
+        49041
+      ],
+      "stop_indices": [
+        62770
+      ],
+      "primary_start": 49040,
+      "primary_stop_exclusive": 62770,
+      "primary_start_time_s": 4883.995323181152,
+      "primary_end_time_s": 6256.894013881683,
+      "rows": 13730,
+      "primary_duration_s": 1372.898690700531,
+      "metadata_duration_s": 1372.898690700531
+    },
+    {
+      "phase": 7,
+      "start_indices": [
+        62791
+      ],
+      "stop_indices": [
+        76520
+      ],
+      "primary_start": 62790,
+      "primary_stop_exclusive": 76520,
+      "primary_start_time_s": 6258.994011878967,
+      "primary_end_time_s": 7631.892702579498,
+      "rows": 13730,
+      "primary_duration_s": 1372.898690700531,
+      "metadata_duration_s": 1372.881614101825
+    }
+  ],
+  "selected_continuous_span": {
+    "start_index": 210,
+    "stop_exclusive": 76520,
+    "duration_s": 7630.892722606659,
+    "rows": 76310,
+    "dt_min_s": 0.09999990463256836,
+    "dt_max_s": 0.09999990463256836,
+    "dt_median_s": 0.09999990463256836,
+    "dt_nonpositive_rows": 0,
+    "voltage_invalid_rows": 0,
+    "v_first_V": 398.2083849755389,
+    "speed_first_kmh": 0.319744888957953,
+    "speed_last_kmh": 1.8002075935887066e-05
+  },
+  "channels": {
+    "Time_H0": "s",
+    "Time_3": "s",
+    "Dyno_Spd_Front": "mph",
+    "Batt_Volt_Hioki_U1": "V",
+    "Batt_Curr_Hioki_I1": "A",
+    "Batt_Power_Hioki_P1": "kW",
+    "DCDC_Out_Power_Hioki_P3": "W",
+    "HVBatt_cell_temp_1_CAN3": "C",
+    "Grade_Output_DriveTrace": "pct",
+    "Drive_trace_grade": "per",
+    "Dyno_TractiveForce_Front": "N"
+  }
+}
