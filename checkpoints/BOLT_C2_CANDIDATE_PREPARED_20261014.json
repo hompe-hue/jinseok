@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "stage": "C2_COMMON_BATTERY_CANDIDATE_PREPARED_ACTUAL_CAL_REQUIRED",
+  "C1_independent066_all_gates_passed": false,
+  "C1_fail_preserved": true,
+  "C2_training_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "C2_fresh_holdouts": [
+    "61905058",
+    "61905059"
+  ],
+  "C2_screen_passed": true,
+  "C2_actual_calibration_passed": false,
+  "C2_independent_validation_passed": false,
+  "model_validation_complete": false,
+  "current_user_simulation_required": true,
+  "next": "Run C2 CAL060/061/066;export battery/velocity/generator pertest(9CSV);allpass thenfreshHOLD058/059",
+  "profile_pool_label_for_all": "ANL61905060",
+  "report": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/RESULT_KO.md",
+  "instructions": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/START_HERE_KO.md",
+  "artifact": {
+    "filename": "Bolt_C2_Run_and_C1_Review_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/Bolt_C2_Run_and_C1_Review_20261014.zip",
+    "size_bytes": 19398632,
+    "sha256": "9d466002500f117665e10ecd05bcc503df97c1930b5e673fad3da6c29ec8f709",
+    "members": 66,
+    "archive_readback_verified": true,
+    "delivery_roundtrip_verified": true,
+    "library_file_id": "libfile_e507212ecb808191b2c3dcc4f5a4b239",
+    "file_id": "file_000000003b5c820988a3286e73dd32f4",
+    "version_number": 1
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "candidate": "C2",
+  "status": "C2_PARAMETERS_FIXED_PENDING_CRUISE_CONFIRMATION",
+  "source_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "EDU_speed_baseline_subtraction_fraction": 0.6480886993696341,
+  "EDU_fraction_positive_loss_limit": 0.7234741940870001,
+  "EDU_rule": "LossC1(T,w)=LossOriginal(T,w)-beta*LossOriginal(0,w); Q4 subtracts1.05 timesQ1zero baseline; lowtorque bridge follows changedboundarynodes. Keep torque-dependent differences and loss>0.",
+  "OCV_cell_correction_bound_mV": 50,
+  "OCV_bound_active": true,
+  "physical_component_identification": false,
+  "new_CRUISE_results": false,
+  "candidate_screen_gate_met": true,
+  "adoption_authorization": "Userauthorized autonomous completion of model calibration and validation preparation;C2 actual confirmation remains pending.",
+  "capacity_gain": 0.9597697229370158,
+  "calibration_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "heldout_tests": [
+    "61905058",
+    "61905059"
+  ],
+  "no_fit_on058_059": true,
+  "battery_OCV_correction_SOC_knots_percent": [
+    0,
+    50,
+    60,
+    70,
+    85,
+    93,
+    100
+  ],
+  "battery_OCV_correction_values_V": [
+    0,
+    0,
+    -4.8,
+    0.871641728606408,
+    1.70967005183054,
+    -1.9839731528798132,
+    0
+  ],
+  "battery_R_multiplier": 1.0325148990054311,
+  "battery_cell_capacity_Ah": 53.747104484472885,
+  "battery_pack_capacity_Ah": 161.24131345341866,
+  "initial_SOC_rule": "First low-load V/I inversion using common C2 maps;common effective capacity;no manual offset;notCANmapping",
+  "preserved": [
+    "mass",
+    "TargetABC",
+    "gear7.05",
+    "radius0.3135",
+    "aux0.4kW",
+    "96S3Ptopology",
+    "originalRCoff",
+    "regencontrollerdistribution",
+    "80kWdiagnosticBMSmap",
+    "C1EDUloss"
+  ],
+  "feasibility": {
+    "status": "FEASIBLE_SCREEN_PENDING_ACTUAL_CRUISE",
+    "optimizer_success": true,
+    "optimizer_message": "Optimization terminated successfully",
+    "objective": 1.2954487025917787,
+    "regularization_V2": 0.03,
+    "OCV_pack_corrections_V": {
+      "60": -4.8,
+      "70": 0.871641728606408,
+      "85": 1.70967005183054,
+      "93": -1.9839731528798132
+    },
+    "R_gain": 1.0325148990054311,
+    "capacity_gain": 0.9597697229370158,
+    "cell_capacity_Ah": 53.747104484472885,
+    "pack_capacity_Ah": 161.24131345341866,
+    "minimum_OCV_pack_increment_V": 0.04821538559997407,
+    "screen_gate_met": true,
+    "training": {
+      "61905060": {
+        "initial_SOC_percent": 79.97489356076105,
+        "measured_current_training": {
+          "bias_V": 0.46656061691081585,
+          "RMSE_V": 1.3886538025402926
+        },
+        "frozen_C1_power_screen": {
+          "bias_V": 0.375158040844598,
+          "RMSE_V": 1.3986704162226034
+        },
+        "screen_is_CRUISE": false
+      },
+      "61905061": {
+        "initial_SOC_percent": 65.36509262435112,
+        "measured_current_training": {
+          "bias_V": 0.5163093468940536,
+          "RMSE_V": 1.129868530552766
+        },
+        "frozen_C1_power_screen": {
+          "bias_V": 0.5182481339737445,
+          "RMSE_V": 1.184919922072652
+        },
+        "screen_is_CRUISE": false
+      },
+      "61905066": {
+        "initial_SOC_percent": 93.94483222092964,
+        "measured_current_training": {
+          "bias_V": -0.07112397990997998,
+          "RMSE_V": 0.8072774678286619
+        },
+        "frozen_C1_power_screen": {
+          "bias_V": 0.19350496027843833,
+          "RMSE_V": 0.863958739850784
+        },
+        "screen_is_CRUISE": false
+      }
+    },
+    "independent_validation_complete": false,
+    "fresh_holdout_outcomes_read": false,
+    "scope": "Warm effective vehicle battery calibration, not unique physical cell identification;066 is training for C2. C1 FAIL preserved."
+  },
+  "limitations": [
+    "Effectivewarmvehicle-level fit;notunique physical cell identification",
+    "066 is now C2 training;C1 independentFAILpreserved",
+    "SOC60OCVcorrectionhitsbound",
+    "ActualCRUISEconfirmationandfreshholdoutsrequired",
+    "LowSOC/lowtemperatureunverified"
+  ]
+}

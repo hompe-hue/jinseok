@@ -1,0 +1,40 @@
+[
+  {
+    "test": "61905058",
+    "role": "C2_FRESH_HOLD_PENDING_CAL",
+    "source_sha256": "6a1ed956400d63c682e326ec29419ef93413063ebd010b8b2a3ce8888323c69a",
+    "native_rows": 14900,
+    "driver_rows": 1491,
+    "duration_s": 1489.898579120636,
+    "initial_voltage_V": 398.8306062430374,
+    "initial_current_A": 1.279751991862504,
+    "initial_battery_temperature_C": 24.0,
+    "initial_environment_temperature_C": 23.443118675268618,
+    "native_distance_km": 24.854704483941237,
+    "resampling_distance_error_percent": 0.0017818933403690451,
+    "max_speed_kmh": 115.44265533081283,
+    "grade_zero": true,
+    "source_test_name": "GMLC Charging",
+    "explanation": "Metadata GMLC Charging retained; selected phase has actual dyno driving. No C2 voltage/energy prediction compared;parameters not changed.",
+    "C2_performance_compared": false
+  },
+  {
+    "test": "61905059",
+    "role": "C2_FRESH_HOLD_PENDING_CAL",
+    "source_sha256": "49455b648021255c6d7513a941c166038d4013a74233ea43ff6aa82eae1c1a91",
+    "native_rows": 22220,
+    "driver_rows": 2223,
+    "duration_s": 2221.8978810310364,
+    "initial_voltage_V": 392.2984903522874,
+    "initial_current_A": 1.410442915996841,
+    "initial_battery_temperature_C": 24.0,
+    "initial_environment_temperature_C": 22.557623687067057,
+    "native_distance_km": 40.35160024624176,
+    "resampling_distance_error_percent": 0.001502885460125114,
+    "max_speed_kmh": 124.79247245095208,
+    "grade_zero": true,
+    "source_test_name": "GMLC Charging",
+    "explanation": "Metadata GMLC Charging retained; selected phase has actual dyno driving. No C2 voltage/energy prediction compared;parameters not changed.",
+    "C2_performance_compared": false
+  }
+]
