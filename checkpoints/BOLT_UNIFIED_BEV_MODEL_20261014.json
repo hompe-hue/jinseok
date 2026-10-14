@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "user_steering": "One consistent final Bolt BEV model for virtual EREV; C2 is not permanently frozen",
+  "status": "UNIFIED_BATTERY_DEVELOPMENT_SCREEN_COMPLETE_NOT_FINAL_MODEL",
+  "previous_head": "9108df8cfea2c3b89dd28c3ce9a47be3f4d5965e",
+  "C2_preserved_as_historical_validated_warm_version": true,
+  "C2_performance_four_runs_required_now": false,
+  "one_common_parameter_set": true,
+  "screened_tests": [
+    "61905060",
+    "61905061",
+    "61905066",
+    "61905064",
+    "61905058",
+    "61905059",
+    "61905067"
+  ],
+  "current_and_fixed_power_voltage_screens_all_pass": true,
+  "candidate_not_adopted": true,
+  "new_CRUISE_M_runs": 0,
+  "physical_unique_battery_identification": false,
+  "rechecks_previously_seen_and_model_selection_affected": true,
+  "new_independent_validation_claim": false,
+  "BMS_diagnostic_SOC20_limit_not_final_Bolt_policy": true,
+  "BMS_module_SOC_and_power_wiring_require_correction": true,
+  "source_files": {
+    "warm_complete_package_library_id": "libfile_bca79313d07481918204c0894493b90a",
+    "depletion_replay_package_library_id": "libfile_30cdf9cc0a348191b154438eb9f1eaf1"
+  },
+  "result": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/DECISION_KO.md",
+  "next": "Refine common candidate/model complexity, correct BMS wiring and establish current/voltage/power limit boundary, prepare one actual CRUISE confirmation batch then finalize the plant and compare EREV controls",
+  "authority": "Persistent user approval for public GitHub main progress records"
+}

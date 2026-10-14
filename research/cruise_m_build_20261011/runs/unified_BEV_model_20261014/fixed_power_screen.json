@@ -1,0 +1,86 @@
+[
+  {
+    "test": "61905060",
+    "boundary": "Frozen actual C2 terminal power; changed candidate/controller not rerun",
+    "voltage_RMSE_V": 1.2545821634683432,
+    "voltage_bias_V": -0.016211224352618063,
+    "final_model_SOC_percent": 67.7577158414231,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "9b5304fc8ce27783942d12bd663de10fb788135cfb95767695e4e6f12d18e9be",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905061",
+    "boundary": "Frozen actual C2 terminal power; changed candidate/controller not rerun",
+    "voltage_RMSE_V": 1.1352580698205181,
+    "voltage_bias_V": 0.21365429032119188,
+    "final_model_SOC_percent": 64.41491050754308,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "1e307f92f1fbb6f85a82b93277ada7647abaab663880913b2f321ef6a468754c",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905066",
+    "boundary": "Frozen actual C2 terminal power; changed candidate/controller not rerun",
+    "voltage_RMSE_V": 0.7625066721886054,
+    "voltage_bias_V": 0.28829187184601546,
+    "final_model_SOC_percent": 81.20477636005975,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "5a77716e22cbb65c938221702c67fac443e4b66905883f15adc24a09f6b0b9b9",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905064",
+    "boundary": "Native ANL measured power demand; no vehicle simulation",
+    "voltage_RMSE_V": 1.159960695157803,
+    "voltage_bias_V": 0.04233064028706209,
+    "final_model_SOC_percent": 0.9716755276413783,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "a98c7824a5bd2c802747855c4ee1013e5f7e2565c538806c0d67afed2103939c",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905058",
+    "boundary": "Frozen actual C2 terminal power; changed candidate/controller not rerun",
+    "voltage_RMSE_V": 0.8326663726184407,
+    "voltage_bias_V": 0.3573472789385747,
+    "final_model_SOC_percent": 93.66780614129247,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "ef011f3038231a4eaca4fc48930376c1389d02aa848b818be8e84ee24f986cd6",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905059",
+    "boundary": "Frozen actual C2 terminal power; changed candidate/controller not rerun",
+    "voltage_RMSE_V": 1.3078026244006802,
+    "voltage_bias_V": 0.9641740326473822,
+    "final_model_SOC_percent": 85.02933006460606,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "6cd77cc091210cc87dc4ac6035b10ba3a94bb6d928909f308c51f9b6f1e9308e",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  },
+  {
+    "test": "61905067",
+    "boundary": "Native ANL measured power demand; no vehicle simulation",
+    "voltage_RMSE_V": 1.1480196606066702,
+    "voltage_bias_V": -0.0941732615464808,
+    "final_model_SOC_percent": 1.0313389087295877,
+    "SOC_in_map": true,
+    "voltage_screen_thresholds_met": true,
+    "source_sha256": "ff7b1d1a6cd56b4ff6d51c6d416a243af7271532486f8dbb47c4538a60ba6979",
+    "no_CRUISE_run": true,
+    "no_BMS_discharge_map_enforced_in_screen": true
+  }
+]

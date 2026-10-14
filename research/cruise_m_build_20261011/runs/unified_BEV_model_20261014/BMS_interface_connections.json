@@ -1,0 +1,508 @@
+{
+  "System_main": [
+    {
+      "role1": "BMS ECM",
+      "port1": "SoC Average",
+      "role2": "BMS Monitor",
+      "port2": "SoC"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Power Terminal",
+      "role2": "BMS Monitor",
+      "port2": "Power"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Range",
+      "role2": "BMS Monitor",
+      "port2": "Range"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Consumption",
+      "role2": "BMS Monitor",
+      "port2": "Specific Consumption Avg"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Charge.4",
+      "role2": "BMS ECM",
+      "port2": "Charge Module 1"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Charge.5",
+      "role2": "BMS ECM",
+      "port2": "Charge Module 2"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Current Out",
+      "role2": "BMS ECM",
+      "port2": "Current"
+    },
+    {
+      "role1": "Vehicle",
+      "port1": "Distance",
+      "role2": "BMS ECM",
+      "port2": "Distance"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Power.4",
+      "role2": "BMS ECM",
+      "port2": "Power Module 1"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Power loss",
+      "role2": "BMS ECM",
+      "port2": "Power Module 2"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "State of charge.4",
+      "role2": "BMS ECM",
+      "port2": "SoC Module 1"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "State of charge.4",
+      "role2": "BMS ECM",
+      "port2": "SoC Module 2"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Net voltage.4",
+      "role2": "BMS ECM",
+      "port2": "Voltage Module 1"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Net voltage.5",
+      "role2": "BMS ECM",
+      "port2": "Voltage Module 2"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Source voltage.1",
+      "role2": "BMS ECM",
+      "port2": "Voltage OC Module 1"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Source voltage.2",
+      "role2": "BMS ECM",
+      "port2": "Voltage OC Module 2"
+    },
+    {
+      "role1": "HV Battery",
+      "port1": "Voltage Out",
+      "role2": "BMS ECM",
+      "port2": "Voltage Terminal"
+    },
+    {
+      "role1": "E-Drive Control",
+      "port1": "SoC Warning",
+      "role2": "BMS ECM",
+      "port2": "SoC Warning"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Max. Power Discharge",
+      "role2": "Vehicle Current Analysis",
+      "port2": "Batt. Power Discharge Max."
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Max. Power Charge",
+      "role2": "Vehicle Current Analysis",
+      "port2": "Batt. Power Charge Max."
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Max. Power Charge",
+      "role2": "Range Extender Control",
+      "port2": "Battery Power Charge Max."
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Max. Power Discharge",
+      "role2": "Range Extender Control",
+      "port2": "Battery Power Discharge Max."
+    },
+    {
+      "role1": "Range Extender",
+      "port1": "Electric power",
+      "role2": "BMS ECM",
+      "port2": "Generator Power"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "SoC Average",
+      "role2": "Range Extender Control",
+      "port2": "Battery SoC Actual"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Consumption",
+      "role2": "KPI HV Battery",
+      "port2": "HV Battery Info - Energy Consumption (Max)"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "SoC Minimum",
+      "role2": "KPI HV Battery",
+      "port2": "HV Battery Info - SoC (Min)"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Power Terminal",
+      "role2": "KPI HV Battery",
+      "port2": "HV Battery Info - Power Terminal (Min)"
+    },
+    {
+      "role1": "BMS ECM",
+      "port1": "Energy Left",
+      "role2": "BMS Monitor",
+      "port2": "Energy"
+    }
+  ],
+  "HV_Battery_internal": [
+    {
+      "role1": null,
+      "port1": "+.2",
+      "role2": "Ammeter",
+      "port2": "Plus"
+    },
+    {
+      "role1": null,
+      "port1": "Voltage Out",
+      "role2": "Voltmeter",
+      "port2": "Voltage Out"
+    },
+    {
+      "role1": null,
+      "port1": "Current Out",
+      "role2": "Ammeter",
+      "port2": "Current Out"
+    },
+    {
+      "role1": "Ammeter",
+      "port1": "Minus",
+      "role2": "Electric Node 1",
+      "port2": "Node"
+    },
+    {
+      "role1": "Electric Node 1",
+      "port1": "Node",
+      "role2": "Main Connector",
+      "port2": "Plus"
+    },
+    {
+      "role1": "Main Connector",
+      "port1": "Minus",
+      "role2": "Electric Node 2",
+      "port2": "Node"
+    },
+    {
+      "role1": "Electric Node 3",
+      "port1": "Node",
+      "role2": "Connection 1",
+      "port2": "Plus"
+    },
+    {
+      "role1": "Connection 1",
+      "port1": "Minus",
+      "role2": "Electric Node 4",
+      "port2": "Node"
+    },
+    {
+      "role1": "Voltmeter",
+      "port1": "Plus",
+      "role2": "Electric Node 1",
+      "port2": "Node"
+    },
+    {
+      "role1": "Module 1",
+      "port1": "Plus",
+      "role2": "Electric Node 2",
+      "port2": "Node"
+    },
+    {
+      "role1": "Module 1",
+      "port1": "Minus",
+      "role2": "Electric Node 3",
+      "port2": "Node"
+    },
+    {
+      "role1": "Module 2",
+      "port1": "Plus",
+      "role2": "Electric Node 4",
+      "port2": "Node"
+    },
+    {
+      "role1": null,
+      "port1": "-",
+      "role2": "Module 2",
+      "port2": "Minus"
+    },
+    {
+      "role1": null,
+      "port1": "Power.4",
+      "role2": "Module 1",
+      "port2": "Power"
+    },
+    {
+      "role1": null,
+      "port1": "Power.5",
+      "role2": "Module 2",
+      "port2": "Power"
+    },
+    {
+      "role1": null,
+      "port1": "State of charge.4",
+      "role2": "Module 1",
+      "port2": "State of charge"
+    },
+    {
+      "role1": null,
+      "port1": "State of charge.5",
+      "role2": "Module 2",
+      "port2": "State of charge"
+    },
+    {
+      "role1": null,
+      "port1": "Net voltage.4",
+      "role2": "Module 1",
+      "port2": "Net voltage"
+    },
+    {
+      "role1": null,
+      "port1": "Net voltage.5",
+      "role2": "Module 2",
+      "port2": "Net voltage"
+    },
+    {
+      "role1": null,
+      "port1": "Charge.4",
+      "role2": "Module 1",
+      "port2": "Charge"
+    },
+    {
+      "role1": null,
+      "port1": "Charge.5",
+      "role2": "Module 2",
+      "port2": "Charge"
+    },
+    {
+      "role1": null,
+      "port1": "Source voltage.1",
+      "role2": "Module 1",
+      "port2": "Source voltage"
+    },
+    {
+      "role1": null,
+      "port1": "Source voltage.2",
+      "role2": "Module 2",
+      "port2": "Source voltage"
+    },
+    {
+      "role1": null,
+      "port1": "Power loss",
+      "role2": "Module 2",
+      "port2": "Power loss"
+    },
+    {
+      "role1": null,
+      "port1": "-",
+      "role2": "Voltmeter",
+      "port2": "Minus"
+    }
+  ],
+  "BMS_ECM_internal": [
+    {
+      "role1": null,
+      "port1": "Voltage OC Module 2",
+      "role2": "Performance",
+      "port2": "Voltage OC Module 2"
+    },
+    {
+      "role1": null,
+      "port1": "Voltage Module 1",
+      "role2": "Performance",
+      "port2": "Voltage Module 1"
+    },
+    {
+      "role1": "SoC",
+      "port1": "Maximum",
+      "role2": "Charge Power",
+      "port2": "SoC"
+    },
+    {
+      "role1": null,
+      "port1": "Voltage Terminal",
+      "role2": "Performance",
+      "port2": "Voltage Terminal"
+    },
+    {
+      "role1": null,
+      "port1": "SoC Module 2",
+      "role2": "SoC",
+      "port2": "SoC Module 2"
+    },
+    {
+      "role1": "SoC",
+      "port1": "Average",
+      "role2": "Range",
+      "port2": "SoC Actual"
+    },
+    {
+      "role1": null,
+      "port1": "Power Module 1",
+      "role2": "Performance",
+      "port2": "Power Module 1"
+    },
+    {
+      "role1": null,
+      "port1": "SoC Module 1",
+      "role2": "SoC",
+      "port2": "SoC Module 1"
+    },
+    {
+      "role1": null,
+      "port1": "Power Module 2",
+      "role2": "Performance",
+      "port2": "Power Module 2"
+    },
+    {
+      "role1": null,
+      "port1": "Power Terminal",
+      "role2": "Performance",
+      "port2": "Power Terminal"
+    },
+    {
+      "role1": "SoC",
+      "port1": "Minimum",
+      "role2": "Discharge Power",
+      "port2": "SoC"
+    },
+    {
+      "role1": null,
+      "port1": "Voltage OC Module 1",
+      "role2": "Performance",
+      "port2": "Voltage OC Module 1"
+    },
+    {
+      "role1": null,
+      "port1": "SoC Average",
+      "role2": "SoC",
+      "port2": "Average"
+    },
+    {
+      "role1": "Performance",
+      "port1": "Energy Total",
+      "role2": "Range",
+      "port2": "Energy"
+    },
+    {
+      "role1": null,
+      "port1": "Charge Module 1",
+      "role2": "Performance",
+      "port2": "Charge Module 1"
+    },
+    {
+      "role1": null,
+      "port1": "Distance",
+      "role2": "Range",
+      "port2": "Distance"
+    },
+    {
+      "role1": null,
+      "port1": "Charge Module 2",
+      "role2": "Performance",
+      "port2": "Charge Module 2"
+    },
+    {
+      "role1": null,
+      "port1": "SoC Warning",
+      "role2": "Range",
+      "port2": "SoC Minimum"
+    },
+    {
+      "role1": null,
+      "port1": "Voltage Module 2",
+      "role2": "Performance",
+      "port2": "Voltage Module 2"
+    },
+    {
+      "role1": null,
+      "port1": "Current",
+      "role2": "Performance",
+      "port2": "Current"
+    },
+    {
+      "role1": null,
+      "port1": "Range",
+      "role2": "Range",
+      "port2": "Range"
+    },
+    {
+      "role1": null,
+      "port1": "Consumption",
+      "role2": "Range",
+      "port2": "Consumption Avg."
+    },
+    {
+      "role1": null,
+      "port1": "Max. Power Discharge",
+      "role2": "Discharge Power",
+      "port2": "Max. Power"
+    },
+    {
+      "role1": null,
+      "port1": "Max. Power Charge",
+      "role2": "Charge Power",
+      "port2": "Max. Power"
+    },
+    {
+      "role1": null,
+      "port1": "Energy Left",
+      "role2": "Range",
+      "port2": "Energy Left"
+    },
+    {
+      "role1": null,
+      "port1": "SoC Minimum",
+      "role2": "SoC",
+      "port2": "Minimum"
+    },
+    {
+      "role1": null,
+      "port1": "Generator Power",
+      "role2": "Generator Work",
+      "port2": "Power"
+    },
+    {
+      "role1": "Generator Work",
+      "port1": "Work",
+      "role2": "Range",
+      "port2": "Work Generator"
+    }
+  ],
+  "source_project_sha256": "49921958c91e386bf66d997c7abf3b907c499a22f86f3507482c6c5136a8ea25",
+  "observed_wiring_issues": [
+    {
+      "input": "BMS ECM SoC Module2",
+      "source": "HV Battery State of charge.4 -> Module1",
+      "expected_if_intent_is_two_modules": "State of charge.5 -> Module2"
+    },
+    {
+      "input": "BMS ECM Power Module2",
+      "source": "HV Battery Power loss -> Module2 Power loss",
+      "expected_if_intent_is_module_power": "Power.5 -> Module2 Power"
+    }
+  ],
+  "no_original_project_modified": true
+}

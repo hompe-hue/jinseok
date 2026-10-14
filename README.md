@@ -1,3 +1,5 @@
+> **2026-10-14 최종 목표·우선순위 정정:** 하나의 공통 Bolt BEV 모델을 개선·검증한 뒤 가상 EREV 기반으로 사용합니다. C2는 과거 온난 검증 버전으로 보존하며 영구 동결하지 않습니다. 공통 배터리 개발 후보는 주행5건/장시간방전2건의 전류·고정전력 입력 전압 점검을 계산상 충족했습니다. 새CRUISE/BMS 확인 전이며 최종 모델로 채택하지 않았습니다. C2 성능4회는 지금 필수 실행이 아닙니다. [최신 판단·계산·순서](research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/DECISION_KO.md) · [재개 기록](checkpoints/BOLT_UNIFIED_BEV_MODEL_20261014.json)
+
 > **2026-10-14 C2 공식 성능 비교 실행자료 준비 완료:** 가속SOC94/100 및 EPA 원본UDDS/HWFET 반복 사본4개를 준비했습니다. C2맵·용량·방전제한은 보존했고 실제CRUISE 성능 실행은0회입니다. 첫 실행은REEV_MBE의C2_ACC_SOC94.proj → Performance/FLA입니다. [첫 실행 안내](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/START_HERE_KO.md) · [전달파일·해시](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/deliverables.json) · [재개 기록](checkpoints/BOLT_C2_PERFORMANCE_PREPARED_20261014.json)
 
 > **2026-10-14 C2 적용 범위 정정·방전 확장 재검토 완료:** 058/059는 동일 차량의 보정 미사용 시험 평가(모델SOC79.5–94.2%)입니다. 동결 C2의 ANL064/067 실측전류 입력 재현은 전압RMSE4.03/3.92V와 모델SOC 소진을 보여 저SOC·전체 방전까지의 적용을 지지하지 않습니다. 온난 기준모델은 보존합니다. [새 근거·판단](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/RESULT_KO.md).

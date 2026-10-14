@@ -1,0 +1,182 @@
+{
+  "status": "DEVELOPMENT_SCREEN_ONLY_NOT_ADOPTED",
+  "one_common_parameter_set": true,
+  "train_tests": [
+    "61905060",
+    "61905061",
+    "61905066",
+    "61905064"
+  ],
+  "rechecks": [
+    "61905058",
+    "61905059",
+    "61905067"
+  ],
+  "rechecks_previously_seen": true,
+  "no_blind_validation_claim": true,
+  "initialization_rule": "common first5s |I|<3A median V/I inverse, no manual per-test SOC offset",
+  "optimizer_success": true,
+  "training_objective": 1.3767130761201427,
+  "training_mean_bias_penalty_weight": 2,
+  "development_objective_changed_after_first_recheck": true,
+  "first_MSE_only_result_preserved": "first_MSE_only_development_screen.json",
+  "capacity_Ah": 169.3568460332183,
+  "cell_capacity_Ah": 56.45228201107276,
+  "R_gain": 1.0337329877479744,
+  "OCV_pack_correction_knots_percent": [
+    0.0,
+    5.0,
+    10.0,
+    20.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    85.0,
+    93.0,
+    100.0
+  ],
+  "OCV_pack_corrections_V": [
+    -40.463865788900755,
+    -8.76811227516896,
+    -5.9967967243184255,
+    -7.422398276919533,
+    -9.753852930488025,
+    -10.073707389941044,
+    -11.533849556577323,
+    -5.307898280588657,
+    -3.7864377105744946,
+    -7.416452055375813,
+    -9.945698799962212
+  ],
+  "monotonic_OCV": true,
+  "fit_regularization_and_bounds_are_development_assumptions": true,
+  "capacity_not_physically_identified": true,
+  "BMS_not_modified_or_identified": true,
+  "CRUISE_project_created": false,
+  "CRUISE_solver_run": false,
+  "vehicle_energy_and_performance_not_checked": true,
+  "metrics": [
+    {
+      "test": "61905060",
+      "role": "FIT",
+      "initial_model_SOC_percent": 84.48613451827411,
+      "final_model_SOC_percent": 67.91873872931454,
+      "voltage_RMSE_V": 1.2310375376419886,
+      "voltage_bias_V": 0.07649024461230591,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905061",
+      "role": "FIT",
+      "initial_model_SOC_percent": 69.99999999076573,
+      "final_model_SOC_percent": 64.39211389246779,
+      "voltage_RMSE_V": 1.0817933478146962,
+      "voltage_bias_V": 0.21266717489235026,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905066",
+      "role": "FIT",
+      "initial_model_SOC_percent": 98.37584022677065,
+      "final_model_SOC_percent": 80.84558748455905,
+      "voltage_RMSE_V": 0.6738896486502082,
+      "voltage_bias_V": 0.006546486554470945,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905064",
+      "role": "FIT",
+      "initial_model_SOC_percent": 81.79380952383327,
+      "final_model_SOC_percent": 1.021623704046533,
+      "voltage_RMSE_V": 1.1419367640806093,
+      "voltage_bias_V": 0.056083455430109584,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905058",
+      "role": "RECHECK_ALREADY_REVIEWED",
+      "initial_model_SOC_percent": 98.77598997791438,
+      "final_model_SOC_percent": 93.50762933405048,
+      "voltage_RMSE_V": 0.6403609905829722,
+      "voltage_bias_V": 0.17919635326426261,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905059",
+      "role": "RECHECK_ALREADY_REVIEWED",
+      "initial_model_SOC_percent": 94.00918332702656,
+      "final_model_SOC_percent": 85.04143077959733,
+      "voltage_RMSE_V": 1.3154643049665171,
+      "voltage_bias_V": 0.9822627571830643,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    },
+    {
+      "test": "61905067",
+      "role": "RECHECK_ALREADY_REVIEWED",
+      "initial_model_SOC_percent": 81.75359073925891,
+      "final_model_SOC_percent": 1.1081539565657437,
+      "voltage_RMSE_V": 1.1643555551351867,
+      "voltage_bias_V": -0.05243482650917659,
+      "SOC_range_in_map": true,
+      "voltage_screen_thresholds_met": true
+    }
+  ],
+  "sources": [
+    {
+      "test": "61905060",
+      "sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+      "path": "runs/C2_battery_common_20261014/references/ANL61905060_reference_native.csv",
+      "trusted_rows": 31510,
+      "role": "FIT"
+    },
+    {
+      "test": "61905061",
+      "sha256": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03",
+      "path": "runs/C2_battery_common_20261014/references/ANL61905061_reference_native.csv",
+      "trusted_rows": 14900,
+      "role": "FIT"
+    },
+    {
+      "test": "61905066",
+      "sha256": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e",
+      "path": "runs/C2_battery_common_20261014/references/ANL61905066_reference_native.csv",
+      "trusted_rows": 76310,
+      "role": "FIT"
+    },
+    {
+      "test": "61905064",
+      "sha256": "a98c7824a5bd2c802747855c4ee1013e5f7e2565c538806c0d67afed2103939c",
+      "path": "runs/C2_performance_extension_20261014/replay/ANL61905064_frozen_C2_replay.csv",
+      "trusted_rows": 101057,
+      "role": "FIT"
+    },
+    {
+      "test": "61905058",
+      "sha256": "c444982ad32ca43aec5e39a22a29c60c030e2f722e8f31c7f197de7a97a420c1",
+      "path": "runs/C2_battery_common_20261014/references/ANL61905058_reference_native.csv",
+      "trusted_rows": 14900,
+      "role": "RECHECK_ALREADY_REVIEWED"
+    },
+    {
+      "test": "61905059",
+      "sha256": "2be0fa3fbe5b46101a9ce71579cc0227be37295f8c107863d0a584ed96235ad6",
+      "path": "runs/C2_battery_common_20261014/references/ANL61905059_reference_native.csv",
+      "trusted_rows": 22220,
+      "role": "RECHECK_ALREADY_REVIEWED"
+    },
+    {
+      "test": "61905067",
+      "sha256": "ff7b1d1a6cd56b4ff6d51c6d416a243af7271532486f8dbb47c4538a60ba6979",
+      "path": "runs/C2_performance_extension_20261014/replay/ANL61905067_frozen_C2_replay.csv",
+      "trusted_rows": 101335,
+      "role": "RECHECK_ALREADY_REVIEWED"
+    }
+  ]
+}

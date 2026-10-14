@@ -1,0 +1,8 @@
+test,boundary,voltage_RMSE_V,voltage_bias_V,final_model_SOC_percent,SOC_in_map,voltage_screen_thresholds_met,source_sha256,no_CRUISE_run,no_BMS_discharge_map_enforced_in_screen
+61905060,Frozen actual C2 terminal power; changed candidate/controller not rerun,1.2545821634683432,-0.016211224352618063,67.7577158414231,True,True,9b5304fc8ce27783942d12bd663de10fb788135cfb95767695e4e6f12d18e9be,True,True
+61905061,Frozen actual C2 terminal power; changed candidate/controller not rerun,1.1352580698205181,0.21365429032119188,64.41491050754308,True,True,1e307f92f1fbb6f85a82b93277ada7647abaab663880913b2f321ef6a468754c,True,True
+61905066,Frozen actual C2 terminal power; changed candidate/controller not rerun,0.7625066721886054,0.28829187184601546,81.20477636005975,True,True,5a77716e22cbb65c938221702c67fac443e4b66905883f15adc24a09f6b0b9b9,True,True
+61905064,Native ANL measured power demand; no vehicle simulation,1.159960695157803,0.04233064028706209,0.9716755276413783,True,True,a98c7824a5bd2c802747855c4ee1013e5f7e2565c538806c0d67afed2103939c,True,True
+61905058,Frozen actual C2 terminal power; changed candidate/controller not rerun,0.8326663726184407,0.3573472789385747,93.66780614129247,True,True,ef011f3038231a4eaca4fc48930376c1389d02aa848b818be8e84ee24f986cd6,True,True
+61905059,Frozen actual C2 terminal power; changed candidate/controller not rerun,1.3078026244006802,0.9641740326473822,85.02933006460606,True,True,6cd77cc091210cc87dc4ac6035b10ba3a94bb6d928909f308c51f9b6f1e9308e,True,True
+61905067,Native ANL measured power demand; no vehicle simulation,1.1480196606066702,-0.0941732615464808,1.0313389087295877,True,True,ff7b1d1a6cd56b4ff6d51c6d416a243af7271532486f8dbb47c4538a60ba6979,True,True
