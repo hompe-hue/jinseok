@@ -27,7 +27,7 @@ def main():
     files={}
     for name in ['battery','velocity','generator']:
         options=[args.exports/f'{name}_C2_{case["role"]}_{test}.csv',args.exports/f'{name}_C2_{test}.csv',args.exports/f'{name}_ANL{test}.csv',args.exports/f'{name}_{case["role"]}{test[-2:]}.csv']
-        if case['role']=='HOLD':options.insert(0,args.exports/f'{name}_C2_CAL_{test}.csv')
+        if case['role']=='HOLD':options.extend([args.exports/f'{name}_C2_CAL_{test}.csv',args.exports/f'{name}_CAL{test[-2:]}.csv'])
         chosen=[p for p in options if p.exists()];assert len(chosen)==1,(name,'Provide exactly one alias',options)
         files[name]=chosen[0]
     data={k:pd.read_csv(p,skiprows=[1]) for k,p in files.items()}

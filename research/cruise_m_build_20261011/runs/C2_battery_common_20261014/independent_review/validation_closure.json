@@ -1,0 +1,49 @@
+{
+  "candidate": "C2",
+  "decision": "ADOPT_WARM_BEV_BASELINE_WITH_SCOPED_INDEPENDENT_VALIDATION",
+  "completed_at_UTC": "2026-10-14T07:19:18.011573+00:00",
+  "warm_BEV_baseline_validation_complete": true,
+  "all_conditions_physical_vehicle_validation_complete": false,
+  "C1_independent066_failure_preserved": true,
+  "training_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "independent_tests": [
+    "61905058",
+    "61905059"
+  ],
+  "independent_all_criteria_passed": true,
+  "parameters_changed_after_holdouts": false,
+  "additional_BEV_run_required_for_current_gate": false,
+  "C2_parameter_sha256": "7de14044898d83b11c92c34caa788fed246926dc6a8da243c60d9b30c10a21d9",
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "before_holdout_freeze_sha256": "40a193d78be05b54e360fa397965301e6bbadc995003a3c4f43a4a7ff9f4a610",
+  "actual_holdout_report_sha256": {
+    "61905058": "f38e4d8bc8d7240020c2686186467ad1f4628a66c4d38b9e795570104eb3c46b",
+    "61905059": "7d56c5864553ebb3161ce2b1ad97fc9d0d3b6d9d7d1a03ecf78ff9422abd18e5"
+  },
+  "independent_model_SOC_range_percent": [
+    79.51824136672569,
+    94.2392879036974
+  ],
+  "independent_observed_battery_temperature_range_C": {
+    "58": [
+      24.0,
+      24.0
+    ],
+    "59": [
+      24.0,
+      24.5
+    ]
+  },
+  "limitations": [
+    "Independent tests cover warm/highmodelSOC only;notlowSOC/lowtemperature",
+    "Recovery energy residual15.39/6.16%;regen split not uniquely identified",
+    "059 mean voltage bias0.9745V has narrow margin0.0255V",
+    "EffectivecapacityandOCV/Rnotunique physical cell identification",
+    "Noactual solverprojecthash supplied;outputprofile/maps/formula correspondence confirmed"
+  ],
+  "next": "Use frozen C2 BEV baseline for virtual seriesEREV preparation;retainlowSOCBMS/gensetassumption ranges;update midterm material"
+}

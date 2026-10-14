@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "baseline_remote_commit": "f43b643b738ce3174d230a7e5455d0c29bdb2807",
   "recovered_67_local_commit": "8f69635",
-  "current_stage": "C2_ACTUAL_CAL060_061_066_ALL_PASS_FROZEN_FOR_FRESH_HOLDOUTS",
+  "current_stage": "C2_WARM_BEV_BASELINE_VALIDATION_COMPLETE",
   "complete": [
     "61905067 source CRC/size/SHA256 verification without repeated analysis",
     "61905060 DAT/CSV generation and numeric roundtrip verification",
@@ -26,13 +26,15 @@
     "ActualC1CAL060/061allcriteriaPASS;actualmap/batteryimplementationagreement;C1frozenfor066",
     "ActualC1HOLD066evaluated;voltagebiasFAILpreserved;measured-current and runtime diagnostics completed",
     "C2commonbatterytraining/frozen-powerscreenpass;5atomicprojectsreadbackverified;fresh058/059inputQA;deliveryroundtripverified",
-    "ActualC2CAL060/061/066all7criteriaPASS;commonbattery/EDUapplicationverified;scientificfigure/midtermvalidationtextprepared;C2frozenbefore058/059"
+    "ActualC2CAL060/061/066all7criteriaPASS;commonbattery/EDUapplicationverified;scientificfigure/midtermvalidationtextprepared;C2frozenbefore058/059",
+    "ActualC2independent058/059all7criteriaPASS;warmBEVbaselineadopted;calibrationandindependentfigures/midtermtextcompleted;closure/handoffrecorded"
   ],
   "not_complete": [
-    "C2 fresh independent058/059 actual evaluation",
-    "Finalize warmBEV validatedscope/midtermreport"
+    "VirtualEREVimplementation/actualruns",
+    "LowSOC/lowtemperature/BMS/gensetphysicalvalidation outsidecurrentBEVscope",
+    "Finalmidtermpresentationrendering"
   ],
-  "next": "Run unchanged C2_HOLD_61905058.proj and C2_HOLD_61905059.proj;Case/Profile ANL61905060;end1489.898579/2221.897881s;export battery/velocity/generator HOLD58/HOLD59 (6CSV)",
+  "next": "Keep frozen C2 as warm BEV reference;prepare separate virtual seriesEREV implementation and midtermreport",
   "github_push": "Connector publication; no approval blocker",
   "auto_review_reason": "Large public analysis bundle to main; reviewer reports lack of explicit authorization for current disclosure/main mutation despite prior session authorization",
   "rules_preserved": [
@@ -52,7 +54,7 @@
   "61905061_run_complete": true,
   "61905061_voltage_RMSE_V": 2.5654088187362953,
   "61905061_energy_error_percent": 8.51764911609736,
-  "empirical_validation_passed": false,
+  "empirical_validation_passed": true,
   "battery_coordinate_audit_commit": "01e6c6d",
   "battery_current_replay": "research/cruise_m_build_20261011/runs/battery_current_replay_20261013",
   "battery_current_replay_commit": "49e8272",
@@ -76,10 +78,10 @@
   "uploaded_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
   "project_audit": "research/cruise_m_build_20261011/runs/project_audit_20261013/RESULT_KO.md",
   "project_saved_state_audit_commit": "33dc32d",
-  "latest_checkpoint": "checkpoints/BOLT_C2_ACTUAL_CAL_CONFIRMED_20261014.json",
-  "latest_result": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/actual_results/RESULT_KO.md",
-  "latest_stage": "C2_ACTUAL_CAL060_061_066_ALL_PASS_FROZEN_FOR_FRESH_HOLDOUTS",
-  "current_user_simulation_required": true,
+  "latest_checkpoint": "checkpoints/BOLT_C2_WARM_VALIDATION_COMPLETE_20261014.json",
+  "latest_result": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/RESULT_KO.md",
+  "latest_stage": "C2_WARM_BEV_BASELINE_VALIDATION_COMPLETE",
+  "current_user_simulation_required": false,
   "final_physical_validation_passed": false,
   "latest_replay_package": {
     "filename": "Bolt_C2_Run_and_C1_Review_20261014.zip",
@@ -94,32 +96,34 @@
     "version_number": 1
   },
   "latest_research_direction_checkpoint": "checkpoints/RESEARCH_DIRECTION_20261013.json",
-  "latest_report": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/actual_results/RESULT_KO.md",
+  "latest_report": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/RESULT_KO.md",
   "research_scope": "Finite-mission performance feasibility boundaries and conditional effects of unchanged S0-S4; virtual net-DC genset",
-  "validation_complete": false,
+  "validation_complete": true,
   "next_actions": [
-    "Run unchanged C2_HOLD_61905058.proj and C2_HOLD_61905059.proj;Case/Profile ANL61905060;end1489.898579/2221.897881s;export battery/velocity/generator HOLD58/HOLD59 (6CSV)",
-    "Evaluate fresh holdouts with unchanged C2 and criteria",
-    "Finalize warmBEV validatedscope and midtermreport"
+    "Prepareseparate virtualseriesEREV model usingfrozenC2",
+    "MaintainlowSOCBMS/gensetuncertaintyranges",
+    "Finishmidterm slides from updatedactualevidence"
   ],
   "latest_validation_checkpoint": "checkpoints/BOLT_VALIDATION_CLOSURE_20261014.json",
-  "immediate_user_input": "ActualHOLD058/059 CSV6files",
+  "immediate_user_input": null,
   "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
   "candidate": "C2",
   "calibration_confirmation_passed": true,
   "latest_actual_results_package": {
-    "filename": "C2_CAL_Confirmed_and_HOLD_Runs_20261014.zip",
-    "local_path": "/workspace/scratch/a5204a7b57f4/output/C2_CAL_Confirmed_and_HOLD_Runs_20261014.zip",
-    "size_bytes": 14887927,
-    "sha256": "0d812cfdd82da132aa92cbc50a037e53ceaf2227e06efa3ba6fc34b727a91127",
-    "members": 52,
+    "filename": "Bolt_C2_Warm_BEV_Validation_Complete_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/Bolt_C2_Warm_BEV_Validation_Complete_20261014.zip",
+    "size_bytes": 20789846,
+    "sha256": "ed3c33f28f9550d3a3dfaf9a7107ec42165b54896475012b8b9ff2d02db9b8f0",
+    "members": 75,
     "archive_readback_verified": true,
-    "contains_actual_CAL_results": true,
-    "contains_actual_HOLD_results": false,
-    "contains_unchanged_HOLD_projects": true,
-    "library_file_id": "libfile_2e78cacf69008191bfac5eee5ad056f4",
-    "file_id": "file_0000000093308211be2ff4f7e3a1f691",
-    "version_number": 0,
-    "delivery_roundtrip_verified": true
-  }
+    "contains_actual_CAL_and_HOLD": true,
+    "contains_frozen_projects": true,
+    "delivery_roundtrip_verified": true,
+    "library_file_id": "libfile_bca79313d07481918204c0894493b90a",
+    "file_id": "file_00000000fabc820994e6f01faa0008c7",
+    "version_number": 0
+  },
+  "validation_scope": "Samevehiclewarmaggregateenergy/voltage/tracking;independentmodelSOC79.518to94.239percent;24to24.5C",
+  "warm_BEV_baseline_validation_complete": true,
+  "all_conditions_physical_vehicle_validation_complete": false
 }

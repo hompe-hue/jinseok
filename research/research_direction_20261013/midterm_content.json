@@ -3,7 +3,7 @@
     "title": "가상 직렬 EREV의\n주행성능 유지 경계",
     "lead": "연구 방향 검토와 10월 30일 중간보고 준비",
     "paragraphs": [
-      "문진석  /  2026년 10월 13일",
+      "문진석 / 2026년 10월 14일",
       "Bolt BEV 공개 시험 재현을 기반으로 한 조건부 사양·제어 비교"
     ],
     "table": null,
@@ -36,37 +36,30 @@
     "foot": ""
   },
   {
-    "title": "BEV 검증의 현재 결과",
-    "lead": "시험별 조건부 재현 수준과 독립 검증을 구분한다",
-    "paragraphs": [],
+    "title": "Bolt BEV C2 독립 검증 완료",
+    "lead": "온난 조건의 전체 판정 충족; 저SOC·저온은 별도 범위",
+    "paragraphs": [
+      "보정060/061/066과 미적합 독립058/059를 분리했다.",
+      "C1 독립066 실패를 보존하고 공통 C2를 고정해 새 독립평가했다."
+    ],
     "table": [
       [
-        "비교 항목",
-        "현재 결과",
-        "판정과 범위"
+        "독립시험",
+        "순DC 오차 / 전압RMSE",
+        "평균편차 / 판정"
       ],
       [
-        "054 전압 / 에너지",
-        "0.663 V / +3.57%",
-        "해당 시험 조건부 목표 충족"
+        "058",
+        "−3.36% / 0.78V",
+        "+0.22V / 전체 기준 통과"
       ],
       [
-        "060 속도 RMSE",
-        "0.421 km/h",
-        "실측 속도 추종 개선"
-      ],
-      [
-        "060 전압 / 에너지",
-        "1.519 V / +9.484%",
-        "에너지 ±5% 목표 미충족"
-      ],
-      [
-        "독립 시험 066",
-        "신규 결과 미확보",
-        "입력 동결 후 평가 예정"
+        "059",
+        "+0.21% / 1.27V",
+        "+0.974V / 전체 기준 통과"
       ]
     ],
-    "notes": "https://github.com/hompe-hue/jinseok/blob/main/research/cruise_m_build_20261011/runs/ANL61905060_DIS80_20261013/RESULT_KO.md\n속도0~3150s, 전압21~3150s, 에너지20~3150s. 원실행마지막0.896995초CSV미수출. 실측10.3122606069kWh, 모델11.2903249669kWh. 전압목표RMSE≤2V,bias≤1V. 독립검증완료를 뜻하지 않음.\n054: https://github.com/hompe-hue/jinseok/blob/main/research/cruise_m_build_20261011/runs/ANL61905054_regen_20261013/RESULT.md\n20~1144s 조건부 재현, 같은시험초기전압과LV부하사용,모델최대404.50V충전경계미검증. 같은동결variant의전체조건통과아님.",
+    "notes": "C2 parameters fixed before holdouts. Indep modelSOC79.518–94.239%;initial24°C.059biasmargin0.0255V;regenergyerror15.39/6.16%.Scopedwarmaggregatevalidation;notBMS/lowSOC/gensetphysicalvalidation. Source:runs/C2_battery_common_20261014/independent_review/RESULT_KO.md",
     "foot": "실제 CRUISE M CSV와 ANL 실측 비교  /  모델 전체 검증 진행 중"
   },
   {
@@ -195,36 +188,15 @@
   },
   {
     "title": "10월 30일까지의 작업",
-    "lead": "BEV 검증 상태와 해석 예상을 구분해 보고한다",
-    "paragraphs": [],
-    "table": [
-      [
-        "기간",
-        "주요 작업",
-        "완료 조건"
-      ],
-      [
-        "10/14~16",
-        "연구 범위·제어·지표 고정",
-        "교수님 설명과 가정표"
-      ],
-      [
-        "10/17~21",
-        "회생·방전 손실 경계 정리",
-        "식별 근거와 고정 입력"
-      ],
-      [
-        "10/22~25",
-        "조건 충족 시 066 비교",
-        "독립 에너지·전압·수지 평가"
-      ],
-      [
-        "10/26~30",
-        "경계 지도·발표 갱신·연습",
-        "실행/실측/예상 구분"
-      ]
+    "lead": "BEV 보정·독립평가를 마무리하고 가상EREV 실행 준비로 전환",
+    "paragraphs": [
+      "완료:060/061/066 공통보정 확인,058/059 미적합 독립평가·비교그래프",
+      "확정:C2 온난BEV 기준모델;저SOC/저온·회생개별식별 한계 명시",
+      "예상:경계 해석표는 기존 가정 기반 수치; C2 actualEREV 결과로 표기하지 않음",
+      "다음:별도EREV 변형·S0~S4 입력과 동일자원 조건 준비"
     ],
-    "notes": "https://github.com/hompe-hue/jinseok/blob/main/research/cruise_m_build_20261011/runs/remaining_review_20261013/RESULT_KO.md\n순회생차이0.036246kWh는총0.978064차이3.71%. 회생정리만으로+9.484→±5목표를보장하지않음. 방전측ABC/EDUneutral겹침숫자미확보시물리보정확정금지. 066미사용조건/평가구간/온도/초기SOC/CSV/log/.proj확인후독립검증. 목표미달시사후완화하지않고보고. 날짜는계획이며실행결과아님.",
+    "table": null,
+    "notes": "BEV의 이번 온난 전체 판정 단계에서 추가실행요청없음.EREV실행과저SOC동특성은미완료.독립통과뒤미세재보정하지않는다.",
     "foot": "회생 정리만으로 현재 DC 에너지 오차가 해소된다는 근거는 부족하다"
   },
   {

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-14",
+  "stage": "C2_WARM_BEV_BASELINE_VALIDATION_COMPLETE",
+  "candidate": "C2",
+  "warm_BEV_baseline_validation_complete": true,
+  "validation_scope": "Samevehiclewarmaggregateenergy/voltage/tracking;independentmodelSOC79.518to94.239percent;24to24.5C",
+  "all_conditions_physical_vehicle_validation_complete": false,
+  "C1_independent066_FAILURE_preserved": true,
+  "training": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "independent": [
+    "61905058",
+    "61905059"
+  ],
+  "independent_all_criteria_passed": true,
+  "holdout_results": [
+    {
+      "test": "61905058",
+      "energy_error_percent": -3.3569508627497635,
+      "voltage_RMSE_V": 0.7805122170476894,
+      "voltage_bias_V": 0.22282259183438352
+    },
+    {
+      "test": "61905059",
+      "energy_error_percent": 0.2106924172732505,
+      "voltage_RMSE_V": 1.2736878263813585,
+      "voltage_bias_V": 0.9744974240204137
+    }
+  ],
+  "parameters_changed_after_holdouts": false,
+  "additional_BEV_run_required": false,
+  "current_user_simulation_required": false,
+  "report": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/RESULT_KO.md",
+  "closure": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/validation_closure.json",
+  "next": "Keep frozen C2 as warm BEV reference;prepare separate virtual seriesEREV implementation and midtermreport",
+  "handoff": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/EREV_BASELINE_HANDOFF_KO.md",
+  "limitations": [
+    "059meanbiasmargin0.0255V",
+    "grossrecoveryerrors15.39/6.16percent",
+    "lowSOC/lowtemp/BMS/gensetunverified",
+    "effectivenotuniquephysicalcellfit"
+  ],
+  "artifact": {
+    "filename": "Bolt_C2_Warm_BEV_Validation_Complete_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/Bolt_C2_Warm_BEV_Validation_Complete_20261014.zip",
+    "size_bytes": 20789846,
+    "sha256": "ed3c33f28f9550d3a3dfaf9a7107ec42165b54896475012b8b9ff2d02db9b8f0",
+    "members": 75,
+    "archive_readback_verified": true,
+    "contains_actual_CAL_and_HOLD": true,
+    "contains_frozen_projects": true,
+    "delivery_roundtrip_verified": true,
+    "library_file_id": "libfile_bca79313d07481918204c0894493b90a",
+    "file_id": "file_00000000fabc820994e6f01faa0008c7",
+    "version_number": 0
+  }
+}

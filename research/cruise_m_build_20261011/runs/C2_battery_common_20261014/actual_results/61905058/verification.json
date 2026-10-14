@@ -1,0 +1,52 @@
+{
+  "test": "61905058",
+  "candidate": "C2",
+  "role": "HOLD",
+  "model_energy_kWh": 3.365021053259536,
+  "reference_native_energy_kWh": 3.4819069589584353,
+  "model_gross_discharge_kWh": 4.229664912632164,
+  "model_gross_recovered_kWh": 0.8646438593726284,
+  "reference_gross_discharge_kWh": 4.231228299763548,
+  "reference_gross_recovered_kWh": 0.7493213408051135,
+  "energy_error_percent": -3.3569508627497635,
+  "voltage": {
+    "RMSE": 0.7805122170476894,
+    "bias": 0.22282259183438352,
+    "max_abs": 5.027522938130005
+  },
+  "tracking": {
+    "RMSE": 0.5386006201442411,
+    "bias": 0.01765548563869305,
+    "max_abs": 2.800663599304496
+  },
+  "distance_error_percent": 0.03120023374405534,
+  "integrated_DC_balance_percent": 1.756614465715468e-06,
+  "DC_identity_max_error_kW": 3.863081961208437e-06,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_energy_balance": true,
+    "generator_OFF": true
+  },
+  "actual_metrics_passed": true,
+  "window_s": [
+    20,
+    1489.0
+  ],
+  "unexported_tail_s": 0.8985791206359863,
+  "phase_diagnostics": [],
+  "expected_saved_project_sha256": "a009cf98118cd344f136a427f3cf56d253e295d636e36600866cf1ba1906d2ad",
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "CSV_sha256": {
+    "battery_CAL58.csv": "ef011f3038231a4eaca4fc48930376c1389d02aa848b818be8e84ee24f986cd6",
+    "velocity_CAL58.csv": "46a3ea8b246f74bdd3bd6aec6e66ea8009d2d8b370963f368b635babd00ec525",
+    "generator_CAL58.csv": "8de9c6e397dae7b86aefcd9cb5dd40b639dbdc5b0a7eab2de4b8b589192d142d"
+  },
+  "reference_sha256": "c444982ad32ca43aec5e39a22a29c60c030e2f722e8f31c7f197de7a97a420c1",
+  "solver_project_provenance": "Expected savedprojecthash;actual solverlog/runtimehash not supplied. Check user ran provided unedited project.",
+  "physical_component_identification": false,
+  "no_endpoint_SOC_PASS": "ModelSOCcoordinateandCANrelationshipnotidentified"
+}

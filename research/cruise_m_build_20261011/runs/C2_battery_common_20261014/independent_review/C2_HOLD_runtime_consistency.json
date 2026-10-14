@@ -1,0 +1,26 @@
+[
+  {
+    "test": "61905058",
+    "C2_voltage_formula_max_abs_V": 0.002715735159029009,
+    "C1_EDU_loss_lookup_max_abs_kW": 2.2870594307278225e-14,
+    "SOC_1s_current_integral_max_abs_pp": 0.0013482671451612305,
+    "SOC_initial_percent": 94.2392879036974,
+    "SOC_end_percent": 88.8723560443166,
+    "max_single_second_SOC_change_pp": 0.02333040267140518,
+    "gross_discharge_error_percent": -0.036948777532785915,
+    "gross_recovered_error_percent": 15.390262132879595,
+    "scope": "Actualmap/formulaagreement;coarse1sSOCintegraldiagnosticonly;notphysicalcellidentification"
+  },
+  {
+    "test": "61905059",
+    "C2_voltage_formula_max_abs_V": 0.0028337561432181246,
+    "C1_EDU_loss_lookup_max_abs_kW": 1.8207657603852567e-14,
+    "SOC_1s_current_integral_max_abs_pp": 0.0015160513764129746,
+    "SOC_initial_percent": 88.95052120892561,
+    "SOC_end_percent": 79.51824136672569,
+    "max_single_second_SOC_change_pp": 0.02444548094567267,
+    "gross_discharge_error_percent": 1.0875500964812712,
+    "gross_recovered_error_percent": 6.160626967873939,
+    "scope": "Actualmap/formulaagreement;coarse1sSOCintegraldiagnosticonly;notphysicalcellidentification"
+  }
+]
