@@ -1,3 +1,5 @@
+> **EREV 구동 경계 확인(2026-10-14):** [엔진의 기계 구동과 발전 전력 공급의 구분](research/research_direction_20261013/EREV_POWER_PATH_CLARIFICATION_20261014.md) · [재개 기록](checkpoints/EREV_POWER_PATH_20261014.json). 순수 직렬 구조에서 발전 전기는 구동 전기 부하에 기여할 수 있고, 배터리는 수요와 발전의 차이를 충전/방전합니다. PHEV와 병렬형은 동의어가 아닙니다. 모델 변경·새 실행은 없습니다.
+
 > **최신 연구 방향과 중간보고 준비(2026-10-13):** [비판적 검토·계산·실행 계획](research/research_direction_20261013/RESULT_KO.md) · [12장 발표 원고](research/research_direction_20261013/midterm_content.json) · [다음 세션 재개 기록](checkpoints/RESEARCH_DIRECTION_20261013.json). 유한 주행 미션의 성능 유지 경계와 기존 S0~S4의 조건부 효과를 중심에 둡니다. 054의 조건부 재현 목표 충족과 060 에너지 +9.484% 미충족을 함께 보고하며, 066 독립 평가와 전체 모델 검증은 아직 완료하지 않았습니다.
 
 > **최신 작업:** [Bolt 핵심 근거 검토](research/cruise_m_build_20261011/runs/core_evidence_20261013/RESULT_KO.md) · [재개 기록](checkpoints/CORE_EVIDENCE_20261013.json). 새 CAN·soak·완전충전 자료를 검토했습니다. 에너지 +9.484% 편차와 계측경계 불확실성은 남아 있으며, 모델입력 변경이나 추가 사용자 실행 요청은 없습니다.
