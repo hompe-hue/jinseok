@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "name": "battery_61905058.csv",
+      "bytes": 184378,
+      "sha256": "0a30ccf1cb0b9b61a78992a0f331c8e3f8c93134faeae67a8196b0d91fbf224e",
+      "git_blob_sha1": "25b5569fc589bbbed884d832d2148e1e67c99e76",
+      "library_file_id": "libfile_0c64c58a9688819189591a5ba76150a4"
+    },
+    {
+      "name": "velocity_61905058.csv",
+      "bytes": 296059,
+      "sha256": "0cdd7ea997fa82858d142dfa533015d83e49e917650637391bb6282221255014",
+      "git_blob_sha1": "46d62be3ddbed000c8a27d9a871e0d4333394e12",
+      "library_file_id": "libfile_7d26679b65c0819192eec2df0a866a5a"
+    },
+    {
+      "name": "generator_61905058.csv",
+      "bytes": 161829,
+      "sha256": "bd6417af289413b5415196e36f85ccf2a9f8c958685b7db6acfe73193ee31d5d",
+      "git_blob_sha1": "d8c247ef1ac3fcd66fbafcfe1f314e1e8ac6edcd",
+      "library_file_id": "libfile_72678660ffe08191944e26a717f3d6f5"
+    },
+    {
+      "name": "067_failure_image8.png",
+      "bytes": 282894,
+      "sha256": "5b3fafe91f78154532d208bf05fde52449277fd5c4d270ae8bd00a9fca04578f",
+      "git_blob_sha1": "28ca1960798820bf9e79dc1807453025c6db4dac",
+      "library_file_id": "libfile_7f3fb6b45d448191869889c487e4279a"
+    }
+  ],
+  "CSV_content_unchanged": true,
+  "failed067_CSV_received": false,
+  "solver_error_text_received": false
+}

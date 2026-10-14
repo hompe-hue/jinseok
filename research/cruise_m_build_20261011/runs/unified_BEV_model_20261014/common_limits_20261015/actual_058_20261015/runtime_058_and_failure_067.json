@@ -1,0 +1,43 @@
+{
+  "actual058_runtime": {
+    "voltage_static_identity_max_error_V": 0.0027165507113977583,
+    "SOC_current_integral_max_difference_percent_points": 0.0013723623895174342,
+    "initial_SOC_percent": 98.7759899779144,
+    "final_SOC_percent": 93.615508399267,
+    "minimum_SOC_percent": 93.48113882648884,
+    "maximum_regen_battery_kW": 39.99973715387735,
+    "expected_project_identity_not_proven_by_CSV": true
+  },
+  "failure067": {
+    "user_report": "SOC reached0 before scheduled end and solverfailed",
+    "screenshot": "067_failure_image8.png",
+    "screenshot_right_time_s": 9906,
+    "screenshot_progress_percent": 97,
+    "scheduled_end_time_s": 10122.190356254578,
+    "scheduled_time_remaining_s": 216.190356254578,
+    "screenshot_time_is_not_exact_first_SOC0_or_solver_error_timestamp": true,
+    "failed067_CSV_received": false,
+    "solver_error_text_received": false,
+    "actual_consumption_or_capacity_cause_identified": false,
+    "reference_comparisons": [
+      {
+        "time_s": 9906.0,
+        "reference_net_Ah": 134.86017654095585,
+        "reference_net_kWh": 46.232269315303334,
+        "reference_voltage_V": 294.5096060744955,
+        "SOC_from_reference_current_percent": 2.1228112935293524,
+        "frozen_measured_power_screen_SOC_percent": 2.0382636708454376
+      },
+      {
+        "time_s": 10122.0,
+        "reference_net_Ah": 136.5771935160161,
+        "reference_net_kWh": 46.72237305025188,
+        "reference_voltage_V": 288.64980874416034,
+        "SOC_from_reference_current_percent": 1.1089656679893807,
+        "frozen_measured_power_screen_SOC_percent": 1.0319790777403572
+      }
+    ],
+    "important_distinction": "067 fixed-power screen used measured ANL power, not simulated vehicle/controller power; it cannot prove coupled vehicle depletion completion",
+    "reference_SOC_is_common_model_coordinate_not_OEM_CAN_SOC": true
+  }
+}

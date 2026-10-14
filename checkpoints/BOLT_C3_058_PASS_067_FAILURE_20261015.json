@@ -1,0 +1,42 @@
+{
+  "date_KST": "2026-10-15",
+  "status": "ACTUAL_058_PASSED_067_FAILED_NEEDS_PARTIAL_EXPORT_NOT_RERUN",
+  "previous_commit": "bd1282f368b3d700cbbb517595ee63ec9ad587e3",
+  "actual058": {
+    "all_7_original_gates_pass": true,
+    "energy_error_percent": -2.346257930636475,
+    "voltage_RMSE_V": 0.7515630197019305,
+    "voltage_bias_V": 0.28048960132793915,
+    "speed_RMSE_kmh": 0.5399417251753502
+  },
+  "actual067": {
+    "user_report": "SOC0 before end;failed",
+    "screenshot_end_s": 9906,
+    "planned_end_s": 10122.190356254578,
+    "failed067_CSV_received": false,
+    "solver_error_received": false,
+    "cause_not_identified": true
+  },
+  "known_distinction": "067 prior screen used measured ANL power; coupled vehicle consumption not validated by screen",
+  "next_user_action": "Do not rerun067; export existing failed-run battery/velocity/generator CSV and Details error text/solver log if retained",
+  "next_agent_actions": [
+    "Analyze partial067 voltage/current/SOC integral, DC balance, mechanical loss/braking, reference cumulative energy and actual initialized state",
+    "Prepare one common correction if supported, without per-case capacity/SOC hacks",
+    "Group only necessary final regression runs after cause analysis"
+  ],
+  "closure_set": [
+    "060",
+    "058",
+    "059",
+    "066",
+    "067"
+  ],
+  "new_unrelated_runs_not_added": true,
+  "one_common_model_required": true,
+  "no_guaranteed_next_run_pass_claim": true,
+  "model_validation_complete": false,
+  "OEM_BMS_identified": false,
+  "scope": "Warm effective same-vehicle energy/voltage/velocity reproduction",
+  "documents": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/common_limits_20261015/actual_058_20261015/",
+  "publication_authorized": true
+}
