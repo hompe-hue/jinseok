@@ -1,0 +1,57 @@
+{
+  "date_KST": "2026-10-15",
+  "status": "COMMON_C3_LIMITS_PREPARED_PENDING_USER_058_067",
+  "previous_commit": "8e0dc4ac203a70f3185150fe84b5809b5d97b6a7",
+  "completed": [
+    "Actual060 implementation confirmed; no rerun requested",
+    "Common limit table built from unchanged C3 battery",
+    "Two embedded profiles and original Case structure verified",
+    "C controller compilation and current/consumer/generator budget checks passed",
+    "ZIP roundtrip and all member hashes verified"
+  ],
+  "next_user_runs": [
+    "C3_LIMITS_ANL61905058.proj",
+    "C3_LIMITS_ANL61905067.proj"
+  ],
+  "selection": "REEV_MBE / Cycle Run / ANL61905060 in both files; profile names intentionally retained",
+  "next_exports": "battery/velocity/generator CSV per test; actual saved project and solver log",
+  "same_common_plant": true,
+  "OEM_BMS_identified": false,
+  "CRUISE_run_count_this_step": 0,
+  "final_model_adopted": false,
+  "remaining": [
+    "Actual058/067 analysis",
+    "Warm matrix regression particularly066 regen and059 bias",
+    "Common BEV adoption",
+    "Official acceleration and properly defined range comparison",
+    "Virtual EREV"
+  ],
+  "deliverable": {
+    "operation": "create_library_file",
+    "status": "succeeded",
+    "path": "/Bolt_C3_Common_Limits_Check_058_067_20261015.zip",
+    "file_id": "file_00000000c9d08209b9ba9b8e806129bf",
+    "library_file_id": "libfile_82721014b0b08191a0f22a2d18a9bfea",
+    "file_name": "Bolt_C3_Common_Limits_Check_058_067_20261015.zip",
+    "current_version_number": 0,
+    "restored_from_version_number": null,
+    "xattrs": [
+      {
+        "name": "user.library-file-version",
+        "value": "0"
+      }
+    ],
+    "directory_id": "libdir_92211ff487b08191b67e85b708bba3ed",
+    "mime_type": "application/zip",
+    "library_artifact_type": "other",
+    "file_size_bytes": 8099137,
+    "external_connectors_accessed": false,
+    "zip_sha256": "57d6a135963642ba7cd4997d6abd4ae5aed116dff6a59aafd113a856ebf6ae43",
+    "members": 17,
+    "library_roundtrip_all_members_verified": true,
+    "CRUISE_loaded": false,
+    "CRUISE_solved": false
+  },
+  "documents": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/common_limits_20261015/",
+  "publication_authorized": true
+}

@@ -1,0 +1,8 @@
+{
+  "controller_C99_compile_pass": true,
+  "controller_W_to_A_conversion_pass": true,
+  "consumer_budget_pass": true,
+  "generator_charge_budget_sign_pass": true,
+  "observed_warm_charge_peak_A": 151.33044545238553,
+  "solver_executed": false
+}

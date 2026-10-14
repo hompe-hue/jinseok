@@ -1,0 +1,98 @@
+{
+  "status": "COMMON_LIMIT_CANDIDATE_PENDING_ACTUAL_058_067",
+  "source_project_sha256": "33c9577a6e4c68155d187f9a44d224fd25ca66d2d0ad8fc318d315565d4ac103",
+  "battery_OCV_R_capacity_unchanged": true,
+  "pack_capacity_Ah": 169.3568460332183,
+  "voltage_min_V": 242.32,
+  "voltage_max_V": 402,
+  "discharge_current_A": 530,
+  "charge_current_A": 160,
+  "vehicle_regen_battery_power_cap_kW": 40,
+  "parameters_are_not_OEM_BMS_identification": true,
+  "temperature_scope": "warm static effective OCV/R; no temperature or duration limit model",
+  "SOC0_discharge_zero": true,
+  "SOC100_charge_zero": true,
+  "denominator_guard_V": 1,
+  "table_interpolation_max_excess_kW": 4.905108029618077e-05,
+  "projects": [
+    {
+      "test": "61905058",
+      "project": "C3_LIMITS_ANL61905058.proj",
+      "sha256": "78a53c01ead15285723cb90f77262b85d3c9cf196f21295ab15198f3b4debfa0",
+      "bytes": 1575244,
+      "end_time_s": 1489.898579120636,
+      "initial_model_SOC_percent": 98.77598997791438,
+      "profile_rows": 1491,
+      "embedded_profile_verified": true,
+      "Case_metadata_unchanged": true,
+      "CRC_XML_verified": true,
+      "CRUISE_loaded": false,
+      "CRUISE_solved": false
+    },
+    {
+      "test": "61905067",
+      "project": "C3_LIMITS_ANL61905067.proj",
+      "sha256": "48adab1848b68edac991e7d937ad5a56d363ba16af554e4226863f00cee6338c",
+      "bytes": 1768350,
+      "end_time_s": 10122.190356254578,
+      "initial_model_SOC_percent": 81.75359073925891,
+      "profile_rows": 10124,
+      "embedded_profile_verified": true,
+      "Case_metadata_unchanged": true,
+      "CRC_XML_verified": true,
+      "CRUISE_loaded": false,
+      "CRUISE_solved": false
+    }
+  ],
+  "frozen_demand_screen": [
+    {
+      "test": "61905060",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 0.0018845089212078392,
+      "integrated_charge_gap_kWh": 1.1246291364269072e-06,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905061",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 0.0005024470750498722,
+      "integrated_charge_gap_kWh": 1.3956863195829783e-07,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905066",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 7.570354182700321,
+      "integrated_charge_gap_kWh": 0.005336396833781695,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905064",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 0.0,
+      "integrated_charge_gap_kWh": 0.0,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905058",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 15.929157186962971,
+      "integrated_charge_gap_kWh": 0.0365447452022506,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905059",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 0.002128784859785071,
+      "integrated_charge_gap_kWh": 1.6703647557865983e-06,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    },
+    {
+      "test": "61905067",
+      "maximum_discharge_gap_kW": 0.0,
+      "maximum_charge_gap_kW": 0.0,
+      "integrated_charge_gap_kWh": 0.0,
+      "boundary": "Frozen demand screen, not coupled CRUISE prediction"
+    }
+  ]
+}

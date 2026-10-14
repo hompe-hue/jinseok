@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ANL61905058_driver_1s.csv",
+    "bytes": 36350,
+    "sha256": "3487ca56b09540452f0ebb1138f1f341b223f98405ad40369eb932e42dab7a62"
+  },
+  {
+    "name": "ANL61905058_reference_native.csv",
+    "bytes": 1437977,
+    "sha256": "d3c04fcb52e8b02fe9591b611e8122e530e4e764d187a0164693d979fb48197a"
+  },
+  {
+    "name": "ANL61905067_driver_1s.csv",
+    "bytes": 260622,
+    "sha256": "c70e6fb17f9f42ae2cf6581fde837787617f7bb32880810bee88eb9dc90b7271"
+  },
+  {
+    "name": "ANL61905067_reference_native.csv",
+    "bytes": 9810257,
+    "sha256": "b97576a55ab4d907fba368709a416cc48687fce874038ff3ad4694d1eb5b2ceb"
+  },
+  {
+    "name": "C3_LIMITS_ANL61905058.proj",
+    "bytes": 1575244,
+    "sha256": "78a53c01ead15285723cb90f77262b85d3c9cf196f21295ab15198f3b4debfa0"
+  },
+  {
+    "name": "C3_LIMITS_ANL61905067.proj",
+    "bytes": 1768350,
+    "sha256": "48adab1848b68edac991e7d937ad5a56d363ba16af554e4226863f00cee6338c"
+  },
+  {
+    "name": "POLICY_KO.md",
+    "bytes": 4374,
+    "sha256": "1d837825fd240714fe3760a1396bf34b709ed3e9fb074a6746697811e1d79f52"
+  },
+  {
+    "name": "START_HERE_KO.md",
+    "bytes": 3550,
+    "sha256": "b1e1e26708fea4dde5199202ba0b4ccf8ce8b8126754f59f7e0bb6f5d198e36c"
+  },
+  {
+    "name": "Unified_Candidate_Cell_OCV_25C.dat",
+    "bytes": 5066,
+    "sha256": "f749d12cea713b1123635b5a93f413fc53234a3ddf4ba84b0fb20f11666f599b"
+  },
+  {
+    "name": "Unified_Candidate_Cell_Resistance_25C.dat",
+    "bytes": 5071,
+    "sha256": "49c83165fc07c6f3c76162df8cf7a5722c8abc589dcdfe257d20f3d7c9302a8a"
+  },
+  {
+    "name": "Vehicle_Current_Analysis_candidate.c",
+    "bytes": 1234,
+    "sha256": "7464dd327867b035df50b51a02d2d5f7a5ef61408f837b26a5faa376cb9e2fe6"
+  },
+  {
+    "name": "Vehicle_Current_Analysis_original.c",
+    "bytes": 1194,
+    "sha256": "b1d366256348fa561f0ac8e96ad9639053f6026163105b8eabaf3be46bf154ca"
+  },
+  {
+    "name": "common_limits.csv",
+    "bytes": 93908,
+    "sha256": "412bde6a7daf61a921c2f7f4a24630ffa6304fca4296f5b7bfb12e85760190f8"
+  },
+  {
+    "name": "evaluate_C3_common_limits.py",
+    "bytes": 3874,
+    "sha256": "dad078159ea28f50acce310495485a248a4b337404d56569edae4fe85db2ce22"
+  },
+  {
+    "name": "manifest.json",
+    "bytes": 3473,
+    "sha256": "89ea9c30af69e91da4397fb15718172d9bb3cf406a28458975a61af1b317dfd1"
+  },
+  {
+    "name": "preflight_QA.json",
+    "bytes": 245,
+    "sha256": "2b8b4d08ad608e955b996fb56ced95d26916bdb73491b61ccd5f282b70fb61cc"
+  }
+]
