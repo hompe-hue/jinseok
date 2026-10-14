@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "status": "READY_FOR_FIRST_WARM_IMPLEMENTATION_CHECK_NOT_FINAL_MODEL",
+  "previous_head": "8aa13795d2d1b90992443d1a790d234eff989c44",
+  "first_user_action": {
+    "model": "REEV_MBE",
+    "case": "Cycle Run / C3_IMPL_61905060",
+    "initial_SOC_percent": 84.48613451827411,
+    "duration_s": 3150.8969950675964,
+    "profile": "embedded ANL060 actual driving; no manual profile import",
+    "export": "battery/velocity/generator CSV3 at1s",
+    "save_provenance": "saved executed project plus solver log"
+  },
+  "project_sha256": "fb393f750bc709993afc5852a35688c7f3f2021665028ed4b389eec3a59f528a",
+  "delivered_library_id": "libfile_8b572b7e45c48191b5bb3aa4ed9d821d",
+  "package_sha256": "252bf4fbd70252ccc8f6da4361d5c9f8489e7c04edc060d461341e07bb1c1343",
+  "model_adopted": false,
+  "actual_C3_CRUISE_runs": 0,
+  "confirmed_signal_fixes": {
+    "Power_Module2_net_power": 2,
+    "SoC_Module2_correct_source": 1,
+    "REEV_MBE_SOC2_was_already_correct": true
+  },
+  "BMS_low_SOC_discharge_and_regen_policies_pending": true,
+  "latest_instructions": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/implementation_060/START_HERE_KO.md",
+  "next_after_user_export": "Verify implementation060 seven numerical checks, then continue common BMS boundary correction and remaining actual model confirmation; do not declare final BEV validation from this single training run",
+  "authority": "User persistent authorization for GitHub main checkpoints"
+}

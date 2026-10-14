@@ -48,3 +48,9 @@ ANL064 채널도 확인했다. HVBatt_pack_capacity_HPCM2는1850인데 단위가
 4. 검증 후 하나의 기준 모델을 선정하고 가상 EREV 발전계·기동 제어를 추가한다. 동일 하드웨어/운전조건에서 제어전략 비교를 시작할 때 plant parameter를 고정한다.
 
 자료·계산은screen_unified_battery.py, screen_unified_battery_power.py, development_screen.json, fixed_power_screen.json에 저장했다. C2 입력·프로젝트와 실제 검증 결과는 수정하지 않았다. 새 .proj, 실제 solver, 공식 성능 비교는 미완료이다.
+
+## 후속 구현 준비 완료 — 2026-10-14
+
+공통 배터리 맵·용량·초기화를 적용한 C3_IMPL_61905060.proj를 작성했다. 두 저장 모델의 Power Module2 연결2곳과 한 모델의 SoC Module2 연결1곳을 수정했다. REEV_MBE의 기존SoC2 연결은이미올바랐다. 저장파일을다시읽어배터리값·배선·프로파일/EDU/BMS맵보존·CRC를확인했고 전달ZIP 다운로드까지해시를검증했다.
+
+첫 실제작업은 REEV_MBE → Cycle Run → C3_IMPL_61905060의3150.897초 온난 구현확인1회이며 battery/velocity/generator CSV3개를1초간격으로저장한다. 이번파일의기존SOC20 방전제한과SOC회생정책은아직유지됐으므로저SOC/항속최종검증용이아니다. Vehicle Current Analysis의350V는전류계산분모하한이고실차차단전압으로식별된값이아니다. 새CRUISE실행은아직0회이다. 상세안내는implementation_060/START_HERE_KO.md, 전달파일은implementation_060/deliverables.json, 최신재개기록은checkpoints/BOLT_C3_IMPLEMENTATION_READY_20261014.json을확인한다.

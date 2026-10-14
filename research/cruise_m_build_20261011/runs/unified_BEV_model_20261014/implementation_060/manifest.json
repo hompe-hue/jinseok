@@ -1,0 +1,67 @@
+{
+  "status": "IMPLEMENTATION_CHECK_ONLY_PENDING_USER_CRUISE",
+  "candidate": "C3 common battery development candidate, not final adoption",
+  "project": "C3_IMPL_61905060.proj",
+  "project_sha256": "fb393f750bc709993afc5852a35688c7f3f2021665028ed4b389eec3a59f528a",
+  "bytes": 1582171,
+  "source_C2_sha256": "49921958c91e386bf66d997c7abf3b907c499a22f86f3507482c6c5136a8ea25",
+  "test": "61905060",
+  "role": "training implementation check",
+  "model": "REEV_MBE",
+  "case": "Cycle Run / C3_IMPL_61905060",
+  "initial_model_SOC_percent": 84.48613451827411,
+  "cell_capacity_Ah": 56.45228201107276,
+  "pack_capacity_Ah": 169.3568460332183,
+  "end_time_s": 3150.8969950675964,
+  "mass_kg": 1757.6704,
+  "battery_temperature_C": 24.5,
+  "diagnostic_SOC_power_maps_unchanged": true,
+  "controller_denominator_floor_V": 350,
+  "denominator_floor_is_not_BMS_cutoff": true,
+  "low_SOC_limiting_policy_still_unvalidated": true,
+  "not_for_EPA_range_or_lowSOC_final_validation": true,
+  "wiring_fixes": [
+    {
+      "connection_id": "72095",
+      "before": {
+        "role1": "HV Battery",
+        "port1": "Power loss",
+        "role2": "BMS ECM",
+        "port2": "Power Module 2"
+      },
+      "after_port1": "Power.5"
+    },
+    {
+      "connection_id": "77838",
+      "before": {
+        "role1": "HV Battery",
+        "port1": "Power loss",
+        "role2": "BMS ECM",
+        "port2": "Power Module 2"
+      },
+      "after_port1": "Power.5"
+    },
+    {
+      "connection_id": "77862",
+      "before": {
+        "role1": "HV Battery",
+        "port1": "State of charge.4",
+        "role2": "BMS ECM",
+        "port2": "SoC Module 2"
+      },
+      "after_port1": "State of charge.5"
+    }
+  ],
+  "reference_sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+  "CRC_XML_readback_passed": true,
+  "CRUISE_load_tested": false,
+  "CRUISE_solver_tested": false,
+  "gates": {
+    "energy_error_abs_percent_max": 5,
+    "voltage_RMSE_V_max": 2,
+    "voltage_bias_abs_V_max": 1,
+    "speed_RMSE_kmh_max": 1,
+    "distance_error_abs_percent_max": 0.5,
+    "integrated_DC_balance_abs_percent_max": 1
+  }
+}

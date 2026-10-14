@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "package": {
+    "file_name": "Bolt_C3_Implementation_Check_060_20261014.zip",
+    "library_file_id": "libfile_8b572b7e45c48191b5bb3aa4ed9d821d",
+    "file_id": "file_000000003d508209a60e5689495a0030",
+    "current_version_number": 0,
+    "bytes": 3478267,
+    "sha256": "252bf4fbd70252ccc8f6da4361d5c9f8489e7c04edc060d461341e07bb1c1343",
+    "roundtrip_all_member_hashes_CRC_verified": true
+  },
+  "project": "C3_IMPL_61905060.proj",
+  "project_sha256": "fb393f750bc709993afc5852a35688c7f3f2021665028ed4b389eec3a59f528a",
+  "status": "READY_FOR_FIRST_WARM_IMPLEMENTATION_CHECK_NOT_FINAL_MODEL",
+  "actual_C3_CRUISE_runs": 0,
+  "first_user_run": {
+    "model": "REEV_MBE",
+    "case": "Cycle Run / C3_IMPL_61905060",
+    "initial_SOC_percent": 84.48613451827411,
+    "duration_s": 3150.8969950675964,
+    "profile": "embedded ANL060 actual driving; no manual profile import",
+    "export": "battery/velocity/generator CSV3 at1s",
+    "save_provenance": "saved executed project plus solver log"
+  },
+  "BMS_signal_wiring_corrected": true,
+  "BMS_low_SOC_power_policy_finalized": false,
+  "controller_350V_is_denominator_floor_not_cutoff": true,
+  "C2_four_performance_runs_required_now": false
+}

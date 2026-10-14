@@ -1,0 +1,47 @@
+[
+  {
+    "path": "Unified_Candidate_Cell_OCV_25C.dat",
+    "bytes": 5066,
+    "sha256": "f749d12cea713b1123635b5a93f413fc53234a3ddf4ba84b0fb20f11666f599b"
+  },
+  {
+    "path": "Unified_Candidate_Cell_Resistance_25C.dat",
+    "bytes": 5071,
+    "sha256": "49c83165fc07c6f3c76162df8cf7a5722c8abc589dcdfe257d20f3d7c9302a8a"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 2124,
+    "sha256": "a7a2ce4656c784cb09fa68ed81e76c4a4d8ccadf1c99828b1739b778d7743426"
+  },
+  {
+    "path": "C3_IMPL_61905060.proj",
+    "bytes": 1582171,
+    "sha256": "fb393f750bc709993afc5852a35688c7f3f2021665028ed4b389eec3a59f528a"
+  },
+  {
+    "path": "START_HERE_KO.md",
+    "bytes": 3312,
+    "sha256": "12cd19c9ae6abc307a43b009b931aac0fb2ec9405e385da472ed4c88c0700273"
+  },
+  {
+    "path": "ANL61905060_reference_native.csv",
+    "bytes": 4809069,
+    "sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+  },
+  {
+    "path": "development_screen.json",
+    "bytes": 5886,
+    "sha256": "8faea8c6d30ff953f33ac659ef6e1b9bd3be3dec97487fa0c222c598bd76c88a"
+  },
+  {
+    "path": "fixed_power_screen.json",
+    "bytes": 3429,
+    "sha256": "27ca7ed2780d9c7cd01f20d80e4e23042fc228fc5c3bb81f52e00873770b6bbd"
+  },
+  {
+    "path": "scripts/evaluate_C3_implementation.py",
+    "bytes": 3584,
+    "sha256": "70a64dc60a9a9ecf713ffd721b9589052c637d80624f7ac8e5085ef9b092f0ec"
+  }
+]
