@@ -1,0 +1,187 @@
+{
+  "diagnostic_maps": {
+    "discharge_SOC_percent": [
+      0.0,
+      20.0,
+      30.0,
+      40.0,
+      75.0,
+      85.0,
+      99.5
+    ],
+    "discharge_kW": [
+      0.0,
+      0.0,
+      24.0,
+      80.0,
+      80.0,
+      80.0,
+      80.0
+    ],
+    "charge_SOC_percent": [
+      0.0,
+      30.0,
+      40.0,
+      75.0,
+      85.0,
+      95.0,
+      99.5
+    ],
+    "charge_kW": [
+      15.0,
+      40.0,
+      40.0,
+      40.0,
+      40.0,
+      40.0,
+      0.0
+    ]
+  },
+  "current_denominator_floor_V": 350,
+  "floor_is_not_cutoff": true,
+  "recuperation_weight_input": "vehicle velocity km/h, notSOC",
+  "recuperation_velocity_kmh": [
+    10.0,
+    20.0
+  ],
+  "recuperation_weights": [
+    0.0,
+    1.0
+  ],
+  "tests": [
+    {
+      "test": "61905060",
+      "discharge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 0.0
+      },
+      "charge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0018845089212078392,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 1.1246291364269072e-06
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905061",
+      "discharge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 0.0
+      },
+      "charge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0005024470750498722,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 1.3956863195829783e-07
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905066",
+      "discharge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 0.0
+      },
+      "charge_conflict": {
+        "first_s": 115.0,
+        "first_SOC_percent": 98.18079764726662,
+        "maximum_gap_kW": 18.070102340560503,
+        "sample_count_over_0p1kW": 26,
+        "integrated_gap_kWh": 0.04102739158051068
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905064",
+      "discharge_conflict": {
+        "first_s": 6924.0,
+        "first_SOC_percent": 27.323373311723703,
+        "maximum_gap_kW": 17.41392132035137,
+        "sample_count_over_0p1kW": 3108,
+        "integrated_gap_kWh": 12.221530118920787
+      },
+      "charge_conflict": {
+        "first_s": 10030.0,
+        "first_SOC_percent": 0.7519758998403914,
+        "maximum_gap_kW": 5.829110784668659,
+        "sample_count_over_0p1kW": 15,
+        "integrated_gap_kWh": 0.010409714697559894
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905058",
+      "discharge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 0.0
+      },
+      "charge_conflict": {
+        "first_s": 51.0,
+        "first_SOC_percent": 98.64188839778971,
+        "maximum_gap_kW": 26.272751773729965,
+        "sample_count_over_0p1kW": 25,
+        "integrated_gap_kWh": 0.08915887140414673
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905059",
+      "discharge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.0,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 0.0
+      },
+      "charge_conflict": {
+        "first_s": null,
+        "first_SOC_percent": null,
+        "maximum_gap_kW": 0.002128784859785071,
+        "sample_count_over_0p1kW": 0,
+        "integrated_gap_kWh": 1.6703647557865983e-06
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    },
+    {
+      "test": "61905067",
+      "discharge_conflict": {
+        "first_s": 6931.0,
+        "first_SOC_percent": 27.35416328544304,
+        "maximum_gap_kW": 17.392223029121123,
+        "sample_count_over_0p1kW": 3112,
+        "integrated_gap_kWh": 12.194406599130646
+      },
+      "charge_conflict": {
+        "first_s": 10038.0,
+        "first_SOC_percent": 0.8018279313526693,
+        "maximum_gap_kW": 3.29027309169026,
+        "sample_count_over_0p1kW": 14,
+        "integrated_gap_kWh": 0.008874604974073238
+      },
+      "boundary": "Frozen power demand screen, not rerun vehicle/controller",
+      "real_BMS_identification": false
+    }
+  ],
+  "no_parameters_modified": true
+}

@@ -1,0 +1,31 @@
+{
+  "candidate": "C3",
+  "test": "61905060",
+  "role": "implementation/training check",
+  "energy_error_percent": 0.9116066605146411,
+  "voltage_RMSE_V": 1.2545042219549967,
+  "voltage_bias_V": -0.016652183070301325,
+  "speed_RMSE_kmh": 0.42114603129077544,
+  "distance_error_percent": 0.00793708531110493,
+  "integrated_DC_balance_percent": 6.486510477572145e-07,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_balance": true,
+    "generator_OFF": true
+  },
+  "all_implementation_metrics_pass": true,
+  "final_BEV_model_adopted": false,
+  "independent_validation": false,
+  "low_SOC_BMS_validated": false,
+  "expected_project_sha256": "33c9577a6e4c68155d187f9a44d224fd25ca66d2d0ad8fc318d315565d4ac103",
+  "CSV_sha256": {
+    "battery": "a56991fbb0a10c7d6d1166c58119f1cc3f9b7c7f6495386ffe8a721a787b3c07",
+    "velocity": "9ab75a942ae276be71080f39039345d420763c6bb9e41c0cc5cc138b4b035fb6",
+    "generator": "1464f11a7d433bf14ef17d046ba86fa7ec163529f233ed08990dddabc3f3a159"
+  },
+  "actual_runtime_provenance": "Retain user saved project and solver log; expected hash alone does not prove run provenance"
+}

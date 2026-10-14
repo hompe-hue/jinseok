@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "battery_R2.csv",
+    "bytes": 390561,
+    "sha256": "a56991fbb0a10c7d6d1166c58119f1cc3f9b7c7f6495386ffe8a721a787b3c07"
+  },
+  {
+    "filename": "velocity_R2.csv",
+    "bytes": 633915,
+    "sha256": "9ab75a942ae276be71080f39039345d420763c6bb9e41c0cc5cc138b4b035fb6"
+  },
+  {
+    "filename": "generator_R2.csv",
+    "bytes": 299742,
+    "sha256": "1464f11a7d433bf14ef17d046ba86fa7ec163529f233ed08990dddabc3f3a159"
+  }
+]

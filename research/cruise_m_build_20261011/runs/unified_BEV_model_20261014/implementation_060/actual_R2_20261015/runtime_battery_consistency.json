@@ -1,0 +1,14 @@
+{
+  "n": 3151,
+  "first_s": 0.0,
+  "last_s": 3150.0,
+  "SOC_range_percent": [
+    67.49134571976818,
+    84.4861345182741
+  ],
+  "SOC_initial_percent": 84.4861345182741,
+  "C3_OCV_R_equation_max_error_V": 0.0036396873177295674,
+  "capacity_integral_SOC_max_error_percent": 0.001706640711446994,
+  "max_discharge_kW": 65.53169623319609,
+  "max_charge_kW": 40.001884508921655
+}

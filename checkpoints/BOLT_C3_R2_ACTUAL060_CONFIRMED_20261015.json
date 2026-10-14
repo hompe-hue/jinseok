@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "status": "C3_R2_ACTUAL060_IMPLEMENTATION_7GATES_PASS",
+  "previous_head": "4d90500f460d6bc06d109446221d8ee05fe42bc7",
+  "actual_CRUISE_C3_runs_received": 1,
+  "test": "61905060",
+  "role": "training implementation check",
+  "energy_error_percent": 0.9116066605146411,
+  "voltage_RMSE_V": 1.2545042219549967,
+  "voltage_bias_V": -0.016652183070301325,
+  "speed_RMSE_kmh": 0.42114603129077544,
+  "all_7_gates_pass": true,
+  "runtime_OCV_R_max_error_V": 0.0036396873177295674,
+  "runtime_SOC_integral_max_error_pp": 0.001706640711446994,
+  "uploaded_raw_library_ids": {
+    "battery": "libfile_cf6b5a18cc908191b9cb002697217c90",
+    "velocity": "libfile_7545f5296b3c8191ac870430fdee9bf3",
+    "generator": "libfile_0f320e678f188191b257cc7bf9e82d78"
+  },
+  "repeat060_required": false,
+  "final_BEV_model_adopted": false,
+  "independent_validation": false,
+  "low_SOC_BMS_unvalidated": true,
+  "additional_analysis_completed": "Frozen-demand BMS conflicts: depletion064/067 from modelSOC27.3%; highSOC charge conflicts058/066; recuperationweight input confirmed vehicle velocity notSOC",
+  "next": "Continue common battery-coordinate/current/voltage/power-limit revision with evidence/assumptions explicit; prepare next actual validation batch only after policy review",
+  "result": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/implementation_060/actual_R2_20261015/RESULT_KO.md",
+  "authority": "User persistent authorization for public GitHub main recording and raw CSV publication"
+}
