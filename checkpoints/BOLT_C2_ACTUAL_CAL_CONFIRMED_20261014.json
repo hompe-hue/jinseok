@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-14",
+  "stage": "C2_ACTUAL_CAL060_061_066_ALL_PASS_FROZEN_FOR_FRESH_HOLDOUTS",
+  "candidate": "C2",
+  "calibration_confirmation_passed": true,
+  "validation_complete": false,
+  "C1_independent066_FAIL_preserved": true,
+  "066_C2_role": "training_not_independent",
+  "report": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/actual_results/RESULT_KO.md",
+  "instructions": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/NEXT_HOLD_RUNS_KO.md",
+  "freeze": "research/cruise_m_build_20261011/runs/C2_battery_common_20261014/frozen_for_fresh_holdouts.json",
+  "fresh_holdouts": [
+    "61905058",
+    "61905059"
+  ],
+  "fresh_holdout_results_received": false,
+  "parameters_changed_after_CAL": false,
+  "current_user_simulation_required": true,
+  "next": "Run unchanged C2_HOLD_61905058.proj and C2_HOLD_61905059.proj;Case/Profile ANL61905060;end1489.898579/2221.897881s;export battery/velocity/generator HOLD58/HOLD59 (6CSV)",
+  "artifact": {
+    "filename": "C2_CAL_Confirmed_and_HOLD_Runs_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/C2_CAL_Confirmed_and_HOLD_Runs_20261014.zip",
+    "size_bytes": 14887927,
+    "sha256": "0d812cfdd82da132aa92cbc50a037e53ceaf2227e06efa3ba6fc34b727a91127",
+    "members": 52,
+    "archive_readback_verified": true,
+    "contains_actual_CAL_results": true,
+    "contains_actual_HOLD_results": false,
+    "contains_unchanged_HOLD_projects": true,
+    "library_file_id": "libfile_2e78cacf69008191bfac5eee5ad056f4",
+    "file_id": "file_0000000093308211be2ff4f7e3a1f691",
+    "version_number": 0,
+    "delivery_roundtrip_verified": true
+  }
+}

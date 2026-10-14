@@ -1,0 +1,83 @@
+[
+  {
+    "test": "61905060",
+    "role": "C2_CAL",
+    "original_filename": "velocity_CAL60.csv",
+    "library_file_id": "libfile_fcd841ba744481919b31d26e3846091f",
+    "source_bytes": 633833,
+    "sha256": "18eafed360c736f8cb5653199338e21f8cd3266eed0a7088038144d7e81735ed",
+    "received_copy": "actual_results/61905060/received/velocity_CAL60.csv"
+  },
+  {
+    "test": "61905060",
+    "role": "C2_CAL",
+    "original_filename": "generator_CAL60.csv",
+    "library_file_id": "libfile_900a93bde3348191a441ca23c837dc30",
+    "source_bytes": 299712,
+    "sha256": "e09f487c7daf12cb70124e2c202be595765ad929321c72ecf920c2413d0e06ba",
+    "received_copy": "actual_results/61905060/received/generator_CAL60.csv"
+  },
+  {
+    "test": "61905060",
+    "role": "C2_CAL",
+    "original_filename": "battery_CAL60.csv",
+    "library_file_id": "libfile_3b77b36430008191b13d013b6b75cb83",
+    "source_bytes": 390755,
+    "sha256": "9b5304fc8ce27783942d12bd663de10fb788135cfb95767695e4e6f12d18e9be",
+    "received_copy": "actual_results/61905060/received/battery_CAL60.csv"
+  },
+  {
+    "test": "61905061",
+    "role": "C2_CAL",
+    "original_filename": "velocity_CAL61.csv",
+    "library_file_id": "libfile_45261ab8d3cc8191b06444faa367c865",
+    "source_bytes": 296171,
+    "sha256": "f79c317c3aa8b3ae9df2e6fde246a27854a1d338cd124c45fff4904306b14775",
+    "received_copy": "actual_results/61905061/received/velocity_CAL61.csv"
+  },
+  {
+    "test": "61905061",
+    "role": "C2_CAL",
+    "original_filename": "generator_CAL61.csv",
+    "library_file_id": "libfile_4b7a36d1fc3c819181fdd48040cd4e39",
+    "source_bytes": 141830,
+    "sha256": "d0211a2053f0006eb2d6e5eb3585b9bf9bf9a36254ef7f737e6a9dec8c914f1a",
+    "received_copy": "actual_results/61905061/received/generator_CAL61.csv"
+  },
+  {
+    "test": "61905061",
+    "role": "C2_CAL",
+    "original_filename": "battery_CAL61.csv",
+    "library_file_id": "libfile_cd56499b8cb08191a29bd5642417a49b",
+    "source_bytes": 185088,
+    "sha256": "1e307f92f1fbb6f85a82b93277ada7647abaab663880913b2f321ef6a468754c",
+    "received_copy": "actual_results/61905061/received/battery_CAL61.csv"
+  },
+  {
+    "test": "61905066",
+    "role": "C2_CAL",
+    "original_filename": "velocity_CAL66.csv",
+    "library_file_id": "libfile_1b4b276a2cfc81919146a50e3af4201d",
+    "source_bytes": 1493121,
+    "sha256": "da6456553cc5546cdc910957dee20542268f701fb7b9b698b52f0d2cd9ab03c8",
+    "received_copy": "actual_results/61905066/received/velocity_CAL66.csv"
+  },
+  {
+    "test": "61905066",
+    "role": "C2_CAL",
+    "original_filename": "generator_CAL66.csv",
+    "library_file_id": "libfile_a4094c9e6a1c81918731f3319b74871f",
+    "source_bytes": 727791,
+    "sha256": "2673fbeb8fdfe10625ce2125b3b16adf05b23e351f0db65562391e6be7725bdb",
+    "received_copy": "actual_results/61905066/received/generator_CAL66.csv"
+  },
+  {
+    "test": "61905066",
+    "role": "C2_CAL",
+    "original_filename": "battery_CAL66.csv",
+    "library_file_id": "libfile_82585618eb6c81918b59ebcb06e717ad",
+    "source_bytes": 945704,
+    "sha256": "5a77716e22cbb65c938221702c67fac443e4b66905883f15adc24a09f6b0b9b9",
+    "received_copy": "actual_results/61905066/received/battery_CAL66.csv"
+  }
+]

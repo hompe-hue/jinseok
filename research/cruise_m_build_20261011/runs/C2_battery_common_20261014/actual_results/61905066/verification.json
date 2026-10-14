@@ -1,0 +1,158 @@
+{
+  "test": "61905066",
+  "candidate": "C2",
+  "role": "CAL",
+  "model_energy_kWh": 11.132265192041185,
+  "reference_native_energy_kWh": 11.400765518287717,
+  "model_gross_discharge_kWh": 14.697130557036035,
+  "model_gross_recovered_kWh": 3.5648653649948483,
+  "reference_gross_discharge_kWh": 14.667367047184468,
+  "reference_gross_recovered_kWh": 3.2666015288967523,
+  "energy_error_percent": -2.355107872500628,
+  "voltage": {
+    "RMSE": 0.8645445216234722,
+    "bias": 0.1957433495850183,
+    "max_abs": 5.066409129917986
+  },
+  "tracking": {
+    "RMSE": 0.6654589846635786,
+    "bias": 0.022518008714897945,
+    "max_abs": 5.031591650893539
+  },
+  "distance_error_percent": 0.053892791479892566,
+  "integrated_DC_balance_percent": 2.9031940495174655e-06,
+  "DC_identity_max_error_kW": 3.887467132535072e-06,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_energy_balance": true,
+    "generator_OFF": true
+  },
+  "actual_metrics_passed": true,
+  "window_s": [
+    20,
+    7630.0
+  ],
+  "unexported_tail_s": 0.8927226066589355,
+  "phase_diagnostics": [
+    {
+      "phase": 1,
+      "window_s": [
+        20,
+        1372.898690700531
+      ],
+      "model_kWh": 1.2232109413393384,
+      "reference_kWh": 1.3109070824191364,
+      "energy_error_percent": -6.689729749416284,
+      "voltage": {
+        "RMSE": 0.5025233211548846,
+        "bias": -0.10292329515941163,
+        "max_abs": 3.169578593359631
+      }
+    },
+    {
+      "phase": 2,
+      "window_s": [
+        1373.9986896514893,
+        2746.8973803520203
+      ],
+      "model_kWh": 1.2254364566867262,
+      "reference_kWh": 1.2873698604978998,
+      "energy_error_percent": -4.810847737822632,
+      "voltage": {
+        "RMSE": 0.4899475019726403,
+        "bias": 0.07527128363590252,
+        "max_abs": 2.3055984262421134
+      }
+    },
+    {
+      "phase": 3,
+      "window_s": [
+        2748.097379207611,
+        3513.89664888382
+      ],
+      "model_kWh": 2.0290427138598086,
+      "reference_kWh": 2.0259088351209966,
+      "energy_error_percent": 0.15469001785684,
+      "voltage": {
+        "RMSE": 0.9640396674387411,
+        "bias": 0.7999472659121858,
+        "max_abs": 3.6533310590184556
+      }
+    },
+    {
+      "phase": 4,
+      "window_s": [
+        3514.996647834778,
+        4114.896075725555
+      ],
+      "model_kWh": 2.1729192247942914,
+      "reference_kWh": 2.238823047721275,
+      "energy_error_percent": -2.943681636387563,
+      "voltage": {
+        "RMSE": 2.019259658642918,
+        "bias": 1.623750722039344,
+        "max_abs": 5.066409129917986
+      }
+    },
+    {
+      "phase": 5,
+      "window_s": [
+        4116.096074581146,
+        4880.895345211029
+      ],
+      "model_kWh": 2.0290083029409764,
+      "reference_kWh": 1.9967756691859575,
+      "energy_error_percent": 1.6142341001259997,
+      "voltage": {
+        "RMSE": 0.9928006171005113,
+        "bias": 0.8828015544672745,
+        "max_abs": 3.080141177365647
+      }
+    },
+    {
+      "phase": 6,
+      "window_s": [
+        4882.995343208313,
+        6255.894033908844
+      ],
+      "model_kWh": 1.2256596393766743,
+      "reference_kWh": 1.2665209190178308,
+      "energy_error_percent": -3.226261724349866,
+      "voltage": {
+        "RMSE": 0.5880725269193311,
+        "bias": -0.17192197771082413,
+        "max_abs": 2.564514114910594
+      }
+    },
+    {
+      "phase": 7,
+      "window_s": [
+        6257.994031906128,
+        7630.0
+      ],
+      "model_kWh": 1.2260101297561394,
+      "reference_kWh": 1.2731093080279172,
+      "energy_error_percent": -3.6995392284685846,
+      "voltage": {
+        "RMSE": 0.6764082731611436,
+        "bias": -0.3647915654702581,
+        "max_abs": 2.2677897258718644
+      }
+    }
+  ],
+  "expected_saved_project_sha256": "ef9c775f92f6b05159ebbfe708814a275943a3dc7b07cdccc46a8e69a86ea501",
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "CSV_sha256": {
+    "battery_CAL66.csv": "5a77716e22cbb65c938221702c67fac443e4b66905883f15adc24a09f6b0b9b9",
+    "velocity_CAL66.csv": "da6456553cc5546cdc910957dee20542268f701fb7b9b698b52f0d2cd9ab03c8",
+    "generator_CAL66.csv": "2673fbeb8fdfe10625ce2125b3b16adf05b23e351f0db65562391e6be7725bdb"
+  },
+  "reference_sha256": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e",
+  "solver_project_provenance": "Expected savedprojecthash;actual solverlog/runtimehash not supplied. Check user ran provided unedited project.",
+  "physical_component_identification": false,
+  "no_endpoint_SOC_PASS": "ModelSOCcoordinateandCANrelationshipnotidentified"
+}

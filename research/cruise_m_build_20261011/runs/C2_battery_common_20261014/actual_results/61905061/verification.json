@@ -1,0 +1,52 @@
+{
+  "test": "61905061",
+  "candidate": "C2",
+  "role": "CAL",
+  "model_energy_kWh": 3.364617240300416,
+  "reference_native_energy_kWh": 3.3881313666697555,
+  "model_gross_discharge_kWh": 4.231116270592749,
+  "model_gross_recovered_kWh": 0.8664990302923337,
+  "reference_gross_discharge_kWh": 4.188144581118788,
+  "reference_gross_recovered_kWh": 0.8000132144490327,
+  "energy_error_percent": -0.69401460051568,
+  "voltage": {
+    "RMSE": 1.1852392905756564,
+    "bias": 0.5180919360948489,
+    "max_abs": 4.744333586904929
+  },
+  "tracking": {
+    "RMSE": 0.5391230430948414,
+    "bias": 0.01882109485920101,
+    "max_abs": 2.8319977737271103
+  },
+  "distance_error_percent": 0.03226959817888009,
+  "integrated_DC_balance_percent": 1.7410799254778215e-06,
+  "DC_identity_max_error_kW": 3.613164437588079e-06,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_energy_balance": true,
+    "generator_OFF": true
+  },
+  "actual_metrics_passed": true,
+  "window_s": [
+    20,
+    1489.0
+  ],
+  "unexported_tail_s": 0.8985791206359863,
+  "phase_diagnostics": [],
+  "expected_saved_project_sha256": "12dbd23e7c49effa5039b26f32a958e9f7eff68bfc245e7755dee8d1ff636212",
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "CSV_sha256": {
+    "battery_CAL61.csv": "1e307f92f1fbb6f85a82b93277ada7647abaab663880913b2f321ef6a468754c",
+    "velocity_CAL61.csv": "f79c317c3aa8b3ae9df2e6fde246a27854a1d338cd124c45fff4904306b14775",
+    "generator_CAL61.csv": "d0211a2053f0006eb2d6e5eb3585b9bf9bf9a36254ef7f737e6a9dec8c914f1a"
+  },
+  "reference_sha256": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03",
+  "solver_project_provenance": "Expected savedprojecthash;actual solverlog/runtimehash not supplied. Check user ran provided unedited project.",
+  "physical_component_identification": false,
+  "no_endpoint_SOC_PASS": "ModelSOCcoordinateandCANrelationshipnotidentified"
+}

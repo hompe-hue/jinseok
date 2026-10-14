@@ -1,0 +1,28 @@
+{
+  "calibration_confirmed": true,
+  "training_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "fresh_holdouts": [
+    "61905058",
+    "61905059"
+  ],
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "C2_parameter_sha256": "7de14044898d83b11c92c34caa788fed246926dc6a8da243c60d9b30c10a21d9",
+  "actual_CAL_result_sha256": {
+    "61905060": "5767f71e83eff08067950eb4d552752298d794e044e5756c70b31b8687061fc8",
+    "61905061": "3be5d7d27fff4030e2913fca83628c9eff650f443c94cc3e14dc556248772215",
+    "61905066": "f849a5317f982422572c84862c89b4218c7a780ac522c5ed4ed9d4dbb03a3d61"
+  },
+  "frozen_before_fresh_holdout_comparison": true,
+  "confirmed_at_UTC": "2026-10-14T06:33:49.784262+00:00",
+  "candidate_parameters_changed": false,
+  "C1_independent066_failure_preserved": true,
+  "fresh_holdout_project_sha256": {
+    "61905058": "a009cf98118cd344f136a427f3cf56d253e295d636e36600866cf1ba1906d2ad",
+    "61905059": "4708d0b2a55cb37af87efda6b4d7bbedff8f17e050f8daca3a178a4003ffe49b"
+  },
+  "received_source_manifest_sha256": "c79b031d8beb1b5a44f447090a99107ca5b592c1a70fefd23e20b8899721f147"
+}

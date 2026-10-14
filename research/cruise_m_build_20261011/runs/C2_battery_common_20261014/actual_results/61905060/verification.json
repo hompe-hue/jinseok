@@ -1,0 +1,52 @@
+{
+  "test": "61905060",
+  "candidate": "C2",
+  "role": "CAL",
+  "model_energy_kWh": 10.406267862442627,
+  "reference_native_energy_kWh": 10.312260606885413,
+  "model_gross_discharge_kWh": 11.492207835216002,
+  "model_gross_recovered_kWh": 1.0859399727733738,
+  "reference_gross_discharge_kWh": 11.352898137812648,
+  "reference_gross_recovered_kWh": 1.040637530927237,
+  "energy_error_percent": 0.9116066703594106,
+  "voltage": {
+    "RMSE": 1.3983746097362635,
+    "bias": 0.3747295019775106,
+    "max_abs": 4.150501744178769
+  },
+  "tracking": {
+    "RMSE": 0.4211460312907754,
+    "bias": 0.005921472110706636,
+    "max_abs": 3.0225206966381535
+  },
+  "distance_error_percent": 0.00793708531110493,
+  "integrated_DC_balance_percent": 6.584068839021729e-07,
+  "DC_identity_max_error_kW": 3.7054493532417965e-06,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_energy_balance": true,
+    "generator_OFF": true
+  },
+  "actual_metrics_passed": true,
+  "window_s": [
+    20,
+    3150.0
+  ],
+  "unexported_tail_s": 0.8969950675964355,
+  "phase_diagnostics": [],
+  "expected_saved_project_sha256": "49921958c91e386bf66d997c7abf3b907c499a22f86f3507482c6c5136a8ea25",
+  "candidate_contract_sha256": "f04d23855731c0fb106dab644a5c2fc30ad88347e788382d5c3c11606e38327c",
+  "CSV_sha256": {
+    "battery_CAL60.csv": "9b5304fc8ce27783942d12bd663de10fb788135cfb95767695e4e6f12d18e9be",
+    "velocity_CAL60.csv": "18eafed360c736f8cb5653199338e21f8cd3266eed0a7088038144d7e81735ed",
+    "generator_CAL60.csv": "e09f487c7daf12cb70124e2c202be595765ad929321c72ecf920c2413d0e06ba"
+  },
+  "reference_sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+  "solver_project_provenance": "Expected savedprojecthash;actual solverlog/runtimehash not supplied. Check user ran provided unedited project.",
+  "physical_component_identification": false,
+  "no_endpoint_SOC_PASS": "ModelSOCcoordinateandCANrelationshipnotidentified"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "test": "61905060",
+    "C2_voltage_formula_max_abs_V": 0.00362830118808688,
+    "C1_EDU_loss_lookup_max_abs_kW": 1.6431300764452317e-14,
+    "SOC_1s_current_integral_max_abs_pp": 0.001791799711433839,
+    "SOC_initial_percent": 79.974893560761,
+    "SOC_end_percent": 62.42258442032801,
+    "max_single_second_SOC_change_pp": 0.030801554620424554,
+    "gross_discharge_error_percent": 1.2270848880371776,
+    "gross_recovered_error_percent": 4.353335383336687,
+    "scope": "Actualmap/formulaagreement;coarse1sSOCintegraldiagnosticonly;notphysicalcellidentification"
+  },
+  {
+    "test": "61905061",
+    "C2_voltage_formula_max_abs_V": 0.0030004638264813366,
+    "C1_EDU_loss_lookup_max_abs_kW": 1.5987211554602254e-14,
+    "SOC_1s_current_integral_max_abs_pp": 0.0012149182252727542,
+    "SOC_initial_percent": 65.36509262435109,
+    "SOC_end_percent": 59.503049606924975,
+    "max_single_second_SOC_change_pp": 0.025804706267294364,
+    "gross_discharge_error_percent": 1.0260316625096522,
+    "gross_recovered_error_percent": 8.310589705582494,
+    "scope": "Actualmap/formulaagreement;coarse1sSOCintegraldiagnosticonly;notphysicalcellidentification"
+  },
+  {
+    "test": "61905066",
+    "C2_voltage_formula_max_abs_V": 0.003962632180957826,
+    "C1_EDU_loss_lookup_max_abs_kW": 1.9539925233402755e-14,
+    "SOC_1s_current_integral_max_abs_pp": 0.007357512140771405,
+    "SOC_initial_percent": 93.9448322209296,
+    "SOC_end_percent": 75.92000689164009,
+    "max_single_second_SOC_change_pp": 0.03505327241900602,
+    "gross_discharge_error_percent": 0.20292333147331476,
+    "gross_recovered_error_percent": 9.130707662370764,
+    "scope": "Actualmap/formulaagreement;coarse1sSOCintegraldiagnosticonly;notphysicalcellidentification"
+  }
+]

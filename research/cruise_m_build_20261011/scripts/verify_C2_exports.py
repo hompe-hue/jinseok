@@ -26,7 +26,7 @@ def main():
         assert frozen['calibration_confirmed'] and frozen['candidate_contract_sha256']==sha(OUT/'candidate_contract.json')
     files={}
     for name in ['battery','velocity','generator']:
-        options=[args.exports/f'{name}_C2_{case["role"]}_{test}.csv',args.exports/f'{name}_C2_{test}.csv',args.exports/f'{name}_ANL{test}.csv']
+        options=[args.exports/f'{name}_C2_{case["role"]}_{test}.csv',args.exports/f'{name}_C2_{test}.csv',args.exports/f'{name}_ANL{test}.csv',args.exports/f'{name}_{case["role"]}{test[-2:]}.csv']
         if case['role']=='HOLD':options.insert(0,args.exports/f'{name}_C2_CAL_{test}.csv')
         chosen=[p for p in options if p.exists()];assert len(chosen)==1,(name,'Provide exactly one alias',options)
         files[name]=chosen[0]
