@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "status": "COMPLETED_ANALYSIS_NO_CRUISE_SOLVER_RUN",
+  "previous_main": "8c2463a951d8393fe96b2a68a30022b168e95f4a",
+  "baseline": "C2 retained within warm holdout scope",
+  "fresh_holdout_SOC_range_percent": [
+    79.518,
+    94.239
+  ],
+  "fresh_holdouts_same_vehicle_campaign": true,
+  "training_SOC_lower_is_not_holdout_scope": true,
+  "ANL064_067_frozen_current_replay": {
+    "voltage_RMSE_V": [
+      4.030939042318605,
+      3.918466625372995
+    ],
+    "final_unclipped_model_SOC_percent": [
+      -8.050822532248617,
+      -7.965638261570348
+    ],
+    "no_refit": true,
+    "no_physical_OCV_R_RC_BMS_identification": true
+  },
+  "EREV_low_SOC_vehicle_representativeness": "not established; full-depletion replay inconsistent",
+  "next": "Separate battery-extension candidate/data scope; first user CRUISE FLA94 run, then100 and two EPA-profile range-window comparisons",
+  "authority": "User persistent authorization for public GitHub main checkpoint publication",
+  "result": "research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/RESULT_KO.md"
+}

@@ -1,3 +1,5 @@
+> **2026-10-14 C2 적용 범위 정정·방전 확장 재검토 완료:** 058/059는 동일 차량의 보정 미사용 시험 평가(모델SOC79.5–94.2%)입니다. 동결 C2의 ANL064/067 실측전류 입력 재현은 전압RMSE4.03/3.92V와 모델SOC 소진을 보여 저SOC·전체 방전까지의 적용을 지지하지 않습니다. 온난 기준모델은 보존합니다. [새 근거·판단](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/RESULT_KO.md).
+
 > **2026-10-14 중간보고7장 제작 완료:** 첨부연세대4:3디자인을 유지해 EREV배경·목적, 공식2017Bolt/C2비교, 실제CRUISE토폴로지·실측검증, 도구장단점·보완, 향후연구를 정리했습니다. 확정기준프로젝트는C2_CAL_61905060.proj. 가속·인증항속의C2직접실행은 미완료로구분합니다. [제작결과](research/midterm_20261014/RESULT_KO.md) · [파일/Canva식별자](research/midterm_20261014/deliverables.json) · [재개기록](checkpoints/MIDTERM_CANVA_7SLIDES_20261014.json)
 
 > **2026-10-14 Bolt C2 온난 BEV 기준모델 검증 마무리:** 미적합 독립058/059 전체7항목 통과. 순DC에너지−3.36/+0.21%, 전압RMSE0.78/1.27V·평균편차+0.22/+0.974V. C2 보정값을 그대로 확정하고 이번 BEV 판정을 위한 추가실행은 없습니다. 저SOC/저온/BMS·발전계 검증은 이 결론의 범위 밖이며 회수에너지와059의좁은전압여유를 명시했습니다. [최종 결과](research/cruise_m_build_20261011/runs/C2_battery_common_20261014/independent_review/RESULT_KO.md) · [다음 단계](research/cruise_m_build_20261011/runs/C2_battery_common_20261014/EREV_BASELINE_HANDOFF_KO.md) · [재개 기록](checkpoints/BOLT_C2_WARM_VALIDATION_COMPLETE_20261014.json)

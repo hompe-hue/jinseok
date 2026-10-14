@@ -1,0 +1,120 @@
+[
+  {
+    "test": "61905064",
+    "source_sha256": "5680c75633dfcab2403269a3e313316f7d8c116a7c7fb845cd3a204a6098c11b",
+    "bytes": 189260312,
+    "VIN": "1G1FX6504H4178139",
+    "native_rows": 101251,
+    "unique_meter_rows": 101057,
+    "phase_declared_s": 10104.923525333406,
+    "meter_span_s": 10105.589171409607,
+    "anchor_first_5s_lowload_median_V": 379.15550226068353,
+    "anchor_median_A": 1.4804730385572051,
+    "anchor_rows": 39,
+    "initial_C2_SOC_percent": 76.78675627846751,
+    "capacity_Ah": 161.24131345341866,
+    "valid_net_Ah": 136.79322637647786,
+    "C2_final_SOC_unclipped_percent": -8.050822532248617,
+    "evaluated_rows": 91272,
+    "voltage_RMSE_V": 4.030939042318605,
+    "voltage_bias_V": 2.8638093834731073,
+    "SOC_crossings": {
+      "40": {
+        "time_s": 4525.095684528351,
+        "CAN_HPCM2_SOC_percent": 47.04,
+        "voltage_V": 343.62286609234724,
+        "power_kW": 16.87492273593097
+      },
+      "30": {
+        "time_s": 5708.194556236267,
+        "CAN_HPCM2_SOC_percent": 38.416,
+        "voltage_V": 339.40887342165314,
+        "power_kW": 17.026125201583376
+      },
+      "20": {
+        "time_s": 6876.1934423446655,
+        "CAN_HPCM2_SOC_percent": 29.792,
+        "voltage_V": 335.3659093920106,
+        "power_kW": 16.873760856003926
+      },
+      "10": {
+        "time_s": 8025.392346382141,
+        "CAN_HPCM2_SOC_percent": 20.776,
+        "voltage_V": 329.50062549524523,
+        "power_kW": 16.675448157573964
+      },
+      "0": {
+        "time_s": 9147.291276454926,
+        "CAN_HPCM2_SOC_percent": 11.76,
+        "voltage_V": 321.77436784260846,
+        "power_kW": 17.02816719609068
+      }
+    },
+    "real_low_CAN_SOC_discharge_power_p95_kW": 17.307375017557465,
+    "real_low_CAN_SOC_discharge_power_max_kW": 17.905546812921592,
+    "SOC_CAN_model_are_not_equated": true,
+    "current_driven_not_vehicle_simulation": true,
+    "thermal_model": "Frozen static25C C2; measured temperature varies; thermal causality not identified",
+    "no_parameters_fitted": true,
+    "BMS_policy_identified": false
+  },
+  {
+    "test": "61905067",
+    "source_sha256": "fd0f662a44cfa95036b2994fccd52c2f49e0fad105022bab5921d610dc06856c",
+    "bytes": 189907032,
+    "VIN": "1G1FX6504H4178139",
+    "native_rows": 101598,
+    "unique_meter_rows": 101404,
+    "phase_declared_s": 10139.62481403351,
+    "meter_span_s": 10140.203486919403,
+    "anchor_first_5s_lowload_median_V": 379.08022400838354,
+    "anchor_median_A": 1.8360680714329698,
+    "anchor_rows": 40,
+    "initial_C2_SOC_percent": 76.73881203077852,
+    "capacity_Ah": 161.24131345341866,
+    "valid_net_Ah": 136.57856820488144,
+    "C2_final_SOC_unclipped_percent": -7.965638261570348,
+    "evaluated_rows": 91447,
+    "voltage_RMSE_V": 3.918466625372995,
+    "voltage_bias_V": 2.7240732609939866,
+    "SOC_crossings": {
+      "40": {
+        "time_s": 4533.195676803589,
+        "CAN_HPCM2_SOC_percent": 47.432,
+        "voltage_V": 343.85034080813654,
+        "power_kW": 16.442584224646932
+      },
+      "30": {
+        "time_s": 5718.9945459365845,
+        "CAN_HPCM2_SOC_percent": 38.808,
+        "voltage_V": 339.5532147937031,
+        "power_kW": 17.10268387979596
+      },
+      "20": {
+        "time_s": 6889.493429660797,
+        "CAN_HPCM2_SOC_percent": 30.184,
+        "voltage_V": 335.5121781114098,
+        "power_kW": 16.91892403949075
+      },
+      "10": {
+        "time_s": 8040.992331504822,
+        "CAN_HPCM2_SOC_percent": 21.168,
+        "voltage_V": 329.5764439331059,
+        "power_kW": 16.59374359351652
+      },
+      "0": {
+        "time_s": 9164.791259765625,
+        "CAN_HPCM2_SOC_percent": 12.544,
+        "voltage_V": 321.94532599467993,
+        "power_kW": 16.448974802744246
+      }
+    },
+    "real_low_CAN_SOC_discharge_power_p95_kW": 17.30221187553052,
+    "real_low_CAN_SOC_discharge_power_max_kW": 17.862385967173473,
+    "SOC_CAN_model_are_not_equated": true,
+    "current_driven_not_vehicle_simulation": true,
+    "thermal_model": "Frozen static25C C2; measured temperature varies; thermal causality not identified",
+    "no_parameters_fitted": true,
+    "BMS_policy_identified": false
+  }
+]
