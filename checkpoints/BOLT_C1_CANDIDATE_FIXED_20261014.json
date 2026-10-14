@@ -1,11 +1,11 @@
 {
   "date": "2026-10-14",
-  "stage": "C1_delivery_repaired_roundtrip_verified_CRUISE_open_confirmation_pending",
+  "stage": "C1_actual_CAL060_CAL061_passed_frozen_for066_independent_run_pending",
   "candidate": "C1",
   "model_validation_complete": false,
   "parameters_fixed": true,
   "physical_component_identification": false,
-  "actual_C1_CRUISE_results_received": false,
+  "actual_C1_CRUISE_results_received": true,
   "source_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
   "source_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
   "decision_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md",
@@ -54,7 +54,7 @@
       "061": 8.837588287860276
     }
   },
-  "current_user_action": "Downloadrepairedpackageversion2;extracttonewfolder;openC1_CAL060;thenrunCAL060/CAL061anduploadCSV6files",
+  "current_user_action": "Run existing repaired-package projects/C1_HOLD_61905066.proj once continuously;export battery_C1_HOLD_61905066.csv,velocity_C1_HOLD_61905066.csv,generator_C1_HOLD_61905066.csv;no resets between7phases",
   "current_user_simulation_required": true,
   "do_not_repeat": [
     "Oldsavedprojectrequests",
@@ -82,5 +82,8 @@
     "LowSOC/temperature/EREVhardwaregeneralizationunvalidated"
   ],
   "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
-  "delivery_repair": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/repair_audit.json"
+  "delivery_repair": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/repair_audit.json",
+  "calibration_confirmation_passed": true,
+  "actual_confirmation_checkpoint": "checkpoints/BOLT_C1_CAL_CONFIRMED_20261014.json",
+  "independent066_results_received": false
 }

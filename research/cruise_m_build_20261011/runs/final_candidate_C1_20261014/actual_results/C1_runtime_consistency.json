@@ -1,0 +1,26 @@
+[
+  {
+    "test": "61905060",
+    "battery_static_C1_voltage_RMSE_V": 0.0010020096173869264,
+    "battery_static_C1_voltage_max_abs_V": 0.0036430122077035776,
+    "motor_C1_lookup_max_abs_kW": 2.042810365310288e-14,
+    "motor_active_samples": 2919,
+    "regenerative_bridge_samples": 300,
+    "largest_voltage_residual_time_s": 3134.0,
+    "gross_recovered_error_percent": 4.353335380369838,
+    "gross_discharge_error_percent": 1.2270848788652033,
+    "scope": "ActualoutputstateC1map/formulaagreement;notindependentphysicalcomponentvalidation"
+  },
+  {
+    "test": "61905061",
+    "battery_static_C1_voltage_RMSE_V": 0.0009261865478471169,
+    "battery_static_C1_voltage_max_abs_V": 0.003002088355401611,
+    "motor_C1_lookup_max_abs_kW": 1.6209256159527285e-14,
+    "motor_active_samples": 1338,
+    "regenerative_bridge_samples": 94,
+    "largest_voltage_residual_time_s": 1208.0,
+    "gross_recovered_error_percent": 8.310589698936388,
+    "gross_discharge_error_percent": 1.0260316608674103,
+    "scope": "ActualoutputstateC1map/formulaagreement;notindependentphysicalcomponentvalidation"
+  }
+]

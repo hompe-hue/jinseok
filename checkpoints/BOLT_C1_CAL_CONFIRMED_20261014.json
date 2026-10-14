@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-14",
+  "stage": "C1_actual_CAL060_CAL061_passed_frozen_for066_independent_run_pending",
+  "candidate": "C1",
+  "parameters_changed": false,
+  "calibration_confirmation_passed": true,
+  "model_validation_complete": false,
+  "physical_component_identification": false,
+  "independent066_results_received": false,
+  "frozen_manifest": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/frozen_for066.json",
+  "model066_project_sha256": "adb0053e67569e80374530924200889018afa62be0353756cefb00a478c0dd5d",
+  "report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/RESULT_KO.md",
+  "actual_results_package": {
+    "library_file_id": "libfile_da3bba1669f48191a3cf662af039bb19",
+    "file_id": "file_00000000babc8209a65487705f1de6f4",
+    "version_number": 0,
+    "filename": "C1_CAL_Actual_Results_20261014.zip",
+    "library_path": "/C1_CAL_Actual_Results_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_CAL_Actual_Results_20261014.zip",
+    "size_bytes": 4367518,
+    "sha256": "c7959d0625a874094f003754284fc29ed502921999d93a08d0a4bc334cfd461f",
+    "delivery_roundtrip_verified": true,
+    "contains_actual_CAL_results": true,
+    "contains_actual066_results": false
+  },
+  "actual_metrics": {
+    "energy_error_percent": {
+      "060": 0.9116066605612705,
+      "061": -0.6940146009764336
+    },
+    "voltage_RMSE_V": {
+      "060": 1.302862373753934,
+      "061": 1.592319963717386
+    },
+    "voltage_bias_V": {
+      "060": 0.6003878629994508,
+      "061": 0.9722491685983526
+    },
+    "tracking_RMSE_kmh": {
+      "060": 0.42114603129077544,
+      "061": 0.5391230430948405
+    },
+    "all_research_criteria_passed": true,
+    "generator_OFF": true
+  },
+  "runtime_C1_maps_confirmed": true,
+  "gross_recovered_error_percent": {
+    "060": 4.353335380369838,
+    "061": 8.310589698936388
+  },
+  "scope": "060/061usedforfitting,notindependentvalidation;066pending;smallunexportedfractionaltailsnotestimated",
+  "current_user_simulation_required": true,
+  "current_user_action": "Run existing repaired-package projects/C1_HOLD_61905066.proj once continuously;export battery_C1_HOLD_61905066.csv,velocity_C1_HOLD_61905066.csv,generator_C1_HOLD_61905066.csv;no resets between7phases",
+  "remaining_core_simulations": 1,
+  "remaining_work": [
+    "Independent066actualevaluation",
+    "Finalizevalidatedscope/figures/midtermreport"
+  ],
+  "do_not_repeat": [
+    "060/061C1runs",
+    "Oldsavedprojectrequests",
+    "RetunefrozenC1before066"
+  ],
+  "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md"
+}

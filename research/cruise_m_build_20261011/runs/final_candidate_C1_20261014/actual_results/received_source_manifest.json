@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "generator_C1_CAL_61905060.csv",
+    "library_file_id": "libfile_4cc9ab41d21481918bc17efa4288d027",
+    "bytes": 299631,
+    "sha256": "98a56d0a4efa980ccf0ad3e0bf6f7c1c94251f8649f76174538d96b7725d4d47",
+    "role": "ActualC1CALexport_userprovided"
+  },
+  {
+    "filename": "battery_C1_CAL_61905060.csv",
+    "library_file_id": "libfile_bdbe8a305c9c8191b422d97eda490ed0",
+    "bytes": 390598,
+    "sha256": "f103be636349d529eb40afc6e404cfda3d046129ec7d59823651a94b0d3159a5",
+    "role": "ActualC1CALexport_userprovided"
+  },
+  {
+    "filename": "velocity_C1_CAL_61905061.csv",
+    "library_file_id": "libfile_91b5facb4d6081919a5699a305d0c0c4",
+    "bytes": 296193,
+    "sha256": "5ac413d8e13f870391b067b8a382a77d08a129d0a19a99ea5530e36492068d85",
+    "role": "ActualC1CALexport_userprovided"
+  },
+  {
+    "filename": "generator_C1_CAL_61905061.csv",
+    "library_file_id": "libfile_4ca7939d30688191abfb5af4d66d6ef0",
+    "bytes": 141783,
+    "sha256": "61260bc292fa6175aa474cdbe1df1a689c612ed8ad1a056345ad5aa6f380374e",
+    "role": "ActualC1CALexport_userprovided"
+  },
+  {
+    "filename": "battery_C1_CAL_61905061.csv",
+    "library_file_id": "libfile_82863e277b908191af5a7e6b89c215cb",
+    "bytes": 184769,
+    "sha256": "80338acc9d3a5e5ed81745f11e5e67d97f7a86cb06d7dd3a24d3a13c98a830c9",
+    "role": "ActualC1CALexport_userprovided"
+  },
+  {
+    "filename": "velocity_C1_CAL_61905060.csv",
+    "library_file_id": "libfile_6dcbf2a73d60819181acd7d0efee7402",
+    "bytes": 633857,
+    "sha256": "80e9d528db322f66e84aea56057374419e1bff7260a4c1f819d521694c697a8c",
+    "role": "ActualC1CALexport_userprovided"
+  }
+]

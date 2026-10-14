@@ -1,3 +1,5 @@
+> **2026-10-14 C1 실제 보정 확인 통과:** 실제060/061의 에너지 오차 +0.91/−0.69%, 전압 RMSE1.30/1.59V로 연구용 기준을 만족했습니다. C1을 고정하고 다음 작업을 HOLD066 연속 실행1회로 정리했습니다. 최종 독립 검증은 아직 미완료입니다. [실제 결과](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/RESULT_KO.md) · [066 전 고정 기록](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/frozen_for066.json) · [재개 기록](checkpoints/BOLT_C1_CAL_CONFIRMED_20261014.json)
+
 > **2026-10-14 C1 전달 파일 수정:** 기존 CAL060/061의 0KB 문제를 수정했습니다. 최신 패키지 버전2를 다시 내려받아 모든 파일 크기·해시와 프로젝트 XML을 확인했습니다. 보정 수치는 그대로이며 CRUISE M 열기·실행 확인은 남아 있습니다. [수정 기록](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DELIVERY_REPAIR_KO.md) · [재개 기록](checkpoints/BOLT_C1_DELIVERY_REPAIR_20261014.json)
 
 > **2026-10-14 C1 보정안 확정·실행 패키지 준비:** 따뜻한 조건의 차량 수준 유효 보정이며 아직 CRUISE 확인 실행 전입니다. 현재 작업은 C1 CAL060/061 실행 및 새 CSV 6개 비교 → 통과 후 HOLD066 연속 독립 검증입니다. [적용 수치·근거](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md) · [실행 안내](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/START_HERE_KO.md) · [재개 기록](checkpoints/BOLT_C1_CANDIDATE_FIXED_20261014.json)

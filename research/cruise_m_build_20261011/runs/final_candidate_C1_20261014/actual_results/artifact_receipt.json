@@ -1,0 +1,13 @@
+{
+  "library_file_id": "libfile_da3bba1669f48191a3cf662af039bb19",
+  "file_id": "file_00000000babc8209a65487705f1de6f4",
+  "version_number": 0,
+  "filename": "C1_CAL_Actual_Results_20261014.zip",
+  "library_path": "/C1_CAL_Actual_Results_20261014.zip",
+  "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_CAL_Actual_Results_20261014.zip",
+  "size_bytes": 4367518,
+  "sha256": "c7959d0625a874094f003754284fc29ed502921999d93a08d0a4bc334cfd461f",
+  "delivery_roundtrip_verified": true,
+  "contains_actual_CAL_results": true,
+  "contains_actual066_results": false
+}

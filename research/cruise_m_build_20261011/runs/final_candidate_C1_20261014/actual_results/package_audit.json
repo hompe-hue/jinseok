@@ -1,0 +1,9 @@
+{
+  "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_CAL_Actual_Results_20261014.zip",
+  "bytes": 4367518,
+  "sha256": "c7959d0625a874094f003754284fc29ed502921999d93a08d0a4bc334cfd461f",
+  "contains_actual_C1_CSV": true,
+  "contains_actual066_results": false,
+  "whole_archive_member_checks_passed": true,
+  "delivery_roundtrip_verified": true
+}

@@ -1,0 +1,18 @@
+{
+  "question": "Do actual CAL060/061 voltage traces reproduce ANL reference with C1?",
+  "takeaway": "Both pass proposed aggregate voltage thresholds; remain calibration confirmation, not independent validation.",
+  "family": "line",
+  "variant": "two-panel measured/model comparison",
+  "renderer": "matplotlib_static_scientific_export",
+  "grain": "Actual1smodelclock;referenceinterpolatedforplotonly;nativepowerintegrationformetrics",
+  "point_counts": [
+    3151,
+    1490
+  ],
+  "palette": "BlueC1andneutralreference;solid/dashedline distinction",
+  "export": [
+    "C1_CAL_voltage_comparison.png",
+    "C1_CAL_voltage_comparison.pdf"
+  ],
+  "QA": "Inspect exported PNG; same voltage scale across tests"
+}

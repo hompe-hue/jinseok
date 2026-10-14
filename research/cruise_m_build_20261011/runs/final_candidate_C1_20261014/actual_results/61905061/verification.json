@@ -1,0 +1,52 @@
+{
+  "test": "61905061",
+  "candidate": "C1",
+  "role": "CAL",
+  "model_energy_kWh": 3.364617240284805,
+  "reference_native_energy_kWh": 3.3881313666697555,
+  "model_gross_discharge_kWh": 4.2311162705239695,
+  "model_gross_recovered_kWh": 0.866499030239164,
+  "reference_gross_discharge_kWh": 4.188144581118788,
+  "reference_gross_recovered_kWh": 0.8000132144490327,
+  "energy_error_percent": -0.6940146009764336,
+  "voltage": {
+    "RMSE": 1.592319963717386,
+    "bias": 0.9722491685983526,
+    "max_abs": 6.025508719841014
+  },
+  "tracking": {
+    "RMSE": 0.5391230430948405,
+    "bias": 0.01882109485920059,
+    "max_abs": 2.8319977737271316
+  },
+  "distance_error_percent": 0.03226959817888009,
+  "integrated_DC_balance_percent": 1.7406160237565149e-06,
+  "DC_identity_max_error_kW": 3.6131642740522274e-06,
+  "checks": {
+    "energy": true,
+    "voltage_RMSE": true,
+    "voltage_bias": true,
+    "speed_RMSE": true,
+    "distance": true,
+    "DC_energy_balance": true,
+    "generator_OFF": true
+  },
+  "actual_metrics_passed": true,
+  "window_s": [
+    20,
+    1489.0
+  ],
+  "unexported_tail_s": 0.8985791206359863,
+  "phase_diagnostics": [],
+  "expected_saved_project_sha256": "5c95d29ee77685bbe4afb7b5c7517501272e84e8046fc0fe8fd0fc0bd4075942",
+  "candidate_contract_sha256": "9eb816d0445b2a0922f7de5cd4c4028ddeba7af8c5786bba39ea61aee71c33b7",
+  "CSV_sha256": {
+    "battery_C1_CAL_61905061.csv": "80338acc9d3a5e5ed81745f11e5e67d97f7a86cb06d7dd3a24d3a13c98a830c9",
+    "velocity_C1_CAL_61905061.csv": "5ac413d8e13f870391b067b8a382a77d08a129d0a19a99ea5530e36492068d85",
+    "generator_C1_CAL_61905061.csv": "61260bc292fa6175aa474cdbe1df1a689c612ed8ad1a056345ad5aa6f380374e"
+  },
+  "reference_sha256": "fdf4c6076ad500b1f380892cf615708bf480efb6e13146a867de7092e42c2b03",
+  "solver_project_provenance": "Expected savedprojecthash;actual solverlog/runtimehash not supplied. Check user ran provided unedited project.",
+  "physical_component_identification": false,
+  "no_endpoint_SOC_PASS": "ModelSOCcoordinateandCANrelationshipnotidentified"
+}

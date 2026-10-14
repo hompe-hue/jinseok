@@ -1,0 +1,16 @@
+{
+  "frozen_before066_comparison": true,
+  "calibration_test_ids": [
+    "61905060",
+    "61905061"
+  ],
+  "model_project_sha256": "adb0053e67569e80374530924200889018afa62be0353756cefb00a478c0dd5d",
+  "no_tuning_using066": true,
+  "calibration_confirmed": true,
+  "candidate_contract_sha256": "9eb816d0445b2a0922f7de5cd4c4028ddeba7af8c5786bba39ea61aee71c33b7",
+  "actual_CAL_result_sha256": {
+    "61905060": "c4f2ed3cab3fe57a4018cf3f591e29cb486d855b00cf99104c4817ccd5a38985",
+    "61905061": "362f77062a2955f851ce7efad0ef4e810e85a0c653c66b5b4085fdd94cedfb8f"
+  },
+  "C1_parameter_sha256": "3534b60a1113f4b15cc014730ae4df9d674cc9a153d0c0300ae73d89dcbfd687"
+}
