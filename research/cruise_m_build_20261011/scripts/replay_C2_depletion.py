@@ -6,8 +6,8 @@ import pandas as pd
 from scipy.optimize import brentq
 from nptdms import TdmsFile
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'runs/C2_performance_extension_20261014'
-BAT=ROOT/'runs/C2_battery_common_20261014'
+OUT=ROOT if (ROOT/'test_manifest.json').exists() else ROOT/'runs/C2_performance_extension_20261014'
+MAPS=ROOT/'maps' if OUT==ROOT else ROOT/'runs/C2_battery_common_20261014/inputs'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def hold(t,y,x):
     d=pd.DataFrame({'t':t,'y':y}).dropna().groupby('t').y.median()
@@ -16,8 +16,8 @@ def hold(t,y,x):
     return np.where(ok,yy[k],np.nan)
 def main():
     (OUT/'replay').mkdir(parents=True,exist_ok=True)
-    ocv=np.loadtxt(BAT/'inputs/C2_Cell_OCV_25C.dat',skiprows=2)
-    r=np.loadtxt(BAT/'inputs/C2_Cell_Resistance_25C.dat',skiprows=2)
+    ocv=np.loadtxt(MAPS/'C2_Cell_OCV_25C.dat',skiprows=2)
+    r=np.loadtxt(MAPS/'C2_Cell_Resistance_25C.dat',skiprows=2)
     capacity=3*53.747104484472885
     reports=[]; binrows=[]
     for test in ['61905064','61905067']:

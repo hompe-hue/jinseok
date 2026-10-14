@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "package": {
+    "file_name": "Bolt_C2_Performance_And_Scope_20261014.zip",
+    "path": "/Bolt_C2_Performance_And_Scope_20261014.zip",
+    "bytes": 23069809,
+    "sha256": "a88e5478fe6a5666c1e693ef72da06a8ab7169f3e2e4b1fa2793e4d944869423",
+    "library_file_id": "libfile_30cdf9cc0a348191b154438eb9f1eaf1",
+    "file_id": "file_000000003af08209bc90d2068f1c4984",
+    "current_version_number": 0,
+    "members": 31,
+    "all_member_hashes_and_CRC_checked": true,
+    "download_roundtrip_verified": true
+  },
+  "analysis_checkpoint_commit": "b6f45de0a0426d0c508b7077c32cd52cec2b1bfa",
+  "projects_prepared": 4,
+  "actual_CRUISE_performance_runs_completed": 0,
+  "portable_rebuild_four_project_hashes_reproduced": true,
+  "source_C2_sha256": "49921958c91e386bf66d997c7abf3b907c499a22f86f3507482c6c5136a8ea25",
+  "first_user_action": "C2_ACC_SOC94.proj: REEV_MBE, Performance/FLA only,100% pedal,SOC94,25C,40s,export<=0.05s(prefer0.01); retain solver log and saved project",
+  "followup_actions": [
+    "C2_ACC_SOC100.proj after FLA proof",
+    "C2_RANGE_UDDS_SOC100.proj and HWFET_SOC100.proj; separate fresh initial states; capped research window, conditional EPA-label comparison"
+  ],
+  "baseline_maps_and_discharge_limit_preserved": true,
+  "authority": "User persistent authorization for GitHub main progress records",
+  "full_replay_CSV_location": "package replay/ contains complete derived data; raw TDMS recovered by pinned source URLs/hashes",
+  "interpretation": "Warm holdout scope retained, full-depletion applicability inconsistent; no actual certification reproduction or low-SOC BMS physical identification"
+}

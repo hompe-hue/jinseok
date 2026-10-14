@@ -1,3 +1,5 @@
+> **2026-10-14 C2 공식 성능 비교 실행자료 준비 완료:** 가속SOC94/100 및 EPA 원본UDDS/HWFET 반복 사본4개를 준비했습니다. C2맵·용량·방전제한은 보존했고 실제CRUISE 성능 실행은0회입니다. 첫 실행은REEV_MBE의C2_ACC_SOC94.proj → Performance/FLA입니다. [첫 실행 안내](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/START_HERE_KO.md) · [전달파일·해시](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/deliverables.json) · [재개 기록](checkpoints/BOLT_C2_PERFORMANCE_PREPARED_20261014.json)
+
 > **2026-10-14 C2 적용 범위 정정·방전 확장 재검토 완료:** 058/059는 동일 차량의 보정 미사용 시험 평가(모델SOC79.5–94.2%)입니다. 동결 C2의 ANL064/067 실측전류 입력 재현은 전압RMSE4.03/3.92V와 모델SOC 소진을 보여 저SOC·전체 방전까지의 적용을 지지하지 않습니다. 온난 기준모델은 보존합니다. [새 근거·판단](research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/RESULT_KO.md).
 
 > **2026-10-14 중간보고7장 제작 완료:** 첨부연세대4:3디자인을 유지해 EREV배경·목적, 공식2017Bolt/C2비교, 실제CRUISE토폴로지·실측검증, 도구장단점·보완, 향후연구를 정리했습니다. 확정기준프로젝트는C2_CAL_61905060.proj. 가속·인증항속의C2직접실행은 미완료로구분합니다. [제작결과](research/midterm_20261014/RESULT_KO.md) · [파일/Canva식별자](research/midterm_20261014/deliverables.json) · [재개기록](checkpoints/MIDTERM_CANVA_7SLIDES_20261014.json)

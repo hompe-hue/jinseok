@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14",
+  "status": "TEST_PACKAGE_READY_PENDING_USER_CRUISE_M_RUN",
+  "analysis_commit": "b6f45de0a0426d0c508b7077c32cd52cec2b1bfa",
+  "result": "research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/RESULT_KO.md",
+  "first_instructions": "research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/START_HERE_KO.md",
+  "deliverables": "research/cruise_m_build_20261011/runs/C2_performance_extension_20261014/deliverables.json",
+  "no_warm_C2_refit": true,
+  "no_CRUISE_solver_available_in_current_workspace": true,
+  "first_case": "C2_ACC_SOC94.proj / Performance FLA / REEV_MBE",
+  "next_user_exports": "Battery,velocity,generator at<=0.05s plus accelerator/available-power signals; saved project and solver log",
+  "automatic_followup": "Inspect real FLA and BEV state, compute0–60mph and0–100kmh times, then100SOC and two range-window comparisons; preserve lowSOC findings and explicit uncertainty",
+  "midterm_words": "Same-vehicle unused-test holdout at modelSOC79.5–94.2%,warm conditions; no full-range battery validation"
+}

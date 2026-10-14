@@ -1,0 +1,152 @@
+[
+  {
+    "path": "test_manifest.json",
+    "bytes": 4722,
+    "sha256": "4f29895c5b981c215958fa7364af23e36103603bdbd2484f404c0eafdc28d8b0"
+  },
+  {
+    "path": "START_HERE_KO.md",
+    "bytes": 5434,
+    "sha256": "3715d5c2ab4aab853d626f66ae798364748f7452ce1a86cc082390d25b9d3d0f"
+  },
+  {
+    "path": "RESULT_KO.md",
+    "bytes": 7349,
+    "sha256": "6b659ee42391b6d2121265c6b62ff1f11b6897eef2cc96a6ad4a1142f5b525cd"
+  },
+  {
+    "path": "REPRODUCE_KO.md",
+    "bytes": 1374,
+    "sha256": "c28061e1ab13e0c9ba75e39381e5d7118bc79d785c991173da44ea7fadaf453e"
+  },
+  {
+    "path": "profiles/EPA_HWFET_single.csv",
+    "bytes": 14978,
+    "sha256": "1c9cb7c6e4dc149826dec6fc0a4db37e986cee14800aa590caa62c96a60b0dbb"
+  },
+  {
+    "path": "profiles/EPA_HWFET_repeat60.csv",
+    "bytes": 985087,
+    "sha256": "32f90dfac57827ca1ab2b15375bf96b4f47d817db4b6526e6099cbd27f6b8a3f"
+  },
+  {
+    "path": "profiles/C2_RANGE_UDDS_SOC100.dat",
+    "bytes": 4036354,
+    "sha256": "a73ffc73a0e11c2ae6858f65b806201d1583316ca171826fe59d44e76f5b6de5"
+  },
+  {
+    "path": "profiles/EPA_UDDS_single.csv",
+    "bytes": 25044,
+    "sha256": "6668d2baa824bf9853a21bf8a0ccf30418c80b4d1aefeb968ea617c559654065"
+  },
+  {
+    "path": "profiles/C2_RANGE_HWFET_SOC100.dat",
+    "bytes": 2284834,
+    "sha256": "e542182d2bc42e69229664f6bbc1b6fb8244109feae33a4242f9f74548c0bee5"
+  },
+  {
+    "path": "profiles/EPA_UDDS_repeat60.csv",
+    "bytes": 1639327,
+    "sha256": "bcac86d69fc44312741e10530d143f93823dfdc18222f3ac4b57b9ffd0feb121"
+  },
+  {
+    "path": "projects/C2_ACC_SOC100.proj",
+    "bytes": 1582089,
+    "sha256": "306b9605e31bf0a542e395eb34632af65a8cf3daad791f181acf8c5adaacfab6"
+  },
+  {
+    "path": "projects/C2_ACC_SOC94.proj",
+    "bytes": 1582088,
+    "sha256": "d26dbff289e41136fa1c25b8b3c3c2566ff75cf628b5fdc8b5222badc3d4004c"
+  },
+  {
+    "path": "projects/C2_RANGE_UDDS_SOC100.proj",
+    "bytes": 2211173,
+    "sha256": "37535773cc2f693e0f33e2e76d8be3b5fd02d95b37804b810afedadcca934393"
+  },
+  {
+    "path": "projects/C2_RANGE_HWFET_SOC100.proj",
+    "bytes": 1635298,
+    "sha256": "af435e1e0fdd6c60deebd927013fe07358ddf7129a1591b7e46e4f7aa68cd9f6"
+  },
+  {
+    "path": "replay/ANL61905064_frozen_C2_replay.csv",
+    "bytes": 17051398,
+    "sha256": "a98c7824a5bd2c802747855c4ee1013e5f7e2565c538806c0d67afed2103939c"
+  },
+  {
+    "path": "replay/SOC_binned_voltage_metrics.csv",
+    "bytes": 1389,
+    "sha256": "40fd0fbe82716c2fb0abd2a6529190a7783729a463702e86ca415b92e03c5bdc"
+  },
+  {
+    "path": "replay/C2_depletion_scope.png",
+    "bytes": 217481,
+    "sha256": "02a150c5d229f408e6075789c09c62717c48a51eaf3320c6d61ca24a8ca90cf4"
+  },
+  {
+    "path": "replay/C2_depletion_scope.pdf",
+    "bytes": 84938,
+    "sha256": "396fe2badcda1bd8862a618caed4c69a7b58d21b8e5db3292c3c666e1d6faec7"
+  },
+  {
+    "path": "replay/summary.json",
+    "bytes": 4158,
+    "sha256": "b0af962efaa0e9cbd6b79603cb114f23f44018a26c21c37dd8139e68b09ae94b"
+  },
+  {
+    "path": "replay/ANL61905067_frozen_C2_replay.csv",
+    "bytes": 17087115,
+    "sha256": "ff7b1d1a6cd56b4ff6d51c6d416a243af7271532486f8dbb47c4538a60ba6979"
+  },
+  {
+    "path": "sources/EPA_UDDS.txt",
+    "bytes": 12611,
+    "sha256": "cc9f3edf2f0626976a6552d9f5c88867e1805ed3f321df9ec943a3e0353687b6"
+  },
+  {
+    "path": "sources/EPA_HWFET.txt",
+    "bytes": 7266,
+    "sha256": "e48e278a40312dfe84d31b5f448b601e7046c72487a6a20d3db1d4f85fb3e10a"
+  },
+  {
+    "path": "sources/source_manifest.json",
+    "bytes": 1140,
+    "sha256": "889f518d1a7a29c15b88dccdc3495dfeb0a5bd45accd5e6aa301c509350be271"
+  },
+  {
+    "path": "maps/C2_Cell_Resistance_25C.dat",
+    "bytes": 5071,
+    "sha256": "8eb5c98820f393a6c7618a11c97f4a0b11330761a5458ee1e184cdcfd2dfce7b"
+  },
+  {
+    "path": "maps/C2_Cell_OCV_25C.dat",
+    "bytes": 5066,
+    "sha256": "b65485fde90f648f2012842c407d633be077e348805bf341638e82eeb5ad500a"
+  },
+  {
+    "path": "scripts/build_C2_performance_projects.py",
+    "bytes": 8613,
+    "sha256": "37a396b46a12dc4cf7c25f82abea815a2962a48a84a8fbba06eeac4ccbc04319"
+  },
+  {
+    "path": "scripts/replay_C2_depletion.py",
+    "bytes": 6310,
+    "sha256": "65156b8f581257e8a0a035e1fbabe5d80494db186bd8fed50865afcd7aaa7932"
+  },
+  {
+    "path": "scripts/evaluate_C2_performance.py",
+    "bytes": 5158,
+    "sha256": "f6832ceb80240b9d5a5c0cfa19df12327cfded9d1021efe9eead81fd417c950a"
+  },
+  {
+    "path": "scripts/audit_dis80_semantic.py",
+    "bytes": 5202,
+    "sha256": "29a3a88a738812d767daacf67abfcd0f21cebbdaeb840a03d8865baa562948d6"
+  },
+  {
+    "path": "baseline/C2_CAL_61905060.proj",
+    "bytes": 1582150,
+    "sha256": "49921958c91e386bf66d997c7abf3b907c499a22f86f3507482c6c5136a8ea25"
+  }
+]
