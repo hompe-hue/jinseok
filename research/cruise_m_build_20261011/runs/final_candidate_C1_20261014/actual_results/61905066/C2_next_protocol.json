@@ -1,0 +1,20 @@
+{
+  "version": "C2_PLANNING_ONLY_NO_PARAMETER_EDITS",
+  "reason": "C1independent066meanvoltagebiasfails",
+  "C1_failed_test_preserved": true,
+  "C1_parameters_changed": false,
+  "if_C2_fit_proceeds_training_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "C2_fresh_holdout_candidates": [
+    "61905058",
+    "61905059"
+  ],
+  "candidates_need_profile_unit_continuity_QA": true,
+  "no_fit_or_model_comparison_using_fresh_holdouts": true,
+  "scope": "SharedbatteryOCV/SOCcoordinate/effectivecapacity/historymodel;noindividualSOCoffset;noautomaticcriterionrelaxation;minimizeparameters;preserveloadmodelinitially",
+  "next_user_simulation_required_now": false,
+  "next_step": "Source/profilesQAandcommonbatterycalibrationfeasibilitybeforecreatingC2projects;C2notyetfixedorvalidated"
+}

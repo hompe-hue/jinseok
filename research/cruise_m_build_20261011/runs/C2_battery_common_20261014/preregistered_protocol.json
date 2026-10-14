@@ -1,0 +1,40 @@
+{
+  "version": "C2",
+  "registered_before_C2_fit": true,
+  "C1_independent_result": "066voltagebiasFAILpreserved",
+  "training_tests": [
+    "61905060",
+    "61905061",
+    "61905066"
+  ],
+  "independent_candidates": [
+    "61905058",
+    "61905059"
+  ],
+  "066_is_not_C2_holdout": true,
+  "no_C2_fit_or_model_comparison_on058_059": true,
+  "load_and_EDU": "KeepC1unchanged",
+  "battery_candidate_family": "SharedmonotoneeffectiveOCVcorrectionsat60/70/85/93percent;positivecommonRscale;optionalcommoncapacityscale;commonV/Iinitialization;noindividualSOCoffset",
+  "bounds": {
+    "OCV_cell_delta_mV": [
+      -50,
+      50
+    ],
+    "R_multiplier": [
+      0.5,
+      2.0
+    ],
+    "effective_capacity_gain": [
+      0.95,
+      1.05
+    ]
+  },
+  "objective": "Equalweightpertrainingtest measured-current voltage replay, small original-parameter regularization; frozen-C1-power replay onlyscreening",
+  "criteria_unchanged": {
+    "energy_abs_error_percent": 5,
+    "voltage_RMSE_V": 2,
+    "voltage_abs_mean_bias_V": 1
+  },
+  "fresh_holdouts_need_full_input_QA": true,
+  "physical_identification_claim": false
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "stage": "C1_HOLD066_actual_evaluated_voltage_bias_FAIL",
+  "model_validation_complete": false,
+  "C1_unchanged": true,
+  "actual066_received": true,
+  "actual066_compared": true,
+  "energy_error_percent": -2.3551078836943407,
+  "voltage_RMSE_V": 1.8971236418936048,
+  "voltage_bias_V": -1.3592233883890386,
+  "independent_all_gates_passed": false,
+  "report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/61905066/RESULT_KO.md",
+  "next": "C2 common battery feasibility with060/061/066 training;fresh058/059 candidate QA;no repeatedC1run",
+  "additional_C1_run_required": false
+}

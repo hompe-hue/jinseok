@@ -1,0 +1,10 @@
+{
+  "test": "61905066",
+  "motor_C1_lookup_max_abs_error_kW": 2.1316282072803006e-14,
+  "motor_active_samples": 6462,
+  "bridge_samples": 590,
+  "gross_discharge_error_percent": 0.20292332148597048,
+  "gross_recovered_error_percent": 9.130707656593762,
+  "parameters_changed": false,
+  "scope": "C1applicationconfirmed;independentmeanvoltagebiascriterionfails"
+}

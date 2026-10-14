@@ -1,0 +1,13 @@
+{
+  "original_OCV_R_measured_current_replay_bias_V": -1.2605034250210292,
+  "original_OCV_R_measured_current_replay_RMSE_V": 1.6130647448362654,
+  "original_initial_SOC_rule_percent": 92.86568021018186,
+  "low_load_definition": "measuredspeed<=1kmh andabs(measuredcurrent)<=3A;after20s",
+  "low_load_samples": 974,
+  "C1_low_load_voltage_bias_V": -1.4953198516598867,
+  "late_low_load_samples": 474,
+  "C1_late_low_load_voltage_bias_V": -2.7346916185309462,
+  "late_low_load_mean_abs_measured_current_A": 1.4333611337474939,
+  "no_parameters_changed": true,
+  "scope": "Originalstaticmodelalsobiases;OCV/capacity/history/hysteresis/temperaturearenotuniquelyidentified"
+}

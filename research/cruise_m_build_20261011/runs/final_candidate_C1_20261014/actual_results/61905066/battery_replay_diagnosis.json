@@ -1,0 +1,78 @@
+{
+  "initial_model_SOC_percent": 92.8783576108078,
+  "final_model_SOC_percent": 75.47470281330564,
+  "final_measured_current_replayed_SOC_percent": 75.20672547081122,
+  "measured_current_replay_bias_V": -1.5919988264348837,
+  "measured_current_replay_RMSE_V": 2.0474618278108467,
+  "C1_runtime_voltage_formula_max_abs_V": 0.004007659567889732,
+  "model_demand_relative_to_measured_current_replay_mean_V": 0.2327754380458452,
+  "model_Ah": 29.24966950635285,
+  "measured_Ah_native_to_export_end": 29.688341995194335,
+  "max_single_second_SOC_change_pp": 0.03402992142503081,
+  "phases": [
+    {
+      "phase": 1,
+      "measured_current_replay_bias_V": -0.12213057248678458,
+      "measured_current_replay_RMSE_V": 0.5451078767640682,
+      "C1_state_current_effect_mean_V": 0.1542350199347842,
+      "model_SOC_start_percent": 92.8743389319304,
+      "model_SOC_end_percent": 91.0160339976245,
+      "replayed_SOC_end_percent": 90.8941733361991
+    },
+    {
+      "phase": 2,
+      "measured_current_replay_bias_V": -0.6508945564846622,
+      "measured_current_replay_RMSE_V": 0.84373694507324,
+      "C1_state_current_effect_mean_V": 0.2617595781010023,
+      "model_SOC_start_percent": 91.0156994912308,
+      "model_SOC_end_percent": 89.14079332734315,
+      "replayed_SOC_end_percent": 88.93982725158284
+    },
+    {
+      "phase": 3,
+      "measured_current_replay_bias_V": -0.964319280078891,
+      "measured_current_replay_RMSE_V": 1.0946678921205288,
+      "C1_state_current_effect_mean_V": 0.251355160433322,
+      "model_SOC_start_percent": 89.1402874029567,
+      "model_SOC_end_percent": 86.01985425702397,
+      "replayed_SOC_end_percent": 85.83658102864152
+    },
+    {
+      "phase": 4,
+      "measured_current_replay_bias_V": -1.3816440821423743,
+      "measured_current_replay_RMSE_V": 1.9731723935276042,
+      "C1_state_current_effect_mean_V": 0.2912217049662603,
+      "model_SOC_start_percent": 86.01951374647525,
+      "model_SOC_end_percent": 82.5815460722483,
+      "replayed_SOC_end_percent": 82.32728773420376
+    },
+    {
+      "phase": 5,
+      "measured_current_replay_bias_V": -2.015153131778208,
+      "measured_current_replay_RMSE_V": 2.0881150760275036,
+      "C1_state_current_effect_mean_V": 0.2121491607344861,
+      "model_SOC_start_percent": 82.58102944835176,
+      "model_SOC_end_percent": 79.39076989892477,
+      "replayed_SOC_end_percent": 79.20870653104335
+    },
+    {
+      "phase": 6,
+      "measured_current_replay_bias_V": -2.8157950353269037,
+      "measured_current_replay_RMSE_V": 2.8774234551468223,
+      "C1_state_current_effect_mean_V": 0.2252294689292678,
+      "model_SOC_start_percent": 79.3902481250789,
+      "model_SOC_end_percent": 77.4386880254229,
+      "replayed_SOC_end_percent": 77.21866965909221
+    },
+    {
+      "phase": 7,
+      "measured_current_replay_bias_V": -2.9606730672377553,
+      "measured_current_replay_RMSE_V": 3.020461332162963,
+      "C1_state_current_effect_mean_V": 0.2639036646469404,
+      "model_SOC_start_percent": 77.43816327066362,
+      "model_SOC_end_percent": 75.47470281330564,
+      "replayed_SOC_end_percent": 75.20672547081122
+    }
+  ],
+  "scope": "Frozenmaps/sameinitialrule replay;notCANmappingoruniquecellparameteridentification"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "velocity_C1_CAL_61905066.csv",
+    "library_file_id": "libfile_03cde6861c348191b49e411598d341f3",
+    "bytes": 1493110,
+    "sha256": "d65010f304b9f42840f8c3e51826b1cf4a3115046c99fe9599ad2cbb169cb33a",
+    "evaluation_role": "IndependentC1HOLD066",
+    "filename_role_not_authoritative": true
+  },
+  {
+    "filename": "generator_C1_CAL_61905066.csv",
+    "library_file_id": "libfile_77813ee1426c81918f0c728128e43fa4",
+    "bytes": 728172,
+    "sha256": "eb9d2b728ebbee79109c7f4cf062c7d97d79f9fa963e60e0686ac45c478dbc98",
+    "evaluation_role": "IndependentC1HOLD066",
+    "filename_role_not_authoritative": true
+  },
+  {
+    "filename": "battery_C1_CAL_61905066.csv",
+    "library_file_id": "libfile_baf54b4433188191ac3fe9cdb0085dce",
+    "bytes": 945714,
+    "sha256": "0bde115d7b3587aae4fa8deb8816a670b760495973d343e551a8d293c466c601",
+    "evaluation_role": "IndependentC1HOLD066",
+    "filename_role_not_authoritative": true
+  }
+]

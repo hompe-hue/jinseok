@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "baseline_remote_commit": "f43b643b738ce3174d230a7e5455d0c29bdb2807",
   "recovered_67_local_commit": "8f69635",
-  "current_stage": "C1_actual_CAL060_CAL061_passed_frozen_for066_independent_run_pending",
+  "current_stage": "C1_HOLD066_actual_evaluated_voltage_bias_FAIL",
   "complete": [
     "61905067 source CRC/size/SHA256 verification without repeated analysis",
     "61905060 DAT/CSV generation and numeric roundtrip verification",
@@ -23,13 +23,15 @@
     "Existing-run residual regionpartition,sensitivityandclosure;066continuousdata/profile/evaluationcodeprepared2026-10-14",
     "DIS80 savedproject correspondence audit and overlap identifiability screen; no source edits",
     "C1empiricalcandidatefixedandthreeprojectcopiesprepared; actualCRUISEpending",
-    "ActualC1CAL060/061allcriteriaPASS;actualmap/batteryimplementationagreement;C1frozenfor066"
+    "ActualC1CAL060/061allcriteriaPASS;actualmap/batteryimplementationagreement;C1frozenfor066",
+    "ActualC1HOLD066evaluated;voltagebiasFAILpreserved;measured-current and runtime diagnostics completed"
   ],
   "not_complete": [
-    "Independent066actualevaluation",
-    "Finalizevalidatedscope/figures/midtermreport"
+    "C2 feasibility and actual confirmation",
+    "Fresh independent evaluation",
+    "Finalize validation scope and midterm figures"
   ],
-  "next": "Run existing repaired-package projects/C1_HOLD_61905066.proj once continuously;export battery_C1_HOLD_61905066.csv,velocity_C1_HOLD_61905066.csv,generator_C1_HOLD_61905066.csv;no resets between7phases",
+  "next": "C2 common battery feasibility with060/061/066 training;fresh058/059 candidate QA;no repeatedC1run",
   "github_push": "Connector publication; no approval blocker",
   "auto_review_reason": "Large public analysis bundle to main; reviewer reports lack of explicit authorization for current disclosure/main mutation despite prior session authorization",
   "rules_preserved": [
@@ -73,10 +75,10 @@
   "uploaded_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
   "project_audit": "research/cruise_m_build_20261011/runs/project_audit_20261013/RESULT_KO.md",
   "project_saved_state_audit_commit": "33dc32d",
-  "latest_checkpoint": "checkpoints/BOLT_C1_CAL_CONFIRMED_20261014.json",
-  "latest_result": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/RESULT_KO.md",
-  "latest_stage": "C1_actual_CAL060_CAL061_passed_frozen_for066_independent_run_pending",
-  "current_user_simulation_required": true,
+  "latest_checkpoint": "checkpoints/BOLT_C1_HOLD066_REVIEW_20261014.json",
+  "latest_result": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/61905066/RESULT_KO.md",
+  "latest_stage": "C1_HOLD066_actual_evaluated_voltage_bias_FAIL",
+  "current_user_simulation_required": false,
   "final_physical_validation_passed": false,
   "latest_replay_package": {
     "library_file_id": "libfile_2045c7e2489881918a38dd61a57b40c8",
@@ -92,16 +94,14 @@
     "kind": "Repaired_C1_execution_package_not_CRUISE_results"
   },
   "latest_research_direction_checkpoint": "checkpoints/RESEARCH_DIRECTION_20261013.json",
-  "latest_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/RESULT_KO.md",
+  "latest_report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/actual_results/61905066/RESULT_KO.md",
   "research_scope": "Finite-mission performance feasibility boundaries and conditional effects of unchanged S0-S4; virtual net-DC genset",
   "validation_complete": false,
   "next_actions": [
-    "Run existing repaired-package projects/C1_HOLD_61905066.proj once continuously;export battery_C1_HOLD_61905066.csv,velocity_C1_HOLD_61905066.csv,generator_C1_HOLD_61905066.csv;no resets between7phases",
-    "Verify genuine066CSVwithunchangedC1andfrozen_for066.json",
-    "Finalizevalidationfiguresandmidtermreport"
+    "C2 common battery feasibility with060/061/066 training;fresh058/059 candidate QA;no repeatedC1run"
   ],
   "latest_validation_checkpoint": "checkpoints/BOLT_VALIDATION_CLOSURE_20261014.json",
-  "immediate_user_input": "ActualHOLD066CSV3files",
+  "immediate_user_input": null,
   "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
   "candidate": "C1",
   "calibration_confirmation_passed": true,
