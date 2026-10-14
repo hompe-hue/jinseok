@@ -1,0 +1,29 @@
+{
+  "package_path": "/workspace/scratch/a5204a7b57f4/output/C1_BoltEV_Execution_Repair_20261014.zip",
+  "bytes": 11972823,
+  "sha256": "1aba49ded38703690a8d3f8111aff5abc7c6d0e7f5ca9f4acec387f5d64f1045",
+  "projects": [
+    {
+      "project": "C1_CAL_61905060.proj",
+      "project_sha256": "44ea3a5eb2bee4f6f6f9582b7c0fa2dd7a81eb1c8eacb09351c426a3cd579674",
+      "bytes": 1582115
+    },
+    {
+      "project": "C1_CAL_61905061.proj",
+      "project_sha256": "5c95d29ee77685bbe4afb7b5c7517501272e84e8046fc0fe8fd0fc0bd4075942",
+      "bytes": 1527907
+    },
+    {
+      "project": "C1_HOLD_61905066.proj",
+      "project_sha256": "adb0053e67569e80374530924200889018afa62be0353756cefb00a478c0dd5d",
+      "bytes": 1690437
+    }
+  ],
+  "parameters_changed": false,
+  "actual_CRUISE_run": false,
+  "local_full_archive_hash_verification": true,
+  "delivery_roundtrip_verified": true,
+  "verified_downloaded_archive_bytes": 11972823,
+  "library_file_id": "libfile_2045c7e2489881918a38dd61a57b40c8",
+  "version_number": 2
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "candidate": "C1",
+  "issue": "CAL060/CAL061zero-byteprojectsandinvalidoldZIP",
+  "repaired": true,
+  "parameters_changed": false,
+  "actual_CRUISE_run": false,
+  "delivery_roundtrip_verified": true,
+  "model_validation_complete": false,
+  "package": {
+    "library_file_id": "libfile_2045c7e2489881918a38dd61a57b40c8",
+    "file_id": "file_000000009d888209a516831e08f3acbb",
+    "version_number": 2,
+    "filename": "C1_BoltEV_Execution_Repair_20261014.zip",
+    "library_path": "/C1_BoltEV_Execution_Repair_20261014.zip",
+    "local_path": "/workspace/scratch/a5204a7b57f4/output/C1_BoltEV_Execution_Repair_20261014.zip",
+    "sha256": "1aba49ded38703690a8d3f8111aff5abc7c6d0e7f5ca9f4acec387f5d64f1045",
+    "size_bytes": 11972823,
+    "delivery_roundtrip_verified": true,
+    "supersedes_package_version": 1,
+    "kind": "Repaired_C1_execution_package_not_CRUISE_results"
+  },
+  "report": "research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DELIVERY_REPAIR_KO.md",
+  "next": "Downloadrepairedpackageversion2;extracttonewfolder;openC1_CAL060;thenrunCAL060/CAL061anduploadCSV6files",
+  "windows_CRUISE_open_tested": false
+}

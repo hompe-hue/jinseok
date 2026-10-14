@@ -1,3 +1,5 @@
+> **2026-10-14 C1 전달 파일 수정:** 기존 CAL060/061의 0KB 문제를 수정했습니다. 최신 패키지 버전2를 다시 내려받아 모든 파일 크기·해시와 프로젝트 XML을 확인했습니다. 보정 수치는 그대로이며 CRUISE M 열기·실행 확인은 남아 있습니다. [수정 기록](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DELIVERY_REPAIR_KO.md) · [재개 기록](checkpoints/BOLT_C1_DELIVERY_REPAIR_20261014.json)
+
 > **2026-10-14 C1 보정안 확정·실행 패키지 준비:** 따뜻한 조건의 차량 수준 유효 보정이며 아직 CRUISE 확인 실행 전입니다. 현재 작업은 C1 CAL060/061 실행 및 새 CSV 6개 비교 → 통과 후 HOLD066 연속 독립 검증입니다. [적용 수치·근거](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/DECISION_KO.md) · [실행 안내](research/cruise_m_build_20261011/runs/final_candidate_C1_20261014/START_HERE_KO.md) · [재개 기록](checkpoints/BOLT_C1_CANDIDATE_FIXED_20261014.json)
 
 > **2026-10-14 DIS80 저장본 연결 완료:** 현재 파일의 80 kW 상한·060 프로파일·OCV/R·EDU 표를 실제 출력과 대조했습니다. 저장본 요청은 해결됐고, 오차 보정·066 독립 검증은 남아 있습니다. [최신 분석](research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md) · [재개 기록](checkpoints/BOLT_DIS80_PROJECT_CLOSURE_20261014.json)

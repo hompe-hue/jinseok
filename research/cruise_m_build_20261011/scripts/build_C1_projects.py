@@ -3,7 +3,7 @@
 Keep IDs/links intact, find changed data by type, owner and table contents.
 Actual CRUISE loading/solver and result export remain untested here.
 """
-import base64,hashlib,json,sys,zipfile
+import base64,hashlib,json,sys,zipfile,os,copy
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -88,8 +88,16 @@ def main():
         ea=p.arrays_under(ef['distance_based']);assert len(ea)==3 and len(ea[1][2])==1
         node=p.resolve(p.fields(p.index[ea[1][0]])['data']);set_array(node.get('id'),[ambient])
         destination=OUT/'projects'/f'C1_{role}_{test}.proj'
-        with zipfile.ZipFile(source) as zin,zipfile.ZipFile(destination,'w',zipfile.ZIP_DEFLATED) as zout:
-            for item in zin.infolist():zout.writestr(item,E.tostring(p.root,encoding='utf-8',xml_declaration=True) if item.filename=='project.xml' else zin.read(item.filename))
+        temporary=destination.with_suffix('.proj.part')
+        with zipfile.ZipFile(source) as zin,zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED) as zout:
+            for item in zin.infolist():zout.writestr(copy.copy(item),E.tostring(p.root,encoding='utf-8',xml_declaration=True) if item.filename=='project.xml' else zin.read(item.filename))
+        assert temporary.stat().st_size>100000
+        with temporary.open('rb') as f:os.fsync(f.fileno())
+        with zipfile.ZipFile(temporary) as z:assert z.testzip() is None
+        os.replace(temporary,destination)
+        directory_fd=os.open(destination.parent,os.O_DIRECTORY)
+        try:os.fsync(directory_fd)
+        finally:os.close(directory_fd)
         # Inspect the written project and verify all expected embedded values.
         check=SavedProject(destination)
         assert all(abs(check.amount(x,'initial_charge')-initial)<1e-10 for x in check.nodes('cruise.props.battery.InitialConditions'))
@@ -109,8 +117,9 @@ def main():
         before=SavedProject(source)
         assert before.index.keys()==check.index.keys()
         assert [x.get('id') for x in before.root.iter('ref')]==[x.get('id') for x in check.root.iter('ref')]
-        for member in zipfile.ZipFile(source).namelist():
-            if member!='project.xml':assert zipfile.ZipFile(source).read(member)==zipfile.ZipFile(destination).read(member)
+        with zipfile.ZipFile(source) as original_zip,zipfile.ZipFile(destination) as result_zip:
+            for member in original_zip.namelist():
+                if member!='project.xml':assert original_zip.read(member)==result_zip.read(member)
         cases.append(dict(test=test,role=role,project=destination.name,project_sha256=sha(destination),input_profile=fname,input_profile_sha256=sha(OUT/'inputs'/fname),
           initial_SOC_percent=initial,battery_temperature_C=temp,environment_temperature_C=ambient,end_time_s=duration,rows=n,
           modified_amount_or_array_ids=modified,zip_XML_readback_passed=True,CRUISE_load_tested=False,CRUISE_solver_tested=False,
