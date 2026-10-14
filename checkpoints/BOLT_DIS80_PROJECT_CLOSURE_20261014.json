@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "stage": "BEV_DIS80_saved_project_received_audited_calibration_pending",
+  "model_validation_complete": false,
+  "source_project_received": true,
+  "source_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "source_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "report": "research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md",
+  "completed": [
+    "Savedproject/060DIS80CSVconsistency",
+    "80kWtableand7column060profileidentifiedsemantically",
+    "OriginalOCV/RandEDUmapmatchverified",
+    "Fixedtraceoverlapidentifiabilityscreen"
+  ],
+  "findings": {
+    "saved_high_SOC_limit_kW": 80,
+    "current_low_SOC_limit_is_not_validated_BMS_data": true,
+    "current060_energy_error_percent": 9.484481,
+    "current061_energy_error_percent": 8.517649,
+    "common_algebraic_overlap_fraction_range": [
+      0.3366140047086215,
+      0.9380338355595469
+    ],
+    "fraction_is_not_identified_neutral_loss": true
+  },
+  "new_model_edits": false,
+  "new_CRUISE_runs": false,
+  "immediate_user_input": null,
+  "current_user_simulation_required": false,
+  "remaining_stages": [
+    "Resolve060/061correctionbasisandfreezeactualproject/parameters",
+    "066continuousindependentCRUISErunandactualCSV/logevaluation",
+    "FinalizevalidationfiguresandOctober30midtermreport"
+  ],
+  "minimum_future_runs_after_candidate_ready": {
+    "060_calibration_confirmation": 1,
+    "061_calibration_confirmation": 1,
+    "066_continuous_validation": 1,
+    "total": 3,
+    "condition": "Candidatepassesonfirstconfirmationbatch;notaguaranteedorcompletedruncount"
+  },
+  "do_not_repeat": [
+    "Request for DIS80savedproject",
+    "Olddifferential/wheel/inputcheckswithoutnewchange",
+    "Same-condition060/061runsbeforecandidatepreparation"
+  ],
+  "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md"
+}

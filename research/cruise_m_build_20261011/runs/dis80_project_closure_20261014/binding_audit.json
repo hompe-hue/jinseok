@@ -1,0 +1,105 @@
+{
+  "project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "source_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "CRC_passed": true,
+  "profile": {
+    "serializer_id": "40662",
+    "columns": 7,
+    "rows": 3152,
+    "end_s": 3150.8969950676,
+    "full_profile_matches060": true,
+    "exported_desired_speed_matches": true,
+    "max_export_desired_speed_difference_kmh": 1.2762887990902527e-07,
+    "tolerance_kmh": 1e-06
+  },
+  "initial_SOC_percent": [
+    81.254247,
+    81.254247
+  ],
+  "limit_table": {
+    "serializer_id": "68891",
+    "SOC_percent": [
+      0.0,
+      20.0,
+      30.0,
+      40.0,
+      75.0,
+      85.0,
+      99.5
+    ],
+    "discharge_limit_kW": [
+      0.0,
+      0.0,
+      24.0,
+      80.0,
+      80.0,
+      80.0,
+      80.0
+    ]
+  },
+  "aux_kW": 0.4,
+  "ABC": [
+    126.329494,
+    0.557775,
+    0.033456276
+  ],
+  "battery_tables": [
+    {
+      "type": "IdleVoltage",
+      "module_occurrence": 0,
+      "max_difference": 0.0,
+      "input_sha256": "c74c416ecb0b85a2c84ec5926ac853b5b4fb752c09a17acdca24e77330f2b63d"
+    },
+    {
+      "type": "IdleVoltage",
+      "module_occurrence": 1,
+      "max_difference": 0.0,
+      "input_sha256": "c74c416ecb0b85a2c84ec5926ac853b5b4fb752c09a17acdca24e77330f2b63d"
+    },
+    {
+      "type": "OhmicResistanceCharge",
+      "module_occurrence": 0,
+      "max_difference": 0.0,
+      "input_sha256": "606a15730b27f6758012b2a55ca1a9d12d9b3f955d75042eb4376595eca6cd31"
+    },
+    {
+      "type": "OhmicResistanceCharge",
+      "module_occurrence": 1,
+      "max_difference": 0.0,
+      "input_sha256": "606a15730b27f6758012b2a55ca1a9d12d9b3f955d75042eb4376595eca6cd31"
+    },
+    {
+      "type": "OhmicResistanceDischarge",
+      "module_occurrence": 0,
+      "max_difference": 0.0,
+      "input_sha256": "606a15730b27f6758012b2a55ca1a9d12d9b3f955d75042eb4376595eca6cd31"
+    },
+    {
+      "type": "OhmicResistanceDischarge",
+      "module_occurrence": 1,
+      "max_difference": 0.0,
+      "input_sha256": "606a15730b27f6758012b2a55ca1a9d12d9b3f955d75042eb4376595eca6cd31"
+    }
+  ],
+  "motor_tables": [
+    {
+      "quadrant": "Q1",
+      "rows": 153,
+      "max_difference_from_original_kW": 1.0658141036401503e-14
+    },
+    {
+      "quadrant": "Q4",
+      "rows": 128,
+      "max_difference_from_original_kW": 7.105427357601002e-15
+    }
+  ],
+  "runtime_provenance": "Saved inputs and observed outputs consistent; no solver log or embedded runtime project hash received",
+  "not_a_validated_low_SOC_BMS_map": true,
+  "model_validation_complete": false,
+  "CSV_tail_not_exported_s": 0.8969950676000735,
+  "input_sha256": {
+    "battery_ANL61905060DIS80.csv": "69300e0229b82efc961396d29fb7d9cc465fe8f251228203863248af4c96660b",
+    "velocity_ANL61905060DIS80.csv": "9a037c21ecea3daf55722ecd994c587aa66eaad8b6ef0fe487efa67b834cdb74",
+    "generator_ANL61905060DIS80.csv": "57dc3c097d5a453996550363767c0b38a452dac07024245ad859bfbb21d30e30"
+  }
+}

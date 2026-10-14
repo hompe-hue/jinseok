@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "test": "61905060",
+      "time_window_s": [
+        20,
+        3150.0
+      ],
+      "model_Q1_zero_torque_loss_integral_kWh": 1.3738327080883415,
+      "native_residual_kWh": 0.9780643600135779,
+      "model_distance_km": 65.6510674723461,
+      "energy_equivalent_constant_force_N": 53.63251248781337,
+      "algebraic_zero_loss_fraction_for_zero_residual": 0.7119239149390564,
+      "algebraic_fraction_interval_for_energy5percent": [
+        0.3366140047086215,
+        1
+      ],
+      "source_velocity_sha256": "9a037c21ecea3daf55722ecd994c587aa66eaad8b6ef0fe487efa67b834cdb74"
+    },
+    {
+      "test": "61905061",
+      "time_window_s": [
+        20,
+        1489.0
+      ],
+      "model_Q1_zero_torque_loss_integral_kWh": 0.48825073507679273,
+      "native_residual_kWh": 0.2885891414053643,
+      "model_distance_km": 24.863823691785843,
+      "energy_equivalent_constant_force_N": 41.78443838477408,
+      "algebraic_zero_loss_fraction_for_zero_residual": 0.591067500103148,
+      "algebraic_fraction_interval_for_energy5percent": [
+        0.24410116464674922,
+        0.9380338355595469
+      ],
+      "source_velocity_sha256": "06c28efa37cf7f4b67f98d00e20585569710b1b87cca71b886ca2c40d43f8bf0"
+    }
+  ],
+  "common_algebraic_fraction_interval": [
+    0.3366140047086215,
+    0.9380338355595469
+  ],
+  "fraction_identified": false,
+  "correction_applied": false,
+  "scope": "Fixed-state subtraction experiment. Zero-torque EDU loss includes electrical/magnetic/gearing losses; it is not measured passive neutral loss. Common interval is compatibility, not parameter identification or CRUISE prediction. 061 uses its existing45kW result."
+}

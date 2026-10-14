@@ -1,0 +1,1761 @@
+{
+  "old_sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
+  "new_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "CRC_passed": true,
+  "unchanged_property_occurrences": 1446,
+  "changed_property_occurrences": 9,
+  "count_changed_groups": [],
+  "changes": [
+    {
+      "type": "cruise.props.battery.InitialConditions",
+      "occurrence": 0,
+      "old": {
+        "serializer_id": "48260",
+        "semantic": {
+          "type": "cruise.props.battery.InitialConditions",
+          "fields": {
+            "initial_charge": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "dimensionless~percent"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 62.83617
+              }
+            },
+            "initial_ocv_definition": {
+              "type": "cruise.props.commons_battery.InitialOCVDefinition",
+              "fields": {
+                "active": "mean",
+                "user_defined": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "dimensionless~no"
+                      ]
+                    },
+                    "fixed_unit": false,
+                    "value": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "51244",
+        "semantic": {
+          "type": "cruise.props.battery.InitialConditions",
+          "fields": {
+            "initial_charge": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "dimensionless~percent"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 81.254247
+              }
+            },
+            "initial_ocv_definition": {
+              "type": "cruise.props.commons_battery.InitialOCVDefinition",
+              "fields": {
+                "active": "mean",
+                "user_defined": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "dimensionless~no"
+                      ]
+                    },
+                    "fixed_unit": false,
+                    "value": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.battery.InitialConditions",
+      "occurrence": 1,
+      "old": {
+        "serializer_id": "48836",
+        "semantic": {
+          "type": "cruise.props.battery.InitialConditions",
+          "fields": {
+            "initial_charge": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "dimensionless~percent"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 62.83617
+              }
+            },
+            "initial_ocv_definition": {
+              "type": "cruise.props.commons_battery.InitialOCVDefinition",
+              "fields": {
+                "active": "mean",
+                "user_defined": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "dimensionless~no"
+                      ]
+                    },
+                    "fixed_unit": false,
+                    "value": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "51820",
+        "semantic": {
+          "type": "cruise.props.battery.InitialConditions",
+          "fields": {
+            "initial_charge": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "dimensionless~percent"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 81.254247
+              }
+            },
+            "initial_ocv_definition": {
+              "type": "cruise.props.commons_battery.InitialOCVDefinition",
+              "fields": {
+                "active": "mean",
+                "user_defined": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "dimensionless~no"
+                      ]
+                    },
+                    "fixed_unit": false,
+                    "value": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.general_map.GeneralCharacteristic",
+      "occurrence": 2,
+      "old": {
+        "serializer_id": "65907",
+        "semantic": {
+          "type": "cruise.props.general_map.GeneralCharacteristic",
+          "fields": {
+            "online_actuation": false,
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "7",
+                              "sha256": "409edc89f982446c5d7816d60ce17dd1b52e03c10637f0068b510c9ca9ec91b5",
+                              "count": 7,
+                              "values": [
+                                0.0,
+                                20.0,
+                                30.0,
+                                40.0,
+                                75.0,
+                                85.0,
+                                99.5
+                              ]
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "dimensionless~percent"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "7",
+                              "sha256": "13d8e40d4b517e2a71b8bf0706e76bb32f8c205d0b8be17edf763973ac880b11",
+                              "count": 7,
+                              "values": [
+                                0.0,
+                                0.0,
+                                24.0,
+                                45.0,
+                                45.0,
+                                45.0,
+                                45.0
+                              ]
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "power~kW"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "constant"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "68891",
+        "semantic": {
+          "type": "cruise.props.general_map.GeneralCharacteristic",
+          "fields": {
+            "online_actuation": false,
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "7",
+                              "sha256": "409edc89f982446c5d7816d60ce17dd1b52e03c10637f0068b510c9ca9ec91b5",
+                              "count": 7,
+                              "values": [
+                                0.0,
+                                20.0,
+                                30.0,
+                                40.0,
+                                75.0,
+                                85.0,
+                                99.5
+                              ]
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "dimensionless~percent"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "7",
+                              "sha256": "6684ab2eab37ab30596c493159ee51495a13807d60d4df28eee31d396bf37f34",
+                              "count": 7,
+                              "values": [
+                                0.0,
+                                0.0,
+                                24.0,
+                                80.0,
+                                80.0,
+                                80.0,
+                                80.0
+                              ]
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "power~kW"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "constant"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.solid_wall.DefinedTemperature",
+      "occurrence": 2,
+      "old": {
+        "serializer_id": "48452",
+        "semantic": {
+          "type": "cruise.props.solid_wall.DefinedTemperature",
+          "fields": {
+            "temperature": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "temperature~degC"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 26.0
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "51436",
+        "semantic": {
+          "type": "cruise.props.solid_wall.DefinedTemperature",
+          "fields": {
+            "temperature": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "temperature~degC"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 24.5
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.solid_wall.DefinedTemperature",
+      "occurrence": 3,
+      "old": {
+        "serializer_id": "49028",
+        "semantic": {
+          "type": "cruise.props.solid_wall.DefinedTemperature",
+          "fields": {
+            "temperature": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "temperature~degC"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 26.0
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "52012",
+        "semantic": {
+          "type": "cruise.props.solid_wall.DefinedTemperature",
+          "fields": {
+            "temperature": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "temperature~degC"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 24.5
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.tasks.profile.VelocityProfileTime",
+      "occurrence": 0,
+      "old": {
+        "serializer_id": "37678",
+        "semantic": {
+          "type": "cruise.props.tasks.profile.VelocityProfileTime",
+          "fields": {
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "e2ea15a24cb2d12fa1b4ff7eeda08bc52697c7c1fdded2f20068fe476302c4e8",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 1489.89857912064,
+                              "minimum": 0.0,
+                              "maximum": 1489.89857912064
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "1491",
+                              "sha256": "87a9b57374b27b4a330168b932de75f012fb6c0bc4d35ca621b6407bdb935831",
+                              "count": 1491,
+                              "first": 1.0,
+                              "last": 1.0,
+                              "minimum": 1.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "92ca6392d57b303d2b17c72a79bdcd86b7fa90609b3cc61f62ff663b1309179f",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 0.0
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "1491",
+                              "sha256": "7c13323adfb357e90ef097500eba7fa85946ed87183d2462a512542fef2b9074",
+                              "count": 1491,
+                              "first": 1.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "data_source": null,
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "40662",
+        "semantic": {
+          "type": "cruise.props.tasks.profile.VelocityProfileTime",
+          "fields": {
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "05c1e310bf6febb52ba8b64a1c6dbc18daa16907ff9db544801642bde51b7d47",
+                              "count": 3152,
+                              "first": 0.0,
+                              "last": 3150.8969950676,
+                              "minimum": 0.0,
+                              "maximum": 3150.8969950676
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "3152",
+                              "sha256": "d5f075745ae7bdcab89a51e51facde0f637f6ced2523e2750f59ef51f29c3c5c",
+                              "count": 3152,
+                              "first": 1.0,
+                              "last": 1.0,
+                              "minimum": 1.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "28a6aeb09282607f75f96cf3b4cb14facf04105618e03a1087b4582810068afc",
+                              "count": 3152,
+                              "first": 0.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 0.0
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "3152",
+                              "sha256": "3709e99759efe6abf72a949ad29268834779065e23239cd0065616422e430c32",
+                              "count": 3152,
+                              "first": 1.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "data_source": null,
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.tasks.profile.VelocityProfileTime",
+      "occurrence": 6,
+      "old": {
+        "serializer_id": "38967",
+        "semantic": {
+          "type": "cruise.props.tasks.profile.VelocityProfileTime",
+          "fields": {
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "05c1e310bf6febb52ba8b64a1c6dbc18daa16907ff9db544801642bde51b7d47",
+                              "count": 3152,
+                              "first": 0.0,
+                              "last": 3150.8969950676,
+                              "minimum": 0.0,
+                              "maximum": 3150.8969950676
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "3152",
+                              "sha256": "d5f075745ae7bdcab89a51e51facde0f637f6ced2523e2750f59ef51f29c3c5c",
+                              "count": 3152,
+                              "first": 1.0,
+                              "last": 1.0,
+                              "minimum": 1.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "28a6aeb09282607f75f96cf3b4cb14facf04105618e03a1087b4582810068afc",
+                              "count": 3152,
+                              "first": 0.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 0.0
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "3152",
+                              "sha256": "3709e99759efe6abf72a949ad29268834779065e23239cd0065616422e430c32",
+                              "count": 3152,
+                              "first": 1.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "3152",
+                              "sha256": "8e7b5942fa6441e3aae34396e53aeb22ed24dbb4dc15d3878d3c52f90e062d8e",
+                              "count": 3152,
+                              "first": 5.49579315885438e-05,
+                              "last": 4.00403711483083e-05,
+                              "minimum": 0.0,
+                              "maximum": 130.602361439911
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "data_source": null,
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "41951",
+        "semantic": {
+          "type": "cruise.props.tasks.profile.VelocityProfileTime",
+          "fields": {
+            "rifun": {
+              "type": "common.props.commons.RichInterpolatedFunction",
+              "fields": {
+                "ifun": {
+                  "type": "act.tbl.InterpolatedFunction",
+                  "fields": {
+                    "domain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "e2ea15a24cb2d12fa1b4ff7eeda08bc52697c7c1fdded2f20068fe476302c4e8",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 1489.89857912064,
+                              "minimum": 0.0,
+                              "maximum": 1489.89857912064
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "codomain": {
+                      "tag": "tuple",
+                      "type": null,
+                      "items": [
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "1491",
+                              "sha256": "87a9b57374b27b4a330168b932de75f012fb6c0bc4d35ca621b6407bdb935831",
+                              "count": 1491,
+                              "first": 1.0,
+                              "last": 1.0,
+                              "minimum": 1.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "92ca6392d57b303d2b17c72a79bdcd86b7fa90609b3cc61f62ff663b1309179f",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 0.0
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "time~s"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.IntArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<i8",
+                              "shape": "1491",
+                              "sha256": "7c13323adfb357e90ef097500eba7fa85946ed87183d2462a512542fef2b9074",
+                              "count": 1491,
+                              "first": 1.0,
+                              "last": 0.0,
+                              "minimum": 0.0,
+                              "maximum": 1.0
+                            },
+                            "deleg": {},
+                            "type_": {
+                              "tag": "type",
+                              "type": null,
+                              "items": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "act.tbl.NumArray",
+                          "fields": {
+                            "data": {
+                              "array_dtype": "<f8",
+                              "shape": "1491",
+                              "sha256": "caf922a0433db2cb2fbec4ec3b0197c7e78cf4915890bf9f10d2705a59572acf",
+                              "count": 1491,
+                              "first": 0.0,
+                              "last": 0.00265413654745677,
+                              "minimum": 0.0,
+                              "maximum": 115.440141478058
+                            },
+                            "deleg": {},
+                            "fixed_unit": true,
+                            "unit": {
+                              "tag": "compose",
+                              "type": "act.units.Unit",
+                              "items": [
+                                "velocity~km_h"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "uses_interpolation": false,
+                    "resizable": true
+                  }
+                },
+                "data_source": null,
+                "author": "",
+                "comment": "",
+                "_table_approximation_settings": {
+                  "type": "common.props.commons.TableApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "interpolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.InterpolationMethod",
+                      "items": [
+                        "linear"
+                      ]
+                    }
+                  }
+                },
+                "_map_approximation_settings": {
+                  "type": "common.props.commons.MapApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    },
+                    "x_grid": 30,
+                    "y_grid": 30,
+                    "approximation_method": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ApproximationMethodConst",
+                      "items": [
+                        "standard"
+                      ]
+                    },
+                    "kind_of_map": {
+                      "tag": "compose",
+                      "type": "common.props.commons.KindOfMapConst",
+                      "items": [
+                        "grid_based"
+                      ]
+                    }
+                  }
+                },
+                "_multi_approximation_settings": {
+                  "type": "common.props.commons.MultiApproximationSettings",
+                  "fields": {
+                    "extrapolation": {
+                      "tag": "compose",
+                      "type": "common.props.commons.ExtrapolationConst",
+                      "items": [
+                        "linear_with_zero_limit"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.tasks.tasks_settings.EndTimeSelection",
+      "occurrence": 1,
+      "old": {
+        "serializer_id": "76198",
+        "semantic": {
+          "type": "cruise.props.tasks.tasks_settings.EndTimeSelection",
+          "fields": {
+            "active": "end_time",
+            "end_time": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "time~s"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 1489.898579121
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "79182",
+        "semantic": {
+          "type": "cruise.props.tasks.tasks_settings.EndTimeSelection",
+          "fields": {
+            "active": "end_time",
+            "end_time": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "time~s"
+                  ]
+                },
+                "fixed_unit": true,
+                "value": 3150.896995
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "cruise.props.tasks.tasks_settings.SimulationTime",
+      "occurrence": 1,
+      "old": {
+        "serializer_id": "76196",
+        "semantic": {
+          "type": "cruise.props.tasks.tasks_settings.SimulationTime",
+          "fields": {
+            "start_time": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "time~s"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 0.0
+              }
+            },
+            "end_time": {
+              "type": "cruise.props.tasks.tasks_settings.EndTimeSelection",
+              "fields": {
+                "active": "end_time",
+                "end_time": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "time~s"
+                      ]
+                    },
+                    "fixed_unit": true,
+                    "value": 1489.898579121
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "new": {
+        "serializer_id": "79180",
+        "semantic": {
+          "type": "cruise.props.tasks.tasks_settings.SimulationTime",
+          "fields": {
+            "start_time": {
+              "type": "act.units.Amount",
+              "fields": {
+                "unit": {
+                  "tag": "compose",
+                  "type": "act.units.Unit",
+                  "items": [
+                    "time~s"
+                  ]
+                },
+                "fixed_unit": false,
+                "value": 0.0
+              }
+            },
+            "end_time": {
+              "type": "cruise.props.tasks.tasks_settings.EndTimeSelection",
+              "fields": {
+                "active": "end_time",
+                "end_time": {
+                  "type": "act.units.Amount",
+                  "fields": {
+                    "unit": {
+                      "tag": "compose",
+                      "type": "act.units.Unit",
+                      "items": [
+                        "time~s"
+                      ]
+                    },
+                    "fixed_unit": true,
+                    "value": 3150.896995
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Read-only property screening by type and occurrence; non-property/UI objects excluded. Not runtime identity or physical calibration; serializer IDs are not stable."
+}

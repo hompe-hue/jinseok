@@ -4,14 +4,21 @@
   "sha256": "d505fd014e793d771d31ad296df58e6aeb37665fe6589166c84c41deb7d3d4b0",
   "matches_previously_audited_project": true,
   "stored_discharge_map_kW": [
-    0.0,
-    0.0,
-    24.0,
-    45.0,
-    45.0,
-    45.0,
-    45.0
+    0,
+    0,
+    24,
+    45,
+    45,
+    45,
+    45
   ],
-  "DIS80_current_saved_project_received": false,
-  "no_old_run_repeated": true
+  "DIS80_current_saved_project_received": true,
+  "no_old_run_repeated": true,
+  "historical_check_only": true,
+  "superseded_by": "../dis80_project_closure_20261014/binding_audit.json",
+  "current_uploaded_project_received": true,
+  "current_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "current_source_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "date_updated": "2026-10-14",
+  "missing_DIS80_project_resolved": true
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "timezone": "Asia/Seoul",
-  "stage": "back_to_BEV_validation_residual_partition_and066_inputs_complete",
+  "stage": "DIS80_saved_project_bound_to060_outputs_calibration_still_pending",
   "model_validation_complete": false,
   "report": "research/cruise_m_build_20261011/runs/validation_closure_20261014/RESULT_KO.md",
   "completed": [
@@ -10,7 +10,10 @@
     "066unit/clock/index/valid-voltage QA;continuous7630.892722607s and7primary diagnostic windows",
     "Existing sample7columnDAT prepared andnumeric roundtrip checked;7632driver rows anddistance difference0.0027113percent",
     "Actual066CSVcomparison script prepared; syntax/help verified; no syntheticCRUISEoutputs created",
-    "LatestuploadedProject3hash confirmedsameasarchived45kWsnapshot; notcurrentDIS80savedproject"
+    "LatestuploadedProject3hash confirmedsameasarchived45kWsnapshot; notcurrentDIS80savedproject",
+    "CurrentDIS80projectreceived;7column060profile/SOC/OCV/R/EDU/80kWtablecheckedagainstactualoutputsandoriginalmaps",
+    "SerializerIDschanged;semanticlookupcodeprepared",
+    "Fixedtraceoverlapidentifiabilityscreencomplete;nocorrectionapplied"
   ],
   "findings": {
     "060_dis80_energy_error_percent": 9.484481,
@@ -39,12 +42,16 @@
     "total": 3,
     "condition": "Candidatepassesonfirstconfirmationbatch;notaguaranteedorcompletedruncount"
   },
-  "immediate_user_input": "Current saved .proj thatproduced DIS80 outputs;onefile;noscreenshotorsame-settingrerunrequired",
+  "immediate_user_input": null,
   "current_project_provenance": "research/cruise_m_build_20261011/runs/validation_closure_20261014/current_project_provenance.json",
   "midterm_date": "2026-10-30",
   "new_model_changes": false,
   "old_empirical_multifit_candidate": "Notappliedandnotadopted;CRUISEandheldoutverificationabsent",
   "publication_authorization": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md",
   "artifact_receipt": "research/cruise_m_build_20261011/runs/validation_closure_20261014/artifact_receipt.json",
-  "bundle_library_file_id": "libfile_a1b6ddfa8350819191ca765f5c9adf8c"
+  "bundle_library_file_id": "libfile_a1b6ddfa8350819191ca765f5c9adf8c",
+  "followup_project_audit": "research/cruise_m_build_20261011/runs/dis80_project_closure_20261014/RESULT_KO.md",
+  "current_project_sha256": "08082623c7c5cb16a7bddb5e50a5ff149f381a5cf6c7b17cabd7e237a55ca13a",
+  "current_project_library_file_id": "libfile_2c19e581644c819189bc1ea13487aaee",
+  "project_input_blocker_resolved": true
 }
