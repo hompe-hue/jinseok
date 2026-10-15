@@ -1,0 +1,74 @@
+{
+  "date_KST": "2026-10-15",
+  "status": "END9500_ACTUAL_DIAGNOSED_ONE_COMMON_FINAL_CANDIDATE_BATCH_PREPARED",
+  "previous_commit": "1bd9d9a80db6e3ff6c0186e84ca08c2a8fb293e8",
+  "actual_diagnostic": {
+    "test": "61905067",
+    "window_s": [
+      0,
+      9500
+    ],
+    "original_7_gates_pass": true,
+    "energy_error_percent": 2.185941985833284,
+    "voltage_RMSE_V": 1.6764825580014555,
+    "voltage_bias_V": -0.8569361095522684,
+    "terminal_voltage_error_V": -10.56853319038487,
+    "extra_DC_energy_kWh": 0.9672991750082,
+    "extra_charge_Ah": 3.23228724816542,
+    "final_SOC_percent": 3.883346972210956,
+    "full067_validation_complete": false
+  },
+  "finding": "Matched speed and DC balance; extra energy/current depletion moves the model into lowSOC OCV earlier. Unique physical road/EDU/aux split not identified.",
+  "new_common_candidate": {
+    "capacity_and_OCV_unchanged": true,
+    "Q1_speed_baseline_extra_fraction": 0.17,
+    "Q1_extra_correction_speed_taper_rpm": [
+      0,
+      250
+    ],
+    "Q4_nodes_unchanged": true,
+    "R_scale": 1.1,
+    "manual_initial_SOC_offset": false,
+    "current_voltage_limits_remain_model_assumptions": true
+  },
+  "preflight": {
+    "six_frozen_trajectory_screens_pass": true,
+    "seven_measured_current_battery_replays_pass": true,
+    "tail_forecast_min_SOC_range_percent": [
+      0.57195,
+      0.77038
+    ],
+    "tail_is_not_coupled_CRUISE_prediction": true,
+    "all5_saved_project_core_maps_identical": true,
+    "EDU_loss_nodes_positive": true,
+    "Case_metadata_kept": true
+  },
+  "next_user_action": "Run BEV_FINAL_CANDIDATE_61905067 full10122.190356s first; if normal completion continue060,058,059,066 from the same ZIP; export3CSV each,15total; if fail stop remainingruns and send error.",
+  "selection": "All files: REEV_MBE / Cycle Run / ANL61905060; profiles embedded and case names intentionally retained",
+  "completed_validation_scope_if_all_pass": "Warm same-vehicle effective voltage/energy/speed reproduction with one shared plant. No new unrelated tests added after declared5-window batch.",
+  "final_BEV_model_validation_complete": false,
+  "scope_excludes": [
+    "OEM BMS maximum-power identification",
+    "cold/thermal-cell-detail validity",
+    "real Bolt EREV SOC optimum"
+  ],
+  "delivery": {
+    "file_name": "Bolt_BEV_Common_Final_Candidate_Batch_20261015.zip",
+    "library_file_id": "libfile_187f8ec749548191b492be73080ea634",
+    "file_id": "file_0000000088f08209a782622ac5882937",
+    "current_version_number": 0,
+    "bytes": 21538088,
+    "zip_sha256": "fe791d7502484fce92f7a53e43ae11ca371e9fb30ba6e0bccfa68475a78f7c3a",
+    "members": 33,
+    "roundtrip_all_member_hashes_verified": true,
+    "parameter_sha256": "a62215edc0cd5dbe521e0b0e68ea2df9a0af550727cc9d3a4ccdc827991f09ff",
+    "common_core_map_sha256": "36b4925d533b13e2aa98d104ffcac129377948ea16793754e257c612b9bc05f2",
+    "all_five_core_maps_identical": true,
+    "actual_CRUISE_runs_this_new_candidate": 0,
+    "final_model_adopted": false
+  },
+  "documents": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/final_candidate_batch_20261015/",
+  "actual_report": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/diagnostic_067_end9500_20261015/actual/RESULT_KO.md",
+  "publication_authorized": true,
+  "raw_CSV_GitHub_publication": "PENDING_RAW_UPLOAD_INTERRUPTED; originals retained in Library IDs in received_manifest"
+}

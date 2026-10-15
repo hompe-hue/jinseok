@@ -1,0 +1,39 @@
+{
+  "status": "FINAL_COMMON_CANDIDATE_NOT_ADOPTED",
+  "pack_capacity_Ah": 169.3568460332183,
+  "cell_capacity_Ah": 56.45228201107276,
+  "OCV_unchanged": true,
+  "R_scale_relative_to_C3": 1.1,
+  "original_R_gain": 1.0337329877479744,
+  "new_R_gain": 1.137106286522772,
+  "EDU_original_beta": 0.6480886994,
+  "EDU_Q1_delta_beta": 0.17,
+  "EDU_Q1_new_beta": 0.8180886994000001,
+  "EDU_Q4_nodes_unchanged": true,
+  "EDU_speed_taper": "clip(rpm/250,0,1): no extra subtraction at standstill; full correction from first nonzero map speed250rpm",
+  "EDU_rule": "Effective motoring speed-baseline overlap subtraction extended by0.17; Q1 torque-dependent increments retained. Existing Q4 is unchanged; lowtorque bridge follows its original Q4 and new Q1 endpoint.",
+  "discharge_current_assumption_A": 530,
+  "charge_current_assumption_A": 160,
+  "voltage_min_assumption_V": 242.32,
+  "voltage_max_assumption_V": 402,
+  "vehicle_regen_cap_kW": 40,
+  "all_are_effective_model_parameters_not_OEM_identification": true,
+  "selection": "delta_beta0.17 approximates the observed067 net-energy residual (0.9673/5.6058=0.17255) while maintaining existing six-run energy gates; Rscale1.10 gives voltage-bias margin across cases. Same parameters for all cases; no claim of unique physical optimum",
+  "initialization": "Common first5s |I|<3A median V/I inverse using updated common OCV/R; no manual per-case offset",
+  "confirmation_tests": [
+    "61905067",
+    "61905060",
+    "61905058",
+    "61905059",
+    "61905066"
+  ],
+  "gates": {
+    "energy_error_abs_percent_max": 5,
+    "voltage_RMSE_V_max": 2,
+    "voltage_bias_abs_V_max": 1,
+    "speed_RMSE_kmh_max": 1,
+    "distance_error_abs_percent_max": 0.5,
+    "DC_balance_abs_percent_max": 1
+  },
+  "new_CRUISE_runs": 0
+}

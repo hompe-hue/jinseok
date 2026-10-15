@@ -1,0 +1,162 @@
+[
+  {
+    "name": "ANL61905058_driver_1s.csv",
+    "bytes": 32755,
+    "sha256": "f0b647281a4db19549bc3195ab2ad99064b4e1cd46618bdf066a283b2434c902"
+  },
+  {
+    "name": "ANL61905058_reference_native.csv",
+    "bytes": 1448634,
+    "sha256": "c444982ad32ca43aec5e39a22a29c60c030e2f722e8f31c7f197de7a97a420c1"
+  },
+  {
+    "name": "ANL61905059_driver_1s.csv",
+    "bytes": 49646,
+    "sha256": "c71ccd8f43f2fda9501215a40e082fbbf3785740f19d09789264670ff7eed1fa"
+  },
+  {
+    "name": "ANL61905059_reference_native.csv",
+    "bytes": 2168980,
+    "sha256": "2be0fa3fbe5b46101a9ce71579cc0227be37295f8c107863d0a584ed96235ad6"
+  },
+  {
+    "name": "ANL61905060_driver_1s.csv",
+    "bytes": 71692,
+    "sha256": "8320f49176980bcf5887c5355fdd902f144cdc6dd79ee2bc8b3021a2177e9df7"
+  },
+  {
+    "name": "ANL61905060_reference_native.csv",
+    "bytes": 4809069,
+    "sha256": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5"
+  },
+  {
+    "name": "ANL61905066_driver_1s.csv",
+    "bytes": 170586,
+    "sha256": "5669268f166e15a9c36b5ab694641914aa2333a7b9d05758c1eaf0206213b87e"
+  },
+  {
+    "name": "ANL61905066_reference_native.csv",
+    "bytes": 10183614,
+    "sha256": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e"
+  },
+  {
+    "name": "ANL61905067_driver_1s.csv",
+    "bytes": 259665,
+    "sha256": "5e6bb5eb957f4c95d607b3556bb7f0c6a06f62b7bb788012da24ddad766b2b7f"
+  },
+  {
+    "name": "ANL61905067_reference_native.csv",
+    "bytes": 9810257,
+    "sha256": "b97576a55ab4d907fba368709a416cc48687fce874038ff3ad4694d1eb5b2ceb"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905058.proj",
+    "bytes": 1575266,
+    "sha256": "164d75f643f0fbcbdfd6030f9b2a1ea56e09d092dcdc5085fba2ef3ca733ad71"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905059.proj",
+    "bytes": 1586914,
+    "sha256": "ba4f174de0bf1c7bd26fffc37c257cfc2ac90572a5906bb95d423fb5f8eee385"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905059.proj.part",
+    "bytes": 1586914,
+    "sha256": "ba4f174de0bf1c7bd26fffc37c257cfc2ac90572a5906bb95d423fb5f8eee385"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905060.proj",
+    "bytes": 1629754,
+    "sha256": "b538b069b944fe0978659d4181a4719043fd26d1980bf2dcdec982ebe84c2eb0"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905066.proj",
+    "bytes": 1737758,
+    "sha256": "44363e35dba758bf1a5fe57bf579d185af0d834398c4be6e65ea83e67af5acb2"
+  },
+  {
+    "name": "BEV_FINAL_CANDIDATE_61905067.proj",
+    "bytes": 1768415,
+    "sha256": "ff3f597765113c353c39ef078a9629e1127d85869bb4e54b31b1f78c1b67883f"
+  },
+  {
+    "name": "Common_Cell_OCV_25C.dat",
+    "bytes": 5066,
+    "sha256": "f749d12cea713b1123635b5a93f413fc53234a3ddf4ba84b0fb20f11666f599b"
+  },
+  {
+    "name": "Common_Cell_Resistance_25C.dat",
+    "bytes": 3941,
+    "sha256": "caa1109067a1a35d8452cd989a3077b7dab42f32f4c58705b385f30c4cb4df91"
+  },
+  {
+    "name": "Common_EDU_Q1_loss_nodes.csv",
+    "bytes": 14876,
+    "sha256": "3dc7a3b83aee983d18efbe7582de76ce67997d06876f3a4dff73646e6de2025d"
+  },
+  {
+    "name": "Common_EDU_Q4_loss_nodes.csv",
+    "bytes": 12981,
+    "sha256": "36bfab204e29d6e25381c1332744efc0c805498bc4f61184bb3746275d9de546"
+  },
+  {
+    "name": "Common_power_limits.csv",
+    "bytes": 93952,
+    "sha256": "4cf8b48e62200ab4111c9ef1f9ba47d3eb0aceae53b558fb4a3247dcd519298c"
+  },
+  {
+    "name": "DIAGNOSTIC_RESULT_KO.md",
+    "bytes": 5998,
+    "sha256": "3f0f17938fefcc76b8b92a3ed045453095512fae61a59e6fd7aa423191bfe59e"
+  },
+  {
+    "name": "START_HERE_KO.md",
+    "bytes": 4455,
+    "sha256": "be8c295a6982feb2552972c5f62fc16ac9728e51729bc8bc2e865181ee6dd001"
+  },
+  {
+    "name": "common_residual_sensitivity.csv",
+    "bytes": 36214,
+    "sha256": "c53e220b8911ae45d26aada79bc6b56a094f79a40732c613da2ad3e8753263f8"
+  },
+  {
+    "name": "common_residual_sensitivity.json",
+    "bytes": 3808,
+    "sha256": "f29a77c386b462bae0afa236df016463fd8a11aefa8b060104f247cf20d3731a"
+  },
+  {
+    "name": "depletion_diagnosis.json",
+    "bytes": 3119,
+    "sha256": "64c890d5822ce5d4a7a358f300b2f2a656b7482ccd6a368b8069165a8da00709"
+  },
+  {
+    "name": "evaluate_final_batch.py",
+    "bytes": 1603,
+    "sha256": "0b44fbb67adebcb117e25239cee854c35128aa3dcabc68d24774137415b5e2dc"
+  },
+  {
+    "name": "evaluate_final_candidate.py",
+    "bytes": 3907,
+    "sha256": "01f8e06b28983f3c8f573f54df9b0cb2b744461f955209120b75eaf928b01c20"
+  },
+  {
+    "name": "manifest.json",
+    "bytes": 5959,
+    "sha256": "c2e7cd7757dc15681bf7c08bc9ef3f689efab22e60b8a2f9f257fd48d0b779a7"
+  },
+  {
+    "name": "parameters.json",
+    "bytes": 1760,
+    "sha256": "a62215edc0cd5dbe521e0b0e68ea2df9a0af550727cc9d3a4ccdc827991f09ff"
+  },
+  {
+    "name": "preflight_QA.json",
+    "bytes": 257,
+    "sha256": "0f1106fa35fa52253d1646d1664c7662402152139708cc39a7e257d9d37c4325"
+  },
+  {
+    "name": "tail_forecast.json",
+    "bytes": 2496,
+    "sha256": "ce26df3411182e2c9eb3952f29de0395a001997a2a99b4bb27fd4eb4f64cd86b"
+  }
+]

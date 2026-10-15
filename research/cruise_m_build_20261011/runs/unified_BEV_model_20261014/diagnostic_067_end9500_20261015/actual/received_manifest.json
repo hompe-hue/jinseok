@@ -1,0 +1,23 @@
+[
+  {
+    "name": "battery_END9500.csv",
+    "bytes": 1223852,
+    "sha256": "e963481c2d6d34c83f457f16eed97f6a60b717b09f33491941c62bb830ede5b4",
+    "git_blob_sha1": "93db3ce804d1a170197364f7e824a6585e6c0f93",
+    "library_file_id": "libfile_1f2d00a049fc819196b11c766dd859d0"
+  },
+  {
+    "name": "velocity_END9500.csv",
+    "bytes": 1957220,
+    "sha256": "b3749575ecca2bea69835476488648018b8e3723b7e8c4d57b0687a2b40ac080",
+    "git_blob_sha1": "0ec1258c11628b1eaa8e55f0bd07f2062c8b7914",
+    "library_file_id": "libfile_94c0d03d46048191ad817e169c00c645"
+  },
+  {
+    "name": "generator_END9500.csv",
+    "bytes": 1037901,
+    "sha256": "ba5973269d6c6074b26ea10415e0cf4fe30dcf5a8630ede07f6caa61e777cbfd",
+    "git_blob_sha1": "85ca06dea7468696a9191f7405de690661bd74d8",
+    "library_file_id": "libfile_fc8dea4e68c8819180a67f38e184b8a2"
+  }
+]

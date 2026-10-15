@@ -1,0 +1,85 @@
+{
+  "status": "ACTUAL067_DIAGNOSTIC_ANALYZED_NOT_FULL_VALIDATION",
+  "actual_window_s": [
+    0,
+    9500
+  ],
+  "full067_validation_complete": false,
+  "actual_total_energy_error_percent": 2.185941985833284,
+  "extra_DC_energy_kWh": 0.9672991750082,
+  "average_extra_DC_power_W": 367.3288006360253,
+  "extra_charge_Ah": 3.23228724816542,
+  "actual_final_SOC_percent": 3.883346972210956,
+  "SOC_from_reference_I_percent": 5.791994453597653,
+  "reference_power_replay_final_SOC_percent": 5.728630826611919,
+  "actual_final_voltage_V": 306.7188305421639,
+  "reference_final_voltage_V": 317.2873637325488,
+  "terminal_voltage_error_V": -10.56853319038487,
+  "counterfactual_bias_decomposition": {
+    "total_V": -0.8569361095522684,
+    "battery_at_measured_power_V": -0.06756203282284966,
+    "changed_power_demand_V": -0.7893740767294187,
+    "changed_demand_fraction_of_total_mean_bias": 0.9211586113950205,
+    "note": "Algebraic difference between actual run and fixed-measured-power battery replay. Not independent identification of component losses."
+  },
+  "battery_application_checks": {
+    "max_OCV_R_voltage_identity_error_V": 0.0033936738269062516,
+    "max_current_integral_SOC_difference_percent_points": 0.0007261161737943667
+  },
+  "steady_300_9500": {
+    "mean_battery_kW": 17.120412842968392,
+    "mean_motor_mechanical_kW": 15.885554883944287,
+    "mean_effective_EDU_loss_kW": 0.8348579385619241,
+    "mean_aux_kW": 0.39999999999999997,
+    "mean_TargetABC_power_at_actual_speed_kW": 15.885314524586562,
+    "nonzero_actual_brake_samples": 0
+  },
+  "voltage_segments": [
+    {
+      "window_s": [
+        20,
+        3000
+      ],
+      "voltage_bias_V": 0.13251002226660588,
+      "voltage_RMSE_V": 1.509548484291624
+    },
+    {
+      "window_s": [
+        3000,
+        6000
+      ],
+      "voltage_bias_V": -0.9021979391698963,
+      "voltage_RMSE_V": 1.020503573306896
+    },
+    {
+      "window_s": [
+        6000,
+        9000
+      ],
+      "voltage_bias_V": -1.1805803196468627,
+      "voltage_RMSE_V": 1.2140728165437251
+    },
+    {
+      "window_s": [
+        9000,
+        9500
+      ],
+      "voltage_bias_V": -4.540598816919425,
+      "voltage_RMSE_V": 4.9613693122127644
+    }
+  ],
+  "primary_mechanism": "Model consumes more netDC energy at matched speed, accumulates extra charge depletion, then traverses the steep lowSOC OCV curve earlier",
+  "physical_residual_split_identified": false,
+  "no_capacity_or_initial_SOC_change_applied": true,
+  "ANL_supporting_channels": {
+    "DCDC_measured_output_mean_W": 326.20943141815064,
+    "CAN_estimated_motor_mechanical_mean_kW": 15.595315679918352,
+    "CAN_vs_model_mechanical_difference_kW": 0.2902392040259354,
+    "limitations": [
+      "DCDC output is not HV input; efficiency and other HV loads are unknown",
+      "CAN torque is an ECU estimate, not an independent calibrated shaft torque measurement",
+      "Separate fill clocks referenced to meter phase start; channel uncertainty and offset are not fully identified"
+    ],
+    "original_TDMS_sha256": "fd0f662a44cfa95036b2994fccd52c2f49e0fad105022bab5921d610dc06856c"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "status": "MOTORING_ONLY_SENSITIVITY_NO_PROJECT_CHANGED",
+  "capacity_and_OCV_unchanged": true,
+  "Q4_regeneration_nodes_unchanged": true,
+  "new_CRUISE_runs": 0,
+  "grid_size": 40,
+  "feasible_frozen_candidates": [
+    {
+      "delta_beta": 0.0,
+      "R_scale": 1.0,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.05,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.1,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.1,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.1,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.12,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.12,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.12,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.14,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.14,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.14,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.15,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.15,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.15,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.15,
+      "R_scale": 1.2,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.16,
+      "R_scale": 1.05,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.16,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.16,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.16,
+      "R_scale": 1.2,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.17,
+      "R_scale": 1.1,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.17,
+      "R_scale": 1.15,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    },
+    {
+      "delta_beta": 0.17,
+      "R_scale": 1.2,
+      "all_six_frozen_gates_pass": true,
+      "full067_forecast_or_validation": false
+    }
+  ],
+  "physical_loss_overlap_identified": false,
+  "limitations": [
+    "Changed motor control/braking and voltage-charge acceptance not rerun",
+    "067 ends9500; no full-length completion predicted",
+    "This grid does not identify whether TargetABC mechanical resistance or EDU/aux split causes the real residual"
+  ]
+}

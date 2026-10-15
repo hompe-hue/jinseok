@@ -1,0 +1,43 @@
+{
+  "test": "61905067",
+  "status": "SHORT_DIAGNOSTIC_USER_EXPORT_EVALUATED",
+  "diagnostic_only": true,
+  "original_full_test_end_time_s": 10122.190356254578,
+  "full067_validation_complete": false,
+  "comparison_window_s": [
+    20,
+    9500.0
+  ],
+  "metrics": {
+    "energy_error_percent": 2.185941985833284,
+    "voltage_RMSE_V": 1.6764825580014555,
+    "voltage_bias_V": -0.8569361095522684,
+    "speed_RMSE_kmh": 0.05398030204347967,
+    "distance_error_percent": -0.0008101125950621402,
+    "DC_balance_percent": 1.3450405258866469e-07
+  },
+  "checks": {
+    "energy_error_percent": true,
+    "voltage_RMSE_V": true,
+    "voltage_bias_V": true,
+    "speed_RMSE_kmh": true,
+    "distance_error_percent": true,
+    "DC_balance_percent": true,
+    "generator_OFF": true
+  },
+  "all_research_gates_pass": true,
+  "final_model_adopted": false,
+  "independent_validation": false,
+  "OEM_BMS_identified": false,
+  "lowSOC_pulse_power_validated": false,
+  "expected_project_sha256": "8dafee790e3bda5da6e6f3062e2639a693b423b0298ddf45d902a2642d762bb9",
+  "CSV_sha256": {
+    "battery": "e963481c2d6d34c83f457f16eed97f6a60b717b09f33491941c62bb830ede5b4",
+    "velocity": "b3749575ecca2bea69835476488648018b8e3723b7e8c4d57b0687a2b40ac080",
+    "generator": "ba5973269d6c6074b26ea10415e0cf4fe30dcf5a8630ede07f6caa61e777cbfd"
+  },
+  "SOC_min_percent": 3.883346972210956,
+  "voltage_min_V": 306.7188305421639,
+  "voltage_max_V": 379.1357844433983,
+  "provenance": "Export consistency is checked; retain actual saved project and solver log to establish runtime provenance."
+}

@@ -1,0 +1,76 @@
+{
+  "status": "FORECAST_NOT_VALIDATION",
+  "selected_delta_beta": 0.17,
+  "selected_R_scale": 1.1,
+  "capacity_and_OCV_unchanged": true,
+  "Q4_regeneration_nodes_unchanged": true,
+  "rows": [
+    {
+      "tail_effective_mass_kg": 0,
+      "delta_beta": 0,
+      "R_scale": 1,
+      "SOC_at9500_percent": 3.8837643676123204,
+      "minimum_SOC_percent": -1.5042504095193008,
+      "final_SOC_percent": -1.5042504095193008,
+      "first_SOC0_s": 9904.0,
+      "no_coupled_CRUISE_run": true
+    },
+    {
+      "tail_effective_mass_kg": 0,
+      "delta_beta": 0.17,
+      "R_scale": 1.1,
+      "SOC_at9500_percent": 5.625237154583643,
+      "minimum_SOC_percent": 0.5719512733900847,
+      "final_SOC_percent": 0.5719512733900847,
+      "first_SOC0_s": null,
+      "no_coupled_CRUISE_run": true
+    },
+    {
+      "tail_effective_mass_kg": 1757.6704,
+      "delta_beta": 0,
+      "R_scale": 1,
+      "SOC_at9500_percent": 3.8837643676123204,
+      "minimum_SOC_percent": -1.3000120887829523,
+      "final_SOC_percent": -1.0798317274734317,
+      "first_SOC0_s": 9904.0,
+      "no_coupled_CRUISE_run": true
+    },
+    {
+      "tail_effective_mass_kg": 1757.6704,
+      "delta_beta": 0.17,
+      "R_scale": 1.1,
+      "SOC_at9500_percent": 5.625237154583643,
+      "minimum_SOC_percent": 0.7678512731724961,
+      "final_SOC_percent": 0.9832714392609119,
+      "first_SOC0_s": null,
+      "no_coupled_CRUISE_run": true
+    },
+    {
+      "tail_effective_mass_kg": 1857.6704,
+      "delta_beta": 0,
+      "R_scale": 1,
+      "SOC_at9500_percent": 3.8837643676123204,
+      "minimum_SOC_percent": -1.297428864609145,
+      "final_SOC_percent": -1.0565970928195878,
+      "first_SOC0_s": 9904.0,
+      "no_coupled_CRUISE_run": true
+    },
+    {
+      "tail_effective_mass_kg": 1857.6704,
+      "delta_beta": 0.17,
+      "R_scale": 1.1,
+      "SOC_at9500_percent": 5.625237154583643,
+      "minimum_SOC_percent": 0.7703825246081762,
+      "final_SOC_percent": 1.0058559337074302,
+      "first_SOC0_s": null,
+      "no_coupled_CRUISE_run": true
+    }
+  ],
+  "tail_assumptions": [
+    "TargetABC driving resistance, flat road, current tire radius/gear",
+    "EDU table and lowtorque bridge, auxiliary0.4kW, terminal regen40kW",
+    "Actual power known only0-9500; later driver speed is measured ANL input, not predicted vehicle response",
+    "No vehicle/driver or battery BMS loop rerun; no OEM BMS identification"
+  ],
+  "original_SOC_negative_is_diagnostic_forecast_not_permitted_final_operation": true
+}

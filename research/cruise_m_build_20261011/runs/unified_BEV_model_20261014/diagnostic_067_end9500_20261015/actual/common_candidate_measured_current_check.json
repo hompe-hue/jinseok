@@ -1,0 +1,58 @@
+[
+  {
+    "test": "61905060",
+    "measured_current_voltage_RMSE_V": 1.2586758185915687,
+    "measured_current_voltage_bias_V": -0.14467898134705265,
+    "minimum_model_SOC_percent": 67.65354865394646,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905061",
+    "measured_current_voltage_RMSE_V": 1.2192163231090722,
+    "measured_current_voltage_bias_V": 0.06170798918946003,
+    "minimum_model_SOC_percent": 64.27657817301348,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905066",
+    "measured_current_voltage_RMSE_V": 0.7777513942353359,
+    "measured_current_voltage_bias_V": -0.08081984810806939,
+    "minimum_model_SOC_percent": 80.83662885661286,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905064",
+    "measured_current_voltage_RMSE_V": 1.2059039442526533,
+    "measured_current_voltage_bias_V": -0.30129696272221823,
+    "minimum_model_SOC_percent": 0.8029303104548546,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905058",
+    "measured_current_voltage_RMSE_V": 0.7841373116302618,
+    "measured_current_voltage_bias_V": 0.03151757233495266,
+    "minimum_model_SOC_percent": 93.39818005827031,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905059",
+    "measured_current_voltage_RMSE_V": 1.253244493280804,
+    "measured_current_voltage_bias_V": 0.8131325679192279,
+    "minimum_model_SOC_percent": 84.96130753183864,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  },
+  {
+    "test": "61905067",
+    "measured_current_voltage_RMSE_V": 1.257809913599075,
+    "measured_current_voltage_bias_V": -0.4058234220061219,
+    "minimum_model_SOC_percent": 0.8841189699729739,
+    "battery_replay_gates_pass": true,
+    "no_vehicle_CRUISE_run": true
+  }
+]
