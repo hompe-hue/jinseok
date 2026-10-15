@@ -1,0 +1,37 @@
+{
+  "date_KST": "2026-10-15",
+  "resume_from_commit": "b5c478c",
+  "batch": "END9500_RAW_ARCHIVE_RESTORED",
+  "raw_files_restored": 3,
+  "raw_sha256_and_bytes_match_previous_manifest": true,
+  "candidate_zip_sha256": "fe791d7502484fce92f7a53e43ae11ca371e9fb30ba6e0bccfa68475a78f7c3a",
+  "candidate_zip_files_verified": 32,
+  "existing_analysis_recomputed": false,
+  "model_parameters_changed": false,
+  "new_actual_CRUISE_results_available": false,
+  "new_CRUISE_runs": 0,
+  "publication_status": "APPROVED_BATCH_PUBLICATION_IN_PROGRESS",
+  "next_start": "User runs candidate61905067, REEV_MBE / Cycle Run / ANL61905060, End10122.190356s, initialSOC81.764106%. Use existing five-run contract unchanged.",
+  "local_raw_commit": "abe200d",
+  "auto_review_rejected_action": "git push origin HEAD:main; raw END9500 CSV3 and resume checkpoint to public hompe-hue/jinseok main",
+  "auto_review_reason": "The command pushes raw CSV/source exports and a resume record to the public GitHub main branch, constituting sensitive public egress; the current user-authored instructions do not explicitly authorize publishing these payloads.",
+  "standing_authorization_evidence": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md and current project instructions request periodic GitHub checkpoints; the reviewer still rejected this attempt.",
+  "retry_or_alternate_transport_used": false,
+  "ready_package": "/workspace/scratch/b482e9086cf3/downloads/Bolt_BEV_Common_Final_Candidate_Batch_20261015.zip",
+  "candidate_library_file_id": "libfile_187f8ec749548191b492be73080ea634",
+  "explicit_user_approval": {
+    "date_time_KST": "2026-10-15 12:13",
+    "user_reply": "승인할게",
+    "approval_context": "Assistant explicitly requested public publication of END9500 original CSV3 and resume records to hompe-hue/jinseok main; user approved.",
+    "files": [
+      "battery_END9500.csv",
+      "velocity_END9500.csv",
+      "generator_END9500.csv",
+      "checkpoints/BOLT_SESSION_RESUME_20261015.json",
+      "checkpoints/BOLT_SESSION_RESUME_20261015.md"
+    ],
+    "repository": "https://github.com/hompe-hue/jinseok",
+    "branch": "main"
+  },
+  "publication_transport": "GitHub connector; shell git push unavailable because HTTPS credentials are not configured"
+}
