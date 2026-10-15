@@ -70,5 +70,6 @@
   "documents": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/final_candidate_batch_20261015/",
   "actual_report": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/diagnostic_067_end9500_20261015/actual/RESULT_KO.md",
   "publication_authorized": true,
-  "raw_CSV_GitHub_publication": "PENDING_RAW_UPLOAD_INTERRUPTED; originals retained in Library IDs in received_manifest"
+  "raw_CSV_GitHub_publication": "PUBLISHED_AND_REMOTE_BLOB_HASH_VERIFIED cdb93012fe9b3bb05fb060422949ef74fcfb725f",
+  "latest_resume_checkpoint": "checkpoints/BOLT_SESSION_RESUME_20261015.json"
 }

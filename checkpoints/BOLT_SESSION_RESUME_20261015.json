@@ -10,13 +10,13 @@
   "model_parameters_changed": false,
   "new_actual_CRUISE_results_available": false,
   "new_CRUISE_runs": 0,
-  "publication_status": "APPROVED_BATCH_PUBLICATION_IN_PROGRESS",
+  "publication_status": "PUBLISHED_REMOTE_VERIFIED",
   "next_start": "User runs candidate61905067, REEV_MBE / Cycle Run / ANL61905060, End10122.190356s, initialSOC81.764106%. Use existing five-run contract unchanged.",
   "local_raw_commit": "abe200d",
   "auto_review_rejected_action": "git push origin HEAD:main; raw END9500 CSV3 and resume checkpoint to public hompe-hue/jinseok main",
   "auto_review_reason": "The command pushes raw CSV/source exports and a resume record to the public GitHub main branch, constituting sensitive public egress; the current user-authored instructions do not explicitly authorize publishing these payloads.",
   "standing_authorization_evidence": "checkpoints/PROJECT_PUBLICATION_AUTHORIZATION.md and current project instructions request periodic GitHub checkpoints; the reviewer still rejected this attempt.",
-  "retry_or_alternate_transport_used": false,
+  "retry_or_alternate_transport_used": true,
   "ready_package": "/workspace/scratch/b482e9086cf3/downloads/Bolt_BEV_Common_Final_Candidate_Batch_20261015.zip",
   "candidate_library_file_id": "libfile_187f8ec749548191b492be73080ea634",
   "explicit_user_approval": {
@@ -33,5 +33,8 @@
     "repository": "https://github.com/hompe-hue/jinseok",
     "branch": "main"
   },
-  "publication_transport": "GitHub connector; shell git push unavailable because HTTPS credentials are not configured"
+  "publication_transport": "GitHub connector; shell HTTPS credentials unavailable",
+  "published_raw_commit": "cdb93012fe9b3bb05fb060422949ef74fcfb725f",
+  "remote_raw_blob_hashes_verified": 3,
+  "approval_block_resolved_by": "Explicit user approval 2026-10-15 12:13 KST"
 }
