@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ANL61905067_driver_1s.csv",
+    "bytes": 260622,
+    "sha256": "c70e6fb17f9f42ae2cf6581fde837787617f7bb32880810bee88eb9dc90b7271"
+  },
+  {
+    "name": "ANL61905067_reference_native.csv",
+    "bytes": 9810257,
+    "sha256": "b97576a55ab4d907fba368709a416cc48687fce874038ff3ad4694d1eb5b2ceb"
+  },
+  {
+    "name": "C3_DIAG_ANL61905067_END9500.proj",
+    "bytes": 1768340,
+    "sha256": "8dafee790e3bda5da6e6f3062e2639a693b423b0298ddf45d902a2642d762bb9"
+  },
+  {
+    "name": "START_HERE_KO.md",
+    "bytes": 2807,
+    "sha256": "edbc971dc1fb006d41cb4ec534c9b45924e7da8f9946a36303d9600e8e2f69f6"
+  },
+  {
+    "name": "Unified_Candidate_Cell_OCV_25C.dat",
+    "bytes": 5066,
+    "sha256": "f749d12cea713b1123635b5a93f413fc53234a3ddf4ba84b0fb20f11666f599b"
+  },
+  {
+    "name": "Unified_Candidate_Cell_Resistance_25C.dat",
+    "bytes": 5071,
+    "sha256": "49c83165fc07c6f3c76162df8cf7a5722c8abc589dcdfe257d20f3d7c9302a8a"
+  },
+  {
+    "name": "evaluate_C3_067_diagnostic.py",
+    "bytes": 4011,
+    "sha256": "a7ca7f7e210b180bb63772021293fb0a01e285e48e2707a7a7f9fdbe3b38be44"
+  },
+  {
+    "name": "manifest.json",
+    "bytes": 1602,
+    "sha256": "235f74daee1d03351a9d60aa552c93d189f33e3396843a4c3ca4cc3a3f1cccb4"
+  }
+]

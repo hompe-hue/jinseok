@@ -1,0 +1,15 @@
+{
+  "file_name": "Bolt_C3_067_Diagnostic_END9500_20261015.zip",
+  "library_file_id": "libfile_c9d684267840819185eb872eab2bb96c",
+  "file_id": "file_00000000d7e08209a79b0e05828977e2",
+  "current_version_number": 0,
+  "bytes": 5856642,
+  "zip_sha256": "08d45bedf1282c42a9820c3056d151e3cc142a443d74fbbb36ac67ed89860f27",
+  "roundtrip_all_member_hashes_verified": true,
+  "project": "C3_DIAG_ANL61905067_END9500.proj",
+  "project_sha256": "8dafee790e3bda5da6e6f3062e2639a693b423b0298ddf45d902a2642d762bb9",
+  "only_end_time_changed": true,
+  "CRUISE_loaded": false,
+  "CRUISE_solved": false,
+  "full067_validation_complete": false
+}

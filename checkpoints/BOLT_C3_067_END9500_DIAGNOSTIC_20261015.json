@@ -1,0 +1,40 @@
+{
+  "date_KST": "2026-10-15",
+  "status": "USER_CANNOT_EXPORT_FAILED067_PREPARED_END9500_DIAGNOSTIC",
+  "previous_commit": "1362b7c6af01fa9978b8f79d1899879035ed5d44",
+  "user_confirmation": "Failed run has no accessible CSV; SOC or End time adjustment needed",
+  "decision": "Use end-time-only diagnostic; keep initial SOC and all plant/control parameters",
+  "end_time_s": 9500,
+  "initial_model_SOC_percent": 81.75359073925891,
+  "original_end_time_s": 10122.190356254578,
+  "screenshot_failure_right_time_s": 9906,
+  "full067_validation_complete": false,
+  "solver_execution_here": false,
+  "completed": [
+    "Original source package recovered and SHA/CRC verified",
+    "Only one XML numeric leaf changed; restoring it reproduces entire original XML",
+    "All other ZIP members and references unchanged",
+    "Diagnostic evaluator explicitly marks full067 validation incomplete",
+    "New delivered ZIP roundtrip bytes and all member hashes verified"
+  ],
+  "next_user_action": "Run C3_DIAG_ANL61905067_END9500.proj with REEV_MBE / Cycle Run / ANL61905060; end9500. Export battery,velocity,generator CSV and retain log.",
+  "next_agent_action": "Compare same measured0-9500s window for current/SOC, DC balance, cumulative energy and road/EDU/braking losses before any common correction",
+  "previous_no_rerun_instruction_superseded_by_user_confirmation": true,
+  "delivery": {
+    "file_name": "Bolt_C3_067_Diagnostic_END9500_20261015.zip",
+    "library_file_id": "libfile_c9d684267840819185eb872eab2bb96c",
+    "file_id": "file_00000000d7e08209a79b0e05828977e2",
+    "current_version_number": 0,
+    "bytes": 5856642,
+    "zip_sha256": "08d45bedf1282c42a9820c3056d151e3cc142a443d74fbbb36ac67ed89860f27",
+    "roundtrip_all_member_hashes_verified": true,
+    "project": "C3_DIAG_ANL61905067_END9500.proj",
+    "project_sha256": "8dafee790e3bda5da6e6f3062e2639a693b423b0298ddf45d902a2642d762bb9",
+    "only_end_time_changed": true,
+    "CRUISE_loaded": false,
+    "CRUISE_solved": false,
+    "full067_validation_complete": false
+  },
+  "documents": "research/cruise_m_build_20261011/runs/unified_BEV_model_20261014/diagnostic_067_end9500_20261015/",
+  "publication_authorized": true
+}

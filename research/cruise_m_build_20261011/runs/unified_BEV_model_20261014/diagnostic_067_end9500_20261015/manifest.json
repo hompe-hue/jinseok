@@ -1,0 +1,40 @@
+{
+  "status": "SHORT_DIAGNOSTIC_PENDING_USER_RUN",
+  "source_project_sha256": "33c9577a6e4c68155d187f9a44d224fd25ca66d2d0ad8fc318d315565d4ac103",
+  "battery_OCV_R_capacity_unchanged": true,
+  "pack_capacity_Ah": 169.3568460332183,
+  "voltage_min_V": 242.32,
+  "voltage_max_V": 402,
+  "discharge_current_A": 530,
+  "charge_current_A": 160,
+  "vehicle_regen_battery_power_cap_kW": 40,
+  "parameters_are_not_OEM_BMS_identification": true,
+  "temperature_scope": "warm static effective OCV/R; no temperature or duration limit model",
+  "SOC0_discharge_zero": true,
+  "SOC100_charge_zero": true,
+  "denominator_guard_V": 1,
+  "table_interpolation_max_excess_kW": 4.905108029618077e-05,
+  "purpose": "Obtain failed-run-equivalent data before SOC exhaustion; not a completed067 validation",
+  "projects": [
+    {
+      "test": "61905067",
+      "project": "C3_DIAG_ANL61905067_END9500.proj",
+      "sha256": "8dafee790e3bda5da6e6f3062e2639a693b423b0298ddf45d902a2642d762bb9",
+      "bytes": 1768340,
+      "end_time_s": 9500.0,
+      "initial_model_SOC_percent": 81.75359073925891,
+      "profile_rows": 10124,
+      "embedded_profile_verified": true,
+      "Case_metadata_unchanged": true,
+      "CRC_XML_verified": true,
+      "CRUISE_loaded": false,
+      "CRUISE_solved": false
+    }
+  ],
+  "original_full_test_end_time_s": 10122.190356254578,
+  "only_project_change": "active Task Settings End time:10122.190356254578 ->9500s",
+  "initial_SOC_unchanged": true,
+  "all_other_XML_bytes_verified_unchanged": true,
+  "full067_validation_complete": false,
+  "previous_failure_partial_CSV_unavailable": true
+}
