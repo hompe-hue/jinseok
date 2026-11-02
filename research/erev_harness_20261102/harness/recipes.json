@@ -1,0 +1,18 @@
+{
+  "battery_replay": {
+    "script": "assets/recipes/battery_replay.py"
+  },
+  "soc_identifiability": {
+    "script": "assets/recipes/soc_identifiability.py"
+  },
+  "CAN_SOC_consistency": {
+    "script": "assets/recipes/CAN_SOC_consistency.py"
+  },
+  "timing_recovery": {
+    "script": "assets/recipes/timing_recovery.py",
+    "stopped_windows": "assets/stopped_windows.csv"
+  },
+  "energy_VI_accounting": {
+    "script": "assets/recipes/energy_VI_accounting.py"
+  }
+}
