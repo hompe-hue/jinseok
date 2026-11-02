@@ -1,0 +1,12 @@
+    test  zero_lag_fast_correlation  best_fast_lag_s  best_fast_correlation  zero_lag_voltage_RMSE_V  best_full_RMSE_lag_s  lowest_RMSE_in_plusminus1s_V  hardware_clock_offset_identified  lag_adopted
+61905058                   0.996796              0.0               0.996796                 0.605065                   0.4                      0.581871                             False        False
+61905059                   0.995030              0.0               0.995030                 0.775690                   0.5                      0.752342                             False        False
+61905060                   0.994765              0.0               0.994765                 2.649556                   0.5                      2.641802                             False        False
+61905066                   0.996371              0.0               0.996371                 0.935650                   0.1                      0.930483                             False        False
+          count    median       min       max
+test                                         
+61905058      3  0.006707  0.003956  0.028604
+61905059      4  0.017632 -0.024201  0.048270
+61905060      4  0.177311  0.027190  0.213401
+61905066     39  0.000291 -0.054472  0.037312
+

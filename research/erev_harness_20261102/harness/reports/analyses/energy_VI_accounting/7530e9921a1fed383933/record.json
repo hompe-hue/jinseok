@@ -1,0 +1,15 @@
+{
+  "recipe": "energy_VI_accounting",
+  "analysis_id": "7530e9921a1fed383933",
+  "source_sha256": "7d6ae30c904d1f9d370537a798ff127f33d3b1e7d48d51d7cd9bcdd10aa8d52a",
+  "assets_manifest_sha256": "5e0d521f850b77cb357dcce384f19d3e5445f8376c7b2f3d1d44d4979d659ace",
+  "returncode": 0,
+  "outputs": {
+    "energy_VI_accounting.csv": "6add94fb69d10925742bec97529f429044b88fc764eaecb3148bf9f3cb747f5a",
+    "execution.txt": "566ce5771954c1824dc8b3c9a9fd389e5105c2de6a45b221fc0307fdc2fa72d4",
+    "energy_accounting_QA.json": "251d63a4572a799e187dd4260b9ec5dbe0b0a2bd8902faeb6a45d82f75ca56f6"
+  },
+  "new_CRUISE_runs": 0,
+  "parameter_fitting": false,
+  "automatic_parameter_adoption": false
+}

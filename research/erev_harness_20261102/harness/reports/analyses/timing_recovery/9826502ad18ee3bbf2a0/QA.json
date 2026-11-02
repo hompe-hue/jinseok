@@ -1,0 +1,23 @@
+{
+  "source_hashes": {
+    "058/battery_PUBLIC_058.csv": "46d8d9d5f5d3dd79d110a4c80546fabb569d71af7a48199738db38382ef694de",
+    "references/ANL61905058_reference_native.csv": "c444982ad32ca43aec5e39a22a29c60c030e2f722e8f31c7f197de7a97a420c1",
+    "059/battery_PUBLIC_059.csv": "53d84363dced7adf4bd653cd71d184b6107bd2fbf68061960558f2ec7c05e91f",
+    "references/ANL61905059_reference_native.csv": "2be0fa3fbe5b46101a9ce71579cc0227be37295f8c107863d0a584ed96235ad6",
+    "060/battery_PUBLIC_060.csv": "45f50aa46627dfe0746879b5775d5fc9f2feaa477dd6f1e0955662a2ded5479d",
+    "references/ANL61905060_reference_native.csv": "6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5",
+    "066/battery_PUBLIC_066.csv": "dec9056d9f2ab32169044cc6be103ecaf04d02976dbac2f87c64cd1f6d664a34",
+    "references/ANL61905066_reference_native.csv": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e"
+  },
+  "lag_range_s": [
+    -1,
+    1
+  ],
+  "lag_step_s": 0.1,
+  "common_interior_mask": true,
+  "extrapolation_used": false,
+  "time_shift_adopted": false,
+  "parameter_fit": false,
+  "new_CRUISE_runs": 0,
+  "hardware_clock_offset_identified": false
+}

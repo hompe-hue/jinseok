@@ -1,0 +1,23 @@
+{
+  "recipe": "timing_recovery",
+  "analysis_id": "4872508e5ed05bbc9a13",
+  "source_sha256": "2b706d0eda89a11685b004a359895e093aa180fc6178d990619ad05c9172d7e1",
+  "assets_manifest_sha256": "5e0d521f850b77cb357dcce384f19d3e5445f8376c7b2f3d1d44d4979d659ace",
+  "returncode": 0,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "outputs": {
+    "recovery_episodes.csv": "3d584107ad3792a026c196366238abb3e80ed8fb47899ac4b4933e7b07053d1f",
+    "QA.json": "78911d6f75354c4128b96395909965390f77173279a1b4c50fed3ad03ac32191",
+    "lag_stress.csv": "0ebe76cf8dbffe653d06644c23132c2e81d9700682aeabfd2481f879f6e552f7",
+    "execution.txt": "10c3fbd2a922b1eeaf2ae573837c10f35ad6b37e91afa4919c9864e698118fc0",
+    "timing_summary.csv": "7bb98b6192791c84496b987f8ed3d4348e48ebfd83b7914872016fba72fa8291"
+  },
+  "new_CRUISE_runs": 0,
+  "parameter_fitting": false,
+  "automatic_parameter_adoption": false
+}

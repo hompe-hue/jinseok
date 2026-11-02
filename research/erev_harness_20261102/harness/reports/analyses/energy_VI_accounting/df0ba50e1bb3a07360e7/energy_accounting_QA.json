@@ -1,0 +1,7 @@
+{
+  "pointwise_symmetric_identity_verified": true,
+  "native_reference_bridge_explicit": true,
+  "integrated_max_abs_closure_kWh": 3.58046925441613e-15,
+  "causal_driver_contributions_identified": false,
+  "parameter_correction_adopted": false
+}

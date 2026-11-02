@@ -1,0 +1,21 @@
+{
+  "recipe": "battery_replay",
+  "analysis_id": "ef28128752b8c169d5dd",
+  "source_sha256": "cf1afa46fbbb49ab03d482fd92ed62cdcc9bfccd84524df9636e9ae64b447c8c",
+  "assets_manifest_sha256": "5e0d521f850b77cb357dcce384f19d3e5445f8376c7b2f3d1d44d4979d659ace",
+  "returncode": 0,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "outputs": {
+    "replay_metrics.csv": "5fea277c0d103c329769374dbc9032a2407ad3e814d62725f877a1a5f46294af",
+    "QA.json": "73de5195790f1114e8a3bd57ba9fe3abc09ecfcad07176425d3142b9e11a5741",
+    "execution.txt": "be68d363503e8c4d2f43e7caa271885d1a0218ee3e3f8ec2fced34669dc84e0b"
+  },
+  "new_CRUISE_runs": 0,
+  "parameter_fitting": false,
+  "automatic_parameter_adoption": false
+}

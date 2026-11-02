@@ -1,0 +1,31 @@
+{
+  "run": "R0_BASE",
+  "attempt": "965acbe25d9a1d1f1209",
+  "received_at_UTC": "2026-11-02T10:18:01.312864+00:00",
+  "origin": "HISTORICAL_USER_EXPORT",
+  "assets": {
+    "battery": {
+      "path": "data/45f50aa46627dfe0746879b5775d5fc9f2feaa477dd6f1e0955662a2ded5479d.csv",
+      "sha256": "45f50aa46627dfe0746879b5775d5fc9f2feaa477dd6f1e0955662a2ded5479d",
+      "original_name": "battery.csv"
+    },
+    "velocity": {
+      "path": "data/ff259633c09265ffba3b274156824cf51a2d3e59b8a460050c505ad7a29aa4ff.csv",
+      "sha256": "ff259633c09265ffba3b274156824cf51a2d3e59b8a460050c505ad7a29aa4ff",
+      "original_name": "velocity.csv"
+    },
+    "generator": {
+      "path": "data/697d8d1c2dd2af750d9d3c641165acae21fe20e8ab3ebd90945b4e634faba564.csv",
+      "sha256": "697d8d1c2dd2af750d9d3c641165acae21fe20e8ab3ebd90945b4e634faba564",
+      "original_name": "generator.csv"
+    }
+  },
+  "user_confirmed_unmodified": true,
+  "evidence": {
+    "association": "Active conversation and attachment identifiers; archived historical import, not a new CRUISE execution",
+    "user_unmodified_confirmation_date_KST": "2026-11-02",
+    "earlier_result_writing_failure_reported": true,
+    "later_successful_final_log_received": false
+  },
+  "CRUISE_launched_by_harness": false
+}

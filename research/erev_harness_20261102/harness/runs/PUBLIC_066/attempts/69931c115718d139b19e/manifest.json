@@ -1,0 +1,28 @@
+{
+  "run": "PUBLIC_066",
+  "attempt": "69931c115718d139b19e",
+  "received_at_UTC": "2026-11-02T10:18:01.670888+00:00",
+  "origin": "ARCHIVED_PUBLIC_VALIDATION_EXPORT",
+  "assets": {
+    "battery": {
+      "path": "data/dec9056d9f2ab32169044cc6be103ecaf04d02976dbac2f87c64cd1f6d664a34.csv",
+      "sha256": "dec9056d9f2ab32169044cc6be103ecaf04d02976dbac2f87c64cd1f6d664a34",
+      "original_name": "battery_PUBLIC_066.csv"
+    },
+    "velocity": {
+      "path": "data/bba70df5cb8ead5f6f1bfcc0020bf23f01e3da7132619c622d70bd3f3dcc9f3c.csv",
+      "sha256": "bba70df5cb8ead5f6f1bfcc0020bf23f01e3da7132619c622d70bd3f3dcc9f3c",
+      "original_name": "velocity_PUBLIC_066.csv"
+    },
+    "generator": {
+      "path": "data/6f76e41c45d37890a776daf3c2a95d496389903f5e8b6686bf37ba16932090b9.csv",
+      "sha256": "6f76e41c45d37890a776daf3c2a95d496389903f5e8b6686bf37ba16932090b9",
+      "original_name": "generator_PUBLIC_066.csv"
+    }
+  },
+  "user_confirmed_unmodified": false,
+  "evidence": {
+    "import_is_new_execution": false
+  },
+  "CRUISE_launched_by_harness": false
+}

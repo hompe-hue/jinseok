@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "current_policy_date_KST": "2026-11-02",
+  "accuracy_limits": {
+    "energy_error_percent": 5.0,
+    "voltage_RMSE_V": 2.0,
+    "voltage_bias_V": 1.0,
+    "speed_RMSE_kmh": 1.0
+  },
+  "integration_start_s": 20,
+  "voltage_and_speed_metric_grid_s": 1,
+  "exported_battery_current_sign": -1,
+  "model_adoption": "HUMAN_DECISION_ONLY",
+  "diagnostic_ranges_are_measured_uncertainty": false,
+  "physical_cause_percent_identified": false,
+  "external_sending_or_publishing_enabled": false,
+  "CRUISE_execution": "MANUAL_UNTIL_INTERFACE_VERIFIED"
+}

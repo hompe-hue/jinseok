@@ -1,0 +1,28 @@
+{
+  "run": "R1_ROAD_M10",
+  "attempt": "9f63763bd0b5cbae076e",
+  "received_at_UTC": "2026-11-02T10:18:01.344589+00:00",
+  "origin": "HISTORICAL_USER_EXPORT",
+  "assets": {
+    "battery": {
+      "path": "data/630ddf30a5d36cdfa5497568b3ed01609f39b296c1b569488959502039a4f4a1.csv",
+      "sha256": "630ddf30a5d36cdfa5497568b3ed01609f39b296c1b569488959502039a4f4a1",
+      "original_name": "battery.csv"
+    },
+    "velocity": {
+      "path": "data/e18ff0d8fe9672410ab4afe386c3e1e33daa4286ea7b606aa901590810011375.csv",
+      "sha256": "e18ff0d8fe9672410ab4afe386c3e1e33daa4286ea7b606aa901590810011375",
+      "original_name": "velocity.csv"
+    },
+    "generator": {
+      "path": "data/d4aef257829331d3a4f9a655d26a934cf5a2d2db73b7e11a728d3b6a9ba7b86f.csv",
+      "sha256": "d4aef257829331d3a4f9a655d26a934cf5a2d2db73b7e11a728d3b6a9ba7b86f",
+      "original_name": "generator.csv"
+    }
+  },
+  "user_confirmed_unmodified": false,
+  "evidence": {
+    "association": "Active conversation and attachment identifiers; archived historical import, not a new CRUISE execution"
+  },
+  "CRUISE_launched_by_harness": false
+}

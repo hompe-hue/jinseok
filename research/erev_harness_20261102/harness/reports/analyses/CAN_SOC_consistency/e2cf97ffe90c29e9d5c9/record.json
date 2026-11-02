@@ -1,0 +1,14 @@
+{
+  "recipe": "CAN_SOC_consistency",
+  "analysis_id": "e2cf97ffe90c29e9d5c9",
+  "source_sha256": "a49039c14575f42c6aff21707de13ba169672eb46c01cf963b7b6d788c7a5ca0",
+  "assets_manifest_sha256": "5e0d521f850b77cb357dcce384f19d3e5445f8376c7b2f3d1d44d4979d659ace",
+  "returncode": 0,
+  "outputs": {
+    "CAN_SOC_scale_consistency.csv": "7505ca714569625cb8ac7a948862c1de6d15cda6c815ccf846127f6190ca5a6c",
+    "execution.txt": "7c68a4faded8ed6e71a1181f2b1d11498575145a713a9c2312749556911a44ce"
+  },
+  "new_CRUISE_runs": 0,
+  "parameter_fitting": false,
+  "automatic_parameter_adoption": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "test": "61905058",
+    "parameter_order": [
+      "initial_SOC_1pp",
+      "capacity_10percent",
+      "R_10percent",
+      "OCV_offset_1V"
+    ],
+    "normalized_singular_values": [
+      1.782538713857927,
+      0.8173828206889495,
+      0.39298924602023577,
+      0.0007145297398015825
+    ],
+    "normalized_design_condition_number": 2494.701920108909,
+    "initial_SOC_and_OCV_offset_cosine": 0.9991671226462071,
+    "note": "Local normalized response similarity; no statistical confidence interval or unique parameter identification"
+  },
+  {
+    "test": "61905059",
+    "parameter_order": [
+      "initial_SOC_1pp",
+      "capacity_10percent",
+      "R_10percent",
+      "OCV_offset_1V"
+    ],
+    "normalized_singular_values": [
+      1.7963333884483006,
+      0.7655560791752447,
+      0.43255576302151777,
+      0.0023998042717149094
+    ],
+    "normalized_design_condition_number": 748.5332906606728,
+    "initial_SOC_and_OCV_offset_cosine": 0.9972954676243497,
+    "note": "Local normalized response similarity; no statistical confidence interval or unique parameter identification"
+  },
+  {
+    "test": "61905060",
+    "parameter_order": [
+      "initial_SOC_1pp",
+      "capacity_10percent",
+      "R_10percent",
+      "OCV_offset_1V"
+    ],
+    "normalized_singular_values": [
+      1.8160659994979218,
+      0.6972076927978229,
+      0.4645265463782786,
+      0.004561390250844629
+    ],
+    "normalized_design_condition_number": 398.1387032520715,
+    "initial_SOC_and_OCV_offset_cosine": 0.9911527205582935,
+    "note": "Local normalized response similarity; no statistical confidence interval or unique parameter identification"
+  },
+  {
+    "test": "61905066",
+    "parameter_order": [
+      "initial_SOC_1pp",
+      "capacity_10percent",
+      "R_10percent",
+      "OCV_offset_1V"
+    ],
+    "normalized_singular_values": [
+      1.7393602789466516,
+      0.8535509341617226,
+      0.49601267046712927,
+      0.006932066816561525
+    ],
+    "normalized_design_condition_number": 250.91510583699437,
+    "initial_SOC_and_OCV_offset_cosine": 0.9872864724326705,
+    "note": "Local normalized response similarity; no statistical confidence interval or unique parameter identification"
+  }
+]

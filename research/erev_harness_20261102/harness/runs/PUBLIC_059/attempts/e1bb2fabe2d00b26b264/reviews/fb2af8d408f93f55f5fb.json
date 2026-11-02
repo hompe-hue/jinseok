@@ -1,0 +1,58 @@
+{
+  "run": "PUBLIC_059",
+  "attempt": "e1bb2fabe2d00b26b264",
+  "review_id": "fb2af8d408f93f55f5fb",
+  "harness_version": "1.0.0",
+  "engine_sha256": "d6b4a5af58308577ee984b9a5c53945c0d4014f1c35e9cb17b2cb457a12ecda4",
+  "registry_sha256": "220d75b057accd7d565b1edd43c156c9176be950f1882edb7caf16d202db3ab0",
+  "policy_sha256": "4d7ed05c8efee77b6920bfd0c7122237924d9ed33704ad91ad3484cedad8e9bc",
+  "assets_manifest_sha256": "5e0d521f850b77cb357dcce384f19d3e5445f8376c7b2f3d1d44d4979d659ace",
+  "user_confirmed_unmodified": false,
+  "origin": "ARCHIVED_PUBLIC_VALIDATION_EXPORT",
+  "automatic_parameter_adoption": false,
+  "physical_cause_contribution_identified": false,
+  "CRUISE_launched_by_harness": false,
+  "execution_binding_verified_by_harness": false,
+  "data_status": "VALIDATED_EXPORT",
+  "metrics": {
+    "battery_net_kWh": 6.305503304701148,
+    "reference_net_kWh": 5.79979714663481,
+    "energy_error_percent": 8.719376648539523,
+    "voltage_RMSE_V": 0.8212147012932062,
+    "voltage_bias_V": -0.31765485214000067,
+    "speed_RMSE_kmh": 0.5080325198808578,
+    "desired_vs_reference_RMSE_kmh": 1.803808281506396e-09,
+    "SOC_initial_percent": 88.8634844369403,
+    "SOC_final_percent": 79.67307099663834,
+    "generator_OFF": true,
+    "auxiliary_mean_kW": 0.39999999999999997,
+    "auxiliary_max_error_kW": 1.6653345369377348e-16,
+    "DC_balance_percent": 1.0012156926964464e-06,
+    "DC_balance_absolute_energy_percent": 1.5357895317454146e-06,
+    "median_export_dt_s": 1.0,
+    "maximum_export_gap_s": 1.0,
+    "rows": 2222
+  },
+  "protocol_checks": {
+    "generator_OFF": true,
+    "reference_profile_matches": true,
+    "auxiliary_matches": true,
+    "DC_balance": true
+  },
+  "numerical_comparison_usable": true,
+  "accuracy_checks": {
+    "energy_error_percent": false,
+    "voltage_RMSE_V": true,
+    "voltage_bias_V": true,
+    "speed_RMSE_kmh": true
+  },
+  "model_accuracy_targets_met": false,
+  "project_evidence": "NOT_PROVIDED",
+  "log_review": {
+    "status": "NOT_PROVIDED",
+    "final_success_verified": false
+  },
+  "historical_execution_notes": {
+    "import_is_new_execution": false
+  }
+}

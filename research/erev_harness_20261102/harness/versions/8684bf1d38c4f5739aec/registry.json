@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "runs": {
+    "R0_BASE": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "baseline",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R0_BASE.proj",
+      "project_sha256": "53dfce8ddc23c52c52bef77fedc14509b141a08ac848113142b6860cc4411ec2",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "R1_ROAD_M10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R1_ROAD_M10.proj",
+      "project_sha256": "6af5caeec2d56947a4a0406cf8ee8bcaa8c16748d6d1387847da0f1cb00400cd",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "R2_ROAD_P10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R2_ROAD_P10.proj",
+      "project_sha256": "da068feb8096ea3489f6367a09d5ea5b1800905b043d2cbfa2257f2ac5dfa718",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "R3_AUX_M10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R3_AUX_M10.proj",
+      "project_sha256": "5bf985e9ed44ee38f15ef26a186b774cfa2cefaf32193a61cd8143e65ba82a8c",
+      "auxiliary_kW": 0.36,
+      "maximum_export_gap_s": 1.001
+    },
+    "R4_AUX_P10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R4_AUX_P10.proj",
+      "project_sha256": "4c84484b8a338ebbdc6ef0f4354b8091326c5a8370599d29a44ab383bbb2f4a3",
+      "auxiliary_kW": 0.44,
+      "maximum_export_gap_s": 1.001
+    },
+    "R5_REGENLOSS_M10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R5_REGENLOSS_M10.proj",
+      "project_sha256": "c8997a3925239cccb3962cda6fde69a50d2e861447dfa358cec08f5ff1727ecf",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "R6_REGENLOSS_P10": {
+      "test": "61905060",
+      "test_name": "40마일 주행시험(1차)",
+      "kind": "sensitivity",
+      "end_s": 3150.0,
+      "initial_SOC_percent": 81.2520512871387,
+      "reference": "assets/offline_inputs/references/ANL61905060_reference_native.csv",
+      "project": "assets/projects/R6_REGENLOSS_P10.proj",
+      "project_sha256": "975bd7a334ac0a4751e7820b64b6b8beb648322e2e83929d1b40a37546a6bd79",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "PUBLIC_058": {
+      "test": "61905058",
+      "test_name": "15마일 주행시험(2차)",
+      "kind": "baseline",
+      "end_s": 1489.0,
+      "initial_SOC_percent": 93.22429977538292,
+      "reference": "assets/offline_inputs/references/ANL61905058_reference_native.csv",
+      "project": "assets/projects/BEV_PUBLIC_058.proj",
+      "project_sha256": "7624483b0d3f279d68f4fba1cdcc73d8856a650ac7d72ef70d8de45e782aae9b",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "PUBLIC_059": {
+      "test": "61905059",
+      "test_name": "25마일 주행시험(2차)",
+      "kind": "baseline",
+      "end_s": 2221.0,
+      "initial_SOC_percent": 88.8634844369403,
+      "reference": "assets/offline_inputs/references/ANL61905059_reference_native.csv",
+      "project": "assets/projects/BEV_PUBLIC_059.proj",
+      "project_sha256": "d60b1bc9feae8dd6e86b421f4dc5aba319c60de71762abefe1f544891cb9aa0d",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "PUBLIC_066": {
+      "test": "61905066",
+      "test_name": "휴지 없는 단축 멀티사이클 시험(SMCT)",
+      "kind": "baseline",
+      "end_s": 7630.0,
+      "initial_SOC_percent": 92.85225410468092,
+      "reference": "assets/offline_inputs/references/ANL61905066_reference_native.csv",
+      "project": "assets/projects/BEV_PUBLIC_066.proj",
+      "project_sha256": "0918e3dbcae9650595cc5c812287a55dc95915229e7e4c6f59ed18631589941f",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 1.001
+    },
+    "SMCT_DENSE_SAVED10": {
+      "test": "61905066",
+      "test_name": "휴지 없는SMCT 세밀 출력",
+      "kind": "output_sampling",
+      "end_s": 7630.0,
+      "initial_SOC_percent": 92.85225410468092,
+      "reference": "assets/offline_inputs/references/ANL61905066_reference_native.csv",
+      "project": "assets/projects/SMCT_DENSE_SAVED10.proj",
+      "project_sha256": "17a4f7c2e85435a9095528b492107be03c0ab64a9f79c84d0f6de5d351563c60",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 0.101,
+      "actual_dense_run_received": false
+    },
+    "SMCT_DENSE_SAVED1": {
+      "test": "61905066",
+      "test_name": "휴지 없는SMCT 세밀 출력",
+      "kind": "output_sampling",
+      "end_s": 7630.0,
+      "initial_SOC_percent": 92.85225410468092,
+      "reference": "assets/offline_inputs/references/ANL61905066_reference_native.csv",
+      "project": "assets/projects/SMCT_DENSE_SAVED1.proj",
+      "project_sha256": "9a37a784e6b236f0aa836a2fadf98335e59cd0e161a85808de4990d37c05ca93",
+      "auxiliary_kW": 0.4,
+      "maximum_export_gap_s": 0.011,
+      "actual_dense_run_received": false
+    }
+  },
+  "pairs": [
+    [
+      "ABC_common_scale",
+      "R1_ROAD_M10",
+      "R2_ROAD_P10"
+    ],
+    [
+      "auxiliary_scale",
+      "R3_AUX_M10",
+      "R4_AUX_P10"
+    ],
+    [
+      "regen_Q4_node_loss_scale",
+      "R5_REGENLOSS_M10",
+      "R6_REGENLOSS_P10"
+    ]
+  ],
+  "R0_user_confirmation": {
+    "date_KST": "2026-11-02",
+    "text": "제공한 R0를 수정 없이 실행했다는 사용자 확인을 수용. 같은 확인 반복 요청 금지."
+  }
+}

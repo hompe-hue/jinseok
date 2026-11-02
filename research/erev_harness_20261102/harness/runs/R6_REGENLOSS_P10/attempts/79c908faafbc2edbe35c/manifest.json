@@ -1,0 +1,28 @@
+{
+  "run": "R6_REGENLOSS_P10",
+  "attempt": "79c908faafbc2edbe35c",
+  "received_at_UTC": "2026-11-02T10:18:01.547205+00:00",
+  "origin": "HISTORICAL_USER_EXPORT",
+  "assets": {
+    "battery": {
+      "path": "data/4d1847eb2d9633f110ad3df65709811225530e81c8e032f0628d67b9517d2873.csv",
+      "sha256": "4d1847eb2d9633f110ad3df65709811225530e81c8e032f0628d67b9517d2873",
+      "original_name": "battery.csv"
+    },
+    "velocity": {
+      "path": "data/c56c648555fe1ca1db6832662a55f480575b70ccdad2785e3240d36b7302111e.csv",
+      "sha256": "c56c648555fe1ca1db6832662a55f480575b70ccdad2785e3240d36b7302111e",
+      "original_name": "velocity.csv"
+    },
+    "generator": {
+      "path": "data/1f577f9d2b7f714b976cb56368c4d1d7e29776835372cd3b347d0e447f99d50b.csv",
+      "sha256": "1f577f9d2b7f714b976cb56368c4d1d7e29776835372cd3b347d0e447f99d50b",
+      "original_name": "generator.csv"
+    }
+  },
+  "user_confirmed_unmodified": false,
+  "evidence": {
+    "association": "Active conversation and attachment identifiers; archived historical import, not a new CRUISE execution"
+  },
+  "CRUISE_launched_by_harness": false
+}
