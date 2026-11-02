@@ -1,0 +1,22 @@
+{
+  "harness_version": "1.0.0",
+  "release_date_KST": "2026-11-02",
+  "test_cases_passed": 14,
+  "test_cases_failed": 0,
+  "historical_export_sets_reviewed": 10,
+  "registered_runs": 12,
+  "offline_analysis_recipes_executed": 5,
+  "actual_new_CRUISE_runs": 0,
+  "actual_dense_output_received": false,
+  "three_sensitivity_values_reproduced": true,
+  "raw_files_and_reference_integrity_checked": true,
+  "automatically_adopted_model_parameters": false,
+  "R0_unmodified_confirmation_preserved": true,
+  "next_pending_run": "SMCT_DENSE_SAVED10",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}
