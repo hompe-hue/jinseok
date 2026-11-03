@@ -1,0 +1,17 @@
+{
+  "date_KST": "2026-11-03",
+  "scope": "EREV_Research_Harness_v1_20261102.zip publication inventory verification",
+  "verified_commit": "6dfd85159c38e16cb2f5b0687256bb0b45be852f",
+  "source_manifest": "checkpoints/EREV_UPLOAD_MANIFEST_20261103.json",
+  "destination": "research/erev_harness_20261102",
+  "verified_file_count": 350,
+  "verification": "All manifest paths exist in commit tree and all Git blob byte sizes match manifest. This is inventory/size verification, not a new SHA256 byte audit or solver run.",
+  "missing_file_count": 0,
+  "size_mismatch_count": 0,
+  "completed_publication_steps": "1-4; no reupload performed",
+  "historical_records_preserved": true,
+  "next_start": "Await three actual dense CSV exports for SMCT_DENSE_SAVED10.proj, then ingest under the existing harness policy. Do not rerun completed historical analyses or request R0 rerun.",
+  "research_status_source": "research/erev_harness_20261102/CURRENT_RESEARCH_STATUS_KO.md",
+  "batch_policy": "Small sequential batches; save, validate and commit each batch before moving to the next numbered step. Recheck latest remote state before writing; preserve concurrent work.",
+  "new_CRUISE_runs": 0
+}
