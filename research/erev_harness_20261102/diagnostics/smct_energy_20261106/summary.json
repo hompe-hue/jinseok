@@ -1,0 +1,29 @@
+{
+  "window_s": [
+    20.0,
+    7630.0
+  ],
+  "model_net_kWh": 12.258042531685845,
+  "reference_net_kWh": 11.400765518287718,
+  "gap_kWh": 0.8572770133981269,
+  "gap_percent": 7.519468863937141,
+  "model_discharge_kWh": 15.622593770372948,
+  "reference_discharge_kWh": 14.66655810763299,
+  "excess_discharge_kWh": 0.9560356627399571,
+  "model_charge_magnitude_kWh": 3.3645512386871035,
+  "reference_charge_magnitude_kWh": 3.2657925893452724,
+  "reduced_charge_magnitude_kWh": -0.0987586493418311,
+  "symmetric_current_term_kWh": 0.9409569468999313,
+  "symmetric_voltage_term_kWh": -0.062338681298218776,
+  "model_native_power_to_VI_bridge_kWh": -2.1915140127504174e-05,
+  "reference_VI_to_native_meter_bridge_kWh": -0.02131933706345812,
+  "equivalent_gap_mean_kW": 0.4055449734866303,
+  "model_aux_kWh": 0.8455555555555555,
+  "measured_LV_DCDC_output_kWh": 0.688483000955407,
+  "actual_model_vs_measured_speed_RMSE_kmh": 0.683242638097044,
+  "source_sha256": {
+    "battery": "fd399534a4606db8d165e8deeed707d05472dc419a40813c204406ecc7c124cd",
+    "velocity": "90cd900495f236afac317a8fc434d666030ab73600da866d97d389b12f05d228",
+    "reference": "5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e"
+  }
+}
