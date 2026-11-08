@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "scope": "EREV T1 modeling status review",
+  "screenshot_observations": [
+    "Title EREV_T1_26kW_FMU_Sync2ms",
+    "Single Calculation completed 100 percent, ANL61905060, end 16 s",
+    "Data Browser displays Sync2ms results timestamp 2026-11-08 14:50:46"
+  ],
+  "csv": {
+    "file": "FMU 1 Plus(2).csv",
+    "sha256": "4e1e0540e25ae0be905512d4209d8126d4da5e8777a809e14521ebfe55923c75",
+    "rows": 1601,
+    "output_interval_s": 0.01,
+    "identical_to_prior": true,
+    "profile_RMSE_kW": 0.15780594953447716
+  },
+  "assessment": "Project title and completion supported by screenshots. Cause of unchanged export unresolved. Output sampling alone cannot prove actual FMU step. Constant-power bench checks support common-bus injection only. Fuel maps and physical engine/generator dynamics remain outside this bench validation.",
+  "next_start": "Inspect user-saved executed .proj and job settings/overrides before further project modifications or rerun."
+}
