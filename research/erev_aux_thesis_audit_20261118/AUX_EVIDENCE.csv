@@ -1,0 +1,4 @@
+ANL_test,role,start_s,end_s,LV_DC_DC_mean_W,LV_DC_DC_kWh,scaled_HV_proxy_W,model_HV_aux_W,model_HV_aux_kWh,battery_C_min,battery_C_max,HVAC_evidence,reference_name,sha256
+61905054,selection,0,1144.8989081382751,359.40102600899144,0.11429940062818614,392.5877192800503,400,0.1272109897931417,22.0,22.5,archived HVAC_CAN_kW == 0,ANL_61905054_Phase1_reference_native.csv,7a5a5bfc8da9da55b6957415b1832d0d5244aa4c37da376ccb11a92dfb8b0066
+61905060,cross-check,20,3150,334.27852786308205,0.2906366089476241,365.1454374389486,400,0.3477777777777778,24.0,25.5,A/C compressor and pack-heater-request CAN summary,ANL61905060_reference_native.csv,6d46aa4264be94f3f97e75a006fbd1712ab50746b9b5627e47affcd8954d35b5
+61905066,cross-check,20,7630,325.6949807410599,0.6884830009554072,355.769295068439,400,0.8455555555555555,23.5,24.5,HVAC channels unavailable in selected reference,ANL61905066_reference_native.csv,5ce9f63236cb125ff2eabd68745c4cd96c8c4cec9a49c9d3c8ce0b292829478e

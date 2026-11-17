@@ -1,0 +1,81 @@
+{
+  "choice": "retain data-derived equivalent HV auxiliary power 0.40 kW",
+  "identification_window_s": [
+    0,
+    20
+  ],
+  "stationary_ratio_samples": 201,
+  "stationary_effective_HV_over_LV_median": 1.0923388940749117,
+  "test_cell_C_61905054": 23.34,
+  "test054_hvac_CAN_kW_min_max": [
+    0.0,
+    0.0
+  ],
+  "test060_can_accessories": {
+    "HVBatt_pack_heater_power_required_HPCM2": {
+      "unit": "kW",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "HVAC_AC_comp_power_delivered_by HVBatt_HPCM2": {
+      "unit": "kW",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "HVAC_ac_comp_power_consumption_HPCM": {
+      "unit": "kW",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "project": {
+    "file": "BEV_066_DriveSignalGate_30s.proj",
+    "sha256": "4048cfc65ce59ea3a708d304bd8623257cd8e9bae62dd60a50b8a90cf3e6b67a",
+    "configured_kW": 0.4,
+    "connection_ids": [
+      "72614",
+      "78782"
+    ],
+    "cruise_m_runtime_status": "pending"
+  },
+  "existing_runtime": {
+    "case": "PUBLIC_066 logged ancestor of the 30 s project",
+    "rows": 7631,
+    "aux_from_current_voltage_kW_min_mean_max": [
+      0.39999999999999997,
+      0.4,
+      0.4000000000000001
+    ],
+    "aux_from_DC_balance_kW_min_mean_max": [
+      0.39999604067008576,
+      0.4000001457157284,
+      0.40000374030846153
+    ],
+    "bms_csv_sha256": "3182dd195b9c82ce5aeb21797ae89ef57dae182d8e1711d0175fcb3c63eab7ca",
+    "vehicle_csv_sha256": "bba70df5cb8ead5f6f1bfcc0020bf23f01e3da7132619c622d70bd3f3dcc9f3c"
+  },
+  "historical_R0_aux_sensitivity": {
+    "R3_AUX_M10": {
+      "battery_net_kWh": 11.19082796858544,
+      "reference_net_kWh": 10.312260606885413,
+      "energy_error_percent": 8.519638857006907,
+      "auxiliary_mean_kW": 0.35999999999999993
+    },
+    "R0_BASE": {
+      "battery_net_kWh": 11.22541041704082,
+      "reference_net_kWh": 10.312260606885413,
+      "energy_error_percent": 8.854991596563266,
+      "auxiliary_mean_kW": 0.4
+    },
+    "R4_AUX_P10": {
+      "battery_net_kWh": 11.259992647966982,
+      "reference_net_kWh": 10.312260606885413,
+      "energy_error_percent": 9.19034222669639,
+      "auxiliary_mean_kW": 0.44000000000000006
+    }
+  },
+  "additional_Cruise_M_runs": 0
+}
