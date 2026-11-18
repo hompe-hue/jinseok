@@ -1,0 +1,7 @@
+speed_km_h,grade_pct,duration_goal_min,demand_DC_kW,initial_SOC_pct,floor_SOC_pct,generator_DC_kW,S0_predicted_hold_min,S2_predicted_hold_min,S0_min_initial_SOC_pct,S2_min_initial_SOC_pct,S0_headroom_min,S2_headroom_min,evidence
+100,4,10,37.0265,16.0000,5.0000,26.0000,12.6629,32.7803,13.1909,8.1415,2.6629,22.7803,analytical_case_selection_only
+100,4,15,37.0265,16.0000,5.0000,26.0000,12.6629,32.7803,18.4654,9.7122,-2.3371,17.7803,analytical_case_selection_only
+120,4,10,49.9084,16.0000,5.0000,26.0000,8.5010,15.3843,18.1314,11.8115,-1.4990,5.3843,analytical_case_selection_only
+120,4,15,49.9084,16.0000,5.0000,26.0000,8.5010,15.3843,25.2409,15.4536,-6.4990,0.3843,analytical_case_selection_only
+120,6,10,62.7814,16.0000,5.0000,26.0000,6.5451,10.1020,22.1795,15.8176,-3.4549,0.1020,analytical_case_selection_only
+120,6,15,62.7814,16.0000,5.0000,26.0000,6.5451,10.1020,31.1228,24.7608,-8.4549,-4.8980,analytical_case_selection_only
